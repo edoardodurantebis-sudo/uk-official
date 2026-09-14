@@ -79,34 +79,19 @@
       "ts": "2026-09-14T22:50:28.081314Z",
       "value": 2560.0,
       "z": -2.3891420674252504
-    }
-  ],
-  "events": [
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-14T22:03:45Z",
-      "rows": 5761,
-      "ts": "2026-09-14T22:04:20.955377Z"
     },
     {
       "dataset": "FUELINST",
-      "marker": "2026-09-14T22:05:00Z",
-      "rows": 80,
-      "ts": "2026-09-14T22:05:40.444284Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-14T22:05:45Z",
-      "rows": 5761,
-      "ts": "2026-09-14T22:06:12.483569Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 404: Resource Not Found",
-      "marker": "2026-09-14T22:05:00Z",
-      "rows": 0,
-      "ts": "2026-09-14T22:07:16.198271Z"
-    },
+      "delta": 95.0,
+      "field": "generation",
+      "interpretation": "instantaneous generation mix [fuelType=BIOMASS] generation: value=2672, delta=95, z=11.64 -> generation-mix component moved",
+      "series": "fuelType=BIOMASS",
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 2672.0,
+      "z": 11.642010515940758
+    }
+  ],
+  "events": [
     {
       "dataset": "FREQ",
       "marker": "2026-09-14T22:07:45Z",
@@ -445,13 +430,38 @@
       "marker": "2026-09-14T23:01:45Z",
       "rows": 5761,
       "ts": "2026-09-14T23:02:18.328320Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-14T23:03:45Z",
+      "rows": 5761,
+      "ts": "2026-09-14T23:04:29.297283Z"
+    },
+    {
+      "dataset": "FUELINST",
+      "marker": "2026-09-14T23:05:00Z",
+      "rows": 80,
+      "ts": "2026-09-14T23:05:33.061812Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-14T23:05:45Z",
+      "rows": 5761,
+      "ts": "2026-09-14T23:06:21.242642Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 404: Resource Not Found",
+      "marker": "2026-09-14T23:05:00Z",
+      "rows": 0,
+      "ts": "2026-09-14T23:06:21.242642Z"
     }
   ],
-  "last_heartbeat": "2026-09-14T23:02:51.731221Z",
+  "last_heartbeat": "2026-09-14T23:07:03.439519Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 58,
-      "ts": "2026-09-14T23:02:18.328320Z",
+      "n": 60,
+      "ts": "2026-09-14T23:06:21.242642Z",
       "value": 50.066
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -555,104 +565,104 @@
       "value": 12427.0
     },
     "FUELINST|fuelType=BIOMASS|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 2577.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 2672.0
     },
     "FUELINST|fuelType=CCGT|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 5624.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 5501.0
     },
     "FUELINST|fuelType=COAL|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTELEC|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": -505.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": -215.0
     },
     "FUELINST|fuelType=INTEW|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTFR|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 1.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 50.0
     },
     "FUELINST|fuelType=INTGRNL|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": -514.0
     },
     "FUELINST|fuelType=INTIFA2|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": -820.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": -673.0
     },
     "FUELINST|fuelType=INTIRL|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": -166.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": -150.0
     },
     "FUELINST|fuelType=INTNED|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTNEM|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": -503.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": -485.0
     },
     "FUELINST|fuelType=INTNSL|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 1299.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 1340.0
     },
     "FUELINST|fuelType=INTVKL|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": -542.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": -272.0
     },
     "FUELINST|fuelType=NPSHYD|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 492.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 453.0
     },
     "FUELINST|fuelType=NUCLEAR|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": 3314.0
     },
     "FUELINST|fuelType=OCGT|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": 0.0
     },
     "FUELINST|fuelType=OIL|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
       "value": 0.0
     },
     "FUELINST|fuelType=OTHER|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 343.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 103.0
     },
     "FUELINST|fuelType=PS|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": -71.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": -138.0
     },
     "FUELINST|fuelType=WIND|generation": {
-      "n": 25,
-      "ts": "2026-09-14T23:00:26.749419Z",
-      "value": 12398.0
+      "n": 26,
+      "ts": "2026-09-14T23:05:33.061812Z",
+      "value": 12417.0
     },
     "IMBALNGC|TOTAL|imbalance": {
       "n": 5,
@@ -686,14 +696,14 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-14T23:01:45Z",
+    "FREQ": "2026-09-14T23:05:45Z",
     "FUELHH": "2026-09-14T23:00:00Z",
-    "FUELINST": "2026-09-14T23:00:00Z",
+    "FUELINST": "2026-09-14T23:05:00Z",
     "IMBALNGC": "2026-09-14T22:47:00Z",
     "INDDEM": "2026-09-14T22:47:00Z",
     "INDGEN": "2026-09-14T22:47:00Z",
     "MELNGC": "2026-09-14T22:47:00Z",
-    "MID": "2026-09-14T22:42:03Z",
+    "MID": "2026-09-14T23:05:00Z",
     "NDF": "2026-09-14T22:47:00Z",
     "TSDF": "2026-09-14T22:47:00Z",
     "WINDFOR": "2026-09-14T19:30:00Z"
@@ -704,7 +714,7 @@
       "last": 50.066,
       "m2": 0.0,
       "mean": 50.066,
-      "n": 58
+      "n": 60
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 2576.7420800000004,
@@ -847,144 +857,144 @@
       "n": 6
     },
     "FUELINST|fuelType=BIOMASS|generation": {
-      "ewma": 2574.55265848164,
-      "last": 2577.0,
-      "m2": 1637.360000000005,
-      "mean": 2575.84,
-      "n": 25
+      "ewma": 2594.042126785312,
+      "last": 2672.0,
+      "m2": 10528.461538461495,
+      "mean": 2579.538461538462,
+      "n": 26
     },
     "FUELINST|fuelType=CCGT|generation": {
-      "ewma": 6409.996375451531,
-      "last": 5624.0,
-      "m2": 101021759.83999997,
-      "mean": 8472.919999999998,
-      "n": 25
+      "ewma": 6228.197100361225,
+      "last": 5501.0,
+      "m2": 109514364.15384611,
+      "mean": 8358.615384615383,
+      "n": 26
     },
     "FUELINST|fuelType=COAL|generation": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 25
+      "n": 26
     },
     "FUELINST|fuelType=INTELEC|generation": {
-      "ewma": -624.0565754137633,
-      "last": -505.0,
-      "m2": 1011104.2399999998,
-      "mean": -577.52,
-      "n": 25
+      "ewma": -542.2452603310107,
+      "last": -215.0,
+      "m2": 1137470.346153846,
+      "mean": -563.5769230769231,
+      "n": 26
     },
     "FUELINST|fuelType=INTEW|generation": {
-      "ewma": -47.95906683615107,
+      "ewma": -38.36725346892086,
       "last": 0.0,
-      "m2": 268862.0,
-      "mean": -108.19999999999997,
-      "n": 25
+      "m2": 280118.96153846156,
+      "mean": -104.03846153846152,
+      "n": 26
     },
     "FUELINST|fuelType=INTFR|generation": {
-      "ewma": 23.163047424802503,
-      "last": 1.0,
-      "m2": 545894.2400000002,
-      "mean": 161.52000000000004,
-      "n": 25
+      "ewma": 28.530437939842002,
+      "last": 50.0,
+      "m2": 557852.6153846156,
+      "mean": 157.23076923076925,
+      "n": 26
     },
     "FUELINST|fuelType=INTGRNL|generation": {
-      "ewma": -460.49488446288007,
+      "ewma": -471.1959075703041,
       "last": -514.0,
-      "m2": 585141.3600000001,
-      "mean": -385.15999999999997,
-      "n": 25
+      "m2": 601102.653846154,
+      "mean": -390.1153846153846,
+      "n": 26
     },
     "FUELINST|fuelType=INTIFA2|generation": {
-      "ewma": -860.6120912038998,
-      "last": -820.0,
-      "m2": 220890.96,
-      "mean": -784.04,
-      "n": 25
+      "ewma": -823.0896729631199,
+      "last": -673.0,
+      "m2": 232746.61538461538,
+      "mean": -779.7692307692307,
+      "n": 26
     },
     "FUELINST|fuelType=INTIRL|generation": {
-      "ewma": -251.85176699272614,
-      "last": -166.0,
-      "m2": 685736.64,
-      "mean": -280.12,
-      "n": 25
+      "ewma": -231.48141359418094,
+      "last": -150.0,
+      "m2": 702016.6538461539,
+      "mean": -275.11538461538464,
+      "n": 26
     },
     "FUELINST|fuelType=INTNED|generation": {
-      "ewma": 0.005902958103587064,
+      "ewma": 0.004722366482869652,
       "last": 0.0,
-      "m2": 1.8399999999999996,
-      "mean": 0.08000000000000002,
-      "n": 25
+      "m2": 1.8461538461538458,
+      "mean": 0.07692307692307694,
+      "n": 26
     },
     "FUELINST|fuelType=INTNEM|generation": {
-      "ewma": -498.950689626118,
-      "last": -503.0,
-      "m2": 38800.960000000014,
-      "mean": -467.04,
-      "n": 25
+      "ewma": -496.1605517008944,
+      "last": -485.0,
+      "m2": 39111.1153846154,
+      "mean": -467.7307692307692,
+      "n": 26
     },
     "FUELINST|fuelType=INTNSL|generation": {
-      "ewma": 1228.4336114792793,
-      "last": 1299.0,
-      "m2": 688858.0000000001,
-      "mean": 1064.8,
-      "n": 25
+      "ewma": 1250.7468891834235,
+      "last": 1340.0,
+      "m2": 761680.153846154,
+      "mean": 1075.3846153846152,
+      "n": 26
     },
     "FUELINST|fuelType=INTVKL|generation": {
-      "ewma": -667.4041149908612,
-      "last": -542.0,
-      "m2": 1041701.9999999999,
-      "mean": -802.0,
-      "n": 25
+      "ewma": -588.323291992689,
+      "last": -272.0,
+      "m2": 1311798.1538461538,
+      "mean": -781.6153846153846,
+      "n": 26
     },
     "FUELINST|fuelType=NPSHYD|generation": {
-      "ewma": 484.61373880656083,
-      "last": 492.0,
-      "m2": 60881.76,
-      "mean": 438.36,
-      "n": 25
+      "ewma": 478.2909910452487,
+      "last": 453.0,
+      "m2": 61087.846153846156,
+      "mean": 438.92307692307696,
+      "n": 26
     },
     "FUELINST|fuelType=NUCLEAR|generation": {
-      "ewma": 3312.361888520025,
+      "ewma": 3312.68951081602,
       "last": 3314.0,
-      "m2": 1163.3600000000215,
-      "mean": 3311.16,
-      "n": 25
+      "m2": 1171.1153846154073,
+      "mean": 3311.2692307692305,
+      "n": 26
     },
     "FUELINST|fuelType=OCGT|generation": {
-      "ewma": 0.05534023222112874,
+      "ewma": 0.044272185776903,
       "last": 0.0,
-      "m2": 120.95999999999998,
-      "mean": 0.96,
-      "n": 25
+      "m2": 121.84615384615383,
+      "mean": 0.923076923076923,
+      "n": 26
     },
     "FUELINST|fuelType=OIL|generation": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 25
+      "n": 26
     },
     "FUELINST|fuelType=OTHER|generation": {
-      "ewma": 408.0670784038339,
-      "last": 343.0,
-      "m2": 11050070.24,
-      "mean": 587.5199999999999,
-      "n": 25
+      "ewma": 347.05366272306713,
+      "last": 103.0,
+      "m2": 11275800.653846154,
+      "mean": 568.8846153846152,
+      "n": 26
     },
     "FUELINST|fuelType=PS|generation": {
-      "ewma": -14.922624318363752,
-      "last": -71.0,
-      "m2": 3074718.559999999,
-      "mean": 138.24,
-      "n": 25
+      "ewma": -39.53809945469101,
+      "last": -138.0,
+      "m2": 3148092.153846153,
+      "mean": 127.61538461538463,
+      "n": 26
     },
     "FUELINST|fuelType=WIND|generation": {
-      "ewma": 12479.309431651183,
-      "last": 12398.0,
-      "m2": 20187124.560000002,
-      "mean": 12274.759999999998,
-      "n": 25
+      "ewma": 12466.847545320947,
+      "last": 12417.0,
+      "m2": 20206578.61538462,
+      "mean": 12280.230769230768,
+      "n": 26
     },
     "IMBALNGC|TOTAL|imbalance": {
       "ewma": -144.38880000000003,

@@ -1,24 +1,22 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-14T23:02:51.731221Z`  
-Memory snapshots: **22**  
-Current physical regime: **LOOSE**
-
-Regime read: margin high.
+Heartbeat: `2026-09-14T23:07:03.439519Z`  
+Memory snapshots: **23**  
+Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **PERSISTENT_UP** `interconnector_net` value=-3876 d1=721.0 d12=1477.0 z=1.8703038692708334
-- **ACCELERATION** `interconnector_net` value=-3876 d1=721.0 d12=1477.0 z=1.8703038692708334
-- **PERSISTENT_DOWN** `ccgt_gen` value=5624 d1=-194.0 d12=-2208.0 z=-0.9820027090680101
-- **PERSISTENT_DOWN** `thermal_base` value=8938 d1=-191.0 d12=-2211.0 z=-0.981230063442211
-- **ACCELERATION** `biomass_gen` value=2577 d1=17.0 d12=3.0 z=0.0
-- **PERSISTENT_DOWN** `ind_demand` value=-1.227e+04 d1=0.0 d12=-16.0 z=None
-- **REVERSAL** `nuclear_gen` value=3314 d1=3.0 d12=-3.0 z=0.0
-- **ACCELERATION** `nuclear_gen` value=3314 d1=3.0 d12=-3.0 z=0.0
-- **PERSISTENT_DOWN** `ps_gen` value=-71 d1=-59.0 d12=-59.0 z=None
-- **ACCELERATION** `ps_gen` value=-71 d1=-59.0 d12=-59.0 z=None
+- **PERSISTENT_UP** `biomass_gen` value=2672 d1=95.0 d12=94.0 z=11.6502775
+- **ACCELERATION** `biomass_gen` value=2672 d1=95.0 d12=94.0 z=11.6502775
+- **ROBUST_OUTLIER** `biomass_gen` value=2672 d1=95.0 d12=94.0 z=11.6502775
+- **PERSISTENT_UP** `interconnector_net` value=-3045 d1=831.0 d12=2212.0 z=2.922338355711423
+- **REVERSAL** `residual_proxy` value=7517 d1=-19.0 d12=335.0 z=1.1321792232142858
+- **REVERSAL** `wind_gen` value=1.242e+04 d1=19.0 d12=-335.0 z=-1.1321792232142858
+- **PERSISTENT_DOWN** `ccgt_gen` value=5501 d1=-123.0 d12=-1857.0 z=-0.9748902509911895
+- **PERSISTENT_DOWN** `thermal_base` value=8815 d1=-123.0 d12=-1860.0 z=-0.9727476350549451
+- **ACCELERATION** `nuclear_gen` value=3314 d1=0.0 d12=-3.0 z=0.0
+- **PERSISTENT_DOWN** `ps_gen` value=-138 d1=-67.0 d12=-126.0 z=None
 
 ## Nearest historical live analogues
 
