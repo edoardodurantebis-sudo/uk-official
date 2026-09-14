@@ -1,0 +1,42 @@
+name: GB Alien Control Plane
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  quality-and-public-data-health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+      - name: Unit tests
+        run: pytest -q
+      - name: Runner self-test
+        run: python gb_power_runner.py --self-test
+      - name: Elexon Insights public API health
+        run: |
+          python - <<'PY'
+          import json, urllib.request
+          url = 'https://data.elexon.co.uk/bmrs/api/v1/datasets/METADATA/latest'
+          with urllib.request.urlopen(url, timeout=30) as r:
+              payload = json.load(r)
+              assert r.status == 200
+              assert payload is not None
+          print('ELEXON_PUBLIC_API=PASS')
+          PY
