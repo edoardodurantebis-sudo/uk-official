@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-14T21:55:44.816552Z`  
-Current process started UTC: `2026-09-14T21:51:44.824662Z`  
-1-second metadata polls in this process: **236**  
+Last heartbeat UTC: `2026-09-14T21:59:57.568774Z`  
+Current process started UTC: `2026-09-14T21:55:57.925801Z`  
+1-second metadata polls in this process: **237**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -38,6 +38,8 @@ No qualified anomaly yet (series are warming up or no threshold was crossed).
 
 ## Latest publication events
 
+- `2026-09-14T21:58:22.313211Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:57:45Z`
+- `2026-09-14T21:56:13.927850Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:55:45Z`
 - `2026-09-14T21:55:29.481531Z` — **FUELINST**: 80 rows; marker `2026-09-14T21:55:00Z`
 - `2026-09-14T21:54:08.255213Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:53:45Z`
 - `2026-09-14T21:52:16.755149Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:51:45Z`
@@ -51,5 +53,3 @@ No qualified anomaly yet (series are warming up or no threshold was crossed).
 - `2026-09-14T21:47:57.557399Z` — **TSDF**: 1080 rows; marker `2026-09-14T21:47:00Z`
 - `2026-09-14T21:47:57.557399Z` — **NDF**: 60 rows; marker `2026-09-14T21:47:00Z`
 - `2026-09-14T21:46:21.017634Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:45:45Z`
-- `2026-09-14T21:45:32.692059Z` — **FUELINST**: 80 rows; marker `2026-09-14T21:45:00Z`
-- `2026-09-14T21:44:13.031685Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:43:45Z`
