@@ -1,13 +1,53 @@
-name: GB Alien 1s Watcher — PUBLIC ARCHIVE
+name: GB Alien Live Sensor + Brain
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: gb-alien-public-live
+  cancel-in-progress: true
 
 jobs:
-  archived:
+  live:
     runs-on: ubuntu-latest
+    timeout-minutes: 6
     steps:
-      - run: echo 'Public scheduled watcher disabled. Canonical UK engine moved to private repository.'
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile and self-test
+        run: |
+          python -m py_compile GB_ALIEN_CONTINUOUS.py GB_ALIEN_BRAIN_ORCHESTRATOR.py
+          python GB_ALIEN_CONTINUOUS.py --self-test
+      - name: Observe Elexon publications
+        run: python GB_ALIEN_CONTINUOUS.py --duration-seconds 240 --poll-seconds 1
+      - name: Interpret state with market-memory brain
+        run: python GB_ALIEN_BRAIN_ORCHESTRATOR.py
+      - name: Persist live state safely
+        run: |
+          git config user.name 'gb-alien-live-bot'
+          git config user.email 'gb-alien-live-bot@users.noreply.github.com'
+          git add live/LATEST.md live/state.json live/brain/LATEST.json live/brain/LATEST.md
+          git add -f live/market_memory.jsonl
+          if git diff --cached --quiet; then
+            echo 'No live state changes'
+            exit 0
+          fi
+          git commit -m 'alien-live: update public market state [skip ci]'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+            sleep 2
+          done
+          echo 'STATE_PUSH_FAILED_AFTER_RETRIES'
+          exit 1
