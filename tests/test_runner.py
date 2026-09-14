@@ -58,8 +58,9 @@ class RunnerContractTests(unittest.TestCase):
             state = root / "state"
             data.mkdir()
             rows = []
-            for day in runner.pd.date_range("2025-01-01", periods=2, freq="D"):
-                for sp in range(1, 47):
+            # Use two distinct delivery months so min_train_months=1 has a real OOS month.
+            for day in runner.pd.date_range("2025-01-01", periods=2, freq="MS"):
+                for sp in range(1, 49):
                     rows.append(
                         {
                             "gb_delivery_date": day.date().isoformat(),
