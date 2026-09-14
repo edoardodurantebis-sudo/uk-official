@@ -1,23 +1,23 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-14T23:15:27.902002Z`  
-Memory snapshots: **25**  
+Heartbeat: `2026-09-14T23:19:39.979677Z`  
+Memory snapshots: **26**  
 Current physical regime: **BALANCED**
-
-Regime read: wind falling.
 
 ## Active patterns
 
-- **PERSISTENT_UP** `biomass_gen` value=2683 d1=0.0 d12=96.0 z=9.487822483333334
-- **ROBUST_OUTLIER** `biomass_gen` value=2683 d1=0.0 d12=96.0 z=9.487822483333334
-- **PERSISTENT_UP** `interconnector_net` value=-2627 d1=0.0 d12=2580.0 z=3.379061394607843
-- **ROBUST_OUTLIER** `interconnector_net` value=-2627 d1=0.0 d12=2580.0 z=3.379061394607843
-- **PERSISTENT_UP** `residual_proxy` value=7539 d1=0.0 d12=317.0 z=1.0205883090692125
-- **PERSISTENT_DOWN** `wind_gen` value=1.24e+04 d1=0.0 d12=-317.0 z=-1.0205883090692125
-- **PERSISTENT_DOWN** `ccgt_gen` value=5275 d1=0.0 d12=-1650.0 z=-0.9243422653654485
-- **PERSISTENT_DOWN** `thermal_base` value=8589 d1=0.0 d12=-1647.0 z=-0.9238125723492723
-- **PERSISTENT_DOWN** `ps_gen` value=-138 d1=0.0 d12=-126.0 z=None
+- **REVERSAL** `biomass_gen` value=2681 d1=-2.0 d12=94.0 z=8.68405553125
+- **ROBUST_OUTLIER** `biomass_gen` value=2681 d1=-2.0 d12=94.0 z=8.68405553125
+- **PERSISTENT_UP** `interconnector_net` value=-2600 d1=27.0 d12=2557.0 z=3.3359193244680854
+- **ROBUST_OUTLIER** `interconnector_net` value=-2600 d1=27.0 d12=2557.0 z=3.3359193244680854
+- **PERSISTENT_DOWN** `ccgt_gen` value=5059 d1=-216.0 d12=-1573.0 z=-0.9674080503458878
+- **PERSISTENT_DOWN** `thermal_base` value=8376 d1=-213.0 d12=-1562.0 z=-0.9665261440677966
+- **REVERSAL** `residual_proxy` value=7537 d1=-2.0 d12=336.0 z=0.9570462668918919
+- **REVERSAL** `wind_gen` value=1.24e+04 d1=2.0 d12=-336.0 z=-0.9570462668918919
+- **PERSISTENT_UP** `margin` value=3.248e+04 d1=9.0 d12=59.0 z=0.795897905
+- **PERSISTENT_UP** `nuclear_gen` value=3317 d1=3.0 d12=11.0 z=0.6744897499999999
+- **REVERSAL** `ps_gen` value=-137 d1=1.0 d12=-125.0 z=None
 
 ## Nearest historical live analogues
 
