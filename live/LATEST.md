@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-14T21:43:12.971383Z`  
-Current process started UTC: `2026-09-14T21:39:12.432520Z`  
-1-second metadata polls in this process: **236**  
+Last heartbeat UTC: `2026-09-14T21:47:25.307272Z`  
+Current process started UTC: `2026-09-14T21:43:25.025327Z`  
+1-second metadata polls in this process: **239**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -20,15 +20,15 @@ No qualified anomaly yet (series are warming up or no threshold was crossed).
 
 ## Latest market values
 
-- `FUELINST|fuelType=INTNSL|generation` = **883** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=INTVKL|generation` = **-1082** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=NPSHYD|generation` = **446** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=NUCLEAR|generation` = **3315** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=OCGT|generation` = **0** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=OIL|generation` = **0** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=OTHER|generation` = **98** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=PS|generation` = **-12** (n=9, 2026-09-14T21:40:49.827152Z)
-- `FUELINST|fuelType=WIND|generation` = **12948** (n=9, 2026-09-14T21:40:49.827152Z)
+- `FUELINST|fuelType=INTNSL|generation` = **883** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=INTVKL|generation` = **-1082** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=NPSHYD|generation` = **449** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=NUCLEAR|generation` = **3316** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=OCGT|generation` = **0** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=OTHER|generation` = **105** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=PS|generation` = **-12** (n=10, 2026-09-14T21:45:32.692059Z)
+- `FUELINST|fuelType=WIND|generation` = **12982** (n=10, 2026-09-14T21:45:32.692059Z)
 - `IMBALNGC|TOTAL|imbalance` = **-29** (n=2, 2026-09-14T21:34:59.351255Z)
 - `INDDEM|TOTAL|demand` = **-12253** (n=2, 2026-09-14T21:34:59.351255Z)
 - `INDGEN|TOTAL|generation` = **20456** (n=2, 2026-09-14T21:34:59.351255Z)
@@ -38,6 +38,9 @@ No qualified anomaly yet (series are warming up or no threshold was crossed).
 
 ## Latest publication events
 
+- `2026-09-14T21:46:21.017634Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:45:45Z`
+- `2026-09-14T21:45:32.692059Z` — **FUELINST**: 80 rows; marker `2026-09-14T21:45:00Z`
+- `2026-09-14T21:44:13.031685Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:43:45Z`
 - `2026-09-14T21:42:10.040791Z` — **MID**: 0 rows; marker `2026-09-14T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
 - `2026-09-14T21:42:10.040791Z` — **FREQ**: 5761 rows; marker `2026-09-14T21:41:45Z`
 - `2026-09-14T21:40:49.827152Z` — **FUELINST**: 80 rows; marker `2026-09-14T21:40:00Z`
@@ -50,6 +53,3 @@ No qualified anomaly yet (series are warming up or no threshold was crossed).
 - `2026-09-14T21:34:59.351255Z` — **MELNGC**: 1098 rows; marker `2026-09-14T21:17:00Z`
 - `2026-09-14T21:34:59.351255Z` — **INDGEN**: 1098 rows; marker `2026-09-14T21:17:00Z`
 - `2026-09-14T21:34:59.351255Z` — **INDDEM**: 1098 rows; marker `2026-09-14T21:17:00Z`
-- `2026-09-14T21:34:59.351255Z` — **IMBALNGC**: 1098 rows; marker `2026-09-14T21:17:00Z`
-- `2026-09-14T21:34:59.351255Z` — **TSDF**: 1098 rows; marker `2026-09-14T21:17:00Z`
-- `2026-09-14T21:34:59.351255Z` — **NDF**: 61 rows; marker `2026-09-14T21:17:00Z`

@@ -1,43 +1,93 @@
 {
-  "active_patterns": [],
+  "active_patterns": [
+    {
+      "accel": -154.0,
+      "d1": -325.0,
+      "d12": null,
+      "metric": "ccgt_gen",
+      "pattern": "PERSISTENT_DOWN",
+      "value": 9034.0,
+      "z_mad": null
+    },
+    {
+      "accel": 3.0,
+      "d1": 1.0,
+      "d12": null,
+      "metric": "nuclear_gen",
+      "pattern": "PERSISTENT_UP",
+      "value": 3316.0,
+      "z_mad": null
+    },
+    {
+      "accel": 5.0,
+      "d1": -34.0,
+      "d12": null,
+      "metric": "residual_proxy",
+      "pattern": "PERSISTENT_DOWN",
+      "value": 6952.0,
+      "z_mad": null
+    },
+    {
+      "accel": -151.0,
+      "d1": -324.0,
+      "d12": null,
+      "metric": "thermal_base",
+      "pattern": "PERSISTENT_DOWN",
+      "value": 12350.0,
+      "z_mad": null
+    },
+    {
+      "accel": -5.0,
+      "d1": 34.0,
+      "d12": null,
+      "metric": "wind_gen",
+      "pattern": "PERSISTENT_UP",
+      "value": 12982.0,
+      "z_mad": null
+    }
+  ],
   "analogues": [],
-  "generated_at": "2026-09-14T21:43:13.521142Z",
-  "memory_snapshots": 3,
+  "generated_at": "2026-09-14T21:47:25.685154Z",
+  "memory_snapshots": 4,
   "note": "Live pattern evidence only; promotion requires PIT/OOS/autopsy in the deep historical engine.",
   "regime": "BALANCED",
-  "regime_reasons": [],
-  "source_heartbeat": "2026-09-14T21:43:12.970203Z",
+  "regime_reasons": [
+    "wind rising"
+  ],
+  "source_heartbeat": "2026-09-14T21:47:25.306062Z",
   "states": {
     "biomass_gen": {
-      "accel": 11.0,
-      "d1": 0.0,
+      "accel": 8.0,
+      "d1": 8.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -3.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
-      "value": 2563.0,
+      "value": 2571.0,
       "z_mad": null
     },
     "ccgt_gen": {
-      "accel": 1510.0,
-      "d1": -171.0,
+      "accel": -154.0,
+      "d1": -325.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -2177.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
-      "tags": [],
-      "value": 9359.0,
+      "tags": [
+        "PERSISTENT_DOWN"
+      ],
+      "value": 9034.0,
       "z_mad": null
     },
     "demand_forecast": {
       "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 0.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -48,8 +98,8 @@
       "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 0.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -60,8 +110,8 @@
       "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 0.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -69,11 +119,11 @@
       "z_mad": null
     },
     "imbalance": {
-      "accel": -248.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 248.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -81,11 +131,11 @@
       "z_mad": null
     },
     "ind_demand": {
-      "accel": -5.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 5.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -93,11 +143,11 @@
       "z_mad": null
     },
     "ind_generation": {
-      "accel": -248.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 248.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -105,23 +155,23 @@
       "z_mad": null
     },
     "interconnector_net": {
-      "accel": 2509.0,
-      "d1": 51.0,
+      "accel": -1.0,
+      "d1": 50.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -2357.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
-      "value": -5775.0,
+      "value": -5725.0,
       "z_mad": null
     },
     "margin": {
-      "accel": 77.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -77.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -129,23 +179,25 @@
       "z_mad": null
     },
     "nuclear_gen": {
-      "accel": -10.0,
-      "d1": -2.0,
+      "accel": 3.0,
+      "d1": 1.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 7.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
-      "tags": [],
-      "value": 3315.0,
+      "tags": [
+        "PERSISTENT_UP"
+      ],
+      "value": 3316.0,
       "z_mad": null
     },
     "ps_gen": {
-      "accel": 6.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -6.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -153,35 +205,39 @@
       "z_mad": null
     },
     "residual_proxy": {
-      "accel": 558.0,
-      "d1": -39.0,
+      "accel": 5.0,
+      "d1": -34.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -670.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
-      "tags": [],
-      "value": 6986.0,
+      "tags": [
+        "PERSISTENT_DOWN"
+      ],
+      "value": 6952.0,
       "z_mad": null
     },
     "thermal_base": {
-      "accel": 1500.0,
-      "d1": -173.0,
+      "accel": -151.0,
+      "d1": -324.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": -2170.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
-      "tags": [],
-      "value": 12674.0,
+      "tags": [
+        "PERSISTENT_DOWN"
+      ],
+      "value": 12350.0,
       "z_mad": null
     },
     "ts_demand_forecast": {
       "accel": 0.0,
       "d1": 0.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 0.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
       "tags": [],
@@ -189,15 +245,17 @@
       "z_mad": null
     },
     "wind_gen": {
-      "accel": -558.0,
-      "d1": 39.0,
+      "accel": -5.0,
+      "d1": 34.0,
       "d12": null,
-      "d3": null,
-      "n": 3,
+      "d3": 670.0,
+      "n": 4,
       "slope12": null,
       "slope6": null,
-      "tags": [],
-      "value": 12948.0,
+      "tags": [
+        "PERSISTENT_UP"
+      ],
+      "value": 12982.0,
       "z_mad": null
     }
   },
