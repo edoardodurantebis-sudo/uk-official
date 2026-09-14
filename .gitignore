@@ -1,0 +1,13 @@
+# Proprietary data and generated results must stay outside git.
+data/
+runs/
+state/
+*.parquet
+*.jsonl
+*.zip
+__pycache__/
+.pytest_cache/
+
+# Keep only the public schema/template CSV under version control.
+*.csv
+!FEATURE_AVAILABILITY_REGISTRY.template.csv
