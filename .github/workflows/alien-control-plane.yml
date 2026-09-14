@@ -39,8 +39,8 @@ jobs:
         run: python gb_power_runner.py --self-test
       - name: Series-aware live watcher self-test
         run: python GB_ALIEN_CONTINUOUS.py --self-test
-      - name: Historical scanner import smoke test
-        run: python -m py_compile GB_ALIEN_SCANNER_V1.py GB_NIGHTLY_DISCOVERY_V1.py gb_legacy_canonicalizer.py
+      - name: Brain and historical scanner import smoke test
+        run: python -m py_compile GB_ALIEN_BRAIN_ORCHESTRATOR.py GB_ALIEN_SCANNER_V1.py GB_NIGHTLY_DISCOVERY_V1.py gb_legacy_canonicalizer.py
       - name: Elexon Insights public API health
         run: |
           python - <<'PY'
@@ -53,7 +53,7 @@ jobs:
           print('ELEXON_PUBLIC_API=PASS')
           PY
 
-  continuous-live-watch:
+  continuous-live-watch-and-brain:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 7
@@ -66,19 +66,21 @@ jobs:
           python-version: '3.12'
       - name: Watch new publications every second for 285 seconds
         run: python GB_ALIEN_CONTINUOUS.py --duration-seconds 285 --poll-seconds 1
-      - name: Persist compact public state without merge conflicts
+      - name: Interpret state with persistent market-memory brain
+        run: python GB_ALIEN_BRAIN_ORCHESTRATOR.py
+      - name: Persist watcher plus brain memory without merge conflicts
         run: |
           git config user.name 'gb-alien-bot'
           git config user.email 'gb-alien-bot@users.noreply.github.com'
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add live/LATEST.md live/state.json
+            git add live/LATEST.md live/state.json live/market_memory.jsonl live/brain/LATEST.json live/brain/LATEST.md
             if git diff --cached --quiet; then
               echo 'No state changes'
               exit 0
             fi
-            git commit -m 'alien: update live market state [skip ci]'
+            git commit -m 'alien: update live market memory and brain [skip ci]'
             if git push origin HEAD:main; then
               exit 0
             fi
@@ -86,7 +88,7 @@ jobs:
             sleep 2
           done
           exit 1
-      - name: Chain next live watcher
+      - name: Chain next live watcher and brain
         if: success()
         env:
           GH_TOKEN: ${{ github.token }}
