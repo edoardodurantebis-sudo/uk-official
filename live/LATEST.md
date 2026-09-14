@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.0.0`  
-Last heartbeat UTC: `2026-09-14T16:50:46.570760Z`  
-Current process started UTC: `2026-09-14T16:46:01.725225Z`  
-1-second loop polls in this process: **277**  
+Last heartbeat UTC: `2026-09-14T16:55:47.259099Z`  
+Current process started UTC: `2026-09-14T16:51:02.387329Z`  
+1-second loop polls in this process: **280**  
 HTTP/data errors in this process: **0**  
 
 The loop checks for newly published information every second. Heavy interpretation
@@ -15,29 +15,35 @@ is event-driven: if the source did not change, it does not manufacture a new sig
 
 ## Latest interpreted anomalies
 
-- **MELNGC** `settlementPeriod` z=-1.55: indicated margin: settlementPeriod DOWN, value=1, jump=-47, anomaly=1.5σ → system tightness increasing
-- **MELNGC** `margin` z=3.57: indicated margin: margin UP, value=3.299e+04, jump=259, anomaly=3.6σ → margin improving
-- **MELNGC** `margin` z=3.56: indicated margin: margin DOWN, value=3.273e+04, jump=-412, anomaly=3.6σ → system tightness increasing
-- **MELNGC** `margin` z=3.63: indicated margin: margin UP, value=3.314e+04, jump=1267, anomaly=3.6σ → margin improving
-- **MELNGC** `margin` z=3.51: indicated margin: margin UP, value=3.188e+04, jump=1442, anomaly=3.5σ → margin improving
-- **MELNGC** `margin` z=3.65: indicated margin: margin DOWN, value=3.157e+04, jump=-1268, anomaly=3.6σ → system tightness increasing
-- **MELNGC** `margin` z=3.81: indicated margin: margin DOWN, value=3.284e+04, jump=-2461, anomaly=3.8σ → system tightness increasing
-- **MELNGC** `margin` z=4.11: indicated margin: margin DOWN, value=3.53e+04, jump=-964, anomaly=4.1σ → system tightness increasing
-- **MELNGC** `margin` z=4.25: indicated margin: margin DOWN, value=3.626e+04, jump=-1816, anomaly=4.3σ → system tightness increasing
-- **MELNGC** `margin` z=4.49: indicated margin: margin UP, value=3.808e+04, jump=552, anomaly=4.5σ → margin improving
-- **MELNGC** `margin` z=4.47: indicated margin: margin DOWN, value=3.753e+04, jump=-430, anomaly=4.5σ → system tightness increasing
-- **MELNGC** `margin` z=4.56: indicated margin: margin UP, value=3.796e+04, jump=338, anomaly=4.6σ → margin improving
-- **MELNGC** `margin` z=4.56: indicated margin: margin UP, value=3.762e+04, jump=371, anomaly=4.6σ → margin improving
-- **MELNGC** `margin` z=4.56: indicated margin: margin UP, value=3.725e+04, jump=641, anomaly=4.6σ → margin improving
-- **MELNGC** `margin` z=4.52: indicated margin: margin UP, value=3.661e+04, jump=425, anomaly=4.5σ → margin improving
-- **MELNGC** `margin` z=4.51: indicated margin: margin UP, value=3.618e+04, jump=622, anomaly=4.5σ → margin improving
-- **MELNGC** `margin` z=4.47: indicated margin: margin UP, value=3.556e+04, jump=731, anomaly=4.5σ → margin improving
-- **MELNGC** `margin` z=4.42: indicated margin: margin UP, value=3.483e+04, jump=118, anomaly=4.4σ → margin improving
-- **MELNGC** `margin` z=4.45: indicated margin: margin UP, value=3.471e+04, jump=710, anomaly=4.4σ → margin improving
-- **MELNGC** `margin` z=4.40: indicated margin: margin UP, value=3.4e+04, jump=642, anomaly=4.4σ → margin improving
+- **FUELINST** `generation` z=2.96: instantaneous generation mix: generation UP, value=9987, jump=9007, anomaly=3.0σ → generation-mix shift
+- **FUELINST** `generation` z=-0.49: instantaneous generation mix: generation DOWN, value=0, jump=-1.004e+04, anomaly=0.5σ → generation-mix shift
+- **FUELINST** `generation` z=2.95: instantaneous generation mix: generation UP, value=1.004e+04, jump=7457, anomaly=2.9σ → generation-mix shift
+- **FUELINST** `generation` z=0.40: instantaneous generation mix: generation DOWN, value=2586, jump=-7382, anomaly=0.4σ → generation-mix shift
+- **FUELINST** `generation` z=2.97: instantaneous generation mix: generation UP, value=9968, jump=8987, anomaly=3.0σ → generation-mix shift
+- **FUELINST** `generation` z=-0.49: instantaneous generation mix: generation DOWN, value=0, jump=-1.008e+04, anomaly=0.5σ → generation-mix shift
+- **FUELINST** `generation` z=2.97: instantaneous generation mix: generation UP, value=1.008e+04, jump=7495, anomaly=3.0σ → generation-mix shift
+- **FUELINST** `generation` z=0.40: instantaneous generation mix: generation DOWN, value=2585, jump=-7367, anomaly=0.4σ → generation-mix shift
+- **FUELINST** `generation` z=2.97: instantaneous generation mix: generation UP, value=9952, jump=8972, anomaly=3.0σ → generation-mix shift
+- **FUELINST** `generation` z=-0.49: instantaneous generation mix: generation DOWN, value=0, jump=-1.02e+04, anomaly=0.5σ → generation-mix shift
+- **FUELINST** `generation` z=3.02: instantaneous generation mix: generation UP, value=1.02e+04, jump=7617, anomaly=3.0σ → generation-mix shift
+- **FUELINST** `generation` z=0.40: instantaneous generation mix: generation DOWN, value=2583, jump=-7432, anomaly=0.4σ → generation-mix shift
+- **FUELINST** `generation` z=3.01: instantaneous generation mix: generation UP, value=1.002e+04, jump=9036, anomaly=3.0σ → generation-mix shift
+- **FUELINST** `generation` z=-0.49: instantaneous generation mix: generation DOWN, value=0, jump=-1.043e+04, anomaly=0.5σ → generation-mix shift
+- **FUELINST** `generation` z=3.12: instantaneous generation mix: generation UP, value=1.043e+04, jump=7848, anomaly=3.1σ → generation-mix shift
+- **FUELINST** `generation` z=0.41: instantaneous generation mix: generation DOWN, value=2582, jump=-7474, anomaly=0.4σ → generation-mix shift
+- **INDGEN** `settlementPeriod` z=-1.55: indicated generation: settlementPeriod DOWN, value=1, jump=-47, anomaly=1.5σ → state change
+- **INDGEN** `settlementPeriod` z=-1.54: indicated generation: settlementPeriod DOWN, value=1, jump=-47, anomaly=1.5σ → state change
+- **INDGEN** `generation` z=3.61: indicated generation: generation DOWN, value=3.117e+04, jump=-880, anomaly=3.6σ → state change
+- **INDGEN** `generation` z=3.76: indicated generation: generation DOWN, value=3.205e+04, jump=-575, anomaly=3.8σ → state change
 
 ## Latest publication events
 
+- `2026-09-14T16:55:34.415100Z` — **FUELINST**: 80 rows fetched; publish marker `2026-09-14T16:55:00Z`
+- `2026-09-14T16:54:30.451677Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:53:45Z`
+- `2026-09-14T16:53:26.720646Z` — **INDGEN**: 1260 rows fetched; publish marker `2026-09-14T16:47:00Z`
+- `2026-09-14T16:53:26.720646Z` — **INDDEM**: 1260 rows fetched; publish marker `2026-09-14T16:47:00Z`
+- `2026-09-14T16:53:26.720646Z` — **IMBALNGC**: 1260 rows fetched; publish marker `2026-09-14T16:48:00Z`
+- `2026-09-14T16:52:22.704577Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:51:45Z`
 - `2026-09-14T16:50:32.279961Z` — **MELNGC**: 1260 rows fetched; publish marker `2026-09-14T16:48:00Z`
 - `2026-09-14T16:50:32.279961Z` — **FUELINST**: 80 rows fetched; publish marker `2026-09-14T16:50:00Z`
 - `2026-09-14T16:50:16.554128Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:49:45Z`
@@ -52,9 +58,3 @@ is event-driven: if the source did not change, it does not manufacture a new sig
 - `2026-09-14T16:46:01.725236Z` — **IMBALNGC**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
 - `2026-09-14T16:46:01.725236Z` — **TSDF**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
 - `2026-09-14T16:46:01.725236Z` — **NDF**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
-- `2026-09-14T16:46:01.725236Z` — **WINDFOR**: 73 rows fetched; publish marker `2026-09-14T16:30:00Z`
-- `2026-09-14T16:46:01.725236Z` — **FUELHH**: 20 rows fetched; publish marker `2026-09-14T16:30:00Z`
-- `2026-09-14T16:46:01.725236Z` — **FUELINST**: 80 rows fetched; publish marker `2026-09-14T16:45:00Z`
-- `2026-09-14T16:46:01.725236Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:43:45Z`
-- `2026-09-14T15:18:08.432832Z` — **TSDF**: 1314 rows fetched; publish marker `2026-09-14T15:17:00Z`
-- `2026-09-14T15:18:08.432832Z` — **NDF**: 73 rows fetched; publish marker `2026-09-14T15:17:00Z`
