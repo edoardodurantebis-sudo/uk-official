@@ -1,102 +1,13 @@
-name: GB Alien Control Plane
+name: GB Alien Control Plane — PUBLIC ARCHIVE
 
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - 'live/**'
-  pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: '*/5 * * * *'
 
 permissions:
-  contents: write
-  actions: write
-
-concurrency:
-  group: gb-alien-control-plane
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  quality-and-public-data-health:
-    if: github.event_name == 'push' || github.event_name == 'pull_request'
+  archived:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: pip
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt pytest
-      - name: Unit tests
-        run: pytest -q
-      - name: Runner self-test
-        run: python gb_power_runner.py --self-test
-      - name: Series-aware live watcher self-test
-        run: python GB_ALIEN_CONTINUOUS.py --self-test
-      - name: Brain and historical scanner import smoke test
-        run: python -m py_compile GB_ALIEN_BRAIN_ORCHESTRATOR.py GB_ALIEN_SCANNER_V1.py GB_NIGHTLY_DISCOVERY_V1.py gb_legacy_canonicalizer.py
-      - name: Elexon Insights public API health
-        run: |
-          python - <<'PY'
-          import json, urllib.request
-          url = 'https://data.elexon.co.uk/bmrs/api/v1/datasets/METADATA/latest'
-          with urllib.request.urlopen(url, timeout=30) as r:
-              payload = json.load(r)
-              assert r.status == 200
-              assert payload is not None
-          print('ELEXON_PUBLIC_API=PASS')
-          PY
-
-  continuous-live-watch-and-brain:
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    timeout-minutes: 7
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Watch new publications every second for 285 seconds
-        run: python GB_ALIEN_CONTINUOUS.py --duration-seconds 285 --poll-seconds 1
-      - name: Interpret state with persistent market-memory brain
-        run: python GB_ALIEN_BRAIN_ORCHESTRATOR.py
-      - name: Persist watcher plus brain memory without merge conflicts
-        run: |
-          git config user.name 'gb-alien-bot'
-          git config user.email 'gb-alien-bot@users.noreply.github.com'
-          for attempt in 1 2 3; do
-            git fetch origin main
-            git reset --mixed origin/main
-            git add live/LATEST.md live/state.json live/market_memory.jsonl live/brain/LATEST.json live/brain/LATEST.md
-            if git diff --cached --quiet; then
-              echo 'No state changes'
-              exit 0
-            fi
-            git commit -m 'alien: update live market memory and brain [skip ci]'
-            if git push origin HEAD:main; then
-              exit 0
-            fi
-            echo "Push race on attempt ${attempt}; retrying"
-            sleep 2
-          done
-          exit 1
-      - name: Chain next live watcher and brain
-        if: success()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          sleep 3
-          curl --fail-with-body -L -X POST \
-            -H 'Accept: application/vnd.github+json' \
-            -H "Authorization: Bearer ${GH_TOKEN}" \
-            -H 'X-GitHub-Api-Version: 2022-11-28' \
-            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/alien-control-plane.yml/dispatches" \
-            -d '{"ref":"main"}'
+      - run: echo 'Public control plane disabled. Canonical UK engine moved to private repository.'
