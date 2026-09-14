@@ -1,27 +1,24 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-14T22:58:38.297578Z`  
-Memory snapshots: **21**  
-Current physical regime: **BALANCED**
+Heartbeat: `2026-09-14T23:02:51.731221Z`  
+Memory snapshots: **22**  
+Current physical regime: **LOOSE**
 
-Regime read: residual high, margin high.
+Regime read: margin high.
 
 ## Active patterns
 
-- **PERSISTENT_DOWN** `biomass_gen` value=2560 d1=0.0 d12=-17.0 z=-2.14610375
-- **ACCELERATION** `biomass_gen` value=2560 d1=0.0 d12=-17.0 z=-2.14610375
-- **ACCELERATION** `ind_generation` value=2.042e+04 d1=0.0 d12=-48.0 z=-1.8159339423076923
-- **ACCELERATION** `imbalance` value=-63 d1=0.0 d12=-48.0 z=-1.6380465357142857
-- **REVERSAL** `residual_proxy` value=7510 d1=-35.0 d12=318.0 z=1.532480387867647
-- **REVERSAL** `wind_gen` value=1.242e+04 d1=35.0 d12=-318.0 z=-1.532480387867647
-- **PERSISTENT_UP** `margin` value=3.247e+04 d1=0.0 d12=190.0 z=1.5076829705882353
-- **PERSISTENT_DOWN** `thermal_base` value=9129 d1=-219.0 d12=-2494.0 z=-1.1192324097254538
-- **PERSISTENT_DOWN** `ccgt_gen` value=5818 d1=-218.0 d12=-2488.0 z=-1.1180674307369405
-- **PERSISTENT_UP** `interconnector_net` value=-4597 d1=21.0 d12=866.0 z=0.9161518529411764
-- **PERSISTENT_DOWN** `nuclear_gen` value=3311 d1=-1.0 d12=-6.0 z=-0.6744897499999999
+- **PERSISTENT_UP** `interconnector_net` value=-3876 d1=721.0 d12=1477.0 z=1.8703038692708334
+- **ACCELERATION** `interconnector_net` value=-3876 d1=721.0 d12=1477.0 z=1.8703038692708334
+- **PERSISTENT_DOWN** `ccgt_gen` value=5624 d1=-194.0 d12=-2208.0 z=-0.9820027090680101
+- **PERSISTENT_DOWN** `thermal_base` value=8938 d1=-191.0 d12=-2211.0 z=-0.981230063442211
+- **ACCELERATION** `biomass_gen` value=2577 d1=17.0 d12=3.0 z=0.0
 - **PERSISTENT_DOWN** `ind_demand` value=-1.227e+04 d1=0.0 d12=-16.0 z=None
-- **ACCELERATION** `ind_demand` value=-1.227e+04 d1=0.0 d12=-16.0 z=None
+- **REVERSAL** `nuclear_gen` value=3314 d1=3.0 d12=-3.0 z=0.0
+- **ACCELERATION** `nuclear_gen` value=3314 d1=3.0 d12=-3.0 z=0.0
+- **PERSISTENT_DOWN** `ps_gen` value=-71 d1=-59.0 d12=-59.0 z=None
+- **ACCELERATION** `ps_gen` value=-71 d1=-59.0 d12=-59.0 z=None
 
 ## Nearest historical live analogues
 
