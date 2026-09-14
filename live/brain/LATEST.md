@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-14T20:16:04.225288Z`  
-Memory snapshots: **1**  
+Heartbeat: `2026-09-14T21:38:59.361614Z`  
+Memory snapshots: **2**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
