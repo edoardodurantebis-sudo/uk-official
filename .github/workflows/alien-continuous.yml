@@ -1,6 +1,12 @@
 name: GB Alien Live Sensor + Brain
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/alien-continuous.yml'
+      - 'GB_ALIEN_CONTINUOUS.py'
+      - 'GB_ALIEN_BRAIN_ORCHESTRATOR.py'
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
