@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.0.0`  
-Last heartbeat UTC: `2026-09-14T15:19:11.326873Z`  
-Current process started UTC: `2026-09-14T15:14:26.232359Z`  
-1-second loop polls in this process: **282**  
+Last heartbeat UTC: `2026-09-14T16:50:46.570760Z`  
+Current process started UTC: `2026-09-14T16:46:01.725225Z`  
+1-second loop polls in this process: **277**  
 HTTP/data errors in this process: **0**  
 
 The loop checks for newly published information every second. Heavy interpretation
@@ -15,31 +15,46 @@ is event-driven: if the source did not change, it does not manufacture a new sig
 
 ## Latest interpreted anomalies
 
-- **TSDF** `settlementPeriod` z=-1.59: transmission-demand forecast: settlementPeriod DOWN, value=1, jump=-47, anomaly=1.6σ → demand pressure easing
-- **TSDF** `demand` z=3.50: transmission-demand forecast: demand DOWN, value=2.623e+04, jump=-993, anomaly=3.5σ → demand pressure easing
-- **TSDF** `demand` z=3.69: transmission-demand forecast: demand DOWN, value=2.722e+04, jump=-1352, anomaly=3.7σ → demand pressure easing
-- **TSDF** `demand` z=3.93: transmission-demand forecast: demand DOWN, value=2.858e+04, jump=-843, anomaly=3.9σ → demand pressure easing
-- **TSDF** `demand` z=4.10: transmission-demand forecast: demand DOWN, value=2.942e+04, jump=-455, anomaly=4.1σ → demand pressure easing
-- **TSDF** `demand` z=4.21: transmission-demand forecast: demand DOWN, value=2.987e+04, jump=-2624, anomaly=4.2σ → demand pressure easing
-- **TSDF** `demand` z=4.69: transmission-demand forecast: demand UP, value=3.25e+04, jump=367, anomaly=4.7σ → demand pressure increasing
-- **TSDF** `demand` z=4.67: transmission-demand forecast: demand DOWN, value=3.213e+04, jump=-394, anomaly=4.7σ → demand pressure easing
-- **TSDF** `demand` z=4.78: transmission-demand forecast: demand DOWN, value=3.252e+04, jump=-106, anomaly=4.8σ → demand pressure easing
-- **TSDF** `demand` z=4.84: transmission-demand forecast: demand UP, value=3.263e+04, jump=1502, anomaly=4.8σ → demand pressure increasing
-- **TSDF** `demand` z=4.62: transmission-demand forecast: demand UP, value=3.113e+04, jump=970, anomaly=4.6σ → demand pressure increasing
-- **TSDF** `demand` z=4.49: transmission-demand forecast: demand UP, value=3.016e+04, jump=2276, anomaly=4.5σ → demand pressure increasing
-- **TSDF** `demand` z=4.12: transmission-demand forecast: demand UP, value=2.788e+04, jump=1308, anomaly=4.1σ → demand pressure increasing
-- **TSDF** `demand` z=3.91: transmission-demand forecast: demand UP, value=2.657e+04, jump=1605, anomaly=3.9σ → demand pressure increasing
-- **TSDF** `demand` z=3.64: transmission-demand forecast: demand UP, value=2.497e+04, jump=991, anomaly=3.6σ → demand pressure increasing
-- **TSDF** `demand` z=3.59: transmission-demand forecast: demand DOWN, value=2.435e+04, jump=-51, anomaly=3.6σ → demand pressure easing
-- **TSDF** `demand` z=3.62: transmission-demand forecast: demand DOWN, value=2.44e+04, jump=-262, anomaly=3.6σ → demand pressure easing
-- **TSDF** `demand` z=3.69: transmission-demand forecast: demand DOWN, value=2.466e+04, jump=-388, anomaly=3.7σ → demand pressure easing
-- **TSDF** `demand` z=3.78: transmission-demand forecast: demand DOWN, value=2.505e+04, jump=-629, anomaly=3.8σ → demand pressure easing
-- **TSDF** `demand` z=3.92: transmission-demand forecast: demand DOWN, value=2.568e+04, jump=-283, anomaly=3.9σ → demand pressure easing
+- **MELNGC** `settlementPeriod` z=-1.55: indicated margin: settlementPeriod DOWN, value=1, jump=-47, anomaly=1.5σ → system tightness increasing
+- **MELNGC** `margin` z=3.57: indicated margin: margin UP, value=3.299e+04, jump=259, anomaly=3.6σ → margin improving
+- **MELNGC** `margin` z=3.56: indicated margin: margin DOWN, value=3.273e+04, jump=-412, anomaly=3.6σ → system tightness increasing
+- **MELNGC** `margin` z=3.63: indicated margin: margin UP, value=3.314e+04, jump=1267, anomaly=3.6σ → margin improving
+- **MELNGC** `margin` z=3.51: indicated margin: margin UP, value=3.188e+04, jump=1442, anomaly=3.5σ → margin improving
+- **MELNGC** `margin` z=3.65: indicated margin: margin DOWN, value=3.157e+04, jump=-1268, anomaly=3.6σ → system tightness increasing
+- **MELNGC** `margin` z=3.81: indicated margin: margin DOWN, value=3.284e+04, jump=-2461, anomaly=3.8σ → system tightness increasing
+- **MELNGC** `margin` z=4.11: indicated margin: margin DOWN, value=3.53e+04, jump=-964, anomaly=4.1σ → system tightness increasing
+- **MELNGC** `margin` z=4.25: indicated margin: margin DOWN, value=3.626e+04, jump=-1816, anomaly=4.3σ → system tightness increasing
+- **MELNGC** `margin` z=4.49: indicated margin: margin UP, value=3.808e+04, jump=552, anomaly=4.5σ → margin improving
+- **MELNGC** `margin` z=4.47: indicated margin: margin DOWN, value=3.753e+04, jump=-430, anomaly=4.5σ → system tightness increasing
+- **MELNGC** `margin` z=4.56: indicated margin: margin UP, value=3.796e+04, jump=338, anomaly=4.6σ → margin improving
+- **MELNGC** `margin` z=4.56: indicated margin: margin UP, value=3.762e+04, jump=371, anomaly=4.6σ → margin improving
+- **MELNGC** `margin` z=4.56: indicated margin: margin UP, value=3.725e+04, jump=641, anomaly=4.6σ → margin improving
+- **MELNGC** `margin` z=4.52: indicated margin: margin UP, value=3.661e+04, jump=425, anomaly=4.5σ → margin improving
+- **MELNGC** `margin` z=4.51: indicated margin: margin UP, value=3.618e+04, jump=622, anomaly=4.5σ → margin improving
+- **MELNGC** `margin` z=4.47: indicated margin: margin UP, value=3.556e+04, jump=731, anomaly=4.5σ → margin improving
+- **MELNGC** `margin` z=4.42: indicated margin: margin UP, value=3.483e+04, jump=118, anomaly=4.4σ → margin improving
+- **MELNGC** `margin` z=4.45: indicated margin: margin UP, value=3.471e+04, jump=710, anomaly=4.4σ → margin improving
+- **MELNGC** `margin` z=4.40: indicated margin: margin UP, value=3.4e+04, jump=642, anomaly=4.4σ → margin improving
 
 ## Latest publication events
 
+- `2026-09-14T16:50:32.279961Z` — **MELNGC**: 1260 rows fetched; publish marker `2026-09-14T16:48:00Z`
+- `2026-09-14T16:50:32.279961Z` — **FUELINST**: 80 rows fetched; publish marker `2026-09-14T16:50:00Z`
+- `2026-09-14T16:50:16.554128Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:49:45Z`
+- `2026-09-14T16:48:24.791306Z` — **TSDF**: 1260 rows fetched; publish marker `2026-09-14T16:48:00Z`
+- `2026-09-14T16:48:24.791306Z` — **NDF**: 70 rows fetched; publish marker `2026-09-14T16:48:00Z`
+- `2026-09-14T16:48:09.330478Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:47:45Z`
+- `2026-09-14T16:46:17.430095Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:45:45Z`
+- `2026-09-14T16:46:01.725236Z` — **MID**: 0 rows fetched; publish marker `2026-09-14T16:42:04Z`
+- `2026-09-14T16:46:01.725236Z` — **MELNGC**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
+- `2026-09-14T16:46:01.725236Z` — **INDGEN**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
+- `2026-09-14T16:46:01.725236Z` — **INDDEM**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
+- `2026-09-14T16:46:01.725236Z` — **IMBALNGC**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
+- `2026-09-14T16:46:01.725236Z` — **TSDF**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
+- `2026-09-14T16:46:01.725236Z` — **NDF**: 0 rows fetched; publish marker `2026-09-14T16:17:00Z`
+- `2026-09-14T16:46:01.725236Z` — **WINDFOR**: 73 rows fetched; publish marker `2026-09-14T16:30:00Z`
+- `2026-09-14T16:46:01.725236Z` — **FUELHH**: 20 rows fetched; publish marker `2026-09-14T16:30:00Z`
+- `2026-09-14T16:46:01.725236Z` — **FUELINST**: 80 rows fetched; publish marker `2026-09-14T16:45:00Z`
+- `2026-09-14T16:46:01.725236Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T16:43:45Z`
 - `2026-09-14T15:18:08.432832Z` — **TSDF**: 1314 rows fetched; publish marker `2026-09-14T15:17:00Z`
 - `2026-09-14T15:18:08.432832Z` — **NDF**: 73 rows fetched; publish marker `2026-09-14T15:17:00Z`
-- `2026-09-14T15:18:08.432832Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T15:17:45Z`
-- `2026-09-14T15:16:16.248148Z` — **FREQ**: 5761 rows fetched; publish marker `2026-09-14T15:15:45Z`
-- `2026-09-14T15:16:01.246059Z` — **FUELINST**: 80 rows fetched; publish marker `2026-09-14T15:15:00Z`
