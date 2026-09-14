@@ -1,0 +1,46 @@
+name: GB Alien 1s Watcher
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'GB_ALIEN_CONTINUOUS.py'
+      - '.github/workflows/alien-continuous.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gb-alien-live
+  cancel-in-progress: false
+
+jobs:
+  live-watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Self-test
+        run: python GB_ALIEN_CONTINUOUS.py --self-test
+      - name: Run one-second watcher
+        run: python GB_ALIEN_CONTINUOUS.py --duration-seconds 285 --poll-seconds 1
+      - name: Persist compact live state
+        run: |
+          git config user.name 'gb-alien-bot'
+          git config user.email 'gb-alien-bot@users.noreply.github.com'
+          git add live/LATEST.md live/state.json
+          if git diff --cached --quiet; then
+            echo 'No live-state changes to commit'
+            exit 0
+          fi
+          git commit -m 'alien: update live market state [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
