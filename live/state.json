@@ -603,18 +603,6 @@
   ],
   "events": [
     {
-      "dataset": "FUELINST",
-      "marker": "2026-09-15T07:35:00Z",
-      "rows": 80,
-      "ts": "2026-09-15T07:35:40.874860Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-15T07:35:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T07:36:12.362620Z"
-    },
-    {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 404: Resource Not Found",
       "marker": "2026-09-15T07:35:00Z",
@@ -966,17 +954,29 @@
       "marker": "2026-09-15T08:35:00Z",
       "rows": 0,
       "ts": "2026-09-15T08:36:21.631802Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T08:37:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T08:38:29.239707Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T08:39:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T08:40:22.174597Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-15T00:57:07.521981Z"
   },
-  "last_heartbeat": "2026-09-15T08:37:10.244690Z",
+  "last_heartbeat": "2026-09-15T08:41:21.354530Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 344,
-      "ts": "2026-09-15T08:36:21.631802Z",
+      "n": 346,
+      "ts": "2026-09-15T08:40:22.174597Z",
       "value": 50.088
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1216,7 +1216,7 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-15T08:35:45Z",
+    "FREQ": "2026-09-15T08:39:45Z",
     "FUELHH": "2026-09-15T08:30:00Z",
     "FUELINST": "2026-09-15T08:35:00Z",
     "IMBALNGC": "2026-09-15T08:16:00Z",
@@ -1232,9 +1232,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 50.08800000000001,
       "last": 50.088,
-      "m2": 0.030947058139550426,
-      "mean": 50.08255232558139,
-      "n": 344
+      "m2": 0.031006069364177522,
+      "mean": 50.0825838150289,
+      "n": 346
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 3124.4040948098223,
