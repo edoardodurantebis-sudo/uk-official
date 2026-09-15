@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-15T19:36:02.893448Z`  
-Current process started UTC: `2026-09-15T19:32:02.526632Z`  
-1-second metadata polls in this process: **233**  
+Last heartbeat UTC: `2026-09-15T19:40:15.611158Z`  
+Current process started UTC: `2026-09-15T19:36:15.227270Z`  
+1-second metadata polls in this process: **238**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -52,6 +52,9 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-15T19:38:25.055194Z` — **FREQ**: 5761 rows; marker `2026-09-15T19:37:45Z`
+- `2026-09-15T19:36:33.300244Z` — **MID**: 0 rows; marker `2026-09-15T19:35:00Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
+- `2026-09-15T19:36:17.227509Z` — **FREQ**: 5761 rows; marker `2026-09-15T19:35:45Z`
 - `2026-09-15T19:35:30.347449Z` — **FUELINST**: 80 rows; marker `2026-09-15T19:35:00Z`
 - `2026-09-15T19:34:11.117932Z` — **FREQ**: 5761 rows; marker `2026-09-15T19:33:45Z`
 - `2026-09-15T19:32:18.528618Z` — **FREQ**: 5761 rows; marker `2026-09-15T19:31:45Z`
@@ -64,6 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-15T19:25:31.693361Z` — **FUELINST**: 80 rows; marker `2026-09-15T19:25:00Z`
 - `2026-09-15T19:24:11.761880Z` — **FREQ**: 5761 rows; marker `2026-09-15T19:23:45Z`
 - `2026-09-15T19:22:08.231762Z` — **FREQ**: 5761 rows; marker `2026-09-15T19:21:45Z`
-- `2026-09-15T19:21:36.200871Z` — **INDGEN**: 1170 rows; marker `2026-09-15T19:17:00Z`
-- `2026-09-15T19:21:36.200871Z` — **INDDEM**: 1170 rows; marker `2026-09-15T19:17:00Z`
-- `2026-09-15T19:21:36.200871Z` — **IMBALNGC**: 1170 rows; marker `2026-09-15T19:17:00Z`
