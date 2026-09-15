@@ -604,25 +604,6 @@
   "events": [
     {
       "dataset": "FREQ",
-      "marker": "2026-09-15T14:05:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T14:06:01.104744Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 404: Resource Not Found",
-      "marker": "2026-09-15T14:05:00Z",
-      "rows": 0,
-      "ts": "2026-09-15T14:06:32.429486Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-15T14:07:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T14:08:09.032429Z"
-    },
-    {
-      "dataset": "FREQ",
       "marker": "2026-09-15T14:09:45Z",
       "rows": 5761,
       "ts": "2026-09-15T14:10:16.912368Z"
@@ -965,17 +946,36 @@
       "marker": "2026-09-15T15:05:00Z",
       "rows": 80,
       "ts": "2026-09-15T15:05:33.230682Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T15:05:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T15:06:28.346017Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 404: Resource Not Found",
+      "marker": "2026-09-15T15:05:00Z",
+      "rows": 0,
+      "ts": "2026-09-15T15:06:28.346017Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T15:07:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T15:08:03.762970Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-15T00:57:07.521981Z"
   },
-  "last_heartbeat": "2026-09-15T15:06:01.576691Z",
+  "last_heartbeat": "2026-09-15T15:10:11.843860Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 538,
-      "ts": "2026-09-15T15:04:13.990943Z",
+      "n": 540,
+      "ts": "2026-09-15T15:08:03.762970Z",
       "value": 50.088
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1215,14 +1215,14 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-15T15:03:45Z",
+    "FREQ": "2026-09-15T15:07:45Z",
     "FUELHH": "2026-09-15T15:00:00Z",
     "FUELINST": "2026-09-15T15:05:00Z",
     "IMBALNGC": "2026-09-15T14:48:00Z",
     "INDDEM": "2026-09-15T14:48:00Z",
     "INDGEN": "2026-09-15T14:47:00Z",
     "MELNGC": "2026-09-15T14:48:00Z",
-    "MID": "2026-09-15T14:42:04Z",
+    "MID": "2026-09-15T15:05:00Z",
     "NDF": "2026-09-15T14:48:00Z",
     "TSDF": "2026-09-15T14:48:00Z",
     "WINDFOR": "2026-09-15T12:30:00Z"
@@ -1231,9 +1231,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 50.08800000000001,
       "last": 50.088,
-      "m2": 0.03462834944241476,
-      "mean": 50.084516728624536,
-      "n": 538
+      "m2": 0.034652525925961526,
+      "mean": 50.08452962962963,
+      "n": 540
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 1777.3668520637532,
