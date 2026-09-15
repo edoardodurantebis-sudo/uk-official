@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-15T19:48:40.904493Z`  
-Memory snapshots: **317**  
+Heartbeat: `2026-09-15T19:52:51.671948Z`  
+Memory snapshots: **318**  
 Current physical regime: **TIGHT**
 
 Regime read: residual high.
@@ -10,23 +10,27 @@ Regime read: residual high.
 ## Active patterns
 
 - **ROBUST_OUTLIER** `residual_proxy` value=942 d1=0.0 d12=116.0 z=6.7052216323529406
-- **PERSISTENT_DOWN** `biomass_gen` value=3257 d1=-6.0 d12=-42.0 z=4.095005585632184
-- **ROBUST_OUTLIER** `biomass_gen` value=3257 d1=-6.0 d12=-42.0 z=4.095005585632184
-- **CHANGE_POINT** `interconnector_net` value=674 d1=-3.0 d12=2375.0 z=-0.319852070942749
-- **CHANGE_POINT** `ps_gen` value=124 d1=-37.0 d12=-679.0 z=-0.0008805349216710182
-- **REVERSAL** `thermal_base` value=1.386e+04 d1=32.0 d12=-356.0 z=0.530073453163017
-- **REVERSAL** `ccgt_gen` value=1.054e+04 d1=28.0 d12=-359.0 z=0.527446796567782
-- **REVERSAL** `interconnector_net` value=674 d1=-3.0 d12=2375.0 z=-0.319852070942749
-- **PERSISTENT_DOWN** `ps_gen` value=124 d1=-37.0 d12=-679.0 z=-0.0008805349216710182
-- **PERSISTENT_UP** `nuclear_gen` value=3323 d1=4.0 d12=3.0 z=0.0
-- **ACCELERATION** `nuclear_gen` value=3323 d1=4.0 d12=3.0 z=0.0
+- **REVERSAL** `biomass_gen` value=3258 d1=1.0 d12=-41.0 z=2.993495144876325
+- **CHANGE_POINT** `interconnector_net` value=635 d1=-39.0 d12=2155.0 z=-0.32378750739182693
+- **CHANGE_POINT** `ps_gen` value=123 d1=-1.0 d12=-679.0 z=-0.0026519911533420706
+- **PERSISTENT_UP** `wind_gen` value=1.064e+04 d1=179.0 d12=687.0 z=1.4123293660220995
+- **REVERSAL** `margin` value=3.56e+04 d1=-44.0 d12=10.0 z=1.3321172562499999
+- **ACCELERATION** `margin` value=3.56e+04 d1=-44.0 d12=10.0 z=1.3321172562499999
+- **REVERSAL** `thermal_base` value=1.392e+04 d1=57.0 d12=-216.0 z=0.559824037131416
+- **REVERSAL** `ccgt_gen` value=1.059e+04 d1=58.0 d12=-216.0 z=0.5585694666424946
+- **REVERSAL** `interconnector_net` value=635 d1=-39.0 d12=2155.0 z=-0.32378750739182693
+- **REVERSAL** `imbalance` value=5751 d1=-5.0 d12=12.0 z=-0.3147618833333333
+- **ACCELERATION** `imbalance` value=5751 d1=-5.0 d12=12.0 z=-0.3147618833333333
+- **REVERSAL** `ind_generation` value=2.487e+04 d1=-5.0 d12=12.0 z=-0.3147618833333333
+- **ACCELERATION** `ind_generation` value=2.487e+04 d1=-5.0 d12=12.0 z=-0.3147618833333333
+- **PERSISTENT_DOWN** `nuclear_gen` value=3322 d1=-1.0 d12=0.0 z=-0.1686224375
 
 ## Nearest historical live analogues
 
-- `2026-09-15T18:24:34.306197Z` distance=0.084 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': -65.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-15T18:28:44.303435Z` distance=0.084 → {'next30m_imbalance_delta': 2.0, 'next30m_margin_delta': -65.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-15T18:32:54.292117Z` distance=0.084 → {'next30m_imbalance_delta': 2.0, 'next30m_margin_delta': -65.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-15T18:37:05.511843Z` distance=0.084 → {'next30m_imbalance_delta': 2.0, 'next30m_margin_delta': -65.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-15T18:41:17.608634Z` distance=0.084 → {'next30m_imbalance_delta': 2.0, 'next30m_margin_delta': -65.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-15T11:22:30.581865Z` distance=0.083 → {'next30m_imbalance_delta': -24.0, 'next30m_margin_delta': 0.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-15T11:26:42.593420Z` distance=0.083 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': -334.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-15T11:30:55.285075Z` distance=0.083 → {'next30m_imbalance_delta': -1.0, 'next30m_margin_delta': -334.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-15T11:35:06.452199Z` distance=0.083 → {'next30m_imbalance_delta': -1.0, 'next30m_margin_delta': -334.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-15T11:39:18.571623Z` distance=0.083 → {'next30m_imbalance_delta': -1.0, 'next30m_margin_delta': -334.0, 'next30m_residual_proxy_delta': 0.0}
 
 Deep rule promotion remains delegated to the recovered Market Memory/N10 lineage engine.
