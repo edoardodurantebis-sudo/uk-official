@@ -603,18 +603,6 @@
   ],
   "events": [
     {
-      "dataset": "FREQ",
-      "marker": "2026-09-15T15:01:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T15:02:06.361945Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-15T15:03:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T15:04:13.990943Z"
-    },
-    {
       "dataset": "FUELINST",
       "marker": "2026-09-15T15:05:00Z",
       "rows": 80,
@@ -965,17 +953,29 @@
       "marker": "2026-09-15T16:00:00Z",
       "rows": 20,
       "ts": "2026-09-15T16:00:35.966007Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T16:01:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T16:02:05.436353Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T16:03:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T16:04:13.535663Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-15T00:57:07.521981Z"
   },
-  "last_heartbeat": "2026-09-15T16:00:48.162751Z",
+  "last_heartbeat": "2026-09-15T16:05:00.775012Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 566,
-      "ts": "2026-09-15T16:00:04.010825Z",
+      "n": 568,
+      "ts": "2026-09-15T16:04:13.535663Z",
       "value": 50.088
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1215,7 +1215,7 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-15T15:59:45Z",
+    "FREQ": "2026-09-15T16:03:45Z",
     "FUELHH": "2026-09-15T16:00:00Z",
     "FUELINST": "2026-09-15T16:00:00Z",
     "IMBALNGC": "2026-09-15T15:47:00Z",
@@ -1231,9 +1231,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 50.08800000000001,
       "last": 50.088,
-      "m2": 0.034951272084842784,
-      "mean": 50.084689045936386,
-      "n": 566
+      "m2": 0.03497311971834713,
+      "mean": 50.08470070422534,
+      "n": 568
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 1764.9947853208023,
