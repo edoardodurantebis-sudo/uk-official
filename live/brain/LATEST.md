@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-15T13:16:43.887784Z`  
-Memory snapshots: **224**  
+Heartbeat: `2026-09-15T13:20:57.071120Z`  
+Memory snapshots: **225**  
 Current physical regime: **LOOSE**
 
 Regime read: residual low.
@@ -12,18 +12,18 @@ Regime read: residual low.
 - **ROBUST_OUTLIER** `imbalance` value=5698 d1=0.0 d12=48.0 z=12.098909332100591
 - **CHANGE_POINT** `ind_generation` value=2.48e+04 d1=0.0 d12=47.0 z=7.330093098699764
 - **ROBUST_OUTLIER** `ind_generation` value=2.48e+04 d1=0.0 d12=47.0 z=7.330093098699764
-- **ROBUST_OUTLIER** `ts_demand_forecast` value=1.91e+04 d1=0.0 d12=0.0 z=-6.894784111111111
-- **ROBUST_OUTLIER** `demand_forecast` value=1.86e+04 d1=0.0 d12=0.0 z=-6.6449730925925925
-- **ROBUST_OUTLIER** `residual_proxy` value=756 d1=0.0 d12=-249.0 z=-3.155063532560707
-- **CHANGE_POINT** `margin` value=3.517e+04 d1=0.0 d12=-4.0 z=1.0405979251126125
-- **CHANGE_POINT** `interconnector_net` value=1.073e+04 d1=-64.0 d12=-561.0 z=-0.5689926352564103
-- **REVERSAL** `wind_gen` value=1.007e+04 d1=29.0 d12=-887.0 z=-1.4935449872262774
-- **REVERSAL** `nuclear_gen` value=3330 d1=5.0 d12=-2.0 z=0.8584415
-- **ACCELERATION** `nuclear_gen` value=3330 d1=5.0 d12=-2.0 z=0.8584415
-- **ACCELERATION** `thermal_base` value=4795 d1=7.0 d12=5.0 z=-0.6759037746331237
-- **PERSISTENT_DOWN** `interconnector_net` value=1.073e+04 d1=-64.0 d12=-561.0 z=-0.5689926352564103
-- **ACCELERATION** `biomass_gen` value=1721 d1=-1.0 d12=-2.0 z=-0.38267215075825156
-- **ACCELERATION** `ps_gen` value=-955 d1=0.0 d12=137.0 z=0.2720317776243094
+- **PERSISTENT_UP** `ts_demand_forecast` value=1.912e+04 d1=17.0 d12=17.0 z=-6.8098483648148145
+- **ACCELERATION** `ts_demand_forecast` value=1.912e+04 d1=17.0 d12=17.0 z=-6.8098483648148145
+- **ROBUST_OUTLIER** `ts_demand_forecast` value=1.912e+04 d1=17.0 d12=17.0 z=-6.8098483648148145
+- **PERSISTENT_UP** `demand_forecast` value=1.862e+04 d1=17.0 d12=17.0 z=-6.560037346296297
+- **ACCELERATION** `demand_forecast` value=1.862e+04 d1=17.0 d12=17.0 z=-6.560037346296297
+- **ROBUST_OUTLIER** `demand_forecast` value=1.862e+04 d1=17.0 d12=17.0 z=-6.560037346296297
+- **CHANGE_POINT** `margin` value=3.516e+04 d1=-13.0 d12=-17.0 z=1.0208493513513515
+- **CHANGE_POINT** `interconnector_net` value=1.072e+04 d1=-1.0 d12=-561.0 z=-0.573663962628866
+- **CHANGE_POINT** `ps_gen` value=-958 d1=-3.0 d12=121.0 z=0.26085238950276246
+- **PERSISTENT_UP** `residual_proxy` value=773 d1=17.0 d12=17.0 z=-1.9545282686880243
+- **ACCELERATION** `residual_proxy` value=773 d1=17.0 d12=17.0 z=-1.9545282686880243
+- **REVERSAL** `wind_gen` value=1.008e+04 d1=15.0 d12=-710.0 z=-1.4755038391882673
 
 ## Nearest historical live analogues
 
