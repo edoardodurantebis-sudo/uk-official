@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-15T04:04:32.419208Z`  
-Current process started UTC: `2026-09-15T04:00:32.844468Z`  
-1-second metadata polls in this process: **234**  
+Last heartbeat UTC: `2026-09-15T04:08:45.478369Z`  
+Current process started UTC: `2026-09-15T04:04:45.603450Z`  
+1-second metadata polls in this process: **233**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -34,14 +34,14 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest market values
 
-- `FUELINST|fuelType=INTVKL|generation` = **-1374** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=NPSHYD|generation` = **357** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=NUCLEAR|generation` = **3328** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=OCGT|generation` = **0** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=OIL|generation` = **0** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=OTHER|generation` = **230** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=PS|generation` = **-321** (n=85, 2026-09-15T04:00:32.844476Z)
-- `FUELINST|fuelType=WIND|generation` = **13949** (n=85, 2026-09-15T04:00:32.844476Z)
+- `FUELINST|fuelType=INTVKL|generation` = **-1421** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=NPSHYD|generation` = **370** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=NUCLEAR|generation` = **3330** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=OCGT|generation` = **0** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=OTHER|generation` = **167** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=PS|generation` = **-488** (n=86, 2026-09-15T04:05:33.674013Z)
+- `FUELINST|fuelType=WIND|generation` = **13899** (n=86, 2026-09-15T04:05:33.674013Z)
 - `IMBALNGC|TOTAL|imbalance` = **-315** (n=15, 2026-09-15T03:51:09.251010Z)
 - `INDDEM|TOTAL|demand` = **-12414** (n=15, 2026-09-15T03:50:53.265546Z)
 - `INDGEN|TOTAL|generation` = **20170** (n=15, 2026-09-15T03:50:53.265546Z)
@@ -52,6 +52,10 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-15T04:08:14.215077Z` — **FREQ**: 5761 rows; marker `2026-09-15T04:07:45Z`
+- `2026-09-15T04:06:21.302578Z` — **MID**: 0 rows; marker `2026-09-15T04:05:00Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
+- `2026-09-15T04:06:21.302578Z` — **FREQ**: 5761 rows; marker `2026-09-15T04:05:45Z`
+- `2026-09-15T04:05:33.674013Z` — **FUELINST**: 80 rows; marker `2026-09-15T04:05:00Z`
 - `2026-09-15T04:04:17.754409Z` — **FREQ**: 5761 rows; marker `2026-09-15T04:03:45Z`
 - `2026-09-15T04:02:25.656994Z` — **FREQ**: 5761 rows; marker `2026-09-15T04:01:45Z`
 - `2026-09-15T04:00:48.586591Z` — **FUELHH**: 20 rows; marker `2026-09-15T04:00:00Z`
@@ -63,7 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-15T03:54:05.194914Z` — **FREQ**: 5761 rows; marker `2026-09-15T03:53:45Z`
 - `2026-09-15T03:52:13.022657Z` — **FREQ**: 5761 rows; marker `2026-09-15T03:51:45Z`
 - `2026-09-15T03:51:09.251010Z` — **IMBALNGC**: 864 rows; marker `2026-09-15T03:47:00Z`
-- `2026-09-15T03:50:53.265546Z` — **INDGEN**: 864 rows; marker `2026-09-15T03:46:00Z`
-- `2026-09-15T03:50:53.265546Z` — **INDDEM**: 864 rows; marker `2026-09-15T03:46:00Z`
-- `2026-09-15T03:50:37.263297Z` — **FUELINST**: 80 rows; marker `2026-09-15T03:50:00Z`
-- `2026-09-15T03:50:21.763388Z` — **FREQ**: 5761 rows; marker `2026-09-15T03:49:45Z`
