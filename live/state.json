@@ -99,21 +99,29 @@
       "ts": "2026-09-14T23:10:42.141337Z",
       "value": 2683.0,
       "z": 5.041577862966521
+    },
+    {
+      "dataset": "FREQ",
+      "delta": 0.003999999999997783,
+      "field": "frequency",
+      "interpretation": "system frequency [TOTAL] frequency: value=50.088, delta=0.004, z=11.23 -> frequency excursion; balancing stress check",
+      "series": "TOTAL",
+      "ts": "2026-09-15T00:02:32.006452Z",
+      "value": 50.088,
+      "z": 11.226589832401565
+    },
+    {
+      "dataset": "FREQ",
+      "delta": 0.0,
+      "field": "frequency",
+      "interpretation": "system frequency [TOTAL] frequency: value=50.088, delta=0, z=7.11 -> frequency excursion; balancing stress check",
+      "series": "TOTAL",
+      "ts": "2026-09-15T00:04:24.497031Z",
+      "value": 50.088,
+      "z": 7.108753595483483
     }
   ],
   "events": [
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-14T23:01:45Z",
-      "rows": 5761,
-      "ts": "2026-09-14T23:02:18.328320Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-14T23:03:45Z",
-      "rows": 5761,
-      "ts": "2026-09-14T23:04:29.297283Z"
-    },
     {
       "dataset": "FUELINST",
       "marker": "2026-09-14T23:05:00Z",
@@ -465,14 +473,26 @@
       "marker": "2026-09-15T00:00:00Z",
       "rows": 20,
       "ts": "2026-09-15T00:00:40.440975Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T00:01:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T00:02:32.006452Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-15T00:03:45Z",
+      "rows": 5761,
+      "ts": "2026-09-15T00:04:24.497031Z"
     }
   ],
-  "last_heartbeat": "2026-09-15T00:01:29.159410Z",
+  "last_heartbeat": "2026-09-15T00:05:39.935821Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 86,
-      "ts": "2026-09-15T00:00:24.744824Z",
-      "value": 50.084
+      "n": 88,
+      "ts": "2026-09-15T00:04:24.497031Z",
+      "value": 50.088
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "n": 8,
@@ -711,7 +731,7 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-14T23:59:45Z",
+    "FREQ": "2026-09-15T00:03:45Z",
     "FUELHH": "2026-09-15T00:00:00Z",
     "FUELINST": "2026-09-15T00:00:00Z",
     "IMBALNGC": "2026-09-14T23:47:00Z",
@@ -725,11 +745,11 @@
   },
   "stats": {
     "FREQ|TOTAL|frequency": {
-      "ewma": 50.06960000000001,
-      "last": 50.084,
-      "m2": 0.0003202325581395919,
-      "mean": 50.06620930232558,
-      "n": 86
+      "ewma": 50.07622400000001,
+      "last": 50.088,
+      "m2": 0.0012483181818180834,
+      "mean": 50.06670454545455,
+      "n": 88
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 2619.1149312000007,
