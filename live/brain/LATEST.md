@@ -1,27 +1,27 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-15T18:03:35.364442Z`  
-Memory snapshots: **292**  
+Heartbeat: `2026-09-15T18:07:47.333244Z`  
+Memory snapshots: **293**  
 Current physical regime: **BALANCED**
 
 Regime read: residual high, margin high.
 
 ## Active patterns
 
-- **PERSISTENT_UP** `biomass_gen` value=3223 d1=17.0 d12=245.0 z=54.12324507432432
-- **ROBUST_OUTLIER** `biomass_gen` value=3223 d1=17.0 d12=245.0 z=54.12324507432432
-- **CHANGE_POINT** `thermal_base` value=1.374e+04 d1=19.0 d12=25.0 z=7.8579247553003535
-- **CHANGE_POINT** `ccgt_gen` value=1.043e+04 d1=20.0 d12=34.0 z=7.833947054149085
-- **PERSISTENT_UP** `thermal_base` value=1.374e+04 d1=19.0 d12=25.0 z=7.8579247553003535
-- **ACCELERATION** `thermal_base` value=1.374e+04 d1=19.0 d12=25.0 z=7.8579247553003535
-- **ROBUST_OUTLIER** `thermal_base` value=1.374e+04 d1=19.0 d12=25.0 z=7.8579247553003535
-- **PERSISTENT_UP** `ccgt_gen` value=1.043e+04 d1=20.0 d12=34.0 z=7.833947054149085
-- **ACCELERATION** `ccgt_gen` value=1.043e+04 d1=20.0 d12=34.0 z=7.833947054149085
-- **ROBUST_OUTLIER** `ccgt_gen` value=1.043e+04 d1=20.0 d12=34.0 z=7.833947054149085
-- **CHANGE_POINT** `nuclear_gen` value=3311 d1=-1.0 d12=-9.0 z=-2.697959
+- **PERSISTENT_UP** `biomass_gen` value=3227 d1=4.0 d12=236.0 z=52.823197263157894
+- **ROBUST_OUTLIER** `biomass_gen` value=3227 d1=4.0 d12=236.0 z=52.823197263157894
+- **CHANGE_POINT** `thermal_base` value=1.381e+04 d1=71.0 d12=102.0 z=7.1765709399999995
+- **CHANGE_POINT** `ccgt_gen` value=1.05e+04 d1=71.0 d12=108.0 z=7.132664334507043
+- **PERSISTENT_UP** `thermal_base` value=1.381e+04 d1=71.0 d12=102.0 z=7.1765709399999995
+- **ACCELERATION** `thermal_base` value=1.381e+04 d1=71.0 d12=102.0 z=7.1765709399999995
+- **ROBUST_OUTLIER** `thermal_base` value=1.381e+04 d1=71.0 d12=102.0 z=7.1765709399999995
+- **PERSISTENT_UP** `ccgt_gen` value=1.05e+04 d1=71.0 d12=108.0 z=7.132664334507043
+- **ACCELERATION** `ccgt_gen` value=1.05e+04 d1=71.0 d12=108.0 z=7.132664334507043
+- **ROBUST_OUTLIER** `ccgt_gen` value=1.05e+04 d1=71.0 d12=108.0 z=7.132664334507043
+- **CHANGE_POINT** `nuclear_gen` value=3311 d1=0.0 d12=-6.0 z=-2.697959
 - **CHANGE_POINT** `margin` value=3.567e+04 d1=0.0 d12=842.0 z=2.2579347345238094
-- **PERSISTENT_DOWN** `nuclear_gen` value=3311 d1=-1.0 d12=-9.0 z=-2.697959
+- **PERSISTENT_DOWN** `nuclear_gen` value=3311 d1=0.0 d12=-6.0 z=-2.697959
 - **CHANGE_POINT** `imbalance` value=5775 d1=0.0 d12=-60.0 z=0.08002420762711863
 - **CHANGE_POINT** `ind_generation` value=2.49e+04 d1=0.0 d12=-60.0 z=0.08002420762711863
 
