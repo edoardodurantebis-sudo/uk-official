@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-15T11:22:30.581865Z`  
-Memory snapshots: **197**  
+Heartbeat: `2026-09-15T11:26:42.593420Z`  
+Memory snapshots: **198**  
 Current physical regime: **LOOSE**
 
 Regime read: residual low, margin high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `imbalance` value=5675 d1=0.0 d12=6507.0 z=36.37511388596491
-- **ROBUST_OUTLIER** `imbalance` value=5675 d1=0.0 d12=6507.0 z=36.37511388596491
-- **CHANGE_POINT** `biomass_gen` value=1278 d1=-2.0 d12=-185.0 z=-26.64582187628866
-- **CHANGE_POINT** `ind_generation` value=2.478e+04 d1=0.0 d12=5042.0 z=25.098395931640624
-- **ROBUST_OUTLIER** `biomass_gen` value=1278 d1=-2.0 d12=-185.0 z=-26.64582187628866
-- **ROBUST_OUTLIER** `ind_generation` value=2.478e+04 d1=0.0 d12=5042.0 z=25.098395931640624
-- **CHANGE_POINT** `margin` value=3.552e+04 d1=306.0 d12=1029.0 z=9.429759611650486
+- **CHANGE_POINT** `imbalance` value=5651 d1=-24.0 d12=6483.0 z=36.23311604385965
+- **REVERSAL** `imbalance` value=5651 d1=-24.0 d12=6483.0 z=36.23311604385965
+- **ROBUST_OUTLIER** `imbalance` value=5651 d1=-24.0 d12=6483.0 z=36.23311604385965
+- **CHANGE_POINT** `ind_generation` value=2.476e+04 d1=-24.0 d12=5018.0 z=24.971929103515624
+- **CHANGE_POINT** `biomass_gen` value=1279 d1=1.0 d12=-135.0 z=-24.58996917142857
+- **REVERSAL** `ind_generation` value=2.476e+04 d1=-24.0 d12=5018.0 z=24.971929103515624
+- **ROBUST_OUTLIER** `ind_generation` value=2.476e+04 d1=-24.0 d12=5018.0 z=24.971929103515624
+- **REVERSAL** `biomass_gen` value=1279 d1=1.0 d12=-135.0 z=-24.58996917142857
+- **ROBUST_OUTLIER** `biomass_gen` value=1279 d1=1.0 d12=-135.0 z=-24.58996917142857
+- **CHANGE_POINT** `margin` value=3.552e+04 d1=0.0 d12=1029.0 z=9.429759611650486
 - **ROBUST_OUTLIER** `ts_demand_forecast` value=1.91e+04 d1=0.0 d12=-1465.0 z=-10.950539470588234
-- **PERSISTENT_UP** `margin` value=3.552e+04 d1=306.0 d12=1029.0 z=9.429759611650486
-- **ROBUST_OUTLIER** `margin` value=3.552e+04 d1=306.0 d12=1029.0 z=9.429759611650486
+- **PERSISTENT_UP** `margin` value=3.552e+04 d1=0.0 d12=1029.0 z=9.429759611650486
+- **ROBUST_OUTLIER** `margin` value=3.552e+04 d1=0.0 d12=1029.0 z=9.429759611650486
 - **CHANGE_POINT** `ind_demand` value=-1.19e+04 d1=0.0 d12=369.0 z=5.407159495833333
 - **ROBUST_OUTLIER** `demand_forecast` value=1.86e+04 d1=0.0 d12=-1465.0 z=-6.6449730925925925
-- **ROBUST_OUTLIER** `ind_demand` value=-1.19e+04 d1=0.0 d12=369.0 z=5.407159495833333
-- **CHANGE_POINT** `ccgt_gen` value=1480 d1=2.0 d12=-374.0 z=-1.2908914732032217
-- **CHANGE_POINT** `thermal_base` value=4810 d1=6.0 d12=-366.0 z=-1.2612175471899816
 
 ## Nearest historical live analogues
 
