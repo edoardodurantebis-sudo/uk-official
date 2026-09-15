@@ -1,8 +1,8 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-15T12:30:36.485573Z`  
-Current process started UTC: `2026-09-15T12:26:35.977602Z`  
+Last heartbeat UTC: `2026-09-15T12:34:47.590663Z`  
+Current process started UTC: `2026-09-15T12:30:48.140734Z`  
 1-second metadata polls in this process: **235**  
 HTTP/data errors in this process: **0**  
 
@@ -16,6 +16,7 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest statistically unusual observations
 
+- **FUELHH** `fuelType=INTNED` `generation` — half-hour generation mix [fuelType=INTNED] generation: value=2, delta=2, z=3.81 -> generation-mix component moved
 - **IMBALNGC** `TOTAL` `imbalance` — indicated system imbalance [TOTAL] imbalance: value=5650, delta=-1, z=3.51 -> indicated imbalance moved; inspect sign/magnitude
 - **IMBALNGC** `TOTAL` `imbalance` — indicated system imbalance [TOTAL] imbalance: value=5651, delta=-24, z=4.85 -> indicated imbalance moved; inspect sign/magnitude
 - **INDGEN** `TOTAL` `generation` — indicated generation [TOTAL] generation: value=24755, delta=-24, z=4.72 -> state changed
@@ -30,7 +31,6 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - **NDF** `TOTAL` `demand` — national-demand forecast [TOTAL] demand: value=18604, delta=-1465, z=-5.48 -> demand pressure easing
 - **FUELHH** `fuelType=INTFR` `generation` — half-hour generation mix [fuelType=INTFR] generation: value=984, delta=278, z=4.11 -> generation-mix component moved
 - **FUELINST** `fuelType=INTFR` `generation` — instantaneous generation mix [fuelType=INTFR] generation: value=999, delta=-1, z=3.64 -> generation-mix component moved
-- **FUELINST** `fuelType=INTFR` `generation` — instantaneous generation mix [fuelType=INTFR] generation: value=1000, delta=1, z=3.83 -> generation-mix component moved
 
 ## Latest market values
 
@@ -52,6 +52,9 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-15T12:34:18.955836Z` — **FREQ**: 5761 rows; marker `2026-09-15T12:33:45Z`
+- `2026-09-15T12:32:11.087027Z` — **FREQ**: 5761 rows; marker `2026-09-15T12:31:45Z`
+- `2026-09-15T12:30:48.140744Z` — **FUELHH**: 20 rows; marker `2026-09-15T12:30:00Z`
 - `2026-09-15T12:30:22.163636Z` — **WINDFOR**: 73 rows; marker `2026-09-15T12:30:00Z`
 - `2026-09-15T12:30:22.163636Z` — **FUELINST**: 80 rows; marker `2026-09-15T12:30:00Z`
 - `2026-09-15T12:30:22.163636Z` — **FREQ**: 5761 rows; marker `2026-09-15T12:29:45Z`
@@ -64,6 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-15T12:23:11.180817Z` — **INDGEN**: 1422 rows; marker `2026-09-15T12:17:00Z`
 - `2026-09-15T12:22:22.940814Z` — **FREQ**: 5761 rows; marker `2026-09-15T12:21:45Z`
 - `2026-09-15T12:20:35.294204Z` — **MELNGC**: 1422 rows; marker `2026-09-15T12:17:00Z`
-- `2026-09-15T12:20:19.176282Z` — **FUELINST**: 80 rows; marker `2026-09-15T12:20:00Z`
-- `2026-09-15T12:20:19.176282Z` — **FREQ**: 5761 rows; marker `2026-09-15T12:19:45Z`
-- `2026-09-15T12:18:26.250837Z` — **TSDF**: 1422 rows; marker `2026-09-15T12:18:00Z`
