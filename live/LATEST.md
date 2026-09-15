@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-15T10:53:07.967185Z`  
-Current process started UTC: `2026-09-15T10:49:07.559486Z`  
-1-second metadata polls in this process: **233**  
+Last heartbeat UTC: `2026-09-15T10:57:20.495126Z`  
+Current process started UTC: `2026-09-15T10:53:20.238127Z`  
+1-second metadata polls in this process: **235**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -34,24 +34,28 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest market values
 
-- `FUELINST|fuelType=INTVKL|generation` = **1422** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=NPSHYD|generation` = **408** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=NUCLEAR|generation` = **3328** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=OCGT|generation` = **0** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=OIL|generation` = **0** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=OTHER|generation` = **924** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=PS|generation` = **-963** (n=167, 2026-09-15T10:50:29.025353Z)
-- `FUELINST|fuelType=WIND|generation` = **11522** (n=167, 2026-09-15T10:50:29.025353Z)
+- `FUELINST|fuelType=INTVKL|generation` = **1422** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=NPSHYD|generation` = **408** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=NUCLEAR|generation` = **3328** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=OCGT|generation` = **0** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=OTHER|generation` = **922** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=PS|generation` = **-972** (n=168, 2026-09-15T10:55:28.691177Z)
+- `FUELINST|fuelType=WIND|generation` = **11469** (n=168, 2026-09-15T10:55:28.691177Z)
 - `IMBALNGC|TOTAL|imbalance` = **-832** (n=27, 2026-09-15T10:19:25.748675Z)
 - `INDDEM|TOTAL|demand` = **-12270** (n=27, 2026-09-15T10:19:25.748675Z)
 - `INDGEN|TOTAL|generation` = **19737** (n=27, 2026-09-15T10:19:25.748675Z)
-- `MELNGC|TOTAL|margin` = **34489** (n=27, 2026-09-15T10:18:37.997581Z)
+- `MELNGC|TOTAL|margin` = **35212** (n=28, 2026-09-15T10:55:12.649432Z)
 - `NDF|TOTAL|demand` = **18604** (n=29, 2026-09-15T10:51:02.252130Z)
 - `TSDF|TOTAL|demand` = **19104** (n=29, 2026-09-15T10:51:02.252130Z)
 - `WINDFOR|TOTAL|generation` = **17599** (n=5, 2026-09-15T10:30:45.227650Z)
 
 ## Latest publication events
 
+- `2026-09-15T10:56:16.335274Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:55:45Z`
+- `2026-09-15T10:55:28.691177Z` — **FUELINST**: 80 rows; marker `2026-09-15T10:55:00Z`
+- `2026-09-15T10:55:12.649432Z` — **MELNGC**: 1476 rows; marker `2026-09-15T10:50:00Z`
+- `2026-09-15T10:54:24.246222Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:53:45Z`
 - `2026-09-15T10:52:22.195580Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:51:45Z`
 - `2026-09-15T10:51:02.252130Z` — **TSDF**: 1476 rows; marker `2026-09-15T10:50:00Z`
 - `2026-09-15T10:51:02.252130Z` — **NDF**: 82 rows; marker `2026-09-15T10:50:00Z`
@@ -63,7 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-15T10:44:13.930156Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:43:45Z`
 - `2026-09-15T10:42:21.694866Z` — **MID**: 0 rows; marker `2026-09-15T10:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
 - `2026-09-15T10:42:21.694866Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:41:45Z`
-- `2026-09-15T10:40:45.672140Z` — **FUELINST**: 80 rows; marker `2026-09-15T10:40:00Z`
-- `2026-09-15T10:40:14.071535Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:39:45Z`
-- `2026-09-15T10:38:06.462809Z` — **FREQ**: 5761 rows; marker `2026-09-15T10:37:45Z`
-- `2026-09-15T10:36:30.971501Z` — **MID**: 0 rows; marker `2026-09-15T10:35:00Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
