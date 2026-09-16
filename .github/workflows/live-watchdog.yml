@@ -2,6 +2,10 @@ name: GB Live Recovery Watchdog
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-watchdog.yml'
   workflow_run:
     workflows: ["GB Alien Live Sensor + Brain"]
     types: [completed]
