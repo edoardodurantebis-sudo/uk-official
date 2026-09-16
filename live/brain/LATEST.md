@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-16T10:38:18.420163Z`  
-Memory snapshots: **528**  
+Heartbeat: `2026-09-16T10:42:29.762950Z`  
+Memory snapshots: **529**  
 Current physical regime: **BALANCED**
 
 Regime read: residual low, margin low, wind rising.
@@ -10,20 +10,20 @@ Regime read: residual low, margin low, wind rising.
 ## Active patterns
 
 - **ROBUST_OUTLIER** `ps_gen` value=-5 d1=0.0 d12=-235.0 z=-30.7567326
-- **ROBUST_OUTLIER** `margin` value=3.422e+04 d1=0.0 d12=-284.0 z=-14.78295465862069
-- **CHANGE_POINT** `imbalance` value=5373 d1=0.0 d12=9.0 z=-10.93051613551402
-- **ROBUST_OUTLIER** `imbalance` value=5373 d1=0.0 d12=9.0 z=-10.93051613551402
+- **CHANGE_POINT** `imbalance` value=5373 d1=0.0 d12=6.0 z=-10.93051613551402
+- **ROBUST_OUTLIER** `imbalance` value=5373 d1=0.0 d12=6.0 z=-10.93051613551402
 - **ROBUST_OUTLIER** `ind_demand` value=-1.511e+04 d1=0.0 d12=-1226.0 z=-7.156634214859437
+- **ROBUST_OUTLIER** `ts_demand_forecast` value=2.064e+04 d1=0.0 d12=0.0 z=5.397919453264095
+- **PERSISTENT_DOWN** `nuclear_gen` value=3317 d1=-6.0 d12=-9.0 z=-4.0469384999999996
+- **ACCELERATION** `nuclear_gen` value=3317 d1=-6.0 d12=-9.0 z=-4.0469384999999996
+- **ROBUST_OUTLIER** `nuclear_gen` value=3317 d1=-6.0 d12=-9.0 z=-4.0469384999999996
 - **PERSISTENT_DOWN** `residual_proxy` value=-1246 d1=0.0 d12=-433.0 z=-3.6989533423566883
-- **ACCELERATION** `residual_proxy` value=-1246 d1=0.0 d12=-433.0 z=-3.6989533423566883
 - **ROBUST_OUTLIER** `residual_proxy` value=-1246 d1=0.0 d12=-433.0 z=-3.6989533423566883
-- **CHANGE_POINT** `ind_generation` value=2.601e+04 d1=0.0 d12=9.0 z=-1.6059279761904761
+- **CHANGE_POINT** `wind_gen` value=4913 d1=-16.0 d12=-704.0 z=-1.6076098602195947
+- **CHANGE_POINT** `ind_generation` value=2.601e+04 d1=0.0 d12=6.0 z=-1.6059279761904761
+- **ROBUST_OUTLIER** `margin` value=3.422e+04 d1=0.0 d12=65.0 z=-3.300032370452529
 - **PERSISTENT_UP** `wind_forecast` value=1.976e+04 d1=0.0 d12=433.0 z=3.2392692452229297
-- **ACCELERATION** `wind_forecast` value=1.976e+04 d1=0.0 d12=433.0 z=3.2392692452229297
 - **ROBUST_OUTLIER** `wind_forecast` value=1.976e+04 d1=0.0 d12=433.0 z=3.2392692452229297
-- **PERSISTENT_DOWN** `nuclear_gen` value=3323 d1=-1.0 d12=-1.0 z=-2.0234692499999998
-- **ACCELERATION** `nuclear_gen` value=3323 d1=-1.0 d12=-1.0 z=-2.0234692499999998
-- **PERSISTENT_DOWN** `wind_gen` value=4929 d1=-151.0 d12=-728.0 z=-1.6144459049831081
 
 ## Nearest historical live analogues
 
