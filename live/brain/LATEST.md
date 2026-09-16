@@ -1,25 +1,21 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-16T18:36:10.915736Z`  
-Memory snapshots: **641**  
+Heartbeat: `2026-09-16T18:40:24.541579Z`  
+Memory snapshots: **642**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `biomass_gen` value=3191 d1=1.0 d12=-15.0 z=-3.227915232142857
+- **CHANGE_POINT** `biomass_gen` value=3191 d1=0.0 d12=-17.0 z=-2.658283132352941
 - **CHANGE_POINT** `ps_gen` value=906 d1=0.0 d12=-304.0 z=1.9072756376050422
-- **PERSISTENT_UP** `interconnector_net` value=6313 d1=0.0 d12=1447.0 z=-3.3876727580961727
-- **ACCELERATION** `interconnector_net` value=6313 d1=0.0 d12=1447.0 z=-3.3876727580961727
-- **ROBUST_OUTLIER** `interconnector_net` value=6313 d1=0.0 d12=1447.0 z=-3.3876727580961727
-- **REVERSAL** `biomass_gen` value=3191 d1=1.0 d12=-15.0 z=-3.227915232142857
-- **ROBUST_OUTLIER** `biomass_gen` value=3191 d1=1.0 d12=-15.0 z=-3.227915232142857
+- **CHANGE_POINT** `wind_gen` value=8367 d1=0.0 d12=922.0 z=1.78429063752809
+- **PERSISTENT_UP** `interconnector_net` value=6313 d1=0.0 d12=1436.0 z=-3.3860113197645907
+- **ROBUST_OUTLIER** `interconnector_net` value=6313 d1=0.0 d12=1436.0 z=-3.3860113197645907
 - **CHANGE_POINT** `margin` value=3.418e+04 d1=0.0 d12=67.0 z=-0.5932555830291971
-- **PERSISTENT_DOWN** `ps_gen` value=906 d1=0.0 d12=-304.0 z=1.9072756376050422
-- **REVERSAL** `wind_gen` value=8367 d1=-145.0 d12=1082.0 z=1.7861094862921347
-- **REVERSAL** `ccgt_gen` value=9972 d1=6.0 d12=-196.0 z=1.7374056360500767
-- **REVERSAL** `thermal_base` value=1.327e+04 d1=4.0 d12=-207.0 z=1.7236960277777778
-- **PERSISTENT_DOWN** `nuclear_gen` value=3302 d1=-2.0 d12=-11.0 z=0.27773107352941173
+- **PERSISTENT_DOWN** `ccgt_gen` value=9972 d1=0.0 d12=-211.0 z=1.6229704771622935
+- **PERSISTENT_DOWN** `thermal_base` value=1.327e+04 d1=0.0 d12=-222.0 z=1.6030835848492102
+- **PERSISTENT_DOWN** `nuclear_gen` value=3302 d1=0.0 d12=-11.0 z=0.25293365624999997
 
 ## Nearest historical live analogues
 
