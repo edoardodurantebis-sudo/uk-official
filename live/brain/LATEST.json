@@ -1,119 +1,101 @@
 {
   "active_patterns": [
     {
-      "accel": -125.0,
-      "d1": 0.0,
-      "d12": 1078.0,
+      "accel": 112.0,
+      "d1": 112.0,
+      "d12": 1063.0,
+      "metric": "wind_gen",
+      "pattern": "CHANGE_POINT",
+      "value": 10124.0,
+      "z_mad": 2.672908312906221
+    },
+    {
+      "accel": 112.0,
+      "d1": 112.0,
+      "d12": 1063.0,
       "metric": "wind_gen",
       "pattern": "PERSISTENT_UP",
-      "value": 10012.0,
-      "z_mad": 2.5878754610009014
+      "value": 10124.0,
+      "z_mad": 2.672908312906221
     },
     {
-      "accel": 172.0,
-      "d1": 0.0,
-      "d12": -1328.0,
+      "accel": -74.0,
+      "d1": -74.0,
+      "d12": -1428.0,
       "metric": "ccgt_gen",
       "pattern": "CHANGE_POINT",
-      "value": 8698.0,
-      "z_mad": -0.3224248965702036
+      "value": 8624.0,
+      "z_mad": -0.37713405376344084
     },
     {
-      "accel": 171.0,
-      "d1": 0.0,
-      "d12": -1327.0,
+      "accel": -75.0,
+      "d1": -75.0,
+      "d12": -1423.0,
       "metric": "thermal_base",
       "pattern": "CHANGE_POINT",
-      "value": 12010.0,
-      "z_mad": -0.3151687070250133
+      "value": 11935.0,
+      "z_mad": -0.36999757897545354
     },
     {
       "accel": 0.0,
       "d1": 0.0,
-      "d12": -319.0,
+      "d12": -143.0,
       "metric": "ps_gen",
       "pattern": "CHANGE_POINT",
       "value": 228.0,
       "z_mad": -0.25677625871313675
     },
     {
-      "accel": 0.0,
-      "d1": 0.0,
-      "d12": 461.0,
-      "metric": "margin",
-      "pattern": "PERSISTENT_UP",
-      "value": 34409.0,
-      "z_mad": 1.134142024074074
-    },
-    {
-      "accel": 0.0,
-      "d1": 0.0,
-      "d12": -18.0,
-      "metric": "biomass_gen",
-      "pattern": "PERSISTENT_DOWN",
-      "value": 3204.0,
-      "z_mad": -0.8493574629629629
-    },
-    {
-      "accel": -1.0,
-      "d1": 0.0,
-      "d12": 1.0,
-      "metric": "nuclear_gen",
-      "pattern": "PERSISTENT_UP",
-      "value": 3312.0,
-      "z_mad": 0.8190232678571429
-    },
-    {
-      "accel": -1.0,
-      "d1": 0.0,
-      "d12": 1.0,
-      "metric": "nuclear_gen",
-      "pattern": "ACCELERATION",
-      "value": 3312.0,
-      "z_mad": 0.8190232678571429
-    },
-    {
-      "accel": 96.0,
-      "d1": 0.0,
-      "d12": -493.0,
+      "accel": -319.0,
+      "d1": -319.0,
+      "d12": -685.0,
       "metric": "interconnector_net",
       "pattern": "PERSISTENT_DOWN",
-      "value": 5603.0,
-      "z_mad": -0.6357458902550926
+      "value": 5284.0,
+      "z_mad": -0.7361816709948443
     },
     {
-      "accel": 172.0,
-      "d1": 0.0,
-      "d12": -1328.0,
+      "accel": -319.0,
+      "d1": -319.0,
+      "d12": -685.0,
+      "metric": "interconnector_net",
+      "pattern": "ACCELERATION",
+      "value": 5284.0,
+      "z_mad": -0.7361816709948443
+    },
+    {
+      "accel": -1.0,
+      "d1": -1.0,
+      "d12": 5.0,
+      "metric": "nuclear_gen",
+      "pattern": "REVERSAL",
+      "value": 3311.0,
+      "z_mad": 0.67448975
+    },
+    {
+      "accel": -74.0,
+      "d1": -74.0,
+      "d12": -1428.0,
       "metric": "ccgt_gen",
       "pattern": "PERSISTENT_DOWN",
-      "value": 8698.0,
-      "z_mad": -0.3224248965702036
+      "value": 8624.0,
+      "z_mad": -0.37713405376344084
     },
     {
-      "accel": 171.0,
-      "d1": 0.0,
-      "d12": -1327.0,
+      "accel": -75.0,
+      "d1": -75.0,
+      "d12": -1423.0,
       "metric": "thermal_base",
       "pattern": "PERSISTENT_DOWN",
-      "value": 12010.0,
-      "z_mad": -0.3151687070250133
+      "value": 11935.0,
+      "z_mad": -0.36999757897545354
     },
     {
-      "accel": -5.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": 5.0,
       "metric": "ind_demand",
       "pattern": "PERSISTENT_UP",
-      "value": -11763.0,
-      "z_mad": null
-    },
-    {
-      "accel": -5.0,
-      "d1": 0.0,
-      "d12": 5.0,
-      "metric": "ind_demand",
-      "pattern": "ACCELERATION",
       "value": -11763.0,
       "z_mad": null
     }
@@ -165,48 +147,46 @@
       "ts": "2026-09-16T15:41:23.424005Z"
     }
   ],
-  "generated_at": "2026-09-16T19:59:59.456161Z",
-  "memory_snapshots": 661,
+  "generated_at": "2026-09-16T20:04:09.153729Z",
+  "memory_snapshots": 662,
   "note": "Live pattern evidence only; promotion requires PIT/OOS/autopsy in the deep historical engine.",
   "regime": "BALANCED",
   "regime_reasons": [],
-  "source_heartbeat": "2026-09-16T19:59:58.980702Z",
+  "source_heartbeat": "2026-09-16T20:04:08.383787Z",
   "states": {
     "biomass_gen": {
       "accel": 0.0,
       "d1": 0.0,
-      "d12": -18.0,
-      "d3": -1.0,
-      "n": 661,
-      "slope12": -0.7237762237762237,
-      "slope6": 0.4,
-      "tags": [
-        "PERSISTENT_DOWN"
-      ],
+      "d12": -15.0,
+      "d3": 0.0,
+      "n": 662,
+      "slope12": -0.17482517482517482,
+      "slope6": -0.08571428571428572,
+      "tags": [],
       "value": 3204.0,
-      "z_mad": -0.8493574629629629
+      "z_mad": -0.7949343482142857
     },
     "ccgt_gen": {
-      "accel": 172.0,
-      "d1": 0.0,
-      "d12": -1328.0,
-      "d3": -360.0,
-      "n": 661,
-      "slope12": -139.16433566433565,
-      "slope6": -139.77142857142857,
+      "accel": -74.0,
+      "d1": -74.0,
+      "d12": -1428.0,
+      "d3": -246.0,
+      "n": 662,
+      "slope12": -140.16433566433565,
+      "slope6": -113.91428571428571,
       "tags": [
         "PERSISTENT_DOWN",
         "CHANGE_POINT"
       ],
-      "value": 8698.0,
-      "z_mad": -0.3224248965702036
+      "value": 8624.0,
+      "z_mad": -0.37713405376344084
     },
     "demand_forecast": {
       "accel": 0.0,
       "d1": 0.0,
       "d12": 0.0,
       "d3": 0.0,
-      "n": 661,
+      "n": 662,
       "slope12": 0.0,
       "slope6": 0.0,
       "tags": [],
@@ -218,7 +198,7 @@
       "d1": 0.0,
       "d12": 0.0,
       "d3": 0.0,
-      "n": 661,
+      "n": 662,
       "slope12": 0.0,
       "slope6": 0.0,
       "tags": [],
@@ -230,7 +210,7 @@
       "d1": 0.0,
       "d12": 0.0,
       "d3": 0.0,
-      "n": 661,
+      "n": 662,
       "slope12": 0.0,
       "slope6": 0.0,
       "tags": [],
@@ -238,95 +218,92 @@
       "z_mad": null
     },
     "imbalance": {
-      "accel": 4.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": 43.0,
       "d3": -4.0,
-      "n": 661,
-      "slope12": 3.006993006993007,
-      "slope6": -0.9142857142857143,
+      "n": 662,
+      "slope12": 1.43006993006993,
+      "slope6": -1.0285714285714285,
       "tags": [],
       "value": 6640.0,
       "z_mad": 1.478333698630137
     },
     "ind_demand": {
-      "accel": -5.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": 5.0,
       "d3": 5.0,
-      "n": 661,
-      "slope12": 0.34965034965034963,
-      "slope6": 1.1428571428571428,
+      "n": 662,
+      "slope12": 0.47202797202797203,
+      "slope6": 1.2857142857142858,
       "tags": [
-        "PERSISTENT_UP",
-        "ACCELERATION"
+        "PERSISTENT_UP"
       ],
       "value": -11763.0,
       "z_mad": null
     },
     "ind_generation": {
-      "accel": 4.0,
+      "accel": 0.0,
       "d1": 0.0,
       "d12": 43.0,
       "d3": -4.0,
-      "n": 661,
-      "slope12": 3.006993006993007,
-      "slope6": -0.9142857142857143,
+      "n": 662,
+      "slope12": 1.43006993006993,
+      "slope6": -1.0285714285714285,
       "tags": [],
       "value": 25761.0,
       "z_mad": 2.2327936551724137
     },
     "interconnector_net": {
-      "accel": 96.0,
-      "d1": 0.0,
-      "d12": -493.0,
-      "d3": -120.0,
-      "n": 661,
-      "slope12": -34.20629370629371,
-      "slope6": -24.228571428571428,
+      "accel": -319.0,
+      "d1": -319.0,
+      "d12": -685.0,
+      "d3": -415.0,
+      "n": 662,
+      "slope12": -43.55244755244755,
+      "slope6": -75.45714285714286,
       "tags": [
-        "PERSISTENT_DOWN"
+        "PERSISTENT_DOWN",
+        "ACCELERATION"
       ],
-      "value": 5603.0,
-      "z_mad": -0.6357458902550926
+      "value": 5284.0,
+      "z_mad": -0.7361816709948443
     },
     "margin": {
       "accel": 0.0,
       "d1": 0.0,
       "d12": 461.0,
-      "d3": 455.0,
-      "n": 661,
-      "slope12": 43.37412587412587,
-      "slope6": 117.0,
-      "tags": [
-        "PERSISTENT_UP"
-      ],
+      "d3": 0.0,
+      "n": 662,
+      "slope12": 51.13986013986014,
+      "slope6": 104.0,
+      "tags": [],
       "value": 34409.0,
       "z_mad": 1.134142024074074
     },
     "nuclear_gen": {
       "accel": -1.0,
-      "d1": 0.0,
-      "d12": 1.0,
-      "d3": 5.0,
-      "n": 661,
-      "slope12": 0.5769230769230769,
-      "slope6": 0.8,
+      "d1": -1.0,
+      "d12": 5.0,
+      "d3": 0.0,
+      "n": 662,
+      "slope12": 0.5244755244755245,
+      "slope6": 0.7428571428571429,
       "tags": [
-        "PERSISTENT_UP",
-        "ACCELERATION"
+        "REVERSAL"
       ],
-      "value": 3312.0,
-      "z_mad": 0.8190232678571429
+      "value": 3311.0,
+      "z_mad": 0.67448975
     },
     "ps_gen": {
       "accel": 0.0,
       "d1": 0.0,
-      "d12": -319.0,
+      "d12": -143.0,
       "d3": 0.0,
-      "n": 661,
-      "slope12": -13.723776223776223,
-      "slope6": -34.8,
+      "n": 662,
+      "slope12": -13.468531468531468,
+      "slope6": -24.428571428571427,
       "tags": [
         "CHANGE_POINT"
       ],
@@ -338,34 +315,34 @@
       "d1": 0.0,
       "d12": 40.0,
       "d3": 0.0,
-      "n": 661,
-      "slope12": 4.475524475524476,
+      "n": 662,
+      "slope12": 3.7762237762237763,
       "slope6": 0.0,
       "tags": [],
       "value": -824.0,
       "z_mad": 0.67448975
     },
     "thermal_base": {
-      "accel": 171.0,
-      "d1": 0.0,
-      "d12": -1327.0,
-      "d3": -355.0,
-      "n": 661,
-      "slope12": -138.5874125874126,
-      "slope6": -138.97142857142856,
+      "accel": -75.0,
+      "d1": -75.0,
+      "d12": -1423.0,
+      "d3": -246.0,
+      "n": 662,
+      "slope12": -139.63986013986013,
+      "slope6": -113.17142857142858,
       "tags": [
         "PERSISTENT_DOWN",
         "CHANGE_POINT"
       ],
-      "value": 12010.0,
-      "z_mad": -0.3151687070250133
+      "value": 11935.0,
+      "z_mad": -0.36999757897545354
     },
     "ts_demand_forecast": {
       "accel": 0.0,
       "d1": 0.0,
       "d12": 0.0,
       "d3": 0.0,
-      "n": 661,
+      "n": 662,
       "slope12": 0.0,
       "slope6": 0.0,
       "tags": [],
@@ -377,26 +354,27 @@
       "d1": 0.0,
       "d12": -40.0,
       "d3": 0.0,
-      "n": 633,
-      "slope12": -4.475524475524476,
+      "n": 634,
+      "slope12": -3.7762237762237763,
       "slope6": 0.0,
       "tags": [],
       "value": 19445.0,
       "z_mad": -0.67448975
     },
     "wind_gen": {
-      "accel": -125.0,
-      "d1": 0.0,
-      "d12": 1078.0,
-      "d3": 226.0,
-      "n": 661,
-      "slope12": 92.26223776223776,
-      "slope6": 87.14285714285714,
+      "accel": 112.0,
+      "d1": 112.0,
+      "d12": 1063.0,
+      "d3": 237.0,
+      "n": 662,
+      "slope12": 91.12587412587412,
+      "slope6": 77.94285714285714,
       "tags": [
-        "PERSISTENT_UP"
+        "PERSISTENT_UP",
+        "CHANGE_POINT"
       ],
-      "value": 10012.0,
-      "z_mad": 2.5878754610009014
+      "value": 10124.0,
+      "z_mad": 2.672908312906221
     }
   },
   "version": "GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0"

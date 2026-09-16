@@ -1,25 +1,23 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-16T19:59:58.980702Z`  
-Memory snapshots: **661**  
+Heartbeat: `2026-09-16T20:04:08.383787Z`  
+Memory snapshots: **662**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **PERSISTENT_UP** `wind_gen` value=1.001e+04 d1=0.0 d12=1078.0 z=2.5878754610009014
-- **CHANGE_POINT** `ccgt_gen` value=8698 d1=0.0 d12=-1328.0 z=-0.3224248965702036
-- **CHANGE_POINT** `thermal_base` value=1.201e+04 d1=0.0 d12=-1327.0 z=-0.3151687070250133
-- **CHANGE_POINT** `ps_gen` value=228 d1=0.0 d12=-319.0 z=-0.25677625871313675
-- **PERSISTENT_UP** `margin` value=3.441e+04 d1=0.0 d12=461.0 z=1.134142024074074
-- **PERSISTENT_DOWN** `biomass_gen` value=3204 d1=0.0 d12=-18.0 z=-0.8493574629629629
-- **PERSISTENT_UP** `nuclear_gen` value=3312 d1=0.0 d12=1.0 z=0.8190232678571429
-- **ACCELERATION** `nuclear_gen` value=3312 d1=0.0 d12=1.0 z=0.8190232678571429
-- **PERSISTENT_DOWN** `interconnector_net` value=5603 d1=0.0 d12=-493.0 z=-0.6357458902550926
-- **PERSISTENT_DOWN** `ccgt_gen` value=8698 d1=0.0 d12=-1328.0 z=-0.3224248965702036
-- **PERSISTENT_DOWN** `thermal_base` value=1.201e+04 d1=0.0 d12=-1327.0 z=-0.3151687070250133
+- **CHANGE_POINT** `wind_gen` value=1.012e+04 d1=112.0 d12=1063.0 z=2.672908312906221
+- **PERSISTENT_UP** `wind_gen` value=1.012e+04 d1=112.0 d12=1063.0 z=2.672908312906221
+- **CHANGE_POINT** `ccgt_gen` value=8624 d1=-74.0 d12=-1428.0 z=-0.37713405376344084
+- **CHANGE_POINT** `thermal_base` value=1.194e+04 d1=-75.0 d12=-1423.0 z=-0.36999757897545354
+- **CHANGE_POINT** `ps_gen` value=228 d1=0.0 d12=-143.0 z=-0.25677625871313675
+- **PERSISTENT_DOWN** `interconnector_net` value=5284 d1=-319.0 d12=-685.0 z=-0.7361816709948443
+- **ACCELERATION** `interconnector_net` value=5284 d1=-319.0 d12=-685.0 z=-0.7361816709948443
+- **REVERSAL** `nuclear_gen` value=3311 d1=-1.0 d12=5.0 z=0.67448975
+- **PERSISTENT_DOWN** `ccgt_gen` value=8624 d1=-74.0 d12=-1428.0 z=-0.37713405376344084
+- **PERSISTENT_DOWN** `thermal_base` value=1.194e+04 d1=-75.0 d12=-1423.0 z=-0.36999757897545354
 - **PERSISTENT_UP** `ind_demand` value=-1.176e+04 d1=0.0 d12=5.0 z=None
-- **ACCELERATION** `ind_demand` value=-1.176e+04 d1=0.0 d12=5.0 z=None
 
 ## Nearest historical live analogues
 
