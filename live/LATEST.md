@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-16T00:36:15.839945Z`  
-Current process started UTC: `2026-09-16T00:32:16.231891Z`  
-1-second metadata polls in this process: **238**  
+Last heartbeat UTC: `2026-09-16T00:40:24.941128Z`  
+Current process started UTC: `2026-09-16T00:36:24.923893Z`  
+1-second metadata polls in this process: **239**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -16,6 +16,8 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest statistically unusual observations
 
+- **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-5.94 -> frequency excursion; balancing stress check
+- **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-6.07 -> frequency excursion; balancing stress check
 - **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-6.22 -> frequency excursion; balancing stress check
 - **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-6.37 -> frequency excursion; balancing stress check
 - **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-6.54 -> frequency excursion; balancing stress check
@@ -29,19 +31,17 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-8.64 -> frequency excursion; balancing stress check
 - **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-9.07 -> frequency excursion; balancing stress check
 - **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-9.58 -> frequency excursion; balancing stress check
-- **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-10.18 -> frequency excursion; balancing stress check
-- **FREQ** `TOTAL` `frequency` — system frequency [TOTAL] frequency: value=49.972, delta=0, z=-10.91 -> frequency excursion; balancing stress check
 
 ## Latest market values
 
-- `FUELINST|fuelType=INTVKL|generation` = **65** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=NPSHYD|generation` = **397** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=NUCLEAR|generation` = **3330** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=OCGT|generation` = **0** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=OIL|generation` = **0** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=OTHER|generation` = **149** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=PS|generation` = **91** (n=332, 2026-09-16T00:35:48.567057Z)
-- `FUELINST|fuelType=WIND|generation` = **10958** (n=332, 2026-09-16T00:35:48.567057Z)
+- `FUELINST|fuelType=INTVKL|generation` = **65** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=NPSHYD|generation` = **397** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=NUCLEAR|generation` = **3331** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=OCGT|generation` = **0** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=OTHER|generation` = **234** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=PS|generation` = **104** (n=333, 2026-09-16T00:40:23.613072Z)
+- `FUELINST|fuelType=WIND|generation` = **11015** (n=333, 2026-09-16T00:40:23.613072Z)
 - `IMBALNGC|TOTAL|imbalance` = **6035** (n=55, 2026-09-16T00:20:47.111437Z)
 - `INDDEM|TOTAL|demand` = **-12095** (n=55, 2026-09-16T00:20:30.888031Z)
 - `INDGEN|TOTAL|generation` = **25156** (n=55, 2026-09-16T00:20:30.888031Z)
@@ -52,6 +52,10 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-16T00:40:23.613072Z` — **FUELINST**: 80 rows; marker `2026-09-16T00:40:00Z`
+- `2026-09-16T00:40:08.170756Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:39:45Z`
+- `2026-09-16T00:38:16.161996Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:37:45Z`
+- `2026-09-16T00:36:24.923901Z` — **MID**: 0 rows; marker `2026-09-16T00:35:00Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
 - `2026-09-16T00:36:04.852429Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:35:45Z`
 - `2026-09-16T00:35:48.567057Z` — **FUELINST**: 80 rows; marker `2026-09-16T00:35:00Z`
 - `2026-09-16T00:34:13.002185Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:33:45Z`
@@ -63,7 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-16T00:26:21.604027Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:25:45Z`
 - `2026-09-16T00:25:33.418480Z` — **FUELINST**: 80 rows; marker `2026-09-16T00:25:00Z`
 - `2026-09-16T00:24:29.684145Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:23:45Z`
-- `2026-09-16T00:22:22.489970Z` — **FREQ**: 5761 rows; marker `2026-09-16T00:21:45Z`
-- `2026-09-16T00:20:47.111437Z` — **IMBALNGC**: 990 rows; marker `2026-09-16T00:17:00Z`
-- `2026-09-16T00:20:30.888031Z` — **INDGEN**: 990 rows; marker `2026-09-16T00:17:00Z`
-- `2026-09-16T00:20:30.888031Z` — **INDDEM**: 990 rows; marker `2026-09-16T00:17:00Z`
