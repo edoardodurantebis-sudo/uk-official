@@ -1,26 +1,6 @@
 {
   "alerts": [
     {
-      "dataset": "TSDF",
-      "delta": 0.0,
-      "field": "demand",
-      "interpretation": "transmission-demand forecast [TOTAL] demand: value=19104, delta=0, z=-3.76 -> demand pressure easing",
-      "series": "TOTAL",
-      "ts": "2026-09-15T11:18:07.421422Z",
-      "value": 19104.0,
-      "z": -3.757286956996771
-    },
-    {
-      "dataset": "INDDEM",
-      "delta": 0.0,
-      "field": "demand",
-      "interpretation": "indicated demand [TOTAL] demand: value=-11901, delta=0, z=3.83 -> demand pressure easing",
-      "series": "TOTAL",
-      "ts": "2026-09-15T11:23:49.076924Z",
-      "value": -11901.0,
-      "z": 3.8291498833717594
-    },
-    {
       "dataset": "INDGEN",
       "delta": -24.0,
       "field": "generation",
@@ -599,27 +579,29 @@
       "ts": "2026-09-16T00:06:20.237665Z",
       "value": 49.972,
       "z": -11.820131859318423
+    },
+    {
+      "dataset": "FREQ",
+      "delta": 0.0,
+      "field": "frequency",
+      "interpretation": "system frequency [TOTAL] frequency: value=49.972, delta=0, z=-10.91 -> frequency excursion; balancing stress check",
+      "series": "TOTAL",
+      "ts": "2026-09-16T00:08:11.474521Z",
+      "value": 49.972,
+      "z": -10.907386666538061
+    },
+    {
+      "dataset": "FREQ",
+      "delta": 0.0,
+      "field": "frequency",
+      "interpretation": "system frequency [TOTAL] frequency: value=49.972, delta=0, z=-10.18 -> frequency excursion; balancing stress check",
+      "series": "TOTAL",
+      "ts": "2026-09-16T00:10:19.327177Z",
+      "value": 49.972,
+      "z": -10.177937713608044
     }
   ],
   "events": [
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-15T23:07:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T23:08:21.113238Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-15T23:09:45Z",
-      "rows": 5761,
-      "ts": "2026-09-15T23:10:13.588575Z"
-    },
-    {
-      "dataset": "FUELINST",
-      "marker": "2026-09-15T23:10:00Z",
-      "rows": 80,
-      "ts": "2026-09-15T23:10:29.671078Z"
-    },
     {
       "dataset": "FREQ",
       "marker": "2026-09-15T23:11:45Z",
@@ -964,17 +946,36 @@
       "marker": "2026-09-16T00:05:45Z",
       "rows": 5761,
       "ts": "2026-09-16T00:06:20.237665Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 404: Resource Not Found",
+      "marker": "2026-09-16T00:05:00Z",
+      "rows": 0,
+      "ts": "2026-09-16T00:06:35.753095Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-16T00:07:45Z",
+      "rows": 5761,
+      "ts": "2026-09-16T00:08:11.474521Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-16T00:09:45Z",
+      "rows": 5761,
+      "ts": "2026-09-16T00:10:19.327177Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-15T00:57:07.521981Z"
   },
-  "last_heartbeat": "2026-09-16T00:06:21.657987Z",
+  "last_heartbeat": "2026-09-16T00:10:30.729446Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 809,
-      "ts": "2026-09-16T00:06:20.237665Z",
+      "n": 811,
+      "ts": "2026-09-16T00:10:19.327177Z",
       "value": 49.972
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1214,25 +1215,25 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-16T00:05:45Z",
+    "FREQ": "2026-09-16T00:09:45Z",
     "FUELHH": "2026-09-16T00:00:00Z",
     "FUELINST": "2026-09-16T00:05:00Z",
     "IMBALNGC": "2026-09-15T23:47:00Z",
     "INDDEM": "2026-09-15T23:47:00Z",
     "INDGEN": "2026-09-15T23:47:00Z",
     "MELNGC": "2026-09-15T23:47:00Z",
-    "MID": "2026-09-15T23:42:02Z",
+    "MID": "2026-09-16T00:05:00Z",
     "NDF": "2026-09-15T23:47:00Z",
     "TSDF": "2026-09-15T23:47:00Z",
     "WINDFOR": "2026-09-15T23:30:00Z"
   },
   "stats": {
     "FREQ|TOTAL|frequency": {
-      "ewma": 50.020128000000014,
+      "ewma": 50.00280192000001,
       "last": 49.972,
-      "m2": 0.08690184425220918,
-      "mean": 50.08511742892458,
-      "n": 809
+      "m2": 0.11242983970410891,
+      "mean": 50.08483847102342,
+      "n": 811
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 3190.737267910401,
