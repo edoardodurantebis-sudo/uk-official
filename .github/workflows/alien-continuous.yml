@@ -33,6 +33,7 @@ jobs:
 
       - name: Compile and self-test
         run: |
+          set -euo pipefail
           python -m py_compile GB_ALIEN_CONTINUOUS.py GB_ALIEN_BRAIN_ORCHESTRATOR.py
           python GB_ALIEN_CONTINUOUS.py --self-test
 
@@ -43,7 +44,9 @@ jobs:
         run: python GB_ALIEN_BRAIN_ORCHESTRATOR.py
 
       - name: Health gate
+        shell: bash
         run: |
+          set -euo pipefail
           test -s live/LATEST.md
           test -s live/state.json
           test -s live/market_memory.jsonl
@@ -51,9 +54,22 @@ jobs:
           test -s live/brain/LATEST.md
           grep -q 'GB_ALIEN_CONTINUOUS_V1.1.0' live/LATEST.md
           grep -q 'GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0' live/brain/LATEST.md
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          state=json.loads(Path('live/state.json').read_text())
+          brain=json.loads(Path('live/brain/LATEST.json').read_text())
+          if not state:
+              raise SystemExit('EMPTY_LIVE_STATE')
+          if not brain:
+              raise SystemExit('EMPTY_BRAIN_STATE')
+          print('LIVE_STATE_CERTIFIED')
+          PY
 
       - name: Persist live state safely
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name 'gb-alien-live-bot'
           git config user.email 'gb-alien-live-bot@users.noreply.github.com'
           git add live/LATEST.md live/state.json live/brain/LATEST.json live/brain/LATEST.md
@@ -65,20 +81,28 @@ jobs:
           git commit -m 'alien-live: update public market state [skip ci]'
           for attempt in 1 2 3 4 5; do
             if git push origin HEAD:main; then
+              echo "LIVE_STATE_PUSH_OK attempt=${attempt}"
               exit 0
             fi
-            git pull --rebase origin main || true
-            sleep 2
+            echo "LIVE_STATE_PUSH_RACE attempt=${attempt}"
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo 'LIVE_STATE_REBASE_FAILED'
+              exit 1
+            fi
+            sleep $((attempt * 2))
           done
-          echo 'STATE_PUSH_DEFERRED_TO_NEXT_CYCLE'
-          exit 0
+          echo 'LIVE_STATE_PERSISTENCE_FAILED'
+          exit 1
 
       - name: Chain next healthy cycle
         if: ${{ success() }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          curl -fsS -X POST \
+          set -euo pipefail
+          curl --retry 3 --retry-all-errors --connect-timeout 10 --max-time 30 -fsS -X POST \
             -H "Authorization: Bearer ${GH_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
