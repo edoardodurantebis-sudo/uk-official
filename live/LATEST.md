@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-16T03:16:12.457503Z`  
-Current process started UTC: `2026-09-16T03:12:12.716845Z`  
-1-second metadata polls in this process: **238**  
+Last heartbeat UTC: `2026-09-16T03:20:25.024501Z`  
+Current process started UTC: `2026-09-16T03:16:25.193159Z`  
+1-second metadata polls in this process: **232**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -45,13 +45,18 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `IMBALNGC|TOTAL|imbalance` = **6027** (n=60, 2026-09-16T02:51:02.679902Z)
 - `INDDEM|TOTAL|demand` = **-12206** (n=60, 2026-09-16T02:51:18.772442Z)
 - `INDGEN|TOTAL|generation` = **25148** (n=60, 2026-09-16T02:51:02.679902Z)
-- `MELNGC|TOTAL|margin` = **37540** (n=60, 2026-09-16T02:48:55.534436Z)
-- `NDF|TOTAL|demand` = **18621** (n=61, 2026-09-16T02:47:20.255278Z)
-- `TSDF|TOTAL|demand` = **19121** (n=61, 2026-09-16T02:47:20.255278Z)
+- `MELNGC|TOTAL|margin` = **37540** (n=61, 2026-09-16T03:19:06.803098Z)
+- `NDF|TOTAL|demand` = **18621** (n=62, 2026-09-16T03:17:30.975101Z)
+- `TSDF|TOTAL|demand` = **19121** (n=62, 2026-09-16T03:17:30.975101Z)
 - `WINDFOR|TOTAL|generation` = **18072** (n=9, 2026-09-15T23:30:40.401005Z)
 
 ## Latest publication events
 
+- `2026-09-16T03:19:06.803098Z` — **MELNGC**: 882 rows; marker `2026-09-16T03:17:00Z`
+- `2026-09-16T03:18:18.375299Z` — **FREQ**: 5761 rows; marker `2026-09-16T03:17:45Z`
+- `2026-09-16T03:17:30.975101Z` — **TSDF**: 882 rows; marker `2026-09-16T03:17:00Z`
+- `2026-09-16T03:17:30.975101Z` — **NDF**: 49 rows; marker `2026-09-16T03:17:00Z`
+- `2026-09-16T03:16:25.193165Z` — **FREQ**: 5761 rows; marker `2026-09-16T03:15:45Z`
 - `2026-09-16T03:15:29.833137Z` — **FUELINST**: 80 rows; marker `2026-09-16T03:15:00Z`
 - `2026-09-16T03:14:26.142941Z` — **FREQ**: 5761 rows; marker `2026-09-16T03:13:45Z`
 - `2026-09-16T03:12:17.717549Z` — **MID**: 0 rows; marker `2026-09-16T03:12:04Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
@@ -62,8 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-16T03:07:31.496976Z` — **MID**: 0 rows; marker `2026-09-16T03:05:00Z`; ERROR=RuntimeError: MID: HTTP Error 404: Resource Not Found
 - `2026-09-16T03:06:12.048910Z` — **FREQ**: 5761 rows; marker `2026-09-16T03:05:45Z`
 - `2026-09-16T03:05:40.438710Z` — **FUELINST**: 80 rows; marker `2026-09-16T03:05:00Z`
-- `2026-09-16T03:04:20.223629Z` — **FREQ**: 5761 rows; marker `2026-09-16T03:03:45Z`
-- `2026-09-16T03:02:20.251013Z` — **FREQ**: 5761 rows; marker `2026-09-16T03:01:45Z`
-- `2026-09-16T03:00:28.332889Z` — **FUELHH**: 20 rows; marker `2026-09-16T03:00:00Z`
-- `2026-09-16T03:00:28.332889Z` — **FUELINST**: 80 rows; marker `2026-09-16T03:00:00Z`
-- `2026-09-16T03:00:12.881127Z` — **FREQ**: 5761 rows; marker `2026-09-16T02:59:45Z`
