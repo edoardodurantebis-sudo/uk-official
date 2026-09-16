@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-16T20:20:57.829600Z`  
-Current process started UTC: `2026-09-16T20:16:57.733511Z`  
-1-second metadata polls in this process: **236**  
+Last heartbeat UTC: `2026-09-16T20:25:09.376903Z`  
+Current process started UTC: `2026-09-16T20:21:09.148458Z`  
+1-second metadata polls in this process: **238**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -42,9 +42,9 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `FUELINST|fuelType=OTHER|generation` = **565** (n=569, 2026-09-16T20:20:25.526434Z)
 - `FUELINST|fuelType=PS|generation` = **226** (n=569, 2026-09-16T20:20:25.526434Z)
 - `FUELINST|fuelType=WIND|generation` = **10131** (n=569, 2026-09-16T20:20:25.526434Z)
-- `IMBALNGC|TOTAL|imbalance` = **6640** (n=93, 2026-09-16T19:52:04.923339Z)
-- `INDDEM|TOTAL|demand` = **-11763** (n=93, 2026-09-16T19:51:48.845809Z)
-- `INDGEN|TOTAL|generation` = **25761** (n=93, 2026-09-16T19:51:48.845809Z)
+- `IMBALNGC|TOTAL|imbalance` = **6645** (n=94, 2026-09-16T20:21:45.013247Z)
+- `INDDEM|TOTAL|demand` = **-11763** (n=94, 2026-09-16T20:21:29.151296Z)
+- `INDGEN|TOTAL|generation` = **25766** (n=94, 2026-09-16T20:21:29.151296Z)
 - `MELNGC|TOTAL|margin` = **34353** (n=94, 2026-09-16T20:19:37.893919Z)
 - `NDF|TOTAL|demand` = **18621** (n=96, 2026-09-16T20:17:45.795333Z)
 - `TSDF|TOTAL|demand` = **19121** (n=96, 2026-09-16T20:17:45.795333Z)
@@ -52,6 +52,11 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-16T20:24:24.202404Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:23:45Z`
+- `2026-09-16T20:22:16.244171Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:21:45Z`
+- `2026-09-16T20:21:45.013247Z` — **IMBALNGC**: 1134 rows; marker `2026-09-16T20:17:00Z`
+- `2026-09-16T20:21:29.151296Z` — **INDGEN**: 1134 rows; marker `2026-09-16T20:17:00Z`
+- `2026-09-16T20:21:29.151296Z` — **INDDEM**: 1134 rows; marker `2026-09-16T20:17:00Z`
 - `2026-09-16T20:20:25.526434Z` — **FUELINST**: 80 rows; marker `2026-09-16T20:20:00Z`
 - `2026-09-16T20:20:25.526434Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:19:45Z`
 - `2026-09-16T20:19:37.893919Z` — **MELNGC**: 1134 rows; marker `2026-09-16T20:17:00Z`
@@ -62,8 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-16T20:15:26.329200Z` — **FUELINST**: 80 rows; marker `2026-09-16T20:15:00Z`
 - `2026-09-16T20:14:21.961354Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:13:45Z`
 - `2026-09-16T20:12:20.994012Z` — **MID**: 0 rows; marker `2026-09-16T20:12:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-16T20:12:20.994012Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:11:45Z`
-- `2026-09-16T20:10:28.741211Z` — **FUELINST**: 80 rows; marker `2026-09-16T20:10:00Z`
-- `2026-09-16T20:10:12.534392Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:09:45Z`
-- `2026-09-16T20:08:20.183721Z` — **FREQ**: 5761 rows; marker `2026-09-16T20:07:45Z`
-- `2026-09-16T20:06:28.289834Z` — **MID**: 0 rows; marker `2026-09-16T20:05:00Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
