@@ -352,7 +352,9 @@ def one_poll(state: dict, watched: list[str], now: datetime) -> tuple[int, list[
         marker = meta.get(ds)
         if not marker:
             continue
-        old = prev.get(ds); prev[ds] = marker
+        old = prev.get(ds)
+        if fresh:
+            prev[ds] = marker
         if not fresh and marker != old:
             changed.append(ds)
     if fresh:
@@ -362,9 +364,12 @@ def one_poll(state: dict, watched: list[str], now: datetime) -> tuple[int, list[
         try:
             rows = fetch_dataset(ds, now - timedelta(minutes=20), now + timedelta(minutes=2))
             fetched += len(rows); new_alerts.extend(process_rows(state, ds, rows, now))
+            # A failed fetch must remain pending on the next poll, including
+            # after process restart from persisted state.
+            prev[ds] = meta[ds]
             state["events"].append({"ts": iso(now), "dataset": ds, "rows": len(rows), "marker": prev[ds]})
         except Exception as exc:
-            state["events"].append({"ts": iso(now), "dataset": ds, "rows": 0, "marker": prev[ds], "error": f"{type(exc).__name__}: {exc}"})
+            state["events"].append({"ts": iso(now), "dataset": ds, "rows": 0, "marker": meta[ds], "error": f"{type(exc).__name__}: {exc}"})
     state["events"] = state["events"][-MAX_ALERTS:]
     state["alerts"].extend(new_alerts); state["alerts"] = state["alerts"][-MAX_ALERTS:]
     return fetched, changed
