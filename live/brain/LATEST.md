@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T11:26:42.205221Z`  
-Memory snapshots: **844**  
+Heartbeat: `2026-09-17T11:30:53.466881Z`  
+Memory snapshots: **845**  
 Current physical regime: **LOOSE**
 
 Regime read: residual low, margin high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `ind_generation` value=2.852e+04 d1=-19.0 d12=1967.0 z=34.078594618749996
-- **REVERSAL** `ind_generation` value=2.852e+04 d1=-19.0 d12=1967.0 z=34.078594618749996
-- **ROBUST_OUTLIER** `ind_generation` value=2.852e+04 d1=-19.0 d12=1967.0 z=34.078594618749996
-- **CHANGE_POINT** `imbalance` value=1.198e+04 d1=35.0 d12=5286.0 z=28.88042475
-- **PERSISTENT_UP** `imbalance` value=1.198e+04 d1=35.0 d12=5286.0 z=28.88042475
-- **ROBUST_OUTLIER** `imbalance` value=1.198e+04 d1=35.0 d12=5286.0 z=28.88042475
+- **CHANGE_POINT** `ind_generation` value=2.852e+04 d1=0.0 d12=1967.0 z=34.078594618749996
+- **ROBUST_OUTLIER** `ind_generation` value=2.852e+04 d1=0.0 d12=1967.0 z=34.078594618749996
+- **CHANGE_POINT** `imbalance` value=1.198e+04 d1=0.0 d12=5286.0 z=28.88042475
+- **PERSISTENT_UP** `imbalance` value=1.198e+04 d1=0.0 d12=5286.0 z=28.88042475
+- **ROBUST_OUTLIER** `imbalance` value=1.198e+04 d1=0.0 d12=5286.0 z=28.88042475
 - **PERSISTENT_DOWN** `ts_demand_forecast` value=1.654e+04 d1=0.0 d12=-3319.0 z=-15.120300656521739
 - **ROBUST_OUTLIER** `ts_demand_forecast` value=1.654e+04 d1=0.0 d12=-3319.0 z=-15.120300656521739
 - **ROBUST_OUTLIER** `wind_forecast` value=1.903e+04 d1=0.0 d12=0.0 z=-15.041121425
-- **PERSISTENT_DOWN** `residual_proxy` value=-2989 d1=0.0 d12=-2213.0 z=-6.693478998878923
-- **ROBUST_OUTLIER** `residual_proxy` value=-2989 d1=0.0 d12=-2213.0 z=-6.693478998878923
 - **CHANGE_POINT** `margin` value=3.709e+04 d1=0.0 d12=2651.0 z=4.528716892857143
+- **PERSISTENT_DOWN** `residual_proxy` value=-2989 d1=0.0 d12=-2213.0 z=-5.821109690451745
+- **ROBUST_OUTLIER** `residual_proxy` value=-2989 d1=0.0 d12=-2213.0 z=-5.821109690451745
 - **PERSISTENT_UP** `margin` value=3.709e+04 d1=0.0 d12=2651.0 z=4.528716892857143
 - **ROBUST_OUTLIER** `margin` value=3.709e+04 d1=0.0 d12=2651.0 z=4.528716892857143
 - **PERSISTENT_DOWN** `demand_forecast` value=1.604e+04 d1=0.0 d12=-2213.0 z=-4.089440593835617
+- **ROBUST_OUTLIER** `demand_forecast` value=1.604e+04 d1=0.0 d12=-2213.0 z=-4.089440593835617
 
 ## Nearest historical live analogues
 
