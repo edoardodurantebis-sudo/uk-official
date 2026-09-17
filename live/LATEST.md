@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-17T21:50:14.922434Z`  
-Current process started UTC: `2026-09-17T21:46:13.422825Z`  
-1-second metadata polls in this process: **140**  
+Last heartbeat UTC: `2026-09-17T21:54:26.144766Z`  
+Current process started UTC: `2026-09-17T21:50:25.391675Z`  
+1-second metadata polls in this process: **222**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -34,36 +34,36 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest market values
 
-- `FUELINST|fuelType=INTVKL|generation` = **424** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=NPSHYD|generation` = **493** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=NUCLEAR|generation` = **3316** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=OCGT|generation` = **0** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=OIL|generation` = **0** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=OTHER|generation` = **1025** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=PS|generation` = **52** (n=843, 2026-09-17T21:45:45.476341Z)
-- `FUELINST|fuelType=WIND|generation` = **14646** (n=843, 2026-09-17T21:45:45.476341Z)
-- `IMBALNGC|TOTAL|imbalance` = **9702** (n=139, 2026-09-17T21:23:13.923147Z)
-- `INDDEM|TOTAL|demand` = **-11159** (n=139, 2026-09-17T21:23:13.923147Z)
-- `INDGEN|TOTAL|generation` = **26516** (n=139, 2026-09-17T21:23:13.923147Z)
-- `MELNGC|TOTAL|margin` = **36445** (n=139, 2026-09-17T21:20:23.938551Z)
+- `FUELINST|fuelType=INTVKL|generation` = **424** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=NPSHYD|generation` = **494** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=NUCLEAR|generation` = **3316** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=OCGT|generation` = **0** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=OTHER|generation` = **1295** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=PS|generation` = **-140** (n=844, 2026-09-17T21:50:41.934189Z)
+- `FUELINST|fuelType=WIND|generation` = **14712** (n=844, 2026-09-17T21:50:41.934189Z)
+- `IMBALNGC|TOTAL|imbalance` = **9718** (n=140, 2026-09-17T21:53:57.621849Z)
+- `INDDEM|TOTAL|demand` = **-11160** (n=140, 2026-09-17T21:53:57.621849Z)
+- `INDGEN|TOTAL|generation` = **26532** (n=140, 2026-09-17T21:53:57.621849Z)
+- `MELNGC|TOTAL|margin` = **36444** (n=140, 2026-09-17T21:52:01.830500Z)
 - `NDF|TOTAL|demand` = **16314** (n=143, 2026-09-17T21:48:44.127229Z)
 - `TSDF|TOTAL|demand` = **16814** (n=143, 2026-09-17T21:48:44.127229Z)
 - `WINDFOR|TOTAL|generation` = **18713** (n=24, 2026-09-17T19:30:38.284217Z)
 
 ## Latest publication events
 
-- `2026-09-17T21:50:13.264684Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:50:11.729458Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:50:10.153562Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:50:06.402977Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:50:04.816914Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:50:03.111113Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:50:01.585802Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:59.859806Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:58.303344Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:56.780764Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:55.266617Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:53.622603Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:52.076479Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:50.041939Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T21:49:48.491483Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:25.162205Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:24.162111Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:23.162023Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:22.161896Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:21.161822Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:20.161690Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:19.137826Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:18.137732Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:17.136448Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:16.136308Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:15.136172Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:12.965463Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:12.965463Z` — **FREQ**: 5761 rows; marker `2026-09-17T21:53:45Z`
+- `2026-09-17T21:54:11.965364Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
+- `2026-09-17T21:54:10.965232Z` — **MID**: 0 rows; marker `2026-09-17T21:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
