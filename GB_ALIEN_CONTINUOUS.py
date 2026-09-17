@@ -414,6 +414,7 @@ def main() -> int:
         cycle = time.monotonic()
         try:
             _, changed = one_poll(state, watched, utcnow())
+            state["last_successful_metadata_poll"] = iso(utcnow())
             if changed:
                 print(f"{iso(utcnow())} changed={','.join(changed)}", flush=True)
         except Exception as exc:
@@ -425,7 +426,9 @@ def main() -> int:
         if delay:
             time.sleep(delay)
     print(json.dumps({"version": VERSION, "polls": polls, "errors": errors, "alerts": len(state.get("alerts", []))}))
-    return 0
+    # Heartbeats alone are not evidence that Elexon was reachable. Let the
+    # existing bounded watchdog recover an entirely failed observation cycle.
+    return 0 if polls > errors else 1
 
 
 if __name__ == "__main__":

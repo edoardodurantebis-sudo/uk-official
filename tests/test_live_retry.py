@@ -1,5 +1,7 @@
 import json
 import unittest
+import tempfile
+from pathlib import Path
 from unittest.mock import patch
 from datetime import datetime, timezone
 
@@ -41,6 +43,25 @@ class PublicationRetryTests(unittest.TestCase):
         with patch.object(live, "http_json", return_value=meta), patch.object(live, "fetch_dataset", side_effect=fetch):
             live.one_poll(state, ["WINDFOR", "NDF"], datetime.now(timezone.utc))
         self.assertEqual(state["metadata"], {"WINDFOR": "old", "NDF": "new"})
+
+    def run_cycle(self, outcomes, times):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            args = ["observer", "--duration-seconds", "1", "--poll-seconds", "0", "--state", str(root / "state.json"), "--status", str(root / "status.md")]
+            with patch.object(live.sys, "argv", args), patch.object(live.time, "monotonic", side_effect=times), patch.object(live, "one_poll", side_effect=outcomes):
+                code = live.main()
+            return code, json.loads((root / "state.json").read_text())
+
+    def test_heartbeat_does_not_make_total_metadata_outage_healthy(self):
+        code, state = self.run_cycle([TimeoutError("simulated")], [0, 0, 0, .1, 2])
+        self.assertEqual(code, 1)
+        self.assertIn("last_heartbeat", state)
+        self.assertNotIn("last_successful_metadata_poll", state)
+
+    def test_transient_metadata_failure_recovers_within_cycle(self):
+        code, state = self.run_cycle([TimeoutError("simulated"), (0, [])], [0, 0, 0, .1, .2, .2, .3, 2])
+        self.assertEqual(code, 0)
+        self.assertIn("last_successful_metadata_poll", state)
 
 
 if __name__ == "__main__":
