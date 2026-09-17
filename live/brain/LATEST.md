@@ -1,27 +1,24 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T19:06:26.402438Z`  
-Memory snapshots: **953**  
+Heartbeat: `2026-09-17T19:10:36.600451Z`  
+Memory snapshots: **954**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
 - **CHANGE_POINT** `ind_generation` value=2.652e+04 d1=0.0 d12=29.0 z=-94.18767580357142
-- **PERSISTENT_UP** `ind_generation` value=2.652e+04 d1=0.0 d12=29.0 z=-94.18767580357142
 - **ROBUST_OUTLIER** `ind_generation` value=2.652e+04 d1=0.0 d12=29.0 z=-94.18767580357142
-- **PERSISTENT_UP** `ind_demand` value=-1.116e+04 d1=0.0 d12=123.0 z=26.97959
 - **ROBUST_OUTLIER** `ind_demand` value=-1.116e+04 d1=0.0 d12=123.0 z=26.97959
 - **CHANGE_POINT** `imbalance` value=9701 d1=0.0 d12=29.0 z=-4.692624417259786
-- **PERSISTENT_UP** `imbalance` value=9701 d1=0.0 d12=29.0 z=-4.692624417259786
 - **ROBUST_OUTLIER** `imbalance` value=9701 d1=0.0 d12=29.0 z=-4.692624417259786
-- **CHANGE_POINT** `interconnector_net` value=-507 d1=1.0 d12=-687.0 z=-1.683219966314031
-- **REVERSAL** `nuclear_gen` value=3326 d1=2.0 d12=-1.0 z=2.1583672
-- **REVERSAL** `ccgt_gen` value=6853 d1=-54.0 d12=88.0 z=1.9953429733360064
-- **ACCELERATION** `ccgt_gen` value=6853 d1=-54.0 d12=88.0 z=1.9953429733360064
-- **REVERSAL** `thermal_base` value=1.018e+04 d1=-52.0 d12=87.0 z=1.9891140219856744
-- **ACCELERATION** `thermal_base` value=1.018e+04 d1=-52.0 d12=87.0 z=1.9891140219856744
-- **REVERSAL** `interconnector_net` value=-507 d1=1.0 d12=-687.0 z=-1.683219966314031
+- **ACCELERATION** `nuclear_gen` value=3325 d1=-1.0 d12=-2.0 z=1.8395175000000001
+- **PERSISTENT_DOWN** `thermal_base` value=1.002e+04 d1=-154.0 d12=-67.0 z=1.8205231259173424
+- **ACCELERATION** `thermal_base` value=1.002e+04 d1=-154.0 d12=-67.0 z=1.8205231259173424
+- **PERSISTENT_DOWN** `ccgt_gen` value=6700 d1=-153.0 d12=-65.0 z=1.8176218747095276
+- **ACCELERATION** `ccgt_gen` value=6700 d1=-153.0 d12=-65.0 z=1.8176218747095276
+- **REVERSAL** `interconnector_net` value=-462 d1=45.0 d12=-642.0 z=-1.6156207708797328
+- **REVERSAL** `biomass_gen` value=2988 d1=-33.0 d12=144.0 z=0.5474608470833333
 
 ## Nearest historical live analogues
 
