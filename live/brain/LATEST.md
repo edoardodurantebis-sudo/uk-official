@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T12:29:46.291799Z`  
-Memory snapshots: **859**  
+Heartbeat: `2026-09-17T12:33:59.762276Z`  
+Memory snapshots: **860**  
 Current physical regime: **LOOSE**
 
-Regime read: residual low, margin high.
+Regime read: residual low, margin high, wind falling.
 
 ## Active patterns
 
 - **CHANGE_POINT** `ind_generation` value=2.848e+04 d1=0.0 d12=-38.0 z=27.45735357291667
 - **PERSISTENT_DOWN** `ind_generation` value=2.848e+04 d1=0.0 d12=-38.0 z=27.45735357291667
-- **ACCELERATION** `ind_generation` value=2.848e+04 d1=0.0 d12=-38.0 z=27.45735357291667
 - **ROBUST_OUTLIER** `ind_generation` value=2.848e+04 d1=0.0 d12=-38.0 z=27.45735357291667
 - **CHANGE_POINT** `imbalance` value=1.194e+04 d1=0.0 d12=-38.0 z=16.59533336764706
+- **PERSISTENT_DOWN** `wind_forecast` value=1.898e+04 d1=-47.0 d12=-47.0 z=-18.21122325
+- **ACCELERATION** `wind_forecast` value=1.898e+04 d1=-47.0 d12=-47.0 z=-18.21122325
+- **ROBUST_OUTLIER** `wind_forecast` value=1.898e+04 d1=-47.0 d12=-47.0 z=-18.21122325
 - **PERSISTENT_DOWN** `imbalance` value=1.194e+04 d1=0.0 d12=-38.0 z=16.59533336764706
-- **ACCELERATION** `imbalance` value=1.194e+04 d1=0.0 d12=-38.0 z=16.59533336764706
 - **ROBUST_OUTLIER** `imbalance` value=1.194e+04 d1=0.0 d12=-38.0 z=16.59533336764706
-- **ROBUST_OUTLIER** `wind_forecast` value=1.903e+04 d1=0.0 d12=0.0 z=-15.041121425
 - **CHANGE_POINT** `demand_forecast` value=1.604e+04 d1=0.0 d12=0.0 z=-4.089440593835617
-- **CHANGE_POINT** `residual_proxy` value=-2989 d1=0.0 d12=0.0 z=-3.7809425422535208
+- **CHANGE_POINT** `residual_proxy` value=-2942 d1=47.0 d12=47.0 z=-3.6916438992957747
 - **CHANGE_POINT** `ts_demand_forecast` value=1.654e+04 d1=0.0 d12=0.0 z=-2.3466053650472336
 - **ROBUST_OUTLIER** `demand_forecast` value=1.604e+04 d1=0.0 d12=0.0 z=-4.089440593835617
-- **CHANGE_POINT** `wind_gen` value=1.415e+04 d1=0.0 d12=-981.0 z=-1.9864283058748404
-- **ROBUST_OUTLIER** `residual_proxy` value=-2989 d1=0.0 d12=0.0 z=-3.7809425422535208
+- **PERSISTENT_UP** `residual_proxy` value=-2942 d1=47.0 d12=47.0 z=-3.6916438992957747
+- **ACCELERATION** `residual_proxy` value=-2942 d1=47.0 d12=47.0 z=-3.6916438992957747
 
 ## Nearest historical live analogues
 
