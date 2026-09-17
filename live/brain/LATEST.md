@@ -1,16 +1,16 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T11:14:08.992825Z`  
-Memory snapshots: **841**  
+Heartbeat: `2026-09-17T11:18:19.775123Z`  
+Memory snapshots: **842**  
 Current physical regime: **LOOSE**
 
 Regime read: residual low, margin high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `ind_generation` value=2.854e+04 d1=0.0 d12=1986.0 z=33.31004199096385
-- **ROBUST_OUTLIER** `ind_generation` value=2.854e+04 d1=0.0 d12=1986.0 z=33.31004199096385
+- **CHANGE_POINT** `ind_generation` value=2.854e+04 d1=0.0 d12=1986.0 z=34.39897725
+- **ROBUST_OUTLIER** `ind_generation` value=2.854e+04 d1=0.0 d12=1986.0 z=34.39897725
 - **CHANGE_POINT** `imbalance` value=1.194e+04 d1=0.0 d12=5251.0 z=29.77299566273585
 - **ROBUST_OUTLIER** `imbalance` value=1.194e+04 d1=0.0 d12=5251.0 z=29.77299566273585
 - **ROBUST_OUTLIER** `wind_forecast` value=1.903e+04 d1=0.0 d12=-223.0 z=-15.041121425
@@ -20,10 +20,10 @@ Regime read: residual low, margin high.
 - **ROBUST_OUTLIER** `demand_forecast` value=1.61e+04 d1=0.0 d12=-2159.0 z=-3.989653069178082
 - **ROBUST_OUTLIER** `margin` value=3.681e+04 d1=0.0 d12=2375.0 z=3.5789252040816324
 - **CHANGE_POINT** `ind_demand` value=-1.126e+04 d1=0.0 d12=1771.0 z=0.8646278100890208
-- **CHANGE_POINT** `ps_gen` value=-935 d1=3.0 d12=5.0 z=-0.8398443108042636
-- **CHANGE_POINT** `wind_gen` value=1.521e+04 d1=-185.0 d12=-469.0 z=-0.1150672168784029
-- **PERSISTENT_DOWN** `nuclear_gen` value=3306 d1=-3.0 d12=-6.0 z=-1.5738094166666665
-- **ACCELERATION** `nuclear_gen` value=3306 d1=-3.0 d12=-6.0 z=-1.5738094166666665
+- **CHANGE_POINT** `wind_gen` value=1.508e+04 d1=-122.0 d12=-726.0 z=-0.2815261565217391
+- **REVERSAL** `nuclear_gen` value=3308 d1=2.0 d12=-5.0 z=-1.1241495833333335
+- **ACCELERATION** `nuclear_gen` value=3308 d1=2.0 d12=-5.0 z=-1.1241495833333335
+- **PERSISTENT_UP** `thermal_base` value=5152 d1=4.0 d12=28.0 z=-0.9214042255696202
 
 ## Nearest historical live analogues
 
