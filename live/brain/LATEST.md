@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T06:31:35.953435Z`  
-Memory snapshots: **774**  
+Heartbeat: `2026-09-17T06:35:47.177085Z`  
+Memory snapshots: **775**  
 Current physical regime: **TIGHT**
 
 Regime read: margin low.
@@ -10,20 +10,20 @@ Regime read: margin low.
 ## Active patterns
 
 - **CHANGE_POINT** `ind_generation` value=2.648e+04 d1=0.0 d12=96.0 z=28.4297429625
-- **PERSISTENT_UP** `ind_generation` value=2.648e+04 d1=0.0 d12=96.0 z=28.4297429625
 - **ROBUST_OUTLIER** `ind_generation` value=2.648e+04 d1=0.0 d12=96.0 z=28.4297429625
 - **CHANGE_POINT** `imbalance` value=7359 d1=0.0 d12=96.0 z=18.102434580645163
-- **PERSISTENT_UP** `imbalance` value=7359 d1=0.0 d12=96.0 z=18.102434580645163
 - **ROBUST_OUTLIER** `imbalance` value=7359 d1=0.0 d12=96.0 z=18.102434580645163
-- **REVERSAL** `ps_gen` value=499 d1=-32.0 d12=274.0 z=9.7862331
-- **ROBUST_OUTLIER** `ps_gen` value=499 d1=-32.0 d12=274.0 z=9.7862331
+- **PERSISTENT_DOWN** `ps_gen` value=224 d1=-275.0 d12=-2.0 z=6.41378435
+- **ACCELERATION** `ps_gen` value=224 d1=-275.0 d12=-2.0 z=6.41378435
+- **ROBUST_OUTLIER** `ps_gen` value=224 d1=-275.0 d12=-2.0 z=6.41378435
 - **CHANGE_POINT** `margin` value=3.577e+04 d1=0.0 d12=-93.0 z=-2.052794891304348
-- **CHANGE_POINT** `thermal_base` value=8349 d1=27.0 d12=1204.0 z=1.7986393333333335
-- **CHANGE_POINT** `ccgt_gen` value=5039 d1=27.0 d12=1205.0 z=1.7969117708562021
-- **PERSISTENT_DOWN** `ind_demand` value=-1.182e+04 d1=0.0 d12=-364.0 z=-3.285417814516129
+- **CHANGE_POINT** `thermal_base` value=8429 d1=80.0 d12=1205.0 z=1.9173614015401539
+- **CHANGE_POINT** `ccgt_gen` value=5120 d1=81.0 d12=1211.0 z=1.9168539656970363
 - **ROBUST_OUTLIER** `ind_demand` value=-1.182e+04 d1=0.0 d12=-364.0 z=-3.285417814516129
-- **PERSISTENT_UP** `interconnector_net` value=-5401 d1=1384.0 d12=2830.0 z=2.9753091852
-- **ACCELERATION** `interconnector_net` value=-5401 d1=1384.0 d12=2830.0 z=2.9753091852
+- **PERSISTENT_UP** `interconnector_net` value=-5401 d1=0.0 d12=2881.0 z=2.9753091852
+- **ACCELERATION** `interconnector_net` value=-5401 d1=0.0 d12=2881.0 z=2.9753091852
+- **PERSISTENT_UP** `thermal_base` value=8429 d1=80.0 d12=1205.0 z=1.9173614015401539
+- **PERSISTENT_UP** `ccgt_gen` value=5120 d1=81.0 d12=1211.0 z=1.9168539656970363
 
 ## Nearest historical live analogues
 
