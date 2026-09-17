@@ -2,26 +2,6 @@
   "alerts": [
     {
       "dataset": "FUELINST",
-      "delta": -46.0,
-      "field": "generation",
-      "interpretation": "instantaneous generation mix [fuelType=INTNSL] generation: value=-737, delta=-46, z=-3.85 -> generation-mix component moved",
-      "series": "fuelType=INTNSL",
-      "ts": "2026-09-17T02:05:29.063322Z",
-      "value": -737.0,
-      "z": -3.853078466095004
-    },
-    {
-      "dataset": "FUELINST",
-      "delta": -46.0,
-      "field": "generation",
-      "interpretation": "instantaneous generation mix [fuelType=INTNSL] generation: value=-783, delta=-46, z=-3.90 -> generation-mix component moved",
-      "series": "fuelType=INTNSL",
-      "ts": "2026-09-17T02:10:37.377084Z",
-      "value": -783.0,
-      "z": -3.8990146748859877
-    },
-    {
-      "dataset": "FUELINST",
       "delta": -24.0,
       "field": "generation",
       "interpretation": "instantaneous generation mix [fuelType=INTNSL] generation: value=-807, delta=-24, z=-3.90 -> generation-mix component moved",
@@ -599,6 +579,26 @@
       "ts": "2026-09-17T15:25:31.201455Z",
       "value": 56.0,
       "z": 4.033106643536805
+    },
+    {
+      "dataset": "FUELHH",
+      "delta": 14.0,
+      "field": "generation",
+      "interpretation": "half-hour generation mix [fuelType=OCGT] generation: value=56, delta=14, z=4.61 -> generation-mix component moved",
+      "series": "fuelType=OCGT",
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 56.0,
+      "z": 4.607363826384859
+    },
+    {
+      "dataset": "FUELINST",
+      "delta": 0.0,
+      "field": "generation",
+      "interpretation": "instantaneous generation mix [fuelType=OCGT] generation: value=56, delta=0, z=3.99 -> generation-mix component moved",
+      "series": "fuelType=OCGT",
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 56.0,
+      "z": 3.988356240209215
     }
   ],
   "events": [
@@ -607,632 +607,630 @@
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:05.502126Z"
+      "ts": "2026-09-17T15:30:09.010541Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:06.561042Z"
+      "ts": "2026-09-17T15:30:10.037959Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:07.561164Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:08.561279Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:09.561361Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:10.561478Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:11.561593Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:12.561719Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:13.561798Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:14.561920Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:15.562043Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:16.562158Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-17T15:12:03Z",
-      "rows": 0,
-      "ts": "2026-09-17T15:26:17.562274Z"
+      "ts": "2026-09-17T15:30:11.289333Z"
     },
     {
       "dataset": "FREQ",
-      "marker": "2026-09-17T15:25:45Z",
+      "marker": "2026-09-17T15:29:45Z",
       "rows": 5761,
-      "ts": "2026-09-17T15:26:18.562397Z"
+      "ts": "2026-09-17T15:30:12.289450Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:18.562397Z"
+      "ts": "2026-09-17T15:30:12.289450Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:20.671446Z"
+      "ts": "2026-09-17T15:30:14.452816Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:21.671558Z"
+      "ts": "2026-09-17T15:30:15.486818Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:22.671669Z"
+      "ts": "2026-09-17T15:30:16.486935Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:23.671746Z"
+      "ts": "2026-09-17T15:30:17.487048Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:24.671863Z"
+      "ts": "2026-09-17T15:30:18.487165Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:25.671979Z"
+      "ts": "2026-09-17T15:30:19.487260Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:26.672093Z"
+      "ts": "2026-09-17T15:30:20.487369Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:27.672165Z"
+      "ts": "2026-09-17T15:30:21.487481Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:28.672284Z"
+      "ts": "2026-09-17T15:30:22.487558Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:29.672394Z"
+      "ts": "2026-09-17T15:30:23.544162Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:30.672504Z"
+      "ts": "2026-09-17T15:30:24.544272Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:31.728688Z"
+      "ts": "2026-09-17T15:30:25.544386Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:32.728804Z"
+      "ts": "2026-09-17T15:30:26.544511Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:33.728917Z"
+      "ts": "2026-09-17T15:30:27.544634Z"
+    },
+    {
+      "dataset": "FUELHH",
+      "marker": "2026-09-17T15:30:00Z",
+      "rows": 20,
+      "ts": "2026-09-17T15:30:28.544752Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:34.729033Z"
+      "ts": "2026-09-17T15:30:28.544752Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:35.950262Z"
+      "ts": "2026-09-17T15:30:30.631959Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:36.950382Z"
+      "ts": "2026-09-17T15:30:32.099389Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:37.950497Z"
+      "ts": "2026-09-17T15:30:33.723138Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:38.950614Z"
+      "ts": "2026-09-17T15:30:35.588017Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:39.950692Z"
+      "ts": "2026-09-17T15:30:36.588133Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:40.950806Z"
+      "ts": "2026-09-17T15:30:37.588242Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:41.968190Z"
+      "ts": "2026-09-17T15:30:38.762282Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:42.968271Z"
+      "ts": "2026-09-17T15:30:39.762363Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:43.968392Z"
+      "ts": "2026-09-17T15:30:40.762485Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:44.968503Z"
+      "ts": "2026-09-17T15:30:41.762596Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:45.968619Z"
+      "ts": "2026-09-17T15:30:42.762675Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:46.968691Z"
+      "ts": "2026-09-17T15:30:43.762797Z"
+    },
+    {
+      "dataset": "FUELINST",
+      "marker": "2026-09-17T15:30:00Z",
+      "rows": 80,
+      "ts": "2026-09-17T15:30:44.984543Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:47.968819Z"
+      "ts": "2026-09-17T15:30:44.984543Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:48.968936Z"
+      "ts": "2026-09-17T15:30:47.212684Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:49.969047Z"
+      "ts": "2026-09-17T15:30:48.212803Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:50.969159Z"
+      "ts": "2026-09-17T15:30:49.213134Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:52.252913Z"
+      "ts": "2026-09-17T15:30:50.360698Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:53.253027Z"
+      "ts": "2026-09-17T15:30:51.596065Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:54.253144Z"
+      "ts": "2026-09-17T15:30:52.741537Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:55.253310Z"
+      "ts": "2026-09-17T15:30:53.741662Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:56.253433Z"
+      "ts": "2026-09-17T15:30:54.741746Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:57.253553Z"
+      "ts": "2026-09-17T15:30:55.741859Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:58.253674Z"
+      "ts": "2026-09-17T15:30:56.741974Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:26:59.253793Z"
+      "ts": "2026-09-17T15:30:57.742050Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:27:00.253907Z"
+      "ts": "2026-09-17T15:30:58.742131Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:27:01.254025Z"
+      "ts": "2026-09-17T15:31:00.154183Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:27:02.263821Z"
+      "ts": "2026-09-17T15:31:01.525194Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:27:03.263921Z"
+      "ts": "2026-09-17T15:31:03.469159Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:27:04.264030Z"
+      "ts": "2026-09-17T15:31:04.469228Z"
     },
     {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-17T15:12:03Z",
       "rows": 0,
-      "ts": "2026-09-17T15:27:05.264150Z"
+      "ts": "2026-09-17T15:31:05.830797Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:07.283582Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:08.283701Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:09.283785Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:10.523223Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:12.146805Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:13.146881Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:14.146990Z"
+    },
+    {
+      "dataset": "MID",
+      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
+      "marker": "2026-09-17T15:12:03Z",
+      "rows": 0,
+      "ts": "2026-09-17T15:31:15.588119Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-15T00:57:07.521981Z"
   },
-  "last_heartbeat": "2026-09-17T15:27:06.218420Z",
-  "last_successful_metadata_poll": "2026-09-17T15:27:06.218389Z",
+  "last_heartbeat": "2026-09-17T15:31:16.533647Z",
+  "last_successful_metadata_poll": "2026-09-17T15:31:16.533622Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 1912,
-      "ts": "2026-09-17T15:26:18.562397Z",
+      "n": 1914,
+      "ts": "2026-09-17T15:30:12.289450Z",
       "value": 49.97
     },
     "FUELHH|fuelType=BIOMASS|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 2603.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 2654.0
     },
     "FUELHH|fuelType=CCGT|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 2688.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 3072.0
     },
     "FUELHH|fuelType=COAL|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 0.0
     },
     "FUELHH|fuelType=INTELEC|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 998.0
     },
     "FUELHH|fuelType=INTEW|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 0.0
     },
     "FUELHH|fuelType=INTFR|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 1002.0
     },
     "FUELHH|fuelType=INTGRNL|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": -52.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": -40.0
     },
     "FUELHH|fuelType=INTIFA2|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 992.0
     },
     "FUELHH|fuelType=INTIRL|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 48.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 0.0
     },
     "FUELHH|fuelType=INTNED|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 0.0
     },
     "FUELHH|fuelType=INTNEM|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": -756.0
     },
     "FUELHH|fuelType=INTNSL|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": -1408.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": -970.0
     },
     "FUELHH|fuelType=INTVKL|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": -434.0
     },
     "FUELHH|fuelType=NPSHYD|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 296.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 342.0
     },
     "FUELHH|fuelType=NUCLEAR|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 3304.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 3305.0
     },
     "FUELHH|fuelType=OCGT|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 42.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 56.0
     },
     "FUELHH|fuelType=OIL|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
       "value": 0.0
     },
     "FUELHH|fuelType=OTHER|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 707.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 682.0
     },
     "FUELHH|fuelType=PS|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": -804.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": -526.0
     },
     "FUELHH|fuelType=WIND|generation": {
-      "n": 129,
-      "ts": "2026-09-17T15:00:36.322530Z",
-      "value": 12969.0
+      "n": 130,
+      "ts": "2026-09-17T15:30:28.544752Z",
+      "value": 13191.0
     },
     "FUELINST|fuelType=BIOMASS|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": 2647.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 2633.0
     },
     "FUELINST|fuelType=CCGT|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": 3049.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 3006.0
     },
     "FUELINST|fuelType=COAL|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTELEC|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 998.0
     },
     "FUELINST|fuelType=INTEW|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTFR|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 1002.0
     },
     "FUELINST|fuelType=INTGRNL|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": -52.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": -78.0
     },
     "FUELINST|fuelType=INTIFA2|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 992.0
     },
     "FUELINST|fuelType=INTIRL|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTNED|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 0.0
     },
     "FUELINST|fuelType=INTNEM|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": -755.0
     },
     "FUELINST|fuelType=INTNSL|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": -924.0
     },
     "FUELINST|fuelType=INTVKL|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": -433.0
     },
     "FUELINST|fuelType=NPSHYD|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": 346.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 353.0
     },
     "FUELINST|fuelType=NUCLEAR|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": 3305.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 3303.0
     },
     "FUELINST|fuelType=OCGT|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 56.0
     },
     "FUELINST|fuelType=OIL|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
       "value": 0.0
     },
     "FUELINST|fuelType=OTHER|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": 706.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 813.0
     },
     "FUELINST|fuelType=PS|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": -372.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": -369.0
     },
     "FUELINST|fuelType=WIND|generation": {
-      "n": 767,
-      "ts": "2026-09-17T15:25:31.201455Z",
-      "value": 13310.0
+      "n": 768,
+      "ts": "2026-09-17T15:30:44.984543Z",
+      "value": 13549.0
     },
     "IMBALNGC|TOTAL|imbalance": {
       "n": 127,
@@ -1271,9 +1269,9 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-17T15:25:45Z",
-    "FUELHH": "2026-09-17T15:00:00Z",
-    "FUELINST": "2026-09-17T15:25:00Z",
+    "FREQ": "2026-09-17T15:29:45Z",
+    "FUELHH": "2026-09-17T15:30:00Z",
+    "FUELINST": "2026-09-17T15:30:00Z",
     "IMBALNGC": "2026-09-17T15:18:00Z",
     "INDDEM": "2026-09-17T15:18:00Z",
     "INDGEN": "2026-09-17T15:18:00Z",
@@ -1287,289 +1285,289 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 49.97000000000003,
       "last": 49.97,
-      "m2": 6.147759757322091,
-      "mean": 50.01938284518833,
-      "n": 1912
+      "m2": 6.152631991640468,
+      "mean": 50.01933124346922,
+      "n": 1914
     },
     "FUELHH|fuelType=BIOMASS|generation": {
-      "ewma": 2200.7760552166105,
-      "last": 2603.0,
-      "m2": 44699045.96899224,
-      "mean": 2805.984496124033,
-      "n": 129
+      "ewma": 2291.4208441732885,
+      "last": 2654.0,
+      "m2": 44721967.569230765,
+      "mean": 2804.8153846153864,
+      "n": 130
     },
     "FUELHH|fuelType=CCGT|generation": {
-      "ewma": 2387.26815434112,
-      "last": 2688.0,
-      "m2": 1057154925.2248068,
-      "mean": 5159.077519379847,
-      "n": 129
+      "ewma": 2524.214523472896,
+      "last": 3072.0,
+      "m2": 1061477310.9307698,
+      "mean": 5143.023076923079,
+      "n": 130
     },
     "FUELHH|fuelType=COAL|generation": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 129
+      "n": 130
     },
     "FUELHH|fuelType=INTELEC|generation": {
-      "ewma": 946.51273247047,
+      "ewma": 956.8101859763761,
       "last": 998.0,
-      "m2": 56478848.62015505,
-      "mean": 354.3875968992249,
-      "n": 129
+      "m2": 56889899.10769232,
+      "mean": 359.3384615384616,
+      "n": 130
     },
     "FUELHH|fuelType=INTEW|generation": {
-      "ewma": -15.223668553950114,
+      "ewma": -12.178934843160093,
       "last": 0.0,
-      "m2": 4257389.5813953485,
-      "mean": -134.83720930232562,
-      "n": 129
+      "m2": 4275430.8,
+      "mean": -133.80000000000004,
+      "n": 130
     },
     "FUELHH|fuelType=INTFR|generation": {
-      "ewma": 973.7706529361494,
+      "ewma": 979.4165223489196,
       "last": 1002.0,
-      "m2": 19429857.550387602,
-      "mean": 552.5736434108527,
-      "n": 129
+      "m2": 19630287.87692308,
+      "mean": 556.0307692307692,
+      "n": 130
     },
     "FUELHH|fuelType=INTGRNL|generation": {
-      "ewma": -347.20906297629307,
-      "last": -52.0,
-      "m2": 3240630.1395348837,
-      "mean": -434.3720930232558,
-      "n": 129
+      "ewma": -285.76725038103444,
+      "last": -40.0,
+      "m2": 3394963.107692308,
+      "mean": -431.3384615384615,
+      "n": 130
     },
     "FUELHH|fuelType=INTIFA2|generation": {
-      "ewma": 934.2083727429747,
+      "ewma": 945.7666981943797,
       "last": 992.0,
-      "m2": 62655462.01550389,
-      "mean": 289.875968992248,
-      "n": 129
+      "m2": 63144648.030769244,
+      "mean": 295.27692307692297,
+      "n": 130
     },
     "FUELHH|fuelType=INTIRL|generation": {
-      "ewma": -107.69114085792987,
-      "last": 48.0,
-      "m2": 3225027.596899225,
-      "mean": -240.35658914728674,
-      "n": 129
+      "ewma": -86.1529126863439,
+      "last": 0.0,
+      "m2": 3282354.4923076923,
+      "mean": -238.50769230769222,
+      "n": 130
     },
     "FUELHH|fuelType=INTNED|generation": {
-      "ewma": 0.21040567688023018,
+      "ewma": 0.16832454150418416,
       "last": 0.0,
-      "m2": 49.922480620155056,
-      "mean": 0.2170542635658915,
-      "n": 129
+      "m2": 49.96923076923078,
+      "mean": 0.2153846153846154,
+      "n": 130
     },
     "FUELHH|fuelType=INTNEM|generation": {
-      "ewma": -653.020286787158,
+      "ewma": -673.6162294297266,
       "last": -756.0,
-      "m2": 51822807.50387596,
-      "mean": -74.72868217054264,
-      "n": 129
+      "m2": 52283367.87692307,
+      "mean": -79.96923076923078,
+      "n": 130
     },
     "FUELHH|fuelType=INTNSL|generation": {
-      "ewma": -1241.9124325288512,
-      "last": -1408.0,
-      "m2": 107322544.55813947,
-      "mean": 709.255813953488,
-      "n": 129
+      "ewma": -1187.529946023081,
+      "last": -970.0,
+      "m2": 110120753.10769224,
+      "mean": 696.3384615384612,
+      "n": 130
     },
     "FUELHH|fuelType=INTVKL|generation": {
-      "ewma": -291.15164916009496,
+      "ewma": -319.721319328076,
       "last": -434.0,
-      "m2": 122561273.55038752,
-      "mean": 85.24031007751935,
-      "n": 129
+      "m2": 122828810.12307684,
+      "mean": 81.24615384615382,
+      "n": 130
     },
     "FUELHH|fuelType=NPSHYD|generation": {
-      "ewma": 283.5122547329749,
-      "last": 296.0,
-      "m2": 864697.0387596901,
-      "mean": 415.59689922480624,
-      "n": 129
+      "ewma": 295.2098037863799,
+      "last": 342.0,
+      "m2": 870071.8769230772,
+      "mean": 415.03076923076924,
+      "n": 130
     },
     "FUELHH|fuelType=NUCLEAR|generation": {
-      "ewma": 3307.4922028570336,
-      "last": 3304.0,
-      "m2": 14790.155038758796,
-      "mean": 3317.5271317829456,
-      "n": 129
+      "ewma": 3306.993762285627,
+      "last": 3305.0,
+      "m2": 14945.876923076028,
+      "mean": 3317.4307692307693,
+      "n": 130
     },
     "FUELHH|fuelType=OCGT|generation": {
-      "ewma": 8.975555056406403,
-      "last": 42.0,
-      "m2": 16421.534883720935,
-      "mean": 3.813953488372093,
-      "n": 129
+      "ewma": 18.380444045125124,
+      "last": 56.0,
+      "m2": 19123.969230769235,
+      "mean": 4.2153846153846155,
+      "n": 130
     },
     "FUELHH|fuelType=OIL|generation": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 129
+      "n": 130
     },
     "FUELHH|fuelType=OTHER|generation": {
-      "ewma": 776.7085093924942,
-      "last": 707.0,
-      "m2": 49887496.13953488,
-      "mean": 746.6279069767445,
-      "n": 129
+      "ewma": 757.7668075139953,
+      "last": 682.0,
+      "m2": 49891640.776923075,
+      "mean": 746.1307692307695,
+      "n": 130
     },
     "FUELHH|fuelType=PS|generation": {
-      "ewma": -774.0170787097675,
-      "last": -804.0,
-      "m2": 35762296.80620153,
-      "mean": -134.2945736434108,
-      "n": 129
+      "ewma": -724.413662967814,
+      "last": -526.0,
+      "m2": 35914549.69230767,
+      "mean": -137.30769230769226,
+      "n": 130
     },
     "FUELHH|fuelType=WIND|generation": {
-      "ewma": 13692.162291452147,
-      "last": 12969.0,
-      "m2": 1150951436.4806192,
-      "mean": 10893.108527131784,
-      "n": 129
+      "ewma": 13591.92983316172,
+      "last": 13191.0,
+      "m2": 1156191123.9692297,
+      "mean": 10910.784615384617,
+      "n": 130
     },
     "FUELINST|fuelType=BIOMASS|generation": {
-      "ewma": 2613.5955768823887,
-      "last": 2647.0,
-      "m2": 270027236.9022163,
-      "mean": 2807.6870925684475,
-      "n": 767
+      "ewma": 2617.476461505911,
+      "last": 2633.0,
+      "m2": 270057712.7486978,
+      "mean": 2807.4596354166656,
+      "n": 768
     },
     "FUELINST|fuelType=CCGT|generation": {
-      "ewma": 2965.778115081516,
-      "last": 3049.0,
-      "m2": 6085525307.337674,
-      "mean": 5078.069100391132,
-      "n": 767
+      "ewma": 2973.822492065213,
+      "last": 3006.0,
+      "m2": 6089813187.2382765,
+      "mean": 5075.371093749998,
+      "n": 768
     },
     "FUELINST|fuelType=COAL|generation": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 767
+      "n": 768
     },
     "FUELINST|fuelType=INTELEC|generation": {
-      "ewma": 997.993597641747,
+      "ewma": 997.9948781133977,
       "last": 998.0,
-      "m2": 330571005.97131664,
-      "mean": 374.1655801825295,
-      "n": 767
+      "m2": 330959668.62369776,
+      "mean": 374.9778645833335,
+      "n": 768
     },
     "FUELINST|fuelType=INTEW|generation": {
-      "ewma": -0.6342196844121644,
+      "ewma": -0.5073757475297315,
       "last": 0.0,
-      "m2": 25881522.61538461,
-      "mean": -133.53846153846143,
-      "n": 767
+      "m2": 25899331.91666666,
+      "mean": -133.36458333333323,
+      "n": 768
     },
     "FUELINST|fuelType=INTFR|generation": {
-      "ewma": 1001.9993211884124,
+      "ewma": 1001.99945695073,
       "last": 1002.0,
-      "m2": 115647174.97783592,
-      "mean": 562.578878748371,
-      "n": 767
+      "m2": 115840014.47916687,
+      "mean": 563.1510416666674,
+      "n": 768
     },
     "FUELINST|fuelType=INTGRNL|generation": {
-      "ewma": -54.93946302476319,
-      "last": -52.0,
-      "m2": 20705433.57757493,
-      "mean": -431.0234680573662,
-      "n": 767
+      "ewma": -59.55157041981056,
+      "last": -78.0,
+      "m2": 20829896.87369788,
+      "mean": -430.56380208333314,
+      "n": 768
     },
     "FUELINST|fuelType=INTIFA2|generation": {
-      "ewma": 991.999956933011,
+      "ewma": 991.9999655464088,
       "last": 992.0,
-      "m2": 362628239.91395074,
-      "mean": 313.2555410691006,
-      "n": 767
+      "m2": 363088334.0924482,
+      "mean": 314.1393229166669,
+      "n": 768
     },
     "FUELINST|fuelType=INTIRL|generation": {
-      "ewma": 12.42082011316658,
+      "ewma": 9.936656090533264,
       "last": 0.0,
-      "m2": 19815520.50325944,
-      "mean": -237.3415906127774,
-      "n": 767
+      "m2": 19871778.186197903,
+      "mean": -237.03255208333368,
+      "n": 768
     },
     "FUELINST|fuelType=INTNED|generation": {
-      "ewma": 0.0011583394313040638,
+      "ewma": 0.0009266715450432511,
       "last": 0.0,
-      "m2": 152.95436766623192,
-      "mean": 0.2750977835723598,
-      "n": 767
+      "m2": 153.02994791666652,
+      "mean": 0.2747395833333333,
+      "n": 768
     },
     "FUELINST|fuelType=INTNEM|generation": {
-      "ewma": -754.9415312323187,
+      "ewma": -754.953224985855,
       "last": -755.0,
-      "m2": 309775416.3780962,
-      "mean": -69.24119947848769,
-      "n": 767
+      "m2": 310245069.18619764,
+      "mean": -70.1341145833334,
+      "n": 768
     },
     "FUELINST|fuelType=INTNSL|generation": {
-      "ewma": -1099.6144656731192,
+      "ewma": -1064.4915725384953,
       "last": -924.0,
-      "m2": 656445588.8970009,
-      "mean": 693.7131681877444,
-      "n": 767
+      "m2": 659059177.2447913,
+      "mean": 691.6067708333333,
+      "n": 768
     },
     "FUELINST|fuelType=INTVKL|generation": {
-      "ewma": -426.7791888849646,
+      "ewma": -428.02335110797173,
       "last": -433.0,
-      "m2": 731618388.3572357,
-      "mean": 95.34941329856582,
-      "n": 767
+      "m2": 731897177.9791664,
+      "mean": 94.66145833333331,
+      "n": 768
     },
     "FUELINST|fuelType=NPSHYD|generation": {
-      "ewma": 324.5109950235484,
-      "last": 346.0,
-      "m2": 5269540.628422426,
-      "mean": 415.1629726205999,
-      "n": 767
+      "ewma": 330.20879601883877,
+      "last": 353.0,
+      "m2": 5273399.832031251,
+      "mean": 415.0820312500001,
+      "n": 768
     },
     "FUELINST|fuelType=NUCLEAR|generation": {
-      "ewma": 3305.1700158119634,
-      "last": 3305.0,
-      "m2": 94025.14732723532,
-      "mean": 3317.528031290741,
-      "n": 767
+      "ewma": 3304.736012649571,
+      "last": 3303.0,
+      "m2": 94235.9361979029,
+      "mean": 3317.509114583331,
+      "n": 768
     },
     "FUELINST|fuelType=OCGT|generation": {
-      "ewma": 49.084020572957236,
+      "ewma": 50.4672164583658,
       "last": 56.0,
-      "m2": 129298.44589308993,
-      "mean": 4.182529335071708,
-      "n": 767
+      "m2": 131979.99999999997,
+      "mean": 4.25,
+      "n": 768
     },
     "FUELINST|fuelType=OIL|generation": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 767
+      "n": 768
     },
     "FUELINST|fuelType=OTHER|generation": {
-      "ewma": 676.6978601506811,
-      "last": 706.0,
-      "m2": 309131009.2046938,
-      "mean": 747.2099087353325,
-      "n": 767
+      "ewma": 703.9582881205449,
+      "last": 813.0,
+      "m2": 309135331.9049481,
+      "mean": 747.2955729166667,
+      "n": 768
     },
     "FUELINST|fuelType=PS|generation": {
-      "ewma": -608.3524731018463,
-      "last": -372.0,
-      "m2": 217878049.81225592,
-      "mean": -138.32333767927,
-      "n": 767
+      "ewma": -560.481978481477,
+      "last": -369.0,
+      "m2": 217931192.2486983,
+      "mean": -138.62369791666677,
+      "n": 768
     },
     "FUELINST|fuelType=WIND|generation": {
-      "ewma": 13079.613547933639,
-      "last": 13310.0,
-      "m2": 6921103531.029998,
-      "mean": 10890.299869621897,
-      "n": 767
+      "ewma": 13173.490838346912,
+      "last": 13549.0,
+      "m2": 6928163013.394542,
+      "mean": 10893.761718749993,
+      "n": 768
     },
     "IMBALNGC|TOTAL|imbalance": {
       "ewma": 11309.111298820893,
