@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T06:52:29.952634Z`  
-Memory snapshots: **779**  
+Heartbeat: `2026-09-17T06:56:43.028097Z`  
+Memory snapshots: **780**  
 Current physical regime: **TIGHT**
 
 Regime read: margin low.
 
 ## Active patterns
 
-- **CHANGE_POINT** `ind_generation` value=2.646e+04 d1=-21.0 d12=54.0 z=17.64552216935484
-- **REVERSAL** `ind_generation` value=2.646e+04 d1=-21.0 d12=54.0 z=17.64552216935484
-- **ACCELERATION** `ind_generation` value=2.646e+04 d1=-21.0 d12=54.0 z=17.64552216935484
-- **ROBUST_OUTLIER** `ind_generation` value=2.646e+04 d1=-21.0 d12=54.0 z=17.64552216935484
-- **CHANGE_POINT** `imbalance` value=7338 d1=-21.0 d12=54.0 z=9.9264529245283
-- **REVERSAL** `imbalance` value=7338 d1=-21.0 d12=54.0 z=9.9264529245283
-- **ACCELERATION** `imbalance` value=7338 d1=-21.0 d12=54.0 z=9.9264529245283
-- **ROBUST_OUTLIER** `imbalance` value=7338 d1=-21.0 d12=54.0 z=9.9264529245283
-- **PERSISTENT_DOWN** `ind_demand` value=-1.213e+04 d1=-311.0 d12=-674.0 z=-6.668745431451613
-- **ACCELERATION** `ind_demand` value=-1.213e+04 d1=-311.0 d12=-674.0 z=-6.668745431451613
-- **ROBUST_OUTLIER** `ind_demand` value=-1.213e+04 d1=-311.0 d12=-674.0 z=-6.668745431451613
-- **CHANGE_POINT** `ps_gen` value=226 d1=0.0 d12=5.0 z=3.4379331917475726
-- **CHANGE_POINT** `margin` value=3.573e+04 d1=-42.0 d12=-61.0 z=-3.2844718260869565
-- **CHANGE_POINT** `thermal_base` value=8595 d1=36.0 d12=1111.0 z=2.1637096930693067
-- **CHANGE_POINT** `ccgt_gen` value=5283 d1=31.0 d12=1107.0 z=2.158219123216246
+- **CHANGE_POINT** `ind_generation` value=2.646e+04 d1=0.0 d12=54.0 z=17.64552216935484
+- **ACCELERATION** `ind_generation` value=2.646e+04 d1=0.0 d12=54.0 z=17.64552216935484
+- **ROBUST_OUTLIER** `ind_generation` value=2.646e+04 d1=0.0 d12=54.0 z=17.64552216935484
+- **CHANGE_POINT** `imbalance` value=7338 d1=0.0 d12=54.0 z=9.9264529245283
+- **ACCELERATION** `imbalance` value=7338 d1=0.0 d12=54.0 z=9.9264529245283
+- **ROBUST_OUTLIER** `imbalance` value=7338 d1=0.0 d12=54.0 z=9.9264529245283
+- **PERSISTENT_DOWN** `ind_demand` value=-1.213e+04 d1=0.0 d12=-674.0 z=-6.668745431451613
+- **ACCELERATION** `ind_demand` value=-1.213e+04 d1=0.0 d12=-674.0 z=-6.668745431451613
+- **ROBUST_OUTLIER** `ind_demand` value=-1.213e+04 d1=0.0 d12=-674.0 z=-6.668745431451613
+- **CHANGE_POINT** `margin` value=3.573e+04 d1=0.0 d12=-61.0 z=-3.2844718260869565
+- **CHANGE_POINT** `ps_gen` value=226 d1=0.0 d12=5.0 z=2.368609489966555
+- **PERSISTENT_DOWN** `margin` value=3.573e+04 d1=0.0 d12=-61.0 z=-3.2844718260869565
+- **ACCELERATION** `margin` value=3.573e+04 d1=0.0 d12=-61.0 z=-3.2844718260869565
+- **ROBUST_OUTLIER** `margin` value=3.573e+04 d1=0.0 d12=-61.0 z=-3.2844718260869565
+- **CHANGE_POINT** `wind_gen` value=1.405e+04 d1=-12.0 d12=202.0 z=0.9908793612368024
 
 ## Nearest historical live analogues
 
