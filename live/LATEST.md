@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-17T04:50:57.577119Z`  
-Current process started UTC: `2026-09-17T04:46:57.697902Z`  
-1-second metadata polls in this process: **237**  
+Last heartbeat UTC: `2026-09-17T04:55:07.357085Z`  
+Current process started UTC: `2026-09-17T04:51:07.733175Z`  
+1-second metadata polls in this process: **238**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -52,6 +52,8 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-17T04:54:20.477826Z` — **FREQ**: 5761 rows; marker `2026-09-17T04:53:45Z`
+- `2026-09-17T04:52:11.833785Z` — **FREQ**: 5761 rows; marker `2026-09-17T04:51:45Z`
 - `2026-09-17T04:50:26.228348Z` — **FUELINST**: 80 rows; marker `2026-09-17T04:50:00Z`
 - `2026-09-17T04:50:09.965302Z` — **IMBALNGC**: 828 rows; marker `2026-09-17T04:46:00Z`
 - `2026-09-17T04:50:09.965302Z` — **FREQ**: 5761 rows; marker `2026-09-17T04:49:45Z`
@@ -65,5 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-17T04:45:29.660558Z` — **FUELINST**: 80 rows; marker `2026-09-17T04:45:00Z`
 - `2026-09-17T04:44:25.757167Z` — **FREQ**: 5761 rows; marker `2026-09-17T04:43:45Z`
 - `2026-09-17T04:42:17.845370Z` — **MID**: 0 rows; marker `2026-09-17T04:42:03Z`; ERROR=RuntimeError: MID: HTTP Error 400: Bad Request
-- `2026-09-17T04:42:17.845370Z` — **FREQ**: 5761 rows; marker `2026-09-17T04:41:45Z`
-- `2026-09-17T04:40:25.302279Z` — **FUELINST**: 80 rows; marker `2026-09-17T04:40:00Z`
