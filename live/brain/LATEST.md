@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T19:35:51.852732Z`  
-Memory snapshots: **960**  
+Heartbeat: `2026-09-17T19:40:05.244843Z`  
+Memory snapshots: **961**  
 Current physical regime: **TIGHT**
 
 Regime read: residual high, wind falling.
@@ -13,17 +13,17 @@ Regime read: residual high, wind falling.
 - **CHANGE_POINT** `ind_demand` value=-1.116e+04 d1=0.0 d12=94.0 z=26.97959
 - **ROBUST_OUTLIER** `ind_demand` value=-1.116e+04 d1=0.0 d12=94.0 z=26.97959
 - **ROBUST_OUTLIER** `imbalance` value=9684 d1=0.0 d12=2.0 z=-4.4767828152542375
-- **CHANGE_POINT** `margin` value=3.649e+04 d1=0.0 d12=-91.0 z=-0.545723525
+- **CHANGE_POINT** `wind_gen` value=1.576e+04 d1=0.0 d12=688.0 z=1.3501272420589903
+- **CHANGE_POINT** `ps_gen` value=480 d1=0.0 d12=200.0 z=0.9303525284037558
 - **PERSISTENT_UP** `residual_proxy` value=-2399 d1=0.0 d12=191.0 z=2.2649532345679013
-- **ACCELERATION** `residual_proxy` value=-2399 d1=0.0 d12=191.0 z=2.2649532345679013
-- **PERSISTENT_UP** `wind_gen` value=1.576e+04 d1=172.0 d12=710.0 z=1.4051206185064935
-- **PERSISTENT_UP** `interconnector_net` value=-310 d1=0.0 d12=133.0 z=-1.3872857107461023
-- **ACCELERATION** `interconnector_net` value=-310 d1=0.0 d12=133.0 z=-1.3872857107461023
-- **PERSISTENT_DOWN** `thermal_base` value=9797 d1=-86.0 d12=-619.0 z=1.2705116330445545
-- **PERSISTENT_DOWN** `ccgt_gen` value=6477 d1=-80.0 d12=-615.0 z=1.2686432518610422
-- **PERSISTENT_UP** `ps_gen` value=480 d1=53.0 d12=198.0 z=0.9301125070356473
-- **PERSISTENT_DOWN** `nuclear_gen` value=3320 d1=-6.0 d12=-4.0 z=0.7708454285714286
-- **ACCELERATION** `nuclear_gen` value=3320 d1=-6.0 d12=-4.0 z=0.7708454285714286
+- **PERSISTENT_UP** `interconnector_net` value=-310 d1=0.0 d12=158.0 z=-1.3872857107461023
+- **PERSISTENT_UP** `wind_gen` value=1.576e+04 d1=0.0 d12=688.0 z=1.3501272420589903
+- **PERSISTENT_DOWN** `ccgt_gen` value=6477 d1=0.0 d12=-610.0 z=1.0584932003682357
+- **PERSISTENT_DOWN** `thermal_base` value=9797 d1=0.0 d12=-609.0 z=1.0545865786213469
+- **PERSISTENT_UP** `ps_gen` value=480 d1=0.0 d12=200.0 z=0.9303525284037558
+- **ACCELERATION** `nuclear_gen` value=3320 d1=0.0 d12=1.0 z=0.67448975
+- **PERSISTENT_DOWN** `biomass_gen` value=2747 d1=0.0 d12=-184.0 z=-0.2851104015700483
+- **ACCELERATION** `biomass_gen` value=2747 d1=0.0 d12=-184.0 z=-0.2851104015700483
 
 ## Nearest historical live analogues
 
