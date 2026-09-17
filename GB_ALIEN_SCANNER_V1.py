@@ -20,7 +20,7 @@ from gb_legacy_canonicalizer import canonicalize
 VERSION = "GB_ALIEN_SCANNER_V1.0.0"
 VINTAGE_RE = re.compile(r"^(?P<root>.+)_v(?P<v>\d+)_dd(?P<dd>[01])$")
 FORBIDDEN_PREFIX = ("actual_", "error_", "fuelhh_", "boa_", "total_boa", "niv_vs_", "itsdo_", "indo_")
-FORBIDDEN_EXACT = {"niv", "psbil", "pida1", "pida2", "actual_residual_load", "actual_net_demand"}
+FORBIDDEN_EXACT = {"niv", "psbil", "pida2", "actual_residual_load", "actual_net_demand"}
 
 def read_table(path: Path) -> pd.DataFrame:
     return pd.read_parquet(path) if path.suffix.lower() == ".parquet" else pd.read_csv(path, low_memory=False)
