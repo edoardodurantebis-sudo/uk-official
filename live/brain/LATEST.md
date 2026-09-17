@@ -1,24 +1,23 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T19:10:36.600451Z`  
-Memory snapshots: **954**  
+Heartbeat: `2026-09-17T19:14:49.284800Z`  
+Memory snapshots: **955**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `ind_generation` value=2.652e+04 d1=0.0 d12=29.0 z=-94.18767580357142
-- **ROBUST_OUTLIER** `ind_generation` value=2.652e+04 d1=0.0 d12=29.0 z=-94.18767580357142
-- **ROBUST_OUTLIER** `ind_demand` value=-1.116e+04 d1=0.0 d12=123.0 z=26.97959
+- **CHANGE_POINT** `ind_generation` value=2.652e+04 d1=0.0 d12=19.0 z=-94.18767580357142
+- **ROBUST_OUTLIER** `ind_generation` value=2.652e+04 d1=0.0 d12=19.0 z=-94.18767580357142
+- **ROBUST_OUTLIER** `ind_demand` value=-1.116e+04 d1=0.0 d12=94.0 z=26.97959
 - **CHANGE_POINT** `imbalance` value=9701 d1=0.0 d12=29.0 z=-4.692624417259786
 - **ROBUST_OUTLIER** `imbalance` value=9701 d1=0.0 d12=29.0 z=-4.692624417259786
-- **ACCELERATION** `nuclear_gen` value=3325 d1=-1.0 d12=-2.0 z=1.8395175000000001
-- **PERSISTENT_DOWN** `thermal_base` value=1.002e+04 d1=-154.0 d12=-67.0 z=1.8205231259173424
-- **ACCELERATION** `thermal_base` value=1.002e+04 d1=-154.0 d12=-67.0 z=1.8205231259173424
-- **PERSISTENT_DOWN** `ccgt_gen` value=6700 d1=-153.0 d12=-65.0 z=1.8176218747095276
-- **ACCELERATION** `ccgt_gen` value=6700 d1=-153.0 d12=-65.0 z=1.8176218747095276
-- **REVERSAL** `interconnector_net` value=-462 d1=45.0 d12=-642.0 z=-1.6156207708797328
-- **REVERSAL** `biomass_gen` value=2988 d1=-33.0 d12=144.0 z=0.5474608470833333
+- **CHANGE_POINT** `biomass_gen` value=2988 d1=0.0 d12=136.0 z=0.5388717041814947
+- **PERSISTENT_UP** `nuclear_gen` value=3325 d1=0.0 d12=3.0 z=1.686224375
+- **PERSISTENT_DOWN** `thermal_base` value=1.002e+04 d1=0.0 d12=-162.0 z=1.6238160707295373
+- **ACCELERATION** `thermal_base` value=1.002e+04 d1=0.0 d12=-162.0 z=1.6238160707295373
+- **PERSISTENT_DOWN** `ccgt_gen` value=6700 d1=0.0 d12=-165.0 z=1.6191121637838801
+- **ACCELERATION** `ccgt_gen` value=6700 d1=0.0 d12=-165.0 z=1.6191121637838801
 
 ## Nearest historical live analogues
 
