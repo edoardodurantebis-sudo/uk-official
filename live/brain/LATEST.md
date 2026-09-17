@@ -1,31 +1,34 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-17T22:49:14.113364Z`  
-Memory snapshots: **1006**  
-Current physical regime: **TIGHT**
-
-Regime read: residual high.
+Heartbeat: `2026-09-17T22:53:27.574826Z`  
+Memory snapshots: **1007**  
+Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **PERSISTENT_UP** `biomass_gen` value=1877 d1=36.0 d12=206.0 z=-4.7011935575
-- **ROBUST_OUTLIER** `biomass_gen` value=1877 d1=36.0 d12=206.0 z=-4.7011935575
-- **ROBUST_OUTLIER** `interconnector_net` value=-8246 d1=0.0 d12=-2748.0 z=-4.425823808364939
-- **CHANGE_POINT** `margin` value=3.644e+04 d1=0.0 d12=-7.0 z=-0.8133552867647059
-- **PERSISTENT_DOWN** `ps_gen` value=48 d1=-3.0 d12=-1.0 z=-1.983793382352941
-- **ACCELERATION** `ps_gen` value=48 d1=-3.0 d12=-1.0 z=-1.983793382352941
-- **PERSISTENT_UP** `wind_gen` value=1.53e+04 d1=111.0 d12=513.0 z=0.49594834558823525
-- **PERSISTENT_UP** `ccgt_gen` value=4758 d1=65.0 d12=313.0 z=-0.3658249491525424
-- **PERSISTENT_UP** `thermal_base` value=8079 d1=67.0 d12=319.0 z=-0.36227376013771995
-- **PERSISTENT_UP** `nuclear_gen` value=3321 d1=2.0 d12=6.0 z=0.19271135714285714
+- **PERSISTENT_DOWN** `ind_demand` value=-1.118e+04 d1=-15.0 d12=-16.0 z=-5.058673125
+- **ACCELERATION** `ind_demand` value=-1.118e+04 d1=-15.0 d12=-16.0 z=-5.058673125
+- **ROBUST_OUTLIER** `ind_demand` value=-1.118e+04 d1=-15.0 d12=-16.0 z=-5.058673125
+- **REVERSAL** `interconnector_net` value=-8245 d1=1.0 d12=-2306.0 z=-4.424402633164771
+- **ROBUST_OUTLIER** `interconnector_net` value=-8245 d1=1.0 d12=-2306.0 z=-4.424402633164771
+- **PERSISTENT_UP** `biomass_gen` value=1880 d1=3.0 d12=190.0 z=-4.356952422360249
+- **ROBUST_OUTLIER** `biomass_gen` value=1880 d1=3.0 d12=190.0 z=-4.356952422360249
+- **PERSISTENT_UP** `nuclear_gen` value=3326 d1=5.0 d12=10.0 z=1.3489794999999998
+- **REVERSAL** `ccgt_gen` value=4544 d1=-214.0 d12=109.0 z=-0.6074163858392999
+- **ACCELERATION** `ccgt_gen` value=4544 d1=-214.0 d12=109.0 z=-0.6074163858392999
+- **REVERSAL** `thermal_base` value=7870 d1=-209.0 d12=119.0 z=-0.595294342001576
+- **ACCELERATION** `thermal_base` value=7870 d1=-209.0 d12=119.0 z=-0.595294342001576
+- **REVERSAL** `imbalance` value=9714 d1=3.0 d12=-4.0 z=0.5058673124999999
+- **ACCELERATION** `imbalance` value=9714 d1=3.0 d12=-4.0 z=0.5058673124999999
+- **REVERSAL** `ind_generation` value=2.653e+04 d1=3.0 d12=-4.0 z=0.5058673124999999
 
 ## Nearest historical live analogues
 
-- `2026-09-17T21:54:26.142796Z` distance=0.003 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': 0.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-17T21:20:56.037912Z` distance=0.004 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': 0.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-17T21:25:06.019880Z` distance=0.004 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': 0.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-17T21:29:16.468162Z` distance=0.004 → {'next30m_imbalance_delta': 16.0, 'next30m_margin_delta': -1.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-17T21:33:27.651285Z` distance=0.004 → {'next30m_imbalance_delta': 16.0, 'next30m_margin_delta': -1.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-17T19:31:37.693694Z` distance=0.022 → {'next30m_imbalance_delta': 24.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-17T19:35:51.852732Z` distance=0.022 → {'next30m_imbalance_delta': 24.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-17T19:40:05.244843Z` distance=0.022 → {'next30m_imbalance_delta': 24.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-17T19:44:15.891434Z` distance=0.022 → {'next30m_imbalance_delta': 24.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-17T19:48:25.625675Z` distance=0.022 → {'next30m_imbalance_delta': 24.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
 
 Deep rule promotion remains delegated to the recovered Market Memory/N10 lineage engine.
