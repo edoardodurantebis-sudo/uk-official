@@ -1,22 +1,24 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T23:44:07.144976Z`  
-Memory snapshots: **1306**  
+Heartbeat: `2026-09-18T23:48:22.421048Z`  
+Memory snapshots: **1307**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `imbalance` value=9193 d1=0.0 d12=209.0 z=2.5172921026785713
-- **CHANGE_POINT** `ind_generation` value=2.639e+04 d1=0.0 d12=209.0 z=2.4104715655737707
-- **CHANGE_POINT** `biomass_gen` value=1194 d1=-8.0 d12=130.0 z=-0.7615717599765258
+- **CHANGE_POINT** `imbalance` value=9193 d1=0.0 d12=218.0 z=2.5172921026785713
+- **CHANGE_POINT** `ind_generation` value=2.639e+04 d1=0.0 d12=218.0 z=2.4104715655737707
+- **CHANGE_POINT** `interconnector_net` value=-8745 d1=12.0 d12=-77.0 z=-0.8917309490764064
+- **CHANGE_POINT** `biomass_gen` value=1213 d1=19.0 d12=113.0 z=-0.701406007629108
 - **CHANGE_POINT** `margin` value=3.754e+04 d1=0.0 d12=-69.0 z=-0.5908753181818182
-- **REVERSAL** `wind_gen` value=1.574e+04 d1=4.0 d12=-58.0 z=-1.3860903528198074
-- **ACCELERATION** `wind_gen` value=1.574e+04 d1=4.0 d12=-58.0 z=-1.3860903528198074
-- **ACCELERATION** `nuclear_gen` value=3341 d1=0.0 d12=0.0 z=0.94428565
-- **REVERSAL** `interconnector_net` value=-8757 d1=27.0 d12=-135.0 z=-0.8930901223761545
-- **REVERSAL** `biomass_gen` value=1194 d1=-8.0 d12=130.0 z=-0.7615717599765258
-- **PERSISTENT_UP** `ps_gen` value=-422 d1=0.0 d12=56.0 z=-0.004667749134948097
+- **PERSISTENT_DOWN** `wind_gen` value=1.573e+04 d1=-10.0 d12=-93.0 z=-1.4046457792297111
+- **REVERSAL** `interconnector_net` value=-8745 d1=12.0 d12=-77.0 z=-0.8917309490764064
+- **PERSISTENT_UP** `biomass_gen` value=1213 d1=19.0 d12=113.0 z=-0.701406007629108
+- **PERSISTENT_DOWN** `ccgt_gen` value=3619 d1=-15.0 d12=-243.0 z=-0.07727280439609237
+- **PERSISTENT_DOWN** `thermal_base` value=6960 d1=-15.0 d12=-244.0 z=-0.0771700024390244
+- **REVERSAL** `ps_gen` value=-423 d1=-1.0 d12=2.0 z=-0.007013758232235701
+- **ACCELERATION** `ps_gen` value=-423 d1=-1.0 d12=2.0 z=-0.007013758232235701
 
 ## Nearest historical live analogues
 
