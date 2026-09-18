@@ -1,36 +1,34 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T22:31:44.766787Z`  
-Memory snapshots: **1289**  
-Current physical regime: **TIGHT**
-
-Regime read: margin low.
+Heartbeat: `2026-09-18T22:35:59.335373Z`  
+Memory snapshots: **1290**  
+Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `ind_generation` value=2.618e+04 d1=0.0 d12=-64.0 z=16.71561554347826
-- **PERSISTENT_DOWN** `ind_generation` value=2.618e+04 d1=0.0 d12=-64.0 z=16.71561554347826
-- **ROBUST_OUTLIER** `ind_generation` value=2.618e+04 d1=0.0 d12=-64.0 z=16.71561554347826
-- **CHANGE_POINT** `interconnector_net` value=-8589 d1=-899.0 d12=-7231.0 z=-6.460102390921886
-- **PERSISTENT_DOWN** `thermal_base` value=7066 d1=-34.0 d12=-356.0 z=7.092634437777778
-- **ROBUST_OUTLIER** `thermal_base` value=7066 d1=-34.0 d12=-356.0 z=7.092634437777778
-- **PERSISTENT_DOWN** `ccgt_gen` value=3725 d1=-35.0 d12=-361.0 z=6.533074272727273
-- **ROBUST_OUTLIER** `ccgt_gen` value=3725 d1=-35.0 d12=-361.0 z=6.533074272727273
-- **PERSISTENT_DOWN** `interconnector_net` value=-8589 d1=-899.0 d12=-7231.0 z=-6.460102390921886
-- **ROBUST_OUTLIER** `interconnector_net` value=-8589 d1=-899.0 d12=-7231.0 z=-6.460102390921886
-- **CHANGE_POINT** `ind_demand` value=-1.089e+04 d1=0.0 d12=2.0 z=-3.950582821428571
-- **ROBUST_OUTLIER** `ind_demand` value=-1.089e+04 d1=0.0 d12=2.0 z=-3.950582821428571
-- **CHANGE_POINT** `biomass_gen` value=954 d1=2.0 d12=-687.0 z=-1.521560210680751
-- **CHANGE_POINT** `wind_gen` value=1.606e+04 d1=-70.0 d12=-761.0 z=-0.8015944209078404
-- **CHANGE_POINT** `ps_gen` value=-710 d1=-1.0 d12=-1122.0 z=-0.6429125145131086
+- **CHANGE_POINT** `ind_generation` value=2.618e+04 d1=0.0 d12=-64.0 z=12.605218278688525
+- **ROBUST_OUTLIER** `ind_generation` value=2.618e+04 d1=0.0 d12=-64.0 z=12.605218278688525
+- **CHANGE_POINT** `interconnector_net` value=-8614 d1=-25.0 d12=-2234.0 z=-6.355446092864547
+- **PERSISTENT_DOWN** `thermal_base` value=7027 d1=-39.0 d12=-305.0 z=6.35587644087137
+- **ROBUST_OUTLIER** `thermal_base` value=7027 d1=-39.0 d12=-305.0 z=6.35587644087137
+- **PERSISTENT_DOWN** `interconnector_net` value=-8614 d1=-25.0 d12=-2234.0 z=-6.355446092864547
+- **ACCELERATION** `interconnector_net` value=-8614 d1=-25.0 d12=-2234.0 z=-6.355446092864547
+- **ROBUST_OUTLIER** `interconnector_net` value=-8614 d1=-25.0 d12=-2234.0 z=-6.355446092864547
+- **PERSISTENT_DOWN** `ccgt_gen` value=3689 d1=-36.0 d12=-298.0 z=5.849901485576923
+- **ROBUST_OUTLIER** `ccgt_gen` value=3689 d1=-36.0 d12=-298.0 z=5.849901485576923
+- **CHANGE_POINT** `ind_demand` value=-1.089e+04 d1=0.0 d12=2.0 z=-3.8430229941860463
+- **ROBUST_OUTLIER** `ind_demand` value=-1.089e+04 d1=0.0 d12=2.0 z=-3.8430229941860463
+- **CHANGE_POINT** `biomass_gen` value=952 d1=-2.0 d12=50.0 z=-1.527893447769953
+- **CHANGE_POINT** `wind_gen` value=1.594e+04 d1=-117.0 d12=-953.0 z=-1.0186929099037139
+- **CHANGE_POINT** `ps_gen` value=-708 d1=2.0 d12=-821.0 z=-0.6402581273496241
 
 ## Nearest historical live analogues
 
+- `2026-09-18T19:53:59.381022Z` distance=0.023 → {'next30m_imbalance_delta': -59.0, 'next30m_margin_delta': 78.0, 'next30m_residual_proxy_delta': 0.0}
 - `2026-09-18T19:32:42.521831Z` distance=0.033 → {'next30m_imbalance_delta': 17.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
 - `2026-09-18T19:36:55.641647Z` distance=0.033 → {'next30m_imbalance_delta': 17.0, 'next30m_margin_delta': 26.0, 'next30m_residual_proxy_delta': 0.0}
 - `2026-09-18T19:41:08.223702Z` distance=0.033 → {'next30m_imbalance_delta': -42.0, 'next30m_margin_delta': 104.0, 'next30m_residual_proxy_delta': 0.0}
 - `2026-09-18T19:45:21.123872Z` distance=0.033 → {'next30m_imbalance_delta': -42.0, 'next30m_margin_delta': 104.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-18T19:49:47.342713Z` distance=0.033 → {'next30m_imbalance_delta': -42.0, 'next30m_margin_delta': 104.0, 'next30m_residual_proxy_delta': 0.0}
 
 Deep rule promotion remains delegated to the recovered Market Memory/N10 lineage engine.
