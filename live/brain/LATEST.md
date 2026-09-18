@@ -1,27 +1,22 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T23:39:16.833636Z`  
-Memory snapshots: **1305**  
+Heartbeat: `2026-09-18T23:44:07.144976Z`  
+Memory snapshots: **1306**  
 Current physical regime: **BALANCED**
-
-Regime read: wind rising.
 
 ## Active patterns
 
-- **CHANGE_POINT** `imbalance` value=9193 d1=0.0 d12=209.0 z=2.586575371559633
+- **CHANGE_POINT** `imbalance` value=9193 d1=0.0 d12=209.0 z=2.5172921026785713
 - **CHANGE_POINT** `ind_generation` value=2.639e+04 d1=0.0 d12=209.0 z=2.4104715655737707
-- **CHANGE_POINT** `biomass_gen` value=1202 d1=-2.0 d12=176.0 z=-0.7362388116197183
-- **CHANGE_POINT** `margin` value=3.754e+04 d1=0.0 d12=-50.0 z=-0.5908753181818182
-- **PERSISTENT_DOWN** `residual_proxy` value=9088 d1=0.0 d12=-149.0 z=-1.4416574809160305
-- **PERSISTENT_DOWN** `wind_gen` value=1.574e+04 d1=-27.0 d12=-164.0 z=-1.3935125233837689
-- **PERSISTENT_UP** `nuclear_gen` value=3341 d1=1.0 d12=2.0 z=0.94428565
-- **ACCELERATION** `nuclear_gen` value=3341 d1=1.0 d12=2.0 z=0.94428565
-- **REVERSAL** `interconnector_net` value=-8784 d1=6.0 d12=-143.0 z=-0.9047672129801604
-- **REVERSAL** `biomass_gen` value=1202 d1=-2.0 d12=176.0 z=-0.7362388116197183
-- **REVERSAL** `ccgt_gen` value=3638 d1=10.0 d12=-140.0 z=-0.06317060238399319
-- **REVERSAL** `thermal_base` value=6979 d1=11.0 d12=-138.0 z=-0.06306321504462388
-- **PERSISTENT_UP** `wind_forecast` value=7462 d1=0.0 d12=149.0 z=None
+- **CHANGE_POINT** `biomass_gen` value=1194 d1=-8.0 d12=130.0 z=-0.7615717599765258
+- **CHANGE_POINT** `margin` value=3.754e+04 d1=0.0 d12=-69.0 z=-0.5908753181818182
+- **REVERSAL** `wind_gen` value=1.574e+04 d1=4.0 d12=-58.0 z=-1.3860903528198074
+- **ACCELERATION** `wind_gen` value=1.574e+04 d1=4.0 d12=-58.0 z=-1.3860903528198074
+- **ACCELERATION** `nuclear_gen` value=3341 d1=0.0 d12=0.0 z=0.94428565
+- **REVERSAL** `interconnector_net` value=-8757 d1=27.0 d12=-135.0 z=-0.8930901223761545
+- **REVERSAL** `biomass_gen` value=1194 d1=-8.0 d12=130.0 z=-0.7615717599765258
+- **PERSISTENT_UP** `ps_gen` value=-422 d1=0.0 d12=56.0 z=-0.004667749134948097
 
 ## Nearest historical live analogues
 
