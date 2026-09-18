@@ -1,23 +1,22 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T23:05:26.374055Z`  
-Memory snapshots: **1297**  
+Heartbeat: `2026-09-18T23:09:37.056507Z`  
+Memory snapshots: **1298**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
 - **ROBUST_OUTLIER** `ind_demand` value=-1.089e+04 d1=0.0 d12=0.0 z=-3.7403522500000004
-- **ACCELERATION** `nuclear_gen` value=3341 d1=0.0 d12=-1.0 z=1.3489795
-- **PERSISTENT_DOWN** `interconnector_net` value=-8868 d1=0.0 d12=-1352.0 z=-1.0205851797296104
-- **PERSISTENT_UP** `biomass_gen` value=1135 d1=0.0 d12=185.0 z=-0.9484022541079812
-- **PERSISTENT_DOWN** `ind_generation` value=2.617e+04 d1=0.0 d12=-15.0 z=0.6450657005033558
-- **PERSISTENT_DOWN** `imbalance` value=8975 d1=0.0 d12=-15.0 z=0.16187754000000001
-- **PERSISTENT_DOWN** `ccgt_gen` value=3748 d1=0.0 d12=-122.0 z=0.006326779873572594
-- **ACCELERATION** `ccgt_gen` value=3748 d1=0.0 d12=-122.0 z=0.006326779873572594
-- **PERSISTENT_DOWN** `thermal_base` value=7089 d1=0.0 d12=-123.0 z=0.006319048574338086
-- **ACCELERATION** `thermal_base` value=7089 d1=0.0 d12=-123.0 z=0.006319048574338086
-- **PERSISTENT_UP** `ps_gen` value=-424 d1=0.0 d12=46.0 z=0.0011669372837370242
+- **CHANGE_POINT** `ind_generation` value=2.617e+04 d1=0.0 d12=-15.0 z=0.07402936280487805
+- **CHANGE_POINT** `imbalance` value=8975 d1=0.0 d12=-15.0 z=0.0
+- **PERSISTENT_UP** `nuclear_gen` value=3342 d1=1.0 d12=1.0 z=1.686224375
+- **ACCELERATION** `nuclear_gen` value=3342 d1=1.0 d12=1.0 z=1.686224375
+- **REVERSAL** `interconnector_net` value=-8794 d1=74.0 d12=-1160.0 z=-1.009741909008731
+- **PERSISTENT_UP** `biomass_gen` value=1156 d1=21.0 d12=231.0 z=-0.8819032646713616
+- **PERSISTENT_DOWN** `ccgt_gen` value=3724 d1=-24.0 d12=-116.0 z=-0.013225289215686274
+- **PERSISTENT_DOWN** `thermal_base` value=7066 d1=-23.0 d12=-115.0 z=-0.012627809727309728
+- **PERSISTENT_UP** `ps_gen` value=-421 d1=3.0 d12=216.0 z=0.0069895310880829006
 
 ## Nearest historical live analogues
 
