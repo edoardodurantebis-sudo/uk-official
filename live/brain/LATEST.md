@@ -1,21 +1,27 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T03:44:47.089798Z`  
-Memory snapshots: **1076**  
+Heartbeat: `2026-09-18T03:48:59.186138Z`  
+Memory snapshots: **1077**  
 Current physical regime: **LOOSE**
 
 Regime read: margin high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `margin` value=3.817e+04 d1=0.0 d12=-14.0 z=9.689767926339286
-- **ROBUST_OUTLIER** `margin` value=3.817e+04 d1=0.0 d12=-14.0 z=9.689767926339286
-- **CHANGE_POINT** `interconnector_net` value=-6990 d1=0.0 d12=-1661.0 z=-2.4458856623086733
-- **PERSISTENT_UP** `nuclear_gen` value=3339 d1=0.0 d12=6.0 z=1.7782002499999998
-- **ACCELERATION** `nuclear_gen` value=3339 d1=0.0 d12=6.0 z=1.7782002499999998
-- **PERSISTENT_DOWN** `ps_gen` value=166 d1=0.0 d12=-366.0 z=-0.3708977606157113
-- **PERSISTENT_UP** `biomass_gen` value=1928 d1=0.0 d12=177.0 z=-0.051883826923076914
+- **CHANGE_POINT** `margin` value=3.817e+04 d1=0.0 d12=-14.0 z=8.432444403921568
+- **ROBUST_OUTLIER** `margin` value=3.817e+04 d1=0.0 d12=-14.0 z=8.432444403921568
+- **CHANGE_POINT** `interconnector_net` value=-6974 d1=16.0 d12=-1625.0 z=-2.537277231301939
+- **REVERSAL** `interconnector_net` value=-6974 d1=16.0 d12=-1625.0 z=-2.537277231301939
+- **CHANGE_POINT** `ccgt_gen` value=3677 d1=-19.0 d12=340.0 z=-0.217285288590604
+- **CHANGE_POINT** `thermal_base` value=7012 d1=-23.0 d12=344.0 z=-0.19320718396226413
+- **PERSISTENT_DOWN** `wind_gen` value=1.366e+04 d1=-68.0 d12=-306.0 z=-1.4501024010494754
+- **REVERSAL** `nuclear_gen` value=3335 d1=-4.0 d12=4.0 z=1.1241495833333335
+- **ACCELERATION** `nuclear_gen` value=3335 d1=-4.0 d12=4.0 z=1.1241495833333335
+- **REVERSAL** `ccgt_gen` value=3677 d1=-19.0 d12=340.0 z=-0.217285288590604
+- **REVERSAL** `ps_gen` value=227 d1=61.0 d12=-304.0 z=-0.19434450423728813
+- **REVERSAL** `thermal_base` value=7012 d1=-23.0 d12=344.0 z=-0.19320718396226413
+- **PERSISTENT_UP** `biomass_gen` value=1929 d1=1.0 d12=177.0 z=-0.018479171232876714
 
 ## Nearest historical live analogues
 
