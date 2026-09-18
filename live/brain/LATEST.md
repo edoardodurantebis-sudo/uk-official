@@ -1,27 +1,27 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T06:58:01.482012Z`  
-Memory snapshots: **1122**  
+Heartbeat: `2026-09-18T07:02:14.066477Z`  
+Memory snapshots: **1123**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `interconnector_net` value=-657 d1=-64.0 d12=2359.0 z=5.142454084512578
+- **CHANGE_POINT** `ind_demand` value=-1.14e+04 d1=0.0 d12=-237.0 z=-5.986096531249999
+- **CHANGE_POINT** `interconnector_net` value=-197 d1=460.0 d12=2286.0 z=5.668709254956384
 - **CHANGE_POINT** `imbalance` value=1.056e+04 d1=0.0 d12=-154.0 z=4.231879237903226
 - **CHANGE_POINT** `ind_generation` value=2.738e+04 d1=0.0 d12=-154.0 z=4.231879237903226
 - **PERSISTENT_DOWN** `ind_demand` value=-1.14e+04 d1=0.0 d12=-237.0 z=-5.986096531249999
-- **ACCELERATION** `ind_demand` value=-1.14e+04 d1=0.0 d12=-237.0 z=-5.986096531249999
 - **ROBUST_OUTLIER** `ind_demand` value=-1.14e+04 d1=0.0 d12=-237.0 z=-5.986096531249999
-- **REVERSAL** `interconnector_net` value=-657 d1=-64.0 d12=2359.0 z=5.142454084512578
-- **ROBUST_OUTLIER** `interconnector_net` value=-657 d1=-64.0 d12=2359.0 z=5.142454084512578
+- **PERSISTENT_UP** `interconnector_net` value=-197 d1=460.0 d12=2286.0 z=5.668709254956384
+- **ROBUST_OUTLIER** `interconnector_net` value=-197 d1=460.0 d12=2286.0 z=5.668709254956384
+- **CHANGE_POINT** `ps_gen` value=884 d1=175.0 d12=508.0 z=2.4453232632508834
 - **PERSISTENT_DOWN** `imbalance` value=1.056e+04 d1=0.0 d12=-154.0 z=4.231879237903226
-- **ACCELERATION** `imbalance` value=1.056e+04 d1=0.0 d12=-154.0 z=4.231879237903226
 - **ROBUST_OUTLIER** `imbalance` value=1.056e+04 d1=0.0 d12=-154.0 z=4.231879237903226
 - **PERSISTENT_DOWN** `ind_generation` value=2.738e+04 d1=0.0 d12=-154.0 z=4.231879237903226
-- **ACCELERATION** `ind_generation` value=2.738e+04 d1=0.0 d12=-154.0 z=4.231879237903226
 - **ROBUST_OUTLIER** `ind_generation` value=2.738e+04 d1=0.0 d12=-154.0 z=4.231879237903226
-- **CHANGE_POINT** `ps_gen` value=709 d1=34.0 d12=182.0 z=2.124354469017094
+- **PERSISTENT_UP** `ps_gen` value=884 d1=175.0 d12=508.0 z=2.4453232632508834
+- **CHANGE_POINT** `margin` value=3.795e+04 d1=0.0 d12=-51.0 z=-0.28285054032258067
 
 ## Nearest historical live analogues
 
