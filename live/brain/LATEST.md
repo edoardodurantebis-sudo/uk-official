@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T17:59:39.675441Z`  
-Memory snapshots: **1250**  
+Heartbeat: `2026-09-18T18:03:52.862865Z`  
+Memory snapshots: **1251**  
 Current physical regime: **TIGHT**
 
 Regime read: margin low.
 
 ## Active patterns
 
-- **CHANGE_POINT** `ccgt_gen` value=5091 d1=-36.0 d12=2574.0 z=29.71184508898305
-- **CHANGE_POINT** `thermal_base` value=8430 d1=-37.0 d12=2577.0 z=29.456497737394958
-- **REVERSAL** `ccgt_gen` value=5091 d1=-36.0 d12=2574.0 z=29.71184508898305
-- **ROBUST_OUTLIER** `ccgt_gen` value=5091 d1=-36.0 d12=2574.0 z=29.71184508898305
-- **REVERSAL** `thermal_base` value=8430 d1=-37.0 d12=2577.0 z=29.456497737394958
-- **ROBUST_OUTLIER** `thermal_base` value=8430 d1=-37.0 d12=2577.0 z=29.456497737394958
+- **CHANGE_POINT** `ccgt_gen` value=5088 d1=-3.0 d12=2546.0 z=29.677549
+- **CHANGE_POINT** `thermal_base` value=8425 d1=-5.0 d12=2551.0 z=29.39981792647059
+- **REVERSAL** `ccgt_gen` value=5088 d1=-3.0 d12=2546.0 z=29.677549
+- **ROBUST_OUTLIER** `ccgt_gen` value=5088 d1=-3.0 d12=2546.0 z=29.677549
+- **REVERSAL** `thermal_base` value=8425 d1=-5.0 d12=2551.0 z=29.39981792647059
+- **ROBUST_OUTLIER** `thermal_base` value=8425 d1=-5.0 d12=2551.0 z=29.39981792647059
 - **CHANGE_POINT** `ind_generation` value=2.616e+04 d1=0.0 d12=574.0 z=16.187753999999998
 - **PERSISTENT_UP** `ind_generation` value=2.616e+04 d1=0.0 d12=574.0 z=16.187753999999998
-- **ACCELERATION** `ind_generation` value=2.616e+04 d1=0.0 d12=574.0 z=16.187753999999998
 - **ROBUST_OUTLIER** `ind_generation` value=2.616e+04 d1=0.0 d12=574.0 z=16.187753999999998
 - **PERSISTENT_UP** `ind_demand` value=-1.077e+04 d1=0.0 d12=1.0 z=-14.16428475
-- **ACCELERATION** `ind_demand` value=-1.077e+04 d1=0.0 d12=1.0 z=-14.16428475
 - **ROBUST_OUTLIER** `ind_demand` value=-1.077e+04 d1=0.0 d12=1.0 z=-14.16428475
-- **CHANGE_POINT** `interconnector_net` value=-1481 d1=61.0 d12=-6525.0 z=-11.881193957737322
-- **REVERSAL** `interconnector_net` value=-1481 d1=61.0 d12=-6525.0 z=-11.881193957737322
+- **CHANGE_POINT** `interconnector_net` value=-1311 d1=170.0 d12=-6328.0 z=-11.582980024057216
+- **REVERSAL** `interconnector_net` value=-1311 d1=170.0 d12=-6328.0 z=-11.582980024057216
+- **ROBUST_OUTLIER** `interconnector_net` value=-1311 d1=170.0 d12=-6328.0 z=-11.582980024057216
+- **CHANGE_POINT** `ps_gen` value=579 d1=-14.0 d12=754.0 z=8.283147082908163
 
 ## Nearest historical live analogues
 
