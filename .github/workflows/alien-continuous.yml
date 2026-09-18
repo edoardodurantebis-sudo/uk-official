@@ -70,27 +70,42 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          SNAPSHOT_DIR="${RUNNER_TEMP}/live-observation"
+          mkdir -p "${SNAPSHOT_DIR}"
+          cp live/LATEST.md "${SNAPSHOT_DIR}/LATEST.md"
+          cp live/state.json "${SNAPSHOT_DIR}/state.json"
+
           git config user.name 'gb-alien-live-bot'
           git config user.email 'gb-alien-live-bot@users.noreply.github.com'
-          git add live/LATEST.md live/state.json live/brain/LATEST.json live/brain/LATEST.md
-          git add -f live/market_memory.jsonl
-          if git diff --cached --quiet; then
-            echo 'No live state changes'
-            exit 0
-          fi
-          git commit -m 'alien-live: update public market state [skip ci]'
+
+          # A chained dispatch can resolve "main" a few seconds before the
+          # previous cycle's live-state commit becomes visible. Never rebase
+          # generated live files: refresh main, restore only this observation,
+          # then rebuild the Brain against the newest canonical memory.
           for attempt in 1 2 3 4 5; do
+            echo "LIVE_PERSIST_ATTEMPT=${attempt}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            mkdir -p live
+            cp "${SNAPSHOT_DIR}/LATEST.md" live/LATEST.md
+            cp "${SNAPSHOT_DIR}/state.json" live/state.json
+            python GB_ALIEN_BRAIN_ORCHESTRATOR.py
+
+            git add live/LATEST.md live/state.json live/brain/LATEST.json live/brain/LATEST.md
+            git add -f live/market_memory.jsonl
+            if git diff --cached --quiet; then
+              echo 'No live state changes after refresh'
+              exit 0
+            fi
+            git commit -m 'alien-live: update public market state [skip ci]'
+
             if git push origin HEAD:main; then
               echo "LIVE_STATE_PUSH_OK attempt=${attempt}"
               exit 0
             fi
+
             echo "LIVE_STATE_PUSH_RACE attempt=${attempt}"
-            git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              echo 'LIVE_STATE_REBASE_FAILED'
-              exit 1
-            fi
             sleep $((attempt * 2))
           done
           echo 'LIVE_STATE_PERSISTENCE_FAILED'
