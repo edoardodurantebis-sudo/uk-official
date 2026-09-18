@@ -1,17 +1,16 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T10:04:17.308046Z`  
-Memory snapshots: **1166**  
+Heartbeat: `2026-09-18T10:08:28.605618Z`  
+Memory snapshots: **1167**  
 Current physical regime: **TIGHT**
 
 Regime read: residual high, margin low.
 
 ## Active patterns
 
-- **CHANGE_POINT** `biomass_gen` value=1616 d1=-34.0 d12=-128.0 z=-23.059118328125
-- **PERSISTENT_DOWN** `biomass_gen` value=1616 d1=-34.0 d12=-128.0 z=-23.059118328125
-- **ROBUST_OUTLIER** `biomass_gen` value=1616 d1=-34.0 d12=-128.0 z=-23.059118328125
+- **PERSISTENT_DOWN** `biomass_gen` value=1564 d1=-52.0 d12=-167.0 z=-25.251210015625
+- **ROBUST_OUTLIER** `biomass_gen` value=1564 d1=-52.0 d12=-167.0 z=-25.251210015625
 - **CHANGE_POINT** `ind_demand` value=-1.319e+04 d1=0.0 d12=-1454.0 z=-15.394236647058824
 - **ROBUST_OUTLIER** `ind_demand` value=-1.319e+04 d1=0.0 d12=-1454.0 z=-15.394236647058824
 - **CHANGE_POINT** `imbalance` value=7801 d1=0.0 d12=-1801.0 z=-9.321448345
@@ -19,11 +18,12 @@ Regime read: residual high, margin low.
 - **CHANGE_POINT** `margin` value=3.616e+04 d1=0.0 d12=-1517.0 z=-6.1283184861111115
 - **ROBUST_OUTLIER** `margin` value=3.616e+04 d1=0.0 d12=-1517.0 z=-6.1283184861111115
 - **CHANGE_POINT** `ind_generation` value=2.689e+04 d1=0.0 d12=-352.0 z=-3.29150998
-- **PERSISTENT_DOWN** `ps_gen` value=-490 d1=0.0 d12=-424.0 z=-3.7942794731270357
-- **ROBUST_OUTLIER** `ps_gen` value=-490 d1=0.0 d12=-424.0 z=-3.7942794731270357
+- **PERSISTENT_DOWN** `ps_gen` value=-702 d1=-212.0 d12=-458.0 z=-4.693051658576052
+- **ACCELERATION** `ps_gen` value=-702 d1=-212.0 d12=-458.0 z=-4.693051658576052
+- **ROBUST_OUTLIER** `ps_gen` value=-702 d1=-212.0 d12=-458.0 z=-4.693051658576052
 - **ROBUST_OUTLIER** `ind_generation` value=2.689e+04 d1=0.0 d12=-352.0 z=-3.29150998
-- **CHANGE_POINT** `interconnector_net` value=4864 d1=38.0 d12=974.0 z=0.865180691218047
-- **REVERSAL** `wind_gen` value=1.178e+04 d1=-18.0 d12=20.0 z=-1.6007008380718954
+- **CHANGE_POINT** `interconnector_net` value=5037 d1=173.0 d12=1187.0 z=0.884427649912075
+- **REVERSAL** `wind_gen` value=1.17e+04 d1=-75.0 d12=32.0 z=-1.638914604890605
 
 ## Nearest historical live analogues
 
