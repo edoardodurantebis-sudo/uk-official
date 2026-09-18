@@ -1,17 +1,17 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-18T09:55:54.580890Z`  
-Memory snapshots: **1164**  
+Heartbeat: `2026-09-18T10:00:07.370805Z`  
+Memory snapshots: **1165**  
 Current physical regime: **TIGHT**
 
 Regime read: residual high, margin low.
 
 ## Active patterns
 
-- **CHANGE_POINT** `biomass_gen` value=1650 d1=0.0 d12=-228.0 z=-21.625827609375
-- **PERSISTENT_DOWN** `biomass_gen` value=1650 d1=0.0 d12=-228.0 z=-21.625827609375
-- **ROBUST_OUTLIER** `biomass_gen` value=1650 d1=0.0 d12=-228.0 z=-21.625827609375
+- **CHANGE_POINT** `biomass_gen` value=1650 d1=0.0 d12=-142.0 z=-21.625827609375
+- **PERSISTENT_DOWN** `biomass_gen` value=1650 d1=0.0 d12=-142.0 z=-21.625827609375
+- **ROBUST_OUTLIER** `biomass_gen` value=1650 d1=0.0 d12=-142.0 z=-21.625827609375
 - **CHANGE_POINT** `ind_demand` value=-1.319e+04 d1=0.0 d12=-1454.0 z=-15.394236647058824
 - **PERSISTENT_DOWN** `ind_demand` value=-1.319e+04 d1=0.0 d12=-1454.0 z=-15.394236647058824
 - **ROBUST_OUTLIER** `ind_demand` value=-1.319e+04 d1=0.0 d12=-1454.0 z=-15.394236647058824
@@ -21,9 +21,9 @@ Regime read: residual high, margin low.
 - **CHANGE_POINT** `margin` value=3.616e+04 d1=0.0 d12=-1517.0 z=-6.1283184861111115
 - **PERSISTENT_DOWN** `margin` value=3.616e+04 d1=0.0 d12=-1517.0 z=-6.1283184861111115
 - **ROBUST_OUTLIER** `margin` value=3.616e+04 d1=0.0 d12=-1517.0 z=-6.1283184861111115
-- **CHANGE_POINT** `ps_gen` value=-490 d1=-36.0 d12=-714.0 z=-3.866629358910891
 - **CHANGE_POINT** `ind_generation` value=2.689e+04 d1=0.0 d12=-352.0 z=-3.29150998
-- **PERSISTENT_DOWN** `ps_gen` value=-490 d1=-36.0 d12=-714.0 z=-3.866629358910891
+- **PERSISTENT_DOWN** `ps_gen` value=-490 d1=0.0 d12=-653.0 z=-3.825794319672131
+- **ROBUST_OUTLIER** `ps_gen` value=-490 d1=0.0 d12=-653.0 z=-3.825794319672131
 
 ## Nearest historical live analogues
 
