@@ -1,29 +1,27 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-19T05:42:43.534541Z`  
-Memory snapshots: **1391**  
+Heartbeat: `2026-09-19T05:46:55.344214Z`  
+Memory snapshots: **1392**  
 Current physical regime: **BALANCED**
-
-Regime read: wind rising.
 
 ## Active patterns
 
 - **ROBUST_OUTLIER** `ind_demand` value=-1.086e+04 d1=0.0 d12=0.0 z=4.72142825
-- **ROBUST_OUTLIER** `imbalance` value=9712 d1=0.0 d12=-8.0 z=4.351844825342466
-- **ROBUST_OUTLIER** `ind_generation` value=2.69e+04 d1=0.0 d12=-8.0 z=4.305646897260274
-- **ACCELERATION** `biomass_gen` value=693 d1=0.0 d12=-1.0 z=-3.4780917228915667
-- **ROBUST_OUTLIER** `biomass_gen` value=693 d1=0.0 d12=-1.0 z=-3.4780917228915667
-- **CHANGE_POINT** `margin` value=3.825e+04 d1=0.0 d12=-63.0 z=0.5655877591145834
-- **REVERSAL** `nuclear_gen` value=3332 d1=1.0 d12=-12.0 z=-2.360714125
-- **CHANGE_POINT** `thermal_base` value=6674 d1=-1.0 d12=268.0 z=-0.19440477855887522
-- **CHANGE_POINT** `ccgt_gen` value=3342 d1=-2.0 d12=280.0 z=-0.18341387938596493
-- **PERSISTENT_DOWN** `wind_gen` value=1.579e+04 d1=-38.0 d12=-254.0 z=-0.8543536833333334
-- **REVERSAL** `thermal_base` value=6674 d1=-1.0 d12=268.0 z=-0.19440477855887522
-- **REVERSAL** `ccgt_gen` value=3342 d1=-2.0 d12=280.0 z=-0.18341387938596493
-- **REVERSAL** `interconnector_net` value=-1.088e+04 d1=-36.0 d12=29.0 z=0.0678188962522852
-- **PERSISTENT_UP** `ps_gen` value=-539 d1=0.0 d12=3.0 z=0.031082476958525347
-- **ACCELERATION** `ps_gen` value=-539 d1=0.0 d12=3.0 z=0.031082476958525347
+- **ROBUST_OUTLIER** `imbalance` value=9712 d1=0.0 d12=-8.0 z=3.8835527841614907
+- **ROBUST_OUTLIER** `ind_generation` value=2.69e+04 d1=0.0 d12=-8.0 z=3.8137815493827163
+- **PERSISTENT_UP** `biomass_gen` value=694 d1=1.0 d12=1.0 z=-3.469965340361446
+- **ACCELERATION** `biomass_gen` value=694 d1=1.0 d12=1.0 z=-3.469965340361446
+- **ROBUST_OUTLIER** `biomass_gen` value=694 d1=1.0 d12=1.0 z=-3.469965340361446
+- **CHANGE_POINT** `ccgt_gen` value=3539 d1=197.0 d12=456.0 z=0.2922399263431542
+- **CHANGE_POINT** `thermal_base` value=6872 d1=198.0 d12=449.0 z=0.28625252276632307
+- **REVERSAL** `nuclear_gen` value=3333 d1=1.0 d12=-7.0 z=-2.0234692499999998
+- **CHANGE_POINT** `margin` value=3.825e+04 d1=0.0 d12=-63.0 z=0.0
+- **PERSISTENT_DOWN** `wind_gen` value=1.577e+04 d1=-19.0 d12=-281.0 z=-0.9153789464285714
+- **PERSISTENT_UP** `ccgt_gen` value=3539 d1=197.0 d12=456.0 z=0.2922399263431542
+- **ACCELERATION** `ccgt_gen` value=3539 d1=197.0 d12=456.0 z=0.2922399263431542
+- **PERSISTENT_UP** `thermal_base` value=6872 d1=198.0 d12=449.0 z=0.28625252276632307
+- **ACCELERATION** `thermal_base` value=6872 d1=198.0 d12=449.0 z=0.28625252276632307
 
 ## Nearest historical live analogues
 
