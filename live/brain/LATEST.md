@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-19T09:21:22.240716Z`  
-Memory snapshots: **1443**  
+Heartbeat: `2026-09-19T09:26:43.150108Z`  
+Memory snapshots: **1444**  
 Current physical regime: **BALANCED**
 
 Regime read: residual low, margin low.
 
 ## Active patterns
 
-- **PERSISTENT_UP** `ts_demand_forecast` value=1.893e+04 d1=1130.0 d12=1130.0 z=293.065796375
-- **ACCELERATION** `ts_demand_forecast` value=1.893e+04 d1=1130.0 d12=1130.0 z=293.065796375
-- **ROBUST_OUTLIER** `ts_demand_forecast` value=1.893e+04 d1=1130.0 d12=1130.0 z=293.065796375
-- **PERSISTENT_DOWN** `ind_demand` value=-1.322e+04 d1=-1130.0 d12=-1135.0 z=-98.433347890625
-- **ACCELERATION** `ind_demand` value=-1.322e+04 d1=-1130.0 d12=-1135.0 z=-98.433347890625
-- **ROBUST_OUTLIER** `ind_demand` value=-1.322e+04 d1=-1130.0 d12=-1135.0 z=-98.433347890625
-- **REVERSAL** `interconnector_net` value=-458 d1=25.0 d12=-498.0 z=19.702700584507042
-- **ROBUST_OUTLIER** `interconnector_net` value=-458 d1=25.0 d12=-498.0 z=19.702700584507042
-- **PERSISTENT_DOWN** `margin` value=3.648e+04 d1=-1114.0 d12=-1137.0 z=-19.637603213114755
-- **ACCELERATION** `margin` value=3.648e+04 d1=-1114.0 d12=-1137.0 z=-19.637603213114755
-- **ROBUST_OUTLIER** `margin` value=3.648e+04 d1=-1114.0 d12=-1137.0 z=-19.637603213114755
-- **CHANGE_POINT** `ps_gen` value=-422 d1=1.0 d12=1.0 z=16.05285605
-- **PERSISTENT_UP** `ps_gen` value=-422 d1=1.0 d12=1.0 z=16.05285605
-- **ACCELERATION** `ps_gen` value=-422 d1=1.0 d12=1.0 z=16.05285605
-- **ROBUST_OUTLIER** `ps_gen` value=-422 d1=1.0 d12=1.0 z=16.05285605
+- **PERSISTENT_UP** `ts_demand_forecast` value=1.893e+04 d1=0.0 d12=1130.0 z=293.065796375
+- **ACCELERATION** `ts_demand_forecast` value=1.893e+04 d1=0.0 d12=1130.0 z=293.065796375
+- **ROBUST_OUTLIER** `ts_demand_forecast` value=1.893e+04 d1=0.0 d12=1130.0 z=293.065796375
+- **PERSISTENT_DOWN** `ind_demand` value=-1.322e+04 d1=0.0 d12=-1135.0 z=-98.433347890625
+- **ACCELERATION** `ind_demand` value=-1.322e+04 d1=0.0 d12=-1135.0 z=-98.433347890625
+- **ROBUST_OUTLIER** `ind_demand` value=-1.322e+04 d1=0.0 d12=-1135.0 z=-98.433347890625
+- **PERSISTENT_DOWN** `margin` value=3.648e+04 d1=0.0 d12=-1137.0 z=-19.637603213114755
+- **ACCELERATION** `margin` value=3.648e+04 d1=0.0 d12=-1137.0 z=-19.637603213114755
+- **ROBUST_OUTLIER** `margin` value=3.648e+04 d1=0.0 d12=-1137.0 z=-19.637603213114755
+- **CHANGE_POINT** `ps_gen` value=-422 d1=0.0 d12=1.0 z=16.05285605
+- **PERSISTENT_UP** `ps_gen` value=-422 d1=0.0 d12=1.0 z=16.05285605
+- **ACCELERATION** `ps_gen` value=-422 d1=0.0 d12=1.0 z=16.05285605
+- **ROBUST_OUTLIER** `ps_gen` value=-422 d1=0.0 d12=1.0 z=16.05285605
+- **REVERSAL** `interconnector_net` value=-440 d1=18.0 d12=-480.0 z=15.868988296232876
+- **ROBUST_OUTLIER** `interconnector_net` value=-440 d1=18.0 d12=-480.0 z=15.868988296232876
 
 ## Nearest historical live analogues
 
