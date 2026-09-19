@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-19T12:02:38.156173Z`  
-Memory snapshots: **1481**  
+Heartbeat: `2026-09-19T12:06:51.129462Z`  
+Memory snapshots: **1482**  
 Current physical regime: **TIGHT**
 
 Regime read: residual high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `ind_generation` value=1.675e+04 d1=0.0 d12=-3.0 z=-72.06994732978724
 - **PERSISTENT_DOWN** `ind_generation` value=1.675e+04 d1=0.0 d12=-3.0 z=-72.06994732978724
-- **ACCELERATION** `ind_generation` value=1.675e+04 d1=0.0 d12=-3.0 z=-72.06994732978724
 - **ROBUST_OUTLIER** `ind_generation` value=1.675e+04 d1=0.0 d12=-3.0 z=-72.06994732978724
-- **CHANGE_POINT** `imbalance` value=-3260 d1=0.0 d12=118.0 z=-7.7486969514705875
 - **PERSISTENT_UP** `imbalance` value=-3260 d1=0.0 d12=118.0 z=-7.7486969514705875
-- **ACCELERATION** `imbalance` value=-3260 d1=0.0 d12=118.0 z=-7.7486969514705875
 - **ROBUST_OUTLIER** `imbalance` value=-3260 d1=0.0 d12=118.0 z=-7.7486969514705875
-- **CHANGE_POINT** `ps_gen` value=-937 d1=2.0 d12=-128.0 z=-2.018359479166667
 - **ROBUST_OUTLIER** `demand_forecast` value=1.951e+04 d1=0.0 d12=-122.0 z=3.2718281479508198
+- **CHANGE_POINT** `ps_gen` value=-668 d1=269.0 d12=154.0 z=-0.604880487544484
 - **CHANGE_POINT** `margin` value=3.678e+04 d1=0.0 d12=1230.0 z=-0.28739128478260867
-- **CHANGE_POINT** `ind_demand` value=-1.178e+04 d1=0.0 d12=0.0 z=0.2768566742424242
-- **REVERSAL** `ps_gen` value=-937 d1=2.0 d12=-128.0 z=-2.018359479166667
-- **PERSISTENT_UP** `ccgt_gen` value=2801 d1=14.0 d12=28.0 z=-1.5661880635593222
-- **ACCELERATION** `ccgt_gen` value=2801 d1=14.0 d12=28.0 z=-1.5661880635593222
+- **PERSISTENT_UP** `ccgt_gen` value=2826 d1=25.0 d12=51.0 z=-1.4235087541436464
+- **PERSISTENT_UP** `thermal_base` value=6158 d1=23.0 d12=49.0 z=-1.3983324085365854
+- **REVERSAL** `biomass_gen` value=475 d1=-2.0 d12=1.0 z=-0.6839896056338028
+- **ACCELERATION** `biomass_gen` value=475 d1=-2.0 d12=1.0 z=-0.6839896056338028
+- **PERSISTENT_UP** `ps_gen` value=-668 d1=269.0 d12=154.0 z=-0.604880487544484
+- **ACCELERATION** `ps_gen` value=-668 d1=269.0 d12=154.0 z=-0.604880487544484
+- **PERSISTENT_DOWN** `nuclear_gen` value=3332 d1=-2.0 d12=-2.0 z=-0.5395918
+- **ACCELERATION** `nuclear_gen` value=3332 d1=-2.0 d12=-2.0 z=-0.5395918
 
 ## Nearest historical live analogues
 
