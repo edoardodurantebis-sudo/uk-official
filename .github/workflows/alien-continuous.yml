@@ -7,6 +7,8 @@ on:
       - '.github/workflows/alien-continuous.yml'
       - 'GB_ALIEN_CONTINUOUS.py'
       - 'GB_ALIEN_BRAIN_ORCHESTRATOR.py'
+      - 'GB_PHYSICAL_FANZINE.py'
+      - 'tests/test_physical_fanzine.py'
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
@@ -34,14 +36,18 @@ jobs:
       - name: Compile and self-test
         run: |
           set -euo pipefail
-          python -m py_compile GB_ALIEN_CONTINUOUS.py GB_ALIEN_BRAIN_ORCHESTRATOR.py
+          python -m py_compile GB_ALIEN_CONTINUOUS.py GB_ALIEN_BRAIN_ORCHESTRATOR.py GB_PHYSICAL_FANZINE.py
           python GB_ALIEN_CONTINUOUS.py --self-test
+          python -m unittest tests.test_physical_fanzine
 
       - name: Observe Elexon publications
         run: python GB_ALIEN_CONTINUOUS.py --duration-seconds 240 --poll-seconds 1
 
       - name: Interpret state with market-memory brain
         run: python GB_ALIEN_BRAIN_ORCHESTRATOR.py
+
+      - name: Build physical-only UNDER THE BID Fanzine
+        run: python GB_PHYSICAL_FANZINE.py
 
       - name: Health gate
         shell: bash
@@ -52,6 +58,8 @@ jobs:
           test -s live/market_memory.jsonl
           test -s live/brain/LATEST.json
           test -s live/brain/LATEST.md
+          test -s live/FANZINE_PHYSICAL.json
+          test -s live/FANZINE_PHYSICAL.md
           grep -q 'GB_ALIEN_CONTINUOUS_V1.1.0' live/LATEST.md
           grep -q 'GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0' live/brain/LATEST.md
           python - <<'PY'
@@ -74,6 +82,8 @@ jobs:
           mkdir -p "${SNAPSHOT_DIR}"
           cp live/LATEST.md "${SNAPSHOT_DIR}/LATEST.md"
           cp live/state.json "${SNAPSHOT_DIR}/state.json"
+          cp live/FANZINE_PHYSICAL.json "${SNAPSHOT_DIR}/FANZINE_PHYSICAL.json"
+          cp live/FANZINE_PHYSICAL.md "${SNAPSHOT_DIR}/FANZINE_PHYSICAL.md"
 
           git config user.name 'gb-alien-live-bot'
           git config user.email 'gb-alien-live-bot@users.noreply.github.com'
@@ -91,8 +101,9 @@ jobs:
             cp "${SNAPSHOT_DIR}/LATEST.md" live/LATEST.md
             cp "${SNAPSHOT_DIR}/state.json" live/state.json
             python GB_ALIEN_BRAIN_ORCHESTRATOR.py
+            python GB_PHYSICAL_FANZINE.py
 
-            git add live/LATEST.md live/state.json live/brain/LATEST.json live/brain/LATEST.md
+            git add live/LATEST.md live/state.json live/brain/LATEST.json live/brain/LATEST.md live/FANZINE_PHYSICAL.json live/FANZINE_PHYSICAL.md
             git add -f live/market_memory.jsonl
             if git diff --cached --quiet; then
               echo 'No live state changes after refresh'
