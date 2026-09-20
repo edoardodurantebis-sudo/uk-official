@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-20T19:38:13.528295Z  
-Source heartbeat: 2026-09-20T19:38:12.085012Z  
+Generated UTC: 2026-09-20T19:43:00.533197Z  
+Source heartbeat: 2026-09-20T19:42:58.995529Z  
 
 ## Regime: **TIGHT**
 Reason: residual high; wind falling
@@ -12,16 +12,16 @@ Reason: residual high; wind falling
 |---|---:|---:|---:|---:|---|
 | Demand forecast | 20110.0 | 0.0 | 0.0 | 0.0 |  |
 | TS demand forecast | 20610.0 | 0.0 | 0.0 | 0.0 |  |
-| Wind forecast | 1726.0 | 0.0 | -389.0 | 389.0 | PERSISTENT_DOWN, ACCELERATION |
-| Wind generation | 5689.0 | -14.0 | -152.0 | 23.0 | PERSISTENT_DOWN |
-| Residual-load proxy | 18384.0 | 0.0 | 389.0 | -389.0 | PERSISTENT_UP, ACCELERATION |
-| Indicated margin | 35583.0 | 0.0 | 153.0 | 0.0 |  |
+| Wind forecast | 1726.0 | 0.0 | -389.0 | 0.0 | PERSISTENT_DOWN |
+| Wind generation | 5696.0 | 7.0 | -7.0 | 21.0 | REVERSAL, ACCELERATION |
+| Residual-load proxy | 18384.0 | 0.0 | 389.0 | 0.0 | PERSISTENT_UP |
+| Indicated margin | 35583.0 | 0.0 | 182.0 | 0.0 | CHANGE_POINT |
 | Indicated imbalance | -5338.0 | 0.0 | -180.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
-| Interconnector net | 10916.0 | 0.0 | 1042.0 | -513.0 | PERSISTENT_UP, ACCELERATION, CHANGE_POINT |
-| CCGT generation | 8294.0 | -66.0 | -429.0 | 75.0 | PERSISTENT_DOWN |
-| Nuclear generation | 3336.0 | -8.0 | -5.0 | -10.0 | PERSISTENT_DOWN, ACCELERATION |
-| Pumped-storage generation | 227.0 | 0.0 | 3.0 | 0.0 | CHANGE_POINT |
-| Thermal base | 11630.0 | -74.0 | -434.0 | 65.0 | PERSISTENT_DOWN |
+| Interconnector net | 10915.0 | -1.0 | 1041.0 | -1.0 | REVERSAL, CHANGE_POINT |
+| CCGT generation | 8277.0 | -17.0 | -504.0 | 49.0 | PERSISTENT_DOWN, CHANGE_POINT |
+| Nuclear generation | 3333.0 | -3.0 | -5.0 | 5.0 | PERSISTENT_DOWN, ACCELERATION |
+| Pumped-storage generation | 227.0 | 0.0 | 4.0 | 0.0 | CHANGE_POINT |
+| Thermal base | 11610.0 | -20.0 | -509.0 | 54.0 | PERSISTENT_DOWN, CHANGE_POINT |
 | Frequency | 49.922 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
@@ -30,15 +30,15 @@ Reason: residual high; wind falling
 - **ind_generation / ROBUST_OUTLIER** — value=15272.0, Δ1=0.0, Δ12=-180.0, accel=0.0
 - **imbalance / CHANGE_POINT** — value=-5338.0, Δ1=0.0, Δ12=-180.0, accel=0.0
 - **imbalance / ROBUST_OUTLIER** — value=-5338.0, Δ1=0.0, Δ12=-180.0, accel=0.0
-- **ps_gen / CHANGE_POINT** — value=227.0, Δ1=0.0, Δ12=3.0, accel=0.0
-- **interconnector_net / CHANGE_POINT** — value=10916.0, Δ1=0.0, Δ12=1042.0, accel=-513.0
-- **ccgt_gen / PERSISTENT_DOWN** — value=8294.0, Δ1=-66.0, Δ12=-429.0, accel=75.0
-- **thermal_base / PERSISTENT_DOWN** — value=11630.0, Δ1=-74.0, Δ12=-434.0, accel=65.0
+- **ccgt_gen / CHANGE_POINT** — value=8277.0, Δ1=-17.0, Δ12=-504.0, accel=49.0
+- **thermal_base / CHANGE_POINT** — value=11610.0, Δ1=-20.0, Δ12=-509.0, accel=54.0
+- **margin / CHANGE_POINT** — value=35583.0, Δ1=0.0, Δ12=182.0, accel=0.0
+- **ps_gen / CHANGE_POINT** — value=227.0, Δ1=0.0, Δ12=4.0, accel=0.0
 
 ## Health
 
 - Alien: **OK**
-- MID: **OK** — 1 rows
+- MID: **OK** — 2 rows
 
 ## Trading layer
 
