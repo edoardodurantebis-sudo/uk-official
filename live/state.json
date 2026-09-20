@@ -603,33 +603,6 @@
   ],
   "events": [
     {
-      "dataset": "FREQ",
-      "marker": "2026-09-20T15:21:45Z",
-      "rows": 5761,
-      "ts": "2026-09-20T15:22:22.532547Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-20T15:12:02Z",
-      "rows": 0,
-      "ts": "2026-09-20T15:22:22.532547Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-20T15:12:02Z",
-      "rows": 0,
-      "ts": "2026-09-20T15:22:26.095153Z"
-    },
-    {
-      "dataset": "MID",
-      "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
-      "marker": "2026-09-20T15:12:02Z",
-      "rows": 0,
-      "ts": "2026-09-20T15:22:27.628743Z"
-    },
-    {
       "dataset": "MID",
       "error": "RuntimeError: MID: HTTP Error 400: Bad Request",
       "marker": "2026-09-20T15:12:02Z",
@@ -1006,18 +979,42 @@
       "marker": "2026-09-20T15:35:00Z",
       "rows": 80,
       "ts": "2026-09-20T15:35:46.247772Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-20T15:35:45Z",
+      "rows": 5761,
+      "ts": "2026-09-20T15:36:27.945056Z"
+    },
+    {
+      "dataset": "MID",
+      "marker": "2026-09-20T15:35:00Z",
+      "rows": 1,
+      "ts": "2026-09-20T15:36:27.945056Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-20T15:37:45Z",
+      "rows": 5761,
+      "ts": "2026-09-20T15:38:19.995835Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-20T15:39:45Z",
+      "rows": 5761,
+      "ts": "2026-09-20T15:40:11.644341Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-19T20:01:36.690984Z"
   },
-  "last_heartbeat": "2026-09-20T15:36:16.570983Z",
-  "last_successful_metadata_poll": "2026-09-20T15:36:16.570965Z",
+  "last_heartbeat": "2026-09-20T15:40:27.510959Z",
+  "last_successful_metadata_poll": "2026-09-20T15:40:27.510942Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 3961,
-      "ts": "2026-09-20T15:34:10.610073Z",
+      "n": 3964,
+      "ts": "2026-09-20T15:40:11.644341Z",
       "value": 49.922
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1240,6 +1237,16 @@
       "ts": "2026-09-20T15:20:29.348401Z",
       "value": 35924.0
     },
+    "MID|dataProvider=N2EXMIDP|price": {
+      "n": 1,
+      "ts": "2026-09-20T15:36:27.945056Z",
+      "value": 0.0
+    },
+    "MID|dataProvider=N2EXMIDP|volume": {
+      "n": 1,
+      "ts": "2026-09-20T15:36:27.945056Z",
+      "value": 0.0
+    },
     "NDF|TOTAL|demand": {
       "n": 267,
       "ts": "2026-09-20T15:17:54.992847Z",
@@ -1257,14 +1264,14 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-20T15:33:45Z",
+    "FREQ": "2026-09-20T15:39:45Z",
     "FUELHH": "2026-09-20T15:30:00Z",
     "FUELINST": "2026-09-20T15:35:00Z",
     "IMBALNGC": "2026-09-20T15:17:00Z",
     "INDDEM": "2026-09-20T15:17:00Z",
     "INDGEN": "2026-09-20T15:17:00Z",
     "MELNGC": "2026-09-20T15:17:00Z",
-    "MID": "2026-09-20T15:12:02Z",
+    "MID": "2026-09-20T15:35:00Z",
     "NDF": "2026-09-20T15:17:00Z",
     "TSDF": "2026-09-20T15:17:00Z",
     "WINDFOR": "2026-09-20T12:30:00Z"
@@ -1273,9 +1280,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 49.92200000000003,
       "last": 49.922,
-      "m2": 14.45420884876875,
-      "mean": 50.02012825044171,
-      "n": 3961
+      "m2": 14.483074447016342,
+      "mean": 50.02005398587276,
+      "n": 3964
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 700.5532843276548,
@@ -1584,6 +1591,20 @@
       "m2": 584201896.5363938,
       "mean": 36110.819923371615,
       "n": 261
+    },
+    "MID|dataProvider=N2EXMIDP|price": {
+      "ewma": 0.0,
+      "last": 0.0,
+      "m2": 0.0,
+      "mean": 0.0,
+      "n": 1
+    },
+    "MID|dataProvider=N2EXMIDP|volume": {
+      "ewma": 0.0,
+      "last": 0.0,
+      "m2": 0.0,
+      "mean": 0.0,
+      "n": 1
     },
     "NDF|TOTAL|demand": {
       "ewma": 20326.083713262473,
