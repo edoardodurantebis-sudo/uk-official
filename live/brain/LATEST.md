@@ -1,35 +1,36 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-20T08:46:30.421074Z`  
-Memory snapshots: **1776**  
+Heartbeat: `2026-09-20T08:50:43.883869Z`  
+Memory snapshots: **1777**  
 Current physical regime: **TIGHT**
 
 Regime read: residual high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `biomass_gen` value=585 d1=0.0 d12=-301.0 z=-6.975643993421053
-- **CHANGE_POINT** `interconnector_net` value=-3245 d1=-1.0 d12=3567.0 z=5.0370507263157895
-- **ROBUST_OUTLIER** `biomass_gen` value=585 d1=0.0 d12=-301.0 z=-6.975643993421053
-- **CHANGE_POINT** `thermal_base` value=6029 d1=1.0 d12=-1204.0 z=-4.442115009969325
-- **CHANGE_POINT** `ccgt_gen` value=2693 d1=0.0 d12=-1204.0 z=-4.437977036042945
-- **REVERSAL** `interconnector_net` value=-3245 d1=-1.0 d12=3567.0 z=5.0370507263157895
-- **ROBUST_OUTLIER** `interconnector_net` value=-3245 d1=-1.0 d12=3567.0 z=5.0370507263157895
-- **REVERSAL** `thermal_base` value=6029 d1=1.0 d12=-1204.0 z=-4.442115009969325
-- **ROBUST_OUTLIER** `thermal_base` value=6029 d1=1.0 d12=-1204.0 z=-4.442115009969325
-- **PERSISTENT_DOWN** `ccgt_gen` value=2693 d1=0.0 d12=-1204.0 z=-4.437977036042945
-- **ROBUST_OUTLIER** `ccgt_gen` value=2693 d1=0.0 d12=-1204.0 z=-4.437977036042945
-- **CHANGE_POINT** `wind_gen` value=1.508e+04 d1=17.0 d12=-277.0 z=-0.9855690743534483
-- **REVERSAL** `wind_gen` value=1.508e+04 d1=17.0 d12=-277.0 z=-0.9855690743534483
-- **ACCELERATION** `nuclear_gen` value=3336 d1=1.0 d12=0.0 z=0.67448975
+- **CHANGE_POINT** `biomass_gen` value=586 d1=1.0 d12=-300.0 z=-6.231000547619048
+- **CHANGE_POINT** `interconnector_net` value=-3244 d1=1.0 d12=3568.0 z=5.037696171052632
+- **CHANGE_POINT** `thermal_base` value=5957 d1=-72.0 d12=-1276.0 z=-4.777809746130031
+- **CHANGE_POINT** `ccgt_gen` value=2623 d1=-70.0 d12=-1274.0 z=-4.740106427692308
+- **REVERSAL** `biomass_gen` value=586 d1=1.0 d12=-300.0 z=-6.231000547619048
+- **ROBUST_OUTLIER** `biomass_gen` value=586 d1=1.0 d12=-300.0 z=-6.231000547619048
+- **PERSISTENT_UP** `interconnector_net` value=-3244 d1=1.0 d12=3568.0 z=5.037696171052632
+- **ROBUST_OUTLIER** `interconnector_net` value=-3244 d1=1.0 d12=3568.0 z=5.037696171052632
+- **PERSISTENT_DOWN** `thermal_base` value=5957 d1=-72.0 d12=-1276.0 z=-4.777809746130031
+- **ROBUST_OUTLIER** `thermal_base` value=5957 d1=-72.0 d12=-1276.0 z=-4.777809746130031
+- **PERSISTENT_DOWN** `ccgt_gen` value=2623 d1=-70.0 d12=-1274.0 z=-4.740106427692308
+- **ROBUST_OUTLIER** `ccgt_gen` value=2623 d1=-70.0 d12=-1274.0 z=-4.740106427692308
+- **CHANGE_POINT** `wind_gen` value=1.5e+04 d1=-80.0 d12=-357.0 z=-1.2051650543710022
+- **PERSISTENT_DOWN** `ps_gen` value=-935 d1=-1.0 d12=-4.0 z=-1.6539349720744683
+- **PERSISTENT_DOWN** `wind_gen` value=1.5e+04 d1=-80.0 d12=-357.0 z=-1.2051650543710022
 
 ## Nearest historical live analogues
 
-- `2026-09-20T05:53:50.250426Z` distance=0.063 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': 0.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-20T05:58:00.386850Z` distance=0.063 → {'next30m_imbalance_delta': -80.0, 'next30m_margin_delta': 11.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-20T06:02:09.934243Z` distance=0.063 → {'next30m_imbalance_delta': -80.0, 'next30m_margin_delta': 11.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-20T06:06:21.393634Z` distance=0.063 → {'next30m_imbalance_delta': -80.0, 'next30m_margin_delta': 11.0, 'next30m_residual_proxy_delta': 0.0}
-- `2026-09-20T06:11:07.730851Z` distance=0.063 → {'next30m_imbalance_delta': -80.0, 'next30m_margin_delta': 11.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-20T06:23:42.476737Z` distance=0.064 → {'next30m_imbalance_delta': 0.0, 'next30m_margin_delta': 0.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-20T06:27:53.569946Z` distance=0.064 → {'next30m_imbalance_delta': 52.0, 'next30m_margin_delta': 205.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-20T06:32:06.254579Z` distance=0.064 → {'next30m_imbalance_delta': 52.0, 'next30m_margin_delta': 205.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-20T06:36:16.278783Z` distance=0.064 → {'next30m_imbalance_delta': 52.0, 'next30m_margin_delta': 205.0, 'next30m_residual_proxy_delta': 0.0}
+- `2026-09-20T06:40:27.666634Z` distance=0.064 → {'next30m_imbalance_delta': 52.0, 'next30m_margin_delta': 205.0, 'next30m_residual_proxy_delta': 0.0}
 
 Deep rule promotion remains delegated to the recovered Market Memory/N10 lineage engine.
