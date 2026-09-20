@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-20T02:25:01.524399Z`  
-Memory snapshots: **1686**  
+Heartbeat: `2026-09-20T02:29:13.820300Z`  
+Memory snapshots: **1687**  
 Current physical regime: **LOOSE**
 
 Regime read: margin high.
@@ -11,19 +11,19 @@ Regime read: margin high.
 
 - **CHANGE_POINT** `margin` value=3.761e+04 d1=0.0 d12=1562.0 z=29.754633542857146
 - **PERSISTENT_UP** `margin` value=3.761e+04 d1=0.0 d12=1562.0 z=29.754633542857146
-- **ACCELERATION** `margin` value=3.761e+04 d1=0.0 d12=1562.0 z=29.754633542857146
 - **ROBUST_OUTLIER** `margin` value=3.761e+04 d1=0.0 d12=1562.0 z=29.754633542857146
 - **CHANGE_POINT** `ind_demand` value=-1.22e+04 d1=0.0 d12=1.0 z=-14.886952339285713
 - **ROBUST_OUTLIER** `ind_demand` value=-1.22e+04 d1=0.0 d12=1.0 z=-14.886952339285713
-- **ROBUST_OUTLIER** `biomass_gen` value=1230 d1=0.0 d12=106.0 z=6.530287125
-- **CHANGE_POINT** `interconnector_net` value=-1.055e+04 d1=0.0 d12=-615.0 z=-1.171183434250075
-- **CHANGE_POINT** `thermal_base` value=7611 d1=0.0 d12=66.0 z=0.039032127230935645
-- **CHANGE_POINT** `ccgt_gen` value=4279 d1=0.0 d12=72.0 z=0.038814285287730725
-- **PERSISTENT_DOWN** `interconnector_net` value=-1.055e+04 d1=0.0 d12=-615.0 z=-1.171183434250075
-- **ACCELERATION** `nuclear_gen` value=3332 d1=0.0 d12=-6.0 z=-0.6744897499999999
-- **REVERSAL** `imbalance` value=-3755 d1=2.0 d12=-4.0 z=0.6005730650684932
-- **ACCELERATION** `imbalance` value=-3755 d1=2.0 d12=-4.0 z=0.6005730650684932
-- **REVERSAL** `ind_generation` value=1.62e+04 d1=2.0 d12=-4.0 z=0.6005730650684932
+- **PERSISTENT_UP** `biomass_gen` value=1230 d1=0.0 d12=68.0 z=6.530287125
+- **ROBUST_OUTLIER** `biomass_gen` value=1230 d1=0.0 d12=68.0 z=6.530287125
+- **CHANGE_POINT** `interconnector_net` value=-1.054e+04 d1=1.0 d12=-614.0 z=-1.1503750149747793
+- **CHANGE_POINT** `thermal_base` value=7599 d1=-12.0 d12=64.0 z=0.0322295044617156
+- **CHANGE_POINT** `ccgt_gen` value=4266 d1=-13.0 d12=68.0 z=0.031082476958525347
+- **REVERSAL** `interconnector_net` value=-1.054e+04 d1=1.0 d12=-614.0 z=-1.1503750149747793
+- **ACCELERATION** `imbalance` value=-3755 d1=0.0 d12=-4.0 z=0.6005730650684932
+- **ACCELERATION** `ind_generation` value=1.62e+04 d1=0.0 d12=-4.0 z=0.6005730650684932
+- **REVERSAL** `nuclear_gen` value=3333 d1=1.0 d12=-4.0 z=-0.4496598333333333
+- **REVERSAL** `wind_gen` value=1.544e+04 d1=-48.0 d12=41.0 z=0.25538171718931474
 
 ## Nearest historical live analogues
 
