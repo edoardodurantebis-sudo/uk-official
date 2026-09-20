@@ -604,24 +604,6 @@
   "events": [
     {
       "dataset": "FREQ",
-      "marker": "2026-09-20T16:11:45Z",
-      "rows": 5761,
-      "ts": "2026-09-20T16:12:28.997324Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-20T16:13:45Z",
-      "rows": 5761,
-      "ts": "2026-09-20T16:14:20.843065Z"
-    },
-    {
-      "dataset": "FUELINST",
-      "marker": "2026-09-20T16:15:00Z",
-      "rows": 80,
-      "ts": "2026-09-20T16:15:40.859749Z"
-    },
-    {
-      "dataset": "FREQ",
       "marker": "2026-09-20T16:15:45Z",
       "rows": 5761,
       "ts": "2026-09-20T16:16:12.592462Z"
@@ -961,18 +943,36 @@
       "marker": "2026-09-20T17:10:00Z",
       "rows": 80,
       "ts": "2026-09-20T17:10:22.638392Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-20T17:11:45Z",
+      "rows": 5761,
+      "ts": "2026-09-20T17:12:15.723267Z"
+    },
+    {
+      "dataset": "MID",
+      "marker": "2026-09-20T17:12:03Z",
+      "rows": 2,
+      "ts": "2026-09-20T17:12:15.723267Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-20T17:13:45Z",
+      "rows": 5761,
+      "ts": "2026-09-20T17:14:07.506770Z"
     }
   ],
   "last_error": {
     "error": "TimeoutError: The read operation timed out",
     "ts": "2026-09-19T20:01:36.690984Z"
   },
-  "last_heartbeat": "2026-09-20T17:10:24.155719Z",
-  "last_successful_metadata_poll": "2026-09-20T17:10:24.155693Z",
+  "last_heartbeat": "2026-09-20T17:14:35.935825Z",
+  "last_successful_metadata_poll": "2026-09-20T17:14:35.935807Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 4009,
-      "ts": "2026-09-20T17:10:06.815289Z",
+      "n": 4011,
+      "ts": "2026-09-20T17:14:07.506770Z",
       "value": 49.922
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1196,23 +1196,23 @@
       "value": 35884.0
     },
     "MID|dataProvider=APXMIDP|price": {
-      "n": 3,
-      "ts": "2026-09-20T16:42:18.136782Z",
-      "value": 134.16
+      "n": 4,
+      "ts": "2026-09-20T17:12:15.723267Z",
+      "value": 175.57
     },
     "MID|dataProvider=APXMIDP|volume": {
-      "n": 3,
-      "ts": "2026-09-20T16:42:18.136782Z",
-      "value": 3510.25
+      "n": 4,
+      "ts": "2026-09-20T17:12:15.723267Z",
+      "value": 3681.25
     },
     "MID|dataProvider=N2EXMIDP|price": {
-      "n": 7,
-      "ts": "2026-09-20T17:06:23.542943Z",
+      "n": 8,
+      "ts": "2026-09-20T17:12:15.723267Z",
       "value": 0.0
     },
     "MID|dataProvider=N2EXMIDP|volume": {
-      "n": 7,
-      "ts": "2026-09-20T17:06:23.542943Z",
+      "n": 8,
+      "ts": "2026-09-20T17:12:15.723267Z",
       "value": 0.0
     },
     "NDF|TOTAL|demand": {
@@ -1232,14 +1232,14 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-20T17:09:45Z",
+    "FREQ": "2026-09-20T17:13:45Z",
     "FUELHH": "2026-09-20T17:00:00Z",
     "FUELINST": "2026-09-20T17:10:00Z",
     "IMBALNGC": "2026-09-20T16:47:00Z",
     "INDDEM": "2026-09-20T16:47:00Z",
     "INDGEN": "2026-09-20T16:47:00Z",
     "MELNGC": "2026-09-20T16:47:00Z",
-    "MID": "2026-09-20T17:05:00Z",
+    "MID": "2026-09-20T17:12:03Z",
     "NDF": "2026-09-20T16:47:00Z",
     "TSDF": "2026-09-20T16:47:00Z",
     "WINDFOR": "2026-09-20T16:30:00Z"
@@ -1248,9 +1248,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 49.92200000000003,
       "last": 49.922,
-      "m2": 14.910874277368238,
-      "mean": 50.01895335495126,
-      "n": 4009
+      "m2": 14.92966480926679,
+      "mean": 50.01890501121904,
+      "n": 4011
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 1255.5392815757593,
@@ -1561,32 +1561,32 @@
       "n": 264
     },
     "MID|dataProvider=APXMIDP|price": {
-      "ewma": 67.8656,
-      "last": 134.16,
-      "m2": 4809.870866666668,
-      "mean": 92.01666666666667,
-      "n": 3
+      "ewma": 89.40648,
+      "last": 175.57,
+      "m2": 10045.7405,
+      "mean": 112.905,
+      "n": 4
     },
     "MID|dataProvider=APXMIDP|volume": {
-      "ewma": 3699.5380000000005,
-      "last": 3510.25,
-      "m2": 50730.43500000001,
-      "mean": 3686.35,
-      "n": 3
+      "ewma": 3695.8804000000005,
+      "last": 3681.25,
+      "m2": 50749.94250000001,
+      "mean": 3685.075,
+      "n": 4
     },
     "MID|dataProvider=N2EXMIDP|price": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 7
+      "n": 8
     },
     "MID|dataProvider=N2EXMIDP|volume": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 7
+      "n": 8
     },
     "NDF|TOTAL|demand": {
       "ewma": 20220.63486119039,
