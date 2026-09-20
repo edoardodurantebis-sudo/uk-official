@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-20T16:10:26.930654Z  
-Source heartbeat: 2026-09-20T16:10:25.342120Z  
+Generated UTC: 2026-09-20T16:14:38.000027Z  
+Source heartbeat: 2026-09-20T16:14:37.449707Z  
 
 ## Regime: **LOOSE**
 Reason: residual low; margin high
@@ -13,32 +13,32 @@ Reason: residual low; margin high
 | Demand forecast | 20110.0 | 0.0 | 0.0 | 0.0 |  |
 | TS demand forecast | 20610.0 | 0.0 | 0.0 | 0.0 |  |
 | Wind forecast | 2287.0 | 0.0 | 0.0 | 0.0 |  |
-| Wind generation | 8595.0 | 0.0 | -382.0 | 55.0 | PERSISTENT_DOWN |
+| Wind generation | 8398.0 | -197.0 | -535.0 | -197.0 | PERSISTENT_DOWN, ACCELERATION |
 | Residual-load proxy | 17823.0 | 0.0 | 0.0 | 0.0 | ROBUST_OUTLIER |
-| Indicated margin | 35924.0 | 0.0 | 14.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
-| Indicated imbalance | -5166.0 | 0.0 | -8.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
-| Interconnector net | 9674.0 | 0.0 | 4601.0 | -1225.0 | PERSISTENT_UP, ROBUST_OUTLIER |
-| CCGT generation | 3869.0 | 0.0 | 1140.0 | 141.0 | ROBUST_OUTLIER, CHANGE_POINT |
-| Nuclear generation | 3334.0 | 0.0 | 0.0 | 2.0 | ACCELERATION |
-| Pumped-storage generation | -13.0 | 0.0 | 541.0 | -2.0 | PERSISTENT_UP, ROBUST_OUTLIER |
-| Thermal base | 7203.0 | 0.0 | 1140.0 | 143.0 | ROBUST_OUTLIER, CHANGE_POINT |
+| Indicated margin | 35924.0 | 0.0 | 0.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
+| Indicated imbalance | -5166.0 | 0.0 | -6.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
+| Interconnector net | 10121.0 | 447.0 | 5048.0 | 447.0 | PERSISTENT_UP, ROBUST_OUTLIER |
+| CCGT generation | 4038.0 | 169.0 | 1277.0 | 169.0 | PERSISTENT_UP, ROBUST_OUTLIER, CHANGE_POINT |
+| Nuclear generation | 3336.0 | 2.0 | 0.0 | 2.0 | ACCELERATION |
+| Pumped-storage generation | -13.0 | 0.0 | 493.0 | 0.0 | PERSISTENT_UP, ROBUST_OUTLIER |
+| Thermal base | 7374.0 | 171.0 | 1277.0 | 171.0 | PERSISTENT_UP, ROBUST_OUTLIER, CHANGE_POINT |
 | Frequency | 49.922 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
 
-- **biomass_gen / CHANGE_POINT** — value=1712.0, Δ1=0.0, Δ12=724.0, accel=-74.0
-- **biomass_gen / PERSISTENT_UP** — value=1712.0, Δ1=0.0, Δ12=724.0, accel=-74.0
-- **biomass_gen / ROBUST_OUTLIER** — value=1712.0, Δ1=0.0, Δ12=724.0, accel=-74.0
-- **ccgt_gen / CHANGE_POINT** — value=3869.0, Δ1=0.0, Δ12=1140.0, accel=141.0
-- **ccgt_gen / ROBUST_OUTLIER** — value=3869.0, Δ1=0.0, Δ12=1140.0, accel=141.0
-- **thermal_base / CHANGE_POINT** — value=7203.0, Δ1=0.0, Δ12=1140.0, accel=143.0
-- **thermal_base / ROBUST_OUTLIER** — value=7203.0, Δ1=0.0, Δ12=1140.0, accel=143.0
-- **imbalance / CHANGE_POINT** — value=-5166.0, Δ1=0.0, Δ12=-8.0, accel=0.0
+- **biomass_gen / CHANGE_POINT** — value=1815.0, Δ1=103.0, Δ12=761.0, accel=103.0
+- **biomass_gen / PERSISTENT_UP** — value=1815.0, Δ1=103.0, Δ12=761.0, accel=103.0
+- **biomass_gen / ROBUST_OUTLIER** — value=1815.0, Δ1=103.0, Δ12=761.0, accel=103.0
+- **ccgt_gen / CHANGE_POINT** — value=4038.0, Δ1=169.0, Δ12=1277.0, accel=169.0
+- **ccgt_gen / PERSISTENT_UP** — value=4038.0, Δ1=169.0, Δ12=1277.0, accel=169.0
+- **ccgt_gen / ROBUST_OUTLIER** — value=4038.0, Δ1=169.0, Δ12=1277.0, accel=169.0
+- **thermal_base / CHANGE_POINT** — value=7374.0, Δ1=171.0, Δ12=1277.0, accel=171.0
+- **thermal_base / PERSISTENT_UP** — value=7374.0, Δ1=171.0, Δ12=1277.0, accel=171.0
 
 ## Health
 
 - Alien: **OK**
-- MID: **OK** — 1 rows
+- MID: **OK** — 2 rows
 
 ## Trading layer
 
