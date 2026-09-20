@@ -288,13 +288,22 @@ def process_rows(state: dict, dataset: str, rows: list[dict], now: datetime) -> 
     return alerts
 
 
-def fetch_dataset(dataset: str, since: datetime, until: datetime) -> list[dict]:
+def dataset_urls(dataset: str, since: datetime, until: datetime) -> list[str]:
+    ds = dataset.upper()
+    if ds == "MID":
+        # MID stream uses delivery-time bounds named from/to rather than the
+        # publishDateTimeFrom/To contract used by most BMRS datasets.
+        params = urllib.parse.urlencode({"from": iso(since), "to": iso(until)})
+        return [f"{BASE_URL}/datasets/MID/stream?{params}"]
     params = urllib.parse.urlencode({
         "publishDateTimeFrom": iso(since), "publishDateTimeTo": iso(until), "format": "json",
     })
-    urls = [f"{BASE_URL}/datasets/{dataset}?{params}", f"{BASE_URL}/datasets/{dataset}/stream?{params}"]
+    return [f"{BASE_URL}/datasets/{ds}?{params}", f"{BASE_URL}/datasets/{ds}/stream?{params}"]
+
+
+def fetch_dataset(dataset: str, since: datetime, until: datetime) -> list[dict]:
     last_exc = None
-    for url in urls:
+    for url in dataset_urls(dataset, since, until):
         try:
             return extract_rows(http_json(url))
         except Exception as exc:
@@ -378,6 +387,9 @@ def one_poll(state: dict, watched: list[str], now: datetime) -> tuple[int, list[
 def self_test() -> None:
     meta = {"data": [{"dataset": "WINDFOR", "latestPublishTime": "2026-09-14T10:00:00Z"}]}
     assert parse_metadata(meta)["WINDFOR"].startswith("2026")
+    mid_url = dataset_urls("MID", datetime(2026, 9, 20, 10, tzinfo=timezone.utc), datetime(2026, 9, 20, 11, tzinfo=timezone.utc))[0]
+    assert "/datasets/MID/stream?" in mid_url and "from=" in mid_url and "to=" in mid_url
+    assert "publishDateTimeFrom" not in mid_url
     # settlementPeriod is an identifier, never a signal.
     assert "settlementPeriod" not in flatten_numeric({"settlementPeriod": 36, "generation": 100.0})
     # Different fuel types are different series; no fake gas->wind jump.
