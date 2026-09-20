@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-20T21:07:02.849524Z",
-  "source_heartbeat": "2026-09-20T21:07:01.635024Z",
-  "brain_generated_at": "2026-09-20T21:07:02.814730Z",
+  "generated_at_utc": "2026-09-20T21:11:14.889213Z",
+  "source_heartbeat": "2026-09-20T21:11:13.227437Z",
+  "brain_generated_at": "2026-09-20T21:11:14.863096Z",
   "regime": "TIGHT",
   "regime_reasons": [
     "residual high"
@@ -39,13 +39,12 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 6405.0,
-      "d1": 221.0,
-      "d12": 322.0,
-      "accel": 216.0,
+      "value": 6587.0,
+      "d1": 182.0,
+      "d12": 504.0,
+      "accel": -39.0,
       "tags": [
-        "PERSISTENT_UP",
-        "ACCELERATION"
+        "PERSISTENT_UP"
       ]
     },
     {
@@ -62,11 +61,9 @@
       "label": "Indicated margin",
       "value": 35539.0,
       "d1": 0.0,
-      "d12": -7.0,
+      "d12": -5.0,
       "accel": 0.0,
-      "tags": [
-        "CHANGE_POINT"
-      ]
+      "tags": []
     },
     {
       "metric": "imbalance",
@@ -83,10 +80,10 @@
     {
       "metric": "interconnector_net",
       "label": "Interconnector net",
-      "value": 11127.0,
-      "d1": -82.0,
-      "d12": 205.0,
-      "accel": -173.0,
+      "value": 11102.0,
+      "d1": -25.0,
+      "d12": 157.0,
+      "accel": 57.0,
       "tags": [
         "REVERSAL",
         "ACCELERATION",
@@ -96,25 +93,24 @@
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 7065.0,
-      "d1": 24.0,
-      "d12": -1015.0,
-      "accel": 40.0,
+      "value": 7009.0,
+      "d1": -56.0,
+      "d12": -794.0,
+      "accel": -80.0,
       "tags": [
-        "REVERSAL",
+        "PERSISTENT_DOWN",
         "CHANGE_POINT"
       ]
     },
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3332.0,
-      "d1": -1.0,
-      "d12": 0.0,
-      "accel": 2.0,
+      "value": 3330.0,
+      "d1": -2.0,
+      "d12": -5.0,
+      "accel": -1.0,
       "tags": [
-        "PERSISTENT_DOWN",
-        "ACCELERATION"
+        "PERSISTENT_DOWN"
       ]
     },
     {
@@ -122,19 +118,19 @@
       "label": "Pumped-storage generation",
       "value": 230.0,
       "d1": 0.0,
-      "d12": 3.0,
+      "d12": 1.0,
       "accel": 0.0,
       "tags": []
     },
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 10397.0,
-      "d1": 23.0,
-      "d12": -1015.0,
-      "accel": 42.0,
+      "value": 10339.0,
+      "d1": -58.0,
+      "d12": -799.0,
+      "accel": -81.0,
       "tags": [
-        "REVERSAL",
+        "PERSISTENT_DOWN",
         "CHANGE_POINT"
       ]
     },
@@ -188,38 +184,38 @@
     {
       "metric": "biomass_gen",
       "pattern": "CHANGE_POINT",
-      "value": 2615.0,
-      "d1": 37.0,
-      "d12": 171.0,
-      "accel": 2.0,
-      "z_mad": 1.3049910380434782
+      "value": 2648.0,
+      "d1": 33.0,
+      "d12": 205.0,
+      "accel": -4.0,
+      "z_mad": 1.425959308423913
     },
     {
       "metric": "interconnector_net",
       "pattern": "CHANGE_POINT",
-      "value": 11127.0,
-      "d1": -82.0,
-      "d12": 205.0,
-      "accel": -173.0,
-      "z_mad": 0.8075980091210613
+      "value": 11102.0,
+      "d1": -25.0,
+      "d12": 157.0,
+      "accel": 57.0,
+      "z_mad": 0.7890820871610404
     },
     {
       "metric": "thermal_base",
       "pattern": "CHANGE_POINT",
-      "value": 10397.0,
-      "d1": 23.0,
-      "d12": -1015.0,
-      "accel": 42.0,
-      "z_mad": -0.22259650689845475
+      "value": 10339.0,
+      "d1": -58.0,
+      "d12": -799.0,
+      "accel": -81.0,
+      "z_mad": -0.26028880638095236
     },
     {
       "metric": "ccgt_gen",
       "pattern": "CHANGE_POINT",
-      "value": 7065.0,
-      "d1": 24.0,
-      "d12": -1015.0,
-      "accel": 40.0,
-      "z_mad": -0.2204490396139706
+      "value": 7009.0,
+      "d1": -56.0,
+      "d12": -794.0,
+      "accel": -80.0,
+      "z_mad": -0.25710747896039604
     }
   ],
   "analogues": [
@@ -278,8 +274,8 @@
     "alien": "OK",
     "mid": {
       "status": "OK",
-      "detail": "2 rows",
-      "ts": "2026-09-20T20:42:19.161036Z"
+      "detail": "1 rows",
+      "ts": "2026-09-20T21:07:48.779168Z"
     },
     "last_error": {
       "error": "TimeoutError: The read operation timed out",
