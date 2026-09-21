@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-21T10:46:21.758203Z",
-  "source_heartbeat": "2026-09-21T10:46:20.592599Z",
-  "brain_generated_at": "2026-09-21T10:46:21.731910Z",
+  "generated_at_utc": "2026-09-21T10:50:34.996191Z",
+  "source_heartbeat": "2026-09-21T10:50:33.489846Z",
+  "brain_generated_at": "2026-09-21T10:50:34.952406Z",
   "regime": "LOOSE",
   "regime_reasons": [
     "margin high"
@@ -144,7 +144,7 @@
       "d1": 0.0,
       "d12": 2999.0,
       "accel": 0.0,
-      "z_mad": 10.622470732378854
+      "z_mad": 6.265726838633288
     },
     {
       "metric": "imbalance",
@@ -153,7 +153,7 @@
       "d1": 0.0,
       "d12": 2999.0,
       "accel": 0.0,
-      "z_mad": 10.622470732378854
+      "z_mad": 6.265726838633288
     },
     {
       "metric": "ind_generation",
@@ -162,16 +162,7 @@
       "d1": 0.0,
       "d12": 2999.0,
       "accel": 0.0,
-      "z_mad": 6.561592897757256
-    },
-    {
-      "metric": "ind_generation",
-      "pattern": "ROBUST_OUTLIER",
-      "value": 24727.0,
-      "d1": 0.0,
-      "d12": 2999.0,
-      "accel": 0.0,
-      "z_mad": 6.561592897757256
+      "z_mad": 3.4205542501876876
     },
     {
       "metric": "margin",
@@ -180,7 +171,16 @@
       "d1": 0.0,
       "d12": 1193.0,
       "accel": 0.0,
-      "z_mad": 2.7663998716911764
+      "z_mad": 2.7342324313226745
+    },
+    {
+      "metric": "ind_generation",
+      "pattern": "ROBUST_OUTLIER",
+      "value": 24727.0,
+      "d1": 0.0,
+      "d12": 2999.0,
+      "accel": 0.0,
+      "z_mad": 3.4205542501876876
     },
     {
       "metric": "ccgt_gen",
@@ -198,12 +198,12 @@
       "d1": 0.0,
       "d12": 328.0,
       "accel": 0.0,
-      "z_mad": 0.858822352484472
+      "z_mad": 0.8584415
     }
   ],
   "analogues": [
     {
-      "distance": 0.5366406009509076,
+      "distance": 0.5331789870148433,
       "outcome": {
         "next30m_imbalance_delta": 0.0,
         "next30m_margin_delta": 0.0,
@@ -213,7 +213,17 @@
       "ts": "2026-09-21T09:51:38.826991Z"
     },
     {
-      "distance": 0.5988325907339407,
+      "distance": 0.5331789870148433,
+      "outcome": {
+        "next30m_imbalance_delta": 0.0,
+        "next30m_margin_delta": 0.0,
+        "next30m_mid_price_delta": 0.0,
+        "next30m_residual_proxy_delta": 0.0
+      },
+      "ts": "2026-09-21T09:55:50.935902Z"
+    },
+    {
+      "distance": 0.5949596590854885,
       "outcome": {
         "next30m_imbalance_delta": 0.0,
         "next30m_margin_delta": 0.0,
@@ -223,7 +233,7 @@
       "ts": "2026-09-21T09:22:16.225384Z"
     },
     {
-      "distance": 0.5988325907339407,
+      "distance": 0.5949596590854885,
       "outcome": {
         "next30m_imbalance_delta": 154.0,
         "next30m_margin_delta": 140.0,
@@ -233,7 +243,7 @@
       "ts": "2026-09-21T09:26:26.475864Z"
     },
     {
-      "distance": 0.5988325907339407,
+      "distance": 0.5949596590854885,
       "outcome": {
         "next30m_imbalance_delta": 154.0,
         "next30m_margin_delta": 140.0,
@@ -241,16 +251,6 @@
         "next30m_residual_proxy_delta": -110.0
       },
       "ts": "2026-09-21T09:30:39.158321Z"
-    },
-    {
-      "distance": 0.5988325907339407,
-      "outcome": {
-        "next30m_imbalance_delta": 154.0,
-        "next30m_margin_delta": 140.0,
-        "next30m_mid_price_delta": 0.0,
-        "next30m_residual_proxy_delta": -110.0
-      },
-      "ts": "2026-09-21T09:34:50.037660Z"
     }
   ],
   "health": {

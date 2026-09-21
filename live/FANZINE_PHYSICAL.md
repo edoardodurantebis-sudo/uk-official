@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-21T10:46:21.758203Z  
-Source heartbeat: 2026-09-21T10:46:20.592599Z  
+Generated UTC: 2026-09-21T10:50:34.996191Z  
+Source heartbeat: 2026-09-21T10:50:33.489846Z  
 
 ## Regime: **LOOSE**
 Reason: margin high
@@ -29,8 +29,8 @@ Reason: margin high
 - **imbalance / CHANGE_POINT** — value=3568.0, Δ1=0.0, Δ12=2999.0, accel=0.0
 - **imbalance / ROBUST_OUTLIER** — value=3568.0, Δ1=0.0, Δ12=2999.0, accel=0.0
 - **ind_generation / CHANGE_POINT** — value=24727.0, Δ1=0.0, Δ12=2999.0, accel=0.0
-- **ind_generation / ROBUST_OUTLIER** — value=24727.0, Δ1=0.0, Δ12=2999.0, accel=0.0
 - **margin / CHANGE_POINT** — value=41012.0, Δ1=0.0, Δ12=1193.0, accel=0.0
+- **ind_generation / ROBUST_OUTLIER** — value=24727.0, Δ1=0.0, Δ12=2999.0, accel=0.0
 - **ccgt_gen / ROBUST_OUTLIER** — value=6958.0, Δ1=0.0, Δ12=-473.0, accel=0.0
 - **interconnector_net / CHANGE_POINT** — value=10993.0, Δ1=0.0, Δ12=328.0, accel=0.0
 

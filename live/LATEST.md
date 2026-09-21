@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-21T10:46:20.593745Z`  
-Current process started UTC: `2026-09-21T10:42:21.081312Z`  
-1-second metadata polls in this process: **239**  
+Last heartbeat UTC: `2026-09-21T10:50:33.491601Z`  
+Current process started UTC: `2026-09-21T10:46:33.690172Z`  
+1-second metadata polls in this process: **240**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
