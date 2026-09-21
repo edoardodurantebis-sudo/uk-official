@@ -604,18 +604,6 @@
   "events": [
     {
       "dataset": "FREQ",
-      "marker": "2026-09-21T04:53:45Z",
-      "rows": 5761,
-      "ts": "2026-09-21T04:54:22.401253Z"
-    },
-    {
-      "dataset": "FUELINST",
-      "marker": "2026-09-21T04:55:00Z",
-      "rows": 80,
-      "ts": "2026-09-21T04:55:42.053932Z"
-    },
-    {
-      "dataset": "FREQ",
       "marker": "2026-09-21T04:55:45Z",
       "rows": 5761,
       "ts": "2026-09-21T04:56:09.129578Z"
@@ -961,18 +949,30 @@
       "marker": "2026-09-21T05:47:00Z",
       "rows": 792,
       "ts": "2026-09-21T05:50:25.731576Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-21T05:51:45Z",
+      "rows": 5761,
+      "ts": "2026-09-21T05:52:09.638213Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-21T05:53:45Z",
+      "rows": 5761,
+      "ts": "2026-09-21T05:54:24.428879Z"
     }
   ],
   "last_error": {
-    "error": "TimeoutError: The read operation timed out",
-    "ts": "2026-09-19T20:01:36.690984Z"
+    "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "ts": "2026-09-21T05:52:49.030495Z"
   },
-  "last_heartbeat": "2026-09-21T05:50:41.215965Z",
-  "last_successful_metadata_poll": "2026-09-21T05:50:41.215946Z",
+  "last_heartbeat": "2026-09-21T05:54:53.375813Z",
+  "last_successful_metadata_poll": "2026-09-21T05:54:53.375794Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 4389,
-      "ts": "2026-09-21T05:50:09.863461Z",
+      "n": 4391,
+      "ts": "2026-09-21T05:54:24.428879Z",
       "value": 50.105
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1232,7 +1232,7 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-21T05:49:45Z",
+    "FREQ": "2026-09-21T05:53:45Z",
     "FUELHH": "2026-09-21T05:30:00Z",
     "FUELINST": "2026-09-21T05:50:00Z",
     "IMBALNGC": "2026-09-21T05:47:00Z",
@@ -1248,9 +1248,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 50.105000000000004,
       "last": 50.105,
-      "m2": 18.123331240364312,
-      "mean": 50.01789245841873,
-      "n": 4389
+      "m2": 18.138499775895927,
+      "mean": 50.01793213391023,
+      "n": 4391
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 2995.6560760338575,
