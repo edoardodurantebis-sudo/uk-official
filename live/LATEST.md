@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-21T11:15:50.742436Z`  
-Current process started UTC: `2026-09-21T11:11:50.983684Z`  
-1-second metadata polls in this process: **237**  
+Last heartbeat UTC: `2026-09-21T11:20:04.556266Z`  
+Current process started UTC: `2026-09-21T11:16:03.939824Z`  
+1-second metadata polls in this process: **239**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -47,11 +47,13 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `MID|dataProvider=N2EXMIDP|price` = **0** (n=78, 2026-09-21T11:12:23.227186Z)
 - `MID|dataProvider=N2EXMIDP|volume` = **0** (n=78, 2026-09-21T11:12:23.227186Z)
 - `NDF|TOTAL|demand` = **21108** (n=306, 2026-09-21T10:53:55.939064Z)
-- `TSDF|TOTAL|demand` = **21608** (n=306, 2026-09-21T10:54:11.637875Z)
+- `TSDF|TOTAL|demand` = **21504** (n=307, 2026-09-21T11:18:27.676306Z)
 - `WINDFOR|TOTAL|generation` = **8923** (n=52, 2026-09-21T10:30:49.343841Z)
 
 ## Latest publication events
 
+- `2026-09-21T11:18:27.676306Z` — **TSDF**: 1458 rows; marker `2026-09-21T11:17:00Z`
+- `2026-09-21T11:18:12.198492Z` — **FREQ**: 5761 rows; marker `2026-09-21T11:17:45Z`
 - `2026-09-21T11:12:23.227186Z` — **MID**: 2 rows; marker `2026-09-21T11:12:05Z`
 - `2026-09-21T11:12:23.227186Z` — **FREQ**: 5761 rows; marker `2026-09-21T11:11:45Z`
 - `2026-09-21T11:10:36.296471Z` — **FUELINST**: 80 rows; marker `2026-09-21T11:10:00Z`
@@ -65,5 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-21T11:00:34.414314Z` — **FUELINST**: 80 rows; marker `2026-09-21T11:00:00Z`
 - `2026-09-21T11:00:18.112313Z` — **FREQ**: 5761 rows; marker `2026-09-21T10:59:45Z`
 - `2026-09-21T10:58:08.203536Z` — **FREQ**: 5761 rows; marker `2026-09-21T10:57:45Z`
-- `2026-09-21T10:56:16.057918Z` — **FREQ**: 5761 rows; marker `2026-09-21T10:55:45Z`
-- `2026-09-21T10:55:28.290975Z` — **FUELINST**: 80 rows; marker `2026-09-21T10:55:00Z`
