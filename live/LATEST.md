@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-21T23:31:08.893326Z`  
-Current process started UTC: `2026-09-21T23:27:09.145783Z`  
-1-second metadata polls in this process: **236**  
+Last heartbeat UTC: `2026-09-21T23:35:23.463737Z`  
+Current process started UTC: `2026-09-21T23:31:23.143102Z`  
+1-second metadata polls in this process: **234**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -52,6 +52,8 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-21T23:34:21.451665Z` — **FREQ**: 5761 rows; marker `2026-09-21T23:33:45Z`
+- `2026-09-21T23:32:11.450519Z` — **FREQ**: 5761 rows; marker `2026-09-21T23:31:45Z`
 - `2026-09-21T23:30:37.821418Z` — **WINDFOR**: 73 rows; marker `2026-09-21T23:30:00Z`
 - `2026-09-21T23:30:37.821418Z` — **FUELHH**: 20 rows; marker `2026-09-21T23:30:00Z`
 - `2026-09-21T23:30:37.821418Z` — **FUELINST**: 80 rows; marker `2026-09-21T23:30:00Z`
@@ -65,5 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-21T23:21:15.927702Z` — **INDGEN**: 1026 rows; marker `2026-09-21T23:17:00Z`
 - `2026-09-21T23:21:15.927702Z` — **INDDEM**: 1026 rows; marker `2026-09-21T23:17:00Z`
 - `2026-09-21T23:20:27.879984Z` — **FUELINST**: 80 rows; marker `2026-09-21T23:20:00Z`
-- `2026-09-21T23:20:11.054115Z` — **FREQ**: 5761 rows; marker `2026-09-21T23:19:45Z`
-- `2026-09-21T23:19:39.547553Z` — **MELNGC**: 1026 rows; marker `2026-09-21T23:17:00Z`
