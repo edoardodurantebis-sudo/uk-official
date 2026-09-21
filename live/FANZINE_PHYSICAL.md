@@ -1,10 +1,10 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-21T12:40:22.755654Z  
-Source heartbeat: 2026-09-21T12:40:21.941940Z  
+Generated UTC: 2026-09-21T12:44:35.014212Z  
+Source heartbeat: 2026-09-21T12:44:33.479099Z  
 
 ## Regime: **BALANCED**
-Reason: wind falling
+Reason: No regime explanation available.
 
 ## Physical snapshot
 
@@ -12,33 +12,33 @@ Reason: wind falling
 |---|---:|---:|---:|---:|---|
 | Demand forecast | 21004.0 | 0.0 | 0.0 | 0.0 | ROBUST_OUTLIER |
 | TS demand forecast | 21504.0 | 0.0 | 0.0 | 0.0 |  |
-| Wind forecast | 8616.0 | 0.0 | -307.0 | 0.0 | PERSISTENT_DOWN |
-| Wind generation | 4059.0 | 0.0 | 628.0 | -73.0 | PERSISTENT_UP, CHANGE_POINT |
-| Residual-load proxy | 12388.0 | 0.0 | 307.0 | 0.0 | PERSISTENT_UP |
-| Indicated margin | 36677.0 | 0.0 | 0.0 | 0.0 | CHANGE_POINT |
-| Indicated imbalance | -3333.0 | 0.0 | -318.0 | 0.0 | CHANGE_POINT |
-| Interconnector net | 11201.0 | 0.0 | -147.0 | -34.0 | PERSISTENT_DOWN |
-| CCGT generation | 6067.0 | 0.0 | -694.0 | 134.0 | PERSISTENT_DOWN, CHANGE_POINT |
-| Nuclear generation | 3506.0 | 0.0 | -7.0 | 6.0 | PERSISTENT_DOWN, ACCELERATION |
-| Pumped-storage generation | 228.0 | 0.0 | 180.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
-| Thermal base | 9573.0 | 0.0 | -701.0 | 140.0 | PERSISTENT_DOWN, CHANGE_POINT |
+| Wind forecast | 8616.0 | 0.0 | -307.0 | 0.0 |  |
+| Wind generation | 4060.0 | 1.0 | 556.0 | 1.0 | PERSISTENT_UP, CHANGE_POINT |
+| Residual-load proxy | 12388.0 | 0.0 | 307.0 | 0.0 | CHANGE_POINT |
+| Indicated margin | 36677.0 | 0.0 | 4.0 | 0.0 | CHANGE_POINT |
+| Indicated imbalance | -3333.0 | 0.0 | -319.0 | 0.0 | CHANGE_POINT |
+| Interconnector net | 11254.0 | 53.0 | -69.0 | 53.0 | REVERSAL, ACCELERATION |
+| CCGT generation | 6010.0 | -57.0 | -587.0 | -57.0 | PERSISTENT_DOWN, CHANGE_POINT |
+| Nuclear generation | 3512.0 | 6.0 | 0.0 | 6.0 | ACCELERATION |
+| Pumped-storage generation | 228.0 | 0.0 | 121.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
+| Thermal base | 9522.0 | -51.0 | -587.0 | -51.0 | PERSISTENT_DOWN, CHANGE_POINT |
 | Frequency | 50.105 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
 
 - **ind_demand / ROBUST_OUTLIER** — value=-12237.0, Δ1=0.0, Δ12=4.0, accel=0.0
+- **ps_gen / CHANGE_POINT** — value=228.0, Δ1=0.0, Δ12=121.0, accel=0.0
+- **ps_gen / ROBUST_OUTLIER** — value=228.0, Δ1=0.0, Δ12=121.0, accel=0.0
 - **demand_forecast / ROBUST_OUTLIER** — value=21004.0, Δ1=0.0, Δ12=0.0, accel=0.0
-- **ps_gen / CHANGE_POINT** — value=228.0, Δ1=0.0, Δ12=180.0, accel=0.0
-- **ps_gen / ROBUST_OUTLIER** — value=228.0, Δ1=0.0, Δ12=180.0, accel=0.0
-- **thermal_base / CHANGE_POINT** — value=9573.0, Δ1=0.0, Δ12=-701.0, accel=140.0
-- **ccgt_gen / CHANGE_POINT** — value=6067.0, Δ1=0.0, Δ12=-694.0, accel=134.0
-- **wind_gen / CHANGE_POINT** — value=4059.0, Δ1=0.0, Δ12=628.0, accel=-73.0
-- **margin / CHANGE_POINT** — value=36677.0, Δ1=0.0, Δ12=0.0, accel=0.0
+- **ccgt_gen / CHANGE_POINT** — value=6010.0, Δ1=-57.0, Δ12=-587.0, accel=-57.0
+- **thermal_base / CHANGE_POINT** — value=9522.0, Δ1=-51.0, Δ12=-587.0, accel=-51.0
+- **residual_proxy / CHANGE_POINT** — value=12388.0, Δ1=0.0, Δ12=307.0, accel=0.0
+- **wind_gen / CHANGE_POINT** — value=4060.0, Δ1=1.0, Δ12=556.0, accel=1.0
 
 ## Health
 
 - Alien: **OK**
-- MID: **OK** — 1 rows
+- MID: **OK** — 2 rows
 
 ## Trading layer
 
