@@ -17,9 +17,11 @@ import numpy as np
 import pandas as pd
 from gb_legacy_canonicalizer import canonicalize
 
-VERSION = "GB_ALIEN_SCANNER_V1.0.0"
+VERSION = "GB_ALIEN_SCANNER_V1.0.1_NIV_LINEAGE"
 VINTAGE_RE = re.compile(r"^(?P<root>.+)_v(?P<v>\d+)_dd(?P<dd>[01])$")
-FORBIDDEN_PREFIX = ("actual_", "error_", "fuelhh_", "boa_", "total_boa", "niv_vs_", "itsdo_", "indo_")
+NIV_SOURCE_MASTER_INTERNAL_INVERTED = "MASTER_INTERNAL_INVERTED"
+NIV_SOURCE_ELEXON_OFFICIAL = "ELEXON_OFFICIAL"
+FORBIDDEN_PREFIX = ("actual_", "error_", "fuelhh_", "boa_", "total_boa", "niv_", "niv_vs_", "itsdo_", "indo_")
 FORBIDDEN_EXACT = {"niv", "psbil", "pida2", "actual_residual_load", "actual_net_demand"}
 
 def read_table(path: Path) -> pd.DataFrame:
@@ -61,9 +63,20 @@ def canonical_merge(master: pd.DataFrame, exante: pd.DataFrame | None) -> tuple[
         m = m.merge(e, on="delivery_start_utc", how="left", validate="one_to_one", suffixes=("", "_exante"))
     return m.sort_values("delivery_start_utc").reset_index(drop=True), audit
 
-def add_targets(x: pd.DataFrame) -> pd.DataFrame:
-    y = x.copy(); niv = pd.to_numeric(y["niv"], errors="coerce")
+def add_targets(x: pd.DataFrame, niv_source: str = NIV_SOURCE_MASTER_INTERNAL_INVERTED) -> pd.DataFrame:
+    if niv_source not in {NIV_SOURCE_MASTER_INTERNAL_INVERTED, NIV_SOURCE_ELEXON_OFFICIAL}:
+        raise RuntimeError(f"NIV_LINEAGE_UNRESOLVED:{niv_source}")
+    y = x.copy(); raw = pd.to_numeric(y["niv"], errors="coerce")
+    y["niv_raw_source"] = raw
+    if niv_source == NIV_SOURCE_MASTER_INTERNAL_INVERTED:
+        y["niv_master_raw"] = raw
+        niv = -raw
+    else:
+        niv = raw
+    y["niv_elexon_sign"] = niv
+    y["niv"] = niv
     y["short_flag"] = np.where(niv > 0, 1.0, np.where(niv < 0, 0.0, np.nan))
+    y["long_flag"] = np.where(niv < 0, 1.0, np.where(niv > 0, 0.0, np.nan))
     ps = pd.to_numeric(y["psbil"], errors="coerce"); y["target_price"] = ps
     if "pda_gbp" in y: y["spread_da"] = ps - pd.to_numeric(y["pda_gbp"], errors="coerce")
     if "pida1" in y: y["spread_ida1"] = ps - pd.to_numeric(y["pida1"], errors="coerce")
@@ -167,8 +180,8 @@ def write_summary(out, path, gate, split, audit):
     path.write_text("\n".join(lines)+"\n",encoding="utf-8")
 
 def main() -> int:
-    p=argparse.ArgumentParser(); p.add_argument("--master",required=True); p.add_argument("--exante",default=""); p.add_argument("--gate",choices=["DA","IDA1","IDA2"],default="IDA1"); p.add_argument("--targets",default="short_flag,spread_ida1"); p.add_argument("--oos-from",default="2026-01-01"); p.add_argument("--output-dir",default="alien_output"); a=p.parse_args()
-    df,audit=canonical_merge(read_table(Path(a.master)),read_table(Path(a.exante)) if a.exante else None); df=add_targets(df); targets=[z.strip() for z in a.targets.split(",") if z.strip()]
+    p=argparse.ArgumentParser(); p.add_argument("--master",required=True); p.add_argument("--exante",default=""); p.add_argument("--gate",choices=["DA","IDA1","IDA2"],default="IDA1"); p.add_argument("--targets",default="short_flag,spread_ida1"); p.add_argument("--oos-from",default="2026-01-01"); p.add_argument("--output-dir",default="alien_output"); p.add_argument("--niv-source",choices=[NIV_SOURCE_MASTER_INTERNAL_INVERTED,NIV_SOURCE_ELEXON_OFFICIAL],default=NIV_SOURCE_MASTER_INTERNAL_INVERTED); a=p.parse_args()
+    df,audit=canonical_merge(read_table(Path(a.master)),read_table(Path(a.exante)) if a.exante else None); df=add_targets(df,a.niv_source); targets=[z.strip() for z in a.targets.split(",") if z.strip()]
     out=scan(df,a.gate,targets,a.oos_from); od=Path(a.output_dir); od.mkdir(parents=True,exist_ok=True); out.to_csv(od/f"candidates_{a.gate}.csv",index=False); (od/"time_audit.json").write_text(json.dumps(audit,indent=2,default=str)+"\n",encoding="utf-8"); write_summary(out,od/f"SUMMARY_{a.gate}.md",a.gate,a.oos_from,audit)
-    print(json.dumps({"version":VERSION,"gate":a.gate,"rows":len(df),"features_tested":int(out.feature.nunique()) if len(out) else 0,"candidates":int(len(out)),"robust":int(out.robust.sum()) if len(out) else 0},sort_keys=True)); return 0
+    print(json.dumps({"version":VERSION,"gate":a.gate,"niv_source":a.niv_source,"rows":len(df),"features_tested":int(out.feature.nunique()) if len(out) else 0,"candidates":int(len(out)),"robust":int(out.robust.sum()) if len(out) else 0},sort_keys=True)); return 0
 if __name__ == "__main__": raise SystemExit(main())
