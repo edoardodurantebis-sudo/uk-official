@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-21T15:43:37.342234Z`  
-Current process started UTC: `2026-09-21T15:39:36.631299Z`  
-1-second metadata polls in this process: **237**  
+Last heartbeat UTC: `2026-09-21T15:47:50.443272Z`  
+Current process started UTC: `2026-09-21T15:43:50.613361Z`  
+1-second metadata polls in this process: **233**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -16,6 +16,7 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest statistically unusual observations
 
+- **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3504, delta=5, z=3.75 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3499, delta=5, z=3.65 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3494, delta=1, z=3.55 -> generation-mix component moved
 - **FUELHH** `fuelType=NUCLEAR` `generation` — half-hour generation mix [fuelType=NUCLEAR] generation: value=3495, delta=2, z=3.63 -> generation-mix component moved
@@ -30,14 +31,13 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3495, delta=-5, z=3.69 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3500, delta=3, z=3.82 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3497, delta=7, z=3.76 -> generation-mix component moved
-- **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3490, delta=1, z=3.61 -> generation-mix component moved
 
 ## Latest market values
 
-- `FUELINST|fuelType=OIL|generation` = **0** (n=1875, 2026-09-21T15:40:40.625734Z)
-- `FUELINST|fuelType=OTHER|generation` = **933** (n=1875, 2026-09-21T15:40:40.625734Z)
-- `FUELINST|fuelType=PS|generation` = **-75** (n=1875, 2026-09-21T15:40:40.625734Z)
-- `FUELINST|fuelType=WIND|generation` = **3386** (n=1875, 2026-09-21T15:40:40.625734Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=1876, 2026-09-21T15:45:28.313646Z)
+- `FUELINST|fuelType=OTHER|generation` = **974** (n=1876, 2026-09-21T15:45:28.313646Z)
+- `FUELINST|fuelType=PS|generation` = **-176** (n=1876, 2026-09-21T15:45:28.313646Z)
+- `FUELINST|fuelType=WIND|generation` = **3380** (n=1876, 2026-09-21T15:45:28.313646Z)
 - `IMBALNGC|TOTAL|imbalance` = **-3107** (n=308, 2026-09-21T15:23:14.349075Z)
 - `INDDEM|TOTAL|demand` = **-12278** (n=308, 2026-09-21T15:23:14.349075Z)
 - `INDGEN|TOTAL|generation` = **18352** (n=308, 2026-09-21T15:23:14.349075Z)
@@ -52,6 +52,9 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-21T15:46:17.305373Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:45:45Z`
+- `2026-09-21T15:45:28.313646Z` — **FUELINST**: 80 rows; marker `2026-09-21T15:45:00Z`
+- `2026-09-21T15:44:24.617619Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:43:45Z`
 - `2026-09-21T15:42:16.502521Z` — **MID**: 2 rows; marker `2026-09-21T15:42:03Z`
 - `2026-09-21T15:42:16.502521Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:41:45Z`
 - `2026-09-21T15:40:40.625734Z` — **FUELINST**: 80 rows; marker `2026-09-21T15:40:00Z`
@@ -64,6 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-21T15:32:27.819679Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:31:45Z`
 - `2026-09-21T15:30:50.535442Z` — **FUELHH**: 20 rows; marker `2026-09-21T15:30:00Z`
 - `2026-09-21T15:30:50.535442Z` — **FUELINST**: 80 rows; marker `2026-09-21T15:30:00Z`
-- `2026-09-21T15:30:25.857177Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:29:45Z`
-- `2026-09-21T15:28:18.117584Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:27:45Z`
-- `2026-09-21T15:26:26.039638Z` — **FREQ**: 5761 rows; marker `2026-09-21T15:25:45Z`
