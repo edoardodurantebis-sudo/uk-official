@@ -1,8 +1,8 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-21T10:42:10.021175Z`  
-Current process started UTC: `2026-09-21T10:38:10.512708Z`  
+Last heartbeat UTC: `2026-09-21T10:46:20.593745Z`  
+Current process started UTC: `2026-09-21T10:42:21.081312Z`  
 1-second metadata polls in this process: **239**  
 HTTP/data errors in this process: **0**  
 
@@ -42,8 +42,8 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `INDDEM|TOTAL|demand` = **-12828** (n=298, 2026-09-21T10:25:10.571552Z)
 - `INDGEN|TOTAL|generation` = **24727** (n=298, 2026-09-21T10:25:10.571552Z)
 - `MELNGC|TOTAL|margin` = **41012** (n=298, 2026-09-21T10:24:38.321334Z)
-- `MID|dataProvider=APXMIDP|price` = **160.64** (n=38, 2026-09-21T10:12:12.217441Z)
-- `MID|dataProvider=APXMIDP|volume` = **2813.7** (n=38, 2026-09-21T10:12:12.217441Z)
+- `MID|dataProvider=APXMIDP|price` = **151.11** (n=39, 2026-09-21T10:42:21.081318Z)
+- `MID|dataProvider=APXMIDP|volume` = **2552.1** (n=39, 2026-09-21T10:42:21.081318Z)
 - `MID|dataProvider=N2EXMIDP|price` = **0** (n=76, 2026-09-21T10:12:12.217441Z)
 - `MID|dataProvider=N2EXMIDP|volume` = **0** (n=76, 2026-09-21T10:12:12.217441Z)
 - `NDF|TOTAL|demand` = **20000** (n=305, 2026-09-21T10:22:13.936734Z)
@@ -52,6 +52,7 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-21T10:42:21.081318Z` — **MID**: 1 rows; marker `2026-09-21T10:42:04Z`
 - `2026-09-21T10:30:49.343841Z` — **WINDFOR**: 73 rows; marker `2026-09-21T10:30:00Z`
 - `2026-09-21T10:30:49.343841Z` — **FUELHH**: 20 rows; marker `2026-09-21T10:30:00Z`
 - `2026-09-21T10:30:33.931188Z` — **FUELINST**: 80 rows; marker `2026-09-21T10:30:00Z`
@@ -66,4 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-21T10:24:22.751239Z` — **FREQ**: 5761 rows; marker `2026-09-21T10:23:45Z`
 - `2026-09-21T10:22:13.936734Z` — **TSDF**: 630 rows; marker `2026-09-21T10:22:00Z`
 - `2026-09-21T10:22:13.936734Z` — **NDF**: 35 rows; marker `2026-09-21T10:22:00Z`
-- `2026-09-21T10:22:13.936734Z` — **FREQ**: 5761 rows; marker `2026-09-21T10:21:45Z`

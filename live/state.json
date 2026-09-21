@@ -603,12 +603,6 @@
   ],
   "events": [
     {
-      "dataset": "FREQ",
-      "marker": "2026-09-21T09:33:45Z",
-      "rows": 5761,
-      "ts": "2026-09-21T09:34:18.495533Z"
-    },
-    {
       "dataset": "FUELINST",
       "marker": "2026-09-21T09:35:00Z",
       "rows": 80,
@@ -961,14 +955,20 @@
       "marker": "2026-09-21T10:30:00Z",
       "rows": 73,
       "ts": "2026-09-21T10:30:49.343841Z"
+    },
+    {
+      "dataset": "MID",
+      "marker": "2026-09-21T10:42:04Z",
+      "rows": 1,
+      "ts": "2026-09-21T10:42:21.081318Z"
     }
   ],
   "last_error": {
     "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
     "ts": "2026-09-21T05:52:49.030495Z"
   },
-  "last_heartbeat": "2026-09-21T10:42:10.019375Z",
-  "last_successful_metadata_poll": "2026-09-21T10:42:10.019354Z",
+  "last_heartbeat": "2026-09-21T10:46:20.592599Z",
+  "last_successful_metadata_poll": "2026-09-21T10:46:20.592577Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
       "n": 4529,
@@ -1196,14 +1196,14 @@
       "value": 41012.0
     },
     "MID|dataProvider=APXMIDP|price": {
-      "n": 38,
-      "ts": "2026-09-21T10:12:12.217441Z",
-      "value": 160.64
+      "n": 39,
+      "ts": "2026-09-21T10:42:21.081318Z",
+      "value": 151.11
     },
     "MID|dataProvider=APXMIDP|volume": {
-      "n": 38,
-      "ts": "2026-09-21T10:12:12.217441Z",
-      "value": 2813.7
+      "n": 39,
+      "ts": "2026-09-21T10:42:21.081318Z",
+      "value": 2552.1
     },
     "MID|dataProvider=N2EXMIDP|price": {
       "n": 76,
@@ -1239,7 +1239,7 @@
     "INDDEM": "2026-09-21T10:22:00Z",
     "INDGEN": "2026-09-21T10:22:00Z",
     "MELNGC": "2026-09-21T10:22:00Z",
-    "MID": "2026-09-21T10:12:03Z",
+    "MID": "2026-09-21T10:42:04Z",
     "NDF": "2026-09-21T10:22:00Z",
     "TSDF": "2026-09-21T10:22:00Z",
     "WINDFOR": "2026-09-21T10:30:00Z"
@@ -1561,18 +1561,18 @@
       "n": 298
     },
     "MID|dataProvider=APXMIDP|price": {
-      "ewma": 181.4085958411984,
-      "last": 160.64,
-      "m2": 40618.94123157897,
-      "mean": 164.6178947368421,
-      "n": 38
+      "ewma": 175.34887667295874,
+      "last": 151.11,
+      "m2": 40796.72590769233,
+      "mean": 164.27153846153846,
+      "n": 39
     },
     "MID|dataProvider=APXMIDP|volume": {
-      "ewma": 2893.122160183966,
-      "last": 2813.7,
-      "m2": 10945882.337697363,
-      "mean": 2588.569736842105,
-      "n": 38
+      "ewma": 2824.917728147173,
+      "last": 2552.1,
+      "m2": 10947178.275769224,
+      "mean": 2587.6346153846152,
+      "n": 39
     },
     "MID|dataProvider=N2EXMIDP|price": {
       "ewma": 0.0,
