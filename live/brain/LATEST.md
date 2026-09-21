@@ -1,8 +1,8 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-21T11:03:12.814990Z`  
-Memory snapshots: **2149**  
+Heartbeat: `2026-09-21T11:07:25.674417Z`  
+Memory snapshots: **2150**  
 Current physical regime: **TIGHT**
 
 Regime read: margin low.
@@ -10,20 +10,20 @@ Regime read: margin low.
 ## Active patterns
 
 - **CHANGE_POINT** `ind_demand` value=-1.224e+04 d1=0.0 d12=568.0 z=14.735006846153848
-- **PERSISTENT_UP** `ind_demand` value=-1.224e+04 d1=0.0 d12=568.0 z=14.735006846153848
 - **ROBUST_OUTLIER** `ind_demand` value=-1.224e+04 d1=0.0 d12=568.0 z=14.735006846153848
-- **REVERSAL** `ccgt_gen` value=6651 d1=33.0 d12=-545.0 z=-3.728349724468085
-- **ROBUST_OUTLIER** `ccgt_gen` value=6651 d1=33.0 d12=-545.0 z=-3.728349724468085
+- **CHANGE_POINT** `nuclear_gen` value=3519 d1=10.0 d12=23.0 z=3.37244875
 - **CHANGE_POINT** `margin` value=3.65e+04 d1=0.0 d12=-3324.0 z=-1.6940672790697675
-- **REVERSAL** `thermal_base` value=1.016e+04 d1=39.0 d12=-533.0 z=-3.458689027590848
-- **ROBUST_OUTLIER** `thermal_base` value=1.016e+04 d1=39.0 d12=-533.0 z=-3.458689027590848
+- **REVERSAL** `ccgt_gen` value=6683 d1=32.0 d12=-435.0 z=-3.6671194492907797
+- **ROBUST_OUTLIER** `ccgt_gen` value=6683 d1=32.0 d12=-435.0 z=-3.6671194492907797
+- **REVERSAL** `thermal_base` value=1.02e+04 d1=42.0 d12=-412.0 z=-3.3824344663526245
+- **ROBUST_OUTLIER** `thermal_base` value=1.02e+04 d1=42.0 d12=-412.0 z=-3.3824344663526245
+- **PERSISTENT_UP** `nuclear_gen` value=3519 d1=10.0 d12=23.0 z=3.37244875
+- **ROBUST_OUTLIER** `nuclear_gen` value=3519 d1=10.0 d12=23.0 z=3.37244875
 - **CHANGE_POINT** `residual_proxy` value=1.218e+04 d1=0.0 d12=1462.0 z=1.2135229663561076
-- **CHANGE_POINT** `interconnector_net` value=1.128e+04 d1=150.0 d12=526.0 z=1.04840900856974
+- **CHANGE_POINT** `interconnector_net` value=1.126e+04 d1=-21.0 d12=481.0 z=1.0157304173578199
 - **CHANGE_POINT** `imbalance` value=-3871 d1=0.0 d12=-4440.0 z=-0.5238932564276049
-- **PERSISTENT_UP** `ts_demand_forecast` value=2.161e+04 d1=0.0 d12=449.0 z=2.2268080716911767
 - **CHANGE_POINT** `ind_generation` value=1.774e+04 d1=0.0 d12=-3991.0 z=-0.11899781625375375
-- **PERSISTENT_UP** `nuclear_gen` value=3509 d1=6.0 d12=12.0 z=2.02346925
-- **ACCELERATION** `nuclear_gen` value=3509 d1=6.0 d12=12.0 z=2.02346925
+- **REVERSAL** `interconnector_net` value=1.126e+04 d1=-21.0 d12=481.0 z=1.0157304173578199
 
 ## Nearest historical live analogues
 
