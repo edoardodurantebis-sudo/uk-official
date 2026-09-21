@@ -8,6 +8,8 @@ motore scientifico; `gb_power_runner.py` aggiunge il contratto operativo:
 - identità fisica GB esplicita (`gb_start_utc`/`gb_sp`), separata da MATS/EPEX;
 - controllo DST e conteggi giornalieri 46/48/50, mai un 48 fisso;
 - fallimento chiuso su lineage/PIT incompleta;
+- gate canonici Europe/London: DA 10:20 D-1, IDA1 18:30 D-1, IDA2 09:00 D0;
+- NIV con lineage esplicita: master storico raw invertito (`MASTER_INTERNAL_INVERTED`), feed Elexon ufficiale non invertito (`ELEXON_OFFICIAL`);
 - run atomico con manifest, hash, log, coda candidati e heartbeat append-only;
 - fallback automatico a schema/lineage/time audit quando il test primario è bloccato;
 - nessuna promozione, size, ordine o modifica del rulebook.

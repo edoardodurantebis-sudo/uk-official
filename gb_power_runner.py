@@ -25,7 +25,7 @@ except Exception as exc:  # pragma: no cover
 else:
     _PANDAS_IMPORT_ERROR = None
 
-RUNNER_VERSION = "UK_POWER_RUNNER_2.0.0"
+RUNNER_VERSION = "UK_POWER_RUNNER_2.0.1_NIV_LINEAGE"
 ALLOWED_GB_PERIOD_COUNTS = {46, 48, 50}
 
 
@@ -207,7 +207,7 @@ def validate_contract(inputs: InputPaths, master_info: dict[str, Any], registry_
 def build_engine_command(args, inputs: InputPaths, engine_path: Path, engine_output: Path, state_dir: Path):
     cmd = [sys.executable, str(engine_path), "--master-path", str(inputs.master), "--registry-path", str(inputs.registry),
            "--output-dir", str(engine_output), "--queue-dir", str(state_dir), "--gates", args.gates,
-           "--targets", args.targets, "--niv-col", args.niv_col, "--price-col", args.price_col,
+           "--targets", args.targets, "--niv-col", args.niv_col, "--price-col", args.price_col, "--niv-source", args.niv_source,
            "--min-train-months", str(args.min_train_months), "--min-cases", str(args.min_cases),
            "--min-days", str(args.min_days), "--top-features", str(args.top_features),
            "--per-family-seed-cap", str(args.per_family_seed_cap), "--max-pairs", str(args.max_pairs)]
@@ -240,7 +240,7 @@ def run_once(args) -> int:
     manifest = {"runner_version": RUNNER_VERSION, "run_id": run_id, "created_at_utc": started.isoformat(),
                 "runtime": spec, "runtime_hash": runtime_hash(spec), "inputs": {"master": master, "exante": exante,
                 "feature_registry": registry}, "warnings": warnings, "blockers": blockers,
-                "promotion_policy": "MACHINE_MAX_REVIEW_READY_HUMAN_PROMOTION_EXTERNAL",
+                "niv_source": args.niv_source, "promotion_policy": "MACHINE_MAX_REVIEW_READY_HUMAN_PROMOTION_EXTERNAL",
                 "dst_policy": "GB_PHYSICAL_EXPLICIT_IDENTITY_46_48_50_FAIL_CLOSED"}
     atomic_write_json(stage / "INPUT_MANIFEST.json", manifest)
     status = "COMPLETED"
@@ -314,7 +314,7 @@ def parse_args(argv: Optional[Sequence[str]] = None):
     p.add_argument("--engine-path", default=str(Path(__file__).with_name("GB_NIGHTLY_DISCOVERY_V1.py")))
     p.add_argument("--master-path", default=""); p.add_argument("--exante-path", default=""); p.add_argument("--registry-path", default="")
     p.add_argument("--join-keys", default=""); p.add_argument("--gates", default="DA,IDA1,IDA2")
-    p.add_argument("--targets", default="SIGN,PRICE_SHORT,PRICE_LONG"); p.add_argument("--niv-col", default="niv"); p.add_argument("--price-col", default="psbil")
+    p.add_argument("--targets", default="SIGN,PRICE_SHORT,PRICE_LONG"); p.add_argument("--niv-col", default="niv"); p.add_argument("--price-col", default="psbil"); p.add_argument("--niv-source", choices=["MASTER_INTERNAL_INVERTED","ELEXON_OFFICIAL"], default="MASTER_INTERNAL_INVERTED")
     p.add_argument("--from-date", default=""); p.add_argument("--to-date", default="")
     p.add_argument("--min-train-months", type=int, default=6); p.add_argument("--min-cases", type=int, default=30); p.add_argument("--min-days", type=int, default=8)
     p.add_argument("--top-features", type=int, default=30); p.add_argument("--per-family-seed-cap", type=int, default=4); p.add_argument("--max-pairs", type=int, default=300)

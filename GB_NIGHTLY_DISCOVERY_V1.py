@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Registry-driven, PIT-safe GB imbalance discovery engine.
 
-Canonical Elexon sign convention used throughout:
+Normalized Elexon sign convention used throughout:
     NIV > 0  -> system SHORT
     NIV < 0  -> system LONG
+
+Raw sign is source-lineage dependent. Canonical historical master_wide.niv is
+internal/inverted and must be negated; public Elexon/BMRS NIV must not be flipped.
 
 Machine output can reach REVIEW_READY only; promotion/trading stays external.
 """
@@ -22,7 +25,9 @@ from typing import Any, Optional
 import numpy as np
 import pandas as pd
 
-ENGINE_VERSION = "GB_NIGHTLY_DISCOVERY_V1.1.0"
+ENGINE_VERSION = "GB_NIGHTLY_DISCOVERY_V1.1.1_NIV_LINEAGE"
+NIV_SOURCE_MASTER_INTERNAL_INVERTED = "MASTER_INTERNAL_INVERTED"
+NIV_SOURCE_ELEXON_OFFICIAL = "ELEXON_OFFICIAL"
 VALID_GATES = {"DA", "IDA1", "IDA2"}
 VALID_TARGETS = {"SIGN", "PRICE_SHORT", "PRICE_LONG"}
 VALID_RES = {"PT15", "PT30", "PT60"}
@@ -103,14 +108,24 @@ def normalize_panel(df: pd.DataFrame, default_resolution: str = "") -> pd.DataFr
     return x.sort_values(["delivery_start_utc", "resolution"]).reset_index(drop=True)
 
 
-def add_targets(df: pd.DataFrame, niv_col: str, price_col: str) -> pd.DataFrame:
+def add_targets(df: pd.DataFrame, niv_col: str, price_col: str, niv_source: str = NIV_SOURCE_MASTER_INTERNAL_INVERTED) -> pd.DataFrame:
     if niv_col not in df.columns or price_col not in df.columns:
         raise RuntimeError(f"TARGET_COLUMNS_MISSING:niv={niv_col in df.columns}:price={price_col in df.columns}")
+    if niv_source not in {NIV_SOURCE_MASTER_INTERNAL_INVERTED, NIV_SOURCE_ELEXON_OFFICIAL}:
+        raise RuntimeError(f"NIV_LINEAGE_UNRESOLVED:{niv_source}")
     x = df.copy()
-    x["niv"] = pd.to_numeric(x[niv_col], errors="coerce")
+    raw = pd.to_numeric(x[niv_col], errors="coerce")
+    x["niv_raw_source"] = raw
+    if niv_source == NIV_SOURCE_MASTER_INTERNAL_INVERTED:
+        x["niv_master_raw"] = raw
+        norm = -raw
+    else:
+        norm = raw
+    x["niv_elexon_sign"] = norm
+    x["niv"] = norm
     x["psbil"] = pd.to_numeric(x[price_col], errors="coerce")
-    x["short_flag"] = np.where(x["niv"] > 0, 1.0, np.where(x["niv"] < 0, 0.0, np.nan))
-    x["long_flag"] = np.where(x["niv"] < 0, 1.0, np.where(x["niv"] > 0, 0.0, np.nan))
+    x["short_flag"] = np.where(norm > 0, 1.0, np.where(norm < 0, 0.0, np.nan))
+    x["long_flag"] = np.where(norm < 0, 1.0, np.where(norm > 0, 0.0, np.nan))
     return x
 
 
@@ -131,7 +146,7 @@ def eligible_registry(reg: pd.DataFrame, df: pd.DataFrame, gate: str, resolution
     r = r[r["pit_status"].eq("CERTIFIED")]
     r = r[r["discovery_enabled"].map(boolish) & r[gate_col].map(boolish)]
     r = r[r["column_name"].isin(df.columns)]
-    forbidden = {"niv", "psbil", "short_flag", "long_flag", "gb_sp", "delivery_start_utc", "gb_delivery_date"}
+    forbidden = {"niv", "niv_raw_source", "niv_master_raw", "niv_elexon_sign", "psbil", "short_flag", "long_flag", "gb_sp", "delivery_start_utc", "gb_delivery_date"}
     return r[~r["column_name"].str.lower().isin(forbidden)].copy()
 
 
@@ -297,7 +312,7 @@ def parse_args():
     p.add_argument("--master-path", required=True); p.add_argument("--exante-path", default=""); p.add_argument("--join-keys", default="")
     p.add_argument("--registry-path", required=True); p.add_argument("--output-dir", required=True); p.add_argument("--queue-dir", required=True)
     p.add_argument("--gates", default="DA,IDA1,IDA2"); p.add_argument("--targets", default="SIGN,PRICE_SHORT,PRICE_LONG")
-    p.add_argument("--niv-col", default="niv"); p.add_argument("--price-col", default="psbil"); p.add_argument("--default-resolution", default="")
+    p.add_argument("--niv-col", default="niv"); p.add_argument("--price-col", default="psbil"); p.add_argument("--niv-source", choices=[NIV_SOURCE_MASTER_INTERNAL_INVERTED,NIV_SOURCE_ELEXON_OFFICIAL], default=NIV_SOURCE_MASTER_INTERNAL_INVERTED); p.add_argument("--default-resolution", default="")
     p.add_argument("--min-train-months", type=int, default=6); p.add_argument("--min-cases", type=int, default=30); p.add_argument("--min-days", type=int, default=8)
     p.add_argument("--top-features", type=int, default=30); p.add_argument("--per-family-seed-cap", type=int, default=4); p.add_argument("--max-pairs", type=int, default=300)
     p.add_argument("--from-date", default=""); p.add_argument("--to-date", default=""); p.add_argument("--smoke", action="store_true")
@@ -320,7 +335,7 @@ def main() -> int:
             raise RuntimeError("EXANTE_JOIN_KEYS_NOT_UNIQUE")
         add = [c for c in ex.columns if c not in keys and c not in master.columns]
         master = master.merge(ex[keys + add], on=keys, how="left", validate="one_to_one")
-    master = add_targets(master, args.niv_col, args.price_col)
+    master = add_targets(master, args.niv_col, args.price_col, args.niv_source)
     if args.from_date:
         master = master[master.gb_delivery_date >= pd.Timestamp(args.from_date).normalize()]
     if args.to_date:
@@ -364,7 +379,7 @@ def main() -> int:
     review.to_csv(run_dir / "TRADER_REVIEW_QUEUE.csv", index=False)
     manifest = {"engine_version": ENGINE_VERSION, "run_id": run_id, "created_at_utc": run_ts.isoformat(),
                 "master_sha256": sha256_file(Path(args.master_path)), "registry_sha256": sha256_file(Path(args.registry_path)),
-                "sign_convention": "ELEXON_CANONICAL_NIV_POSITIVE_SHORT_NEGATIVE_LONG",
+                "niv_source": args.niv_source, "sign_convention": "ELEXON_NORMALIZED_NIV_POSITIVE_SHORT_NEGATIVE_LONG",
                 "physical_identity": "delivery_start_utc", "dst_policy": "46_48_50_FAIL_CLOSED",
                 "candidate_generation": "SINGLE_PLUS_PAIR_ONLY", "promotion_policy": "MACHINE_MAX_REVIEW_READY",
                 "candidate_count": int(len(batch)), "review_ready_count": int((batch.machine_status == "REVIEW_READY").sum()) if not batch.empty else 0,
