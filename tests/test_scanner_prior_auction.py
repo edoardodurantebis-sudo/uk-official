@@ -19,7 +19,7 @@ class ScannerPriorAuctionGateTests(unittest.TestCase):
         self.assertTrue(scanner.gate_allows_master("pda_gbp", "IDA2"))
 
     def test_post_outcome_fields_remain_blocked(self):
-        for field in ("niv", "psbil", "actual_residual_load", "actual_net_demand", "boa_acceptance"):
+        for field in ("niv", "niv_raw_source", "niv_master_raw", "niv_elexon_sign", "psbil", "actual_residual_load", "actual_net_demand", "boa_acceptance"):
             for gate in ("DA", "IDA1", "IDA2"):
                 self.assertFalse(scanner.gate_allows_master(field, gate))
 
