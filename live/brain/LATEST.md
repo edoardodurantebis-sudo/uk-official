@@ -1,29 +1,29 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-21T06:24:24.498463Z`  
-Memory snapshots: **2083**  
+Heartbeat: `2026-09-21T06:28:37.700638Z`  
+Memory snapshots: **2084**  
 Current physical regime: **LOOSE**
 
 Regime read: margin high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `ps_gen` value=226 d1=0.0 d12=238.0 z=160.5285605
-- **ROBUST_OUTLIER** `ps_gen` value=226 d1=0.0 d12=238.0 z=160.5285605
+- **CHANGE_POINT** `ps_gen` value=226 d1=0.0 d12=130.0 z=53.50952016666667
+- **ROBUST_OUTLIER** `ps_gen` value=226 d1=0.0 d12=130.0 z=53.50952016666667
+- **PERSISTENT_UP** `nuclear_gen` value=3495 d1=4.0 d12=35.0 z=17.199488625
+- **ROBUST_OUTLIER** `nuclear_gen` value=3495 d1=4.0 d12=35.0 z=17.199488625
 - **CHANGE_POINT** `imbalance` value=-3867 d1=0.0 d12=148.0 z=14.958683788888889
 - **CHANGE_POINT** `ind_generation` value=1.673e+04 d1=0.0 d12=139.0 z=14.823785838888888
-- **REVERSAL** `nuclear_gen` value=3491 d1=-1.0 d12=36.0 z=16.749828791666665
-- **ROBUST_OUTLIER** `nuclear_gen` value=3491 d1=-1.0 d12=36.0 z=16.749828791666665
 - **PERSISTENT_UP** `imbalance` value=-3867 d1=0.0 d12=148.0 z=14.958683788888889
-- **ACCELERATION** `imbalance` value=-3867 d1=0.0 d12=148.0 z=14.958683788888889
 - **ROBUST_OUTLIER** `imbalance` value=-3867 d1=0.0 d12=148.0 z=14.958683788888889
 - **PERSISTENT_UP** `ind_generation` value=1.673e+04 d1=0.0 d12=139.0 z=14.823785838888888
-- **ACCELERATION** `ind_generation` value=1.673e+04 d1=0.0 d12=139.0 z=14.823785838888888
 - **ROBUST_OUTLIER** `ind_generation` value=1.673e+04 d1=0.0 d12=139.0 z=14.823785838888888
 - **CHANGE_POINT** `margin` value=3.814e+04 d1=0.0 d12=602.0 z=10.235381956249999
 - **PERSISTENT_UP** `margin` value=3.814e+04 d1=0.0 d12=602.0 z=10.235381956249999
-- **ACCELERATION** `margin` value=3.814e+04 d1=0.0 d12=602.0 z=10.235381956249999
+- **ROBUST_OUTLIER** `margin` value=3.814e+04 d1=0.0 d12=602.0 z=10.235381956249999
+- **PERSISTENT_DOWN** `ind_demand` value=-1.215e+04 d1=0.0 d12=-403.0 z=-6.105907210526316
+- **ROBUST_OUTLIER** `ind_demand` value=-1.215e+04 d1=0.0 d12=-403.0 z=-6.105907210526316
 
 ## Nearest historical live analogues
 
