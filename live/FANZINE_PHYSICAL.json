@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-21T15:39:06.257432Z",
-  "source_heartbeat": "2026-09-21T15:39:04.883699Z",
-  "brain_generated_at": "2026-09-21T15:39:06.215666Z",
+  "generated_at_utc": "2026-09-21T15:43:38.219373Z",
+  "source_heartbeat": "2026-09-21T15:43:37.340431Z",
+  "brain_generated_at": "2026-09-21T15:43:38.179720Z",
   "regime": "BALANCED",
   "regime_reasons": [],
   "physical": [
@@ -37,12 +37,11 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 3390.0,
-      "d1": 42.0,
-      "d12": -319.0,
-      "accel": 32.0,
+      "value": 3386.0,
+      "d1": -4.0,
+      "d12": -224.0,
+      "accel": -46.0,
       "tags": [
-        "REVERSAL",
         "CHANGE_POINT"
       ]
     },
@@ -60,7 +59,7 @@
       "label": "Indicated margin",
       "value": 36257.0,
       "d1": 0.0,
-      "d12": 12.0,
+      "d12": 4.0,
       "accel": 0.0,
       "tags": []
     },
@@ -78,10 +77,10 @@
     {
       "metric": "interconnector_net",
       "label": "Interconnector net",
-      "value": 10971.0,
-      "d1": -39.0,
-      "d12": -426.0,
-      "accel": 114.0,
+      "value": 10947.0,
+      "d1": -24.0,
+      "d12": -427.0,
+      "accel": 15.0,
       "tags": [
         "PERSISTENT_DOWN",
         "CHANGE_POINT"
@@ -90,10 +89,10 @@
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 10543.0,
-      "d1": 123.0,
-      "d12": 1664.0,
-      "accel": -138.0,
+      "value": 10644.0,
+      "d1": 101.0,
+      "d12": 1585.0,
+      "accel": -22.0,
       "tags": [
         "PERSISTENT_UP",
         "ROBUST_OUTLIER"
@@ -102,10 +101,10 @@
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3494.0,
-      "d1": 1.0,
-      "d12": -3.0,
-      "accel": 2.0,
+      "value": 3499.0,
+      "d1": 5.0,
+      "d12": -1.0,
+      "accel": 4.0,
       "tags": [
         "REVERSAL",
         "ACCELERATION"
@@ -114,19 +113,21 @@
     {
       "metric": "ps_gen",
       "label": "Pumped-storage generation",
-      "value": -21.0,
-      "d1": 0.0,
-      "d12": -150.0,
-      "accel": 0.0,
-      "tags": []
+      "value": -75.0,
+      "d1": -54.0,
+      "d12": -204.0,
+      "accel": -54.0,
+      "tags": [
+        "PERSISTENT_DOWN"
+      ]
     },
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 14037.0,
-      "d1": 124.0,
-      "d12": 1661.0,
-      "accel": -136.0,
+      "value": 14143.0,
+      "d1": 106.0,
+      "d12": 1584.0,
+      "accel": -18.0,
       "tags": [
         "PERSISTENT_UP",
         "ROBUST_OUTLIER"
@@ -146,56 +147,56 @@
     {
       "metric": "thermal_base",
       "pattern": "PERSISTENT_UP",
-      "value": 14037.0,
-      "d1": 124.0,
-      "d12": 1661.0,
-      "accel": -136.0,
-      "z_mad": 4.173022790834846
+      "value": 14143.0,
+      "d1": 106.0,
+      "d12": 1584.0,
+      "accel": -18.0,
+      "z_mad": 4.302779439655173
     },
     {
       "metric": "thermal_base",
       "pattern": "ROBUST_OUTLIER",
-      "value": 14037.0,
-      "d1": 124.0,
-      "d12": 1661.0,
-      "accel": -136.0,
-      "z_mad": 4.173022790834846
+      "value": 14143.0,
+      "d1": 106.0,
+      "d12": 1584.0,
+      "accel": -18.0,
+      "z_mad": 4.302779439655173
     },
     {
       "metric": "ccgt_gen",
       "pattern": "PERSISTENT_UP",
-      "value": 10543.0,
-      "d1": 123.0,
-      "d12": 1664.0,
-      "accel": -138.0,
-      "z_mad": 4.083349008628319
+      "value": 10644.0,
+      "d1": 101.0,
+      "d12": 1585.0,
+      "accel": -22.0,
+      "z_mad": 4.203921512610619
     },
     {
       "metric": "ccgt_gen",
       "pattern": "ROBUST_OUTLIER",
-      "value": 10543.0,
-      "d1": 123.0,
-      "d12": 1664.0,
-      "accel": -138.0,
-      "z_mad": 4.083349008628319
+      "value": 10644.0,
+      "d1": 101.0,
+      "d12": 1585.0,
+      "accel": -22.0,
+      "z_mad": 4.203921512610619
     },
     {
       "metric": "interconnector_net",
       "pattern": "CHANGE_POINT",
-      "value": 10971.0,
-      "d1": -39.0,
-      "d12": -426.0,
-      "accel": 114.0,
-      "z_mad": -0.9004190794621028
+      "value": 10947.0,
+      "d1": -24.0,
+      "d12": -427.0,
+      "accel": 15.0,
+      "z_mad": -0.9795768007334963
     },
     {
       "metric": "wind_gen",
       "pattern": "CHANGE_POINT",
-      "value": 3390.0,
-      "d1": 42.0,
-      "d12": -319.0,
-      "accel": 32.0,
-      "z_mad": -0.3883910171800948
+      "value": 3386.0,
+      "d1": -4.0,
+      "d12": -224.0,
+      "accel": -46.0,
+      "z_mad": -0.358657248015873
     },
     {
       "metric": "imbalance",
@@ -272,8 +273,8 @@
     "alien": "OK",
     "mid": {
       "status": "OK",
-      "detail": "1 rows",
-      "ts": "2026-09-21T15:36:25.011870Z"
+      "detail": "2 rows",
+      "ts": "2026-09-21T15:42:16.502521Z"
     },
     "last_error": {
       "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
