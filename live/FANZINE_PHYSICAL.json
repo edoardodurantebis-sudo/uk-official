@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-21T13:05:40.545158Z",
-  "source_heartbeat": "2026-09-21T13:05:39.062581Z",
-  "brain_generated_at": "2026-09-21T13:05:40.501003Z",
+  "generated_at_utc": "2026-09-21T13:09:52.526247Z",
+  "source_heartbeat": "2026-09-21T13:09:51.473992Z",
+  "brain_generated_at": "2026-09-21T13:09:52.484396Z",
   "regime": "BALANCED",
   "regime_reasons": [],
   "physical": [
@@ -40,9 +40,9 @@
       "metric": "wind_gen",
       "label": "Wind generation",
       "value": 4020.0,
-      "d1": 131.0,
-      "d12": 296.0,
-      "accel": 105.0,
+      "d1": 0.0,
+      "d12": 253.0,
+      "accel": -131.0,
       "tags": [
         "PERSISTENT_UP",
         "ACCELERATION"
@@ -83,23 +83,21 @@
       "metric": "interconnector_net",
       "label": "Interconnector net",
       "value": 11445.0,
-      "d1": 1.0,
-      "d12": 142.0,
-      "accel": -114.0,
+      "d1": 0.0,
+      "d12": 167.0,
+      "accel": -1.0,
       "tags": [
-        "PERSISTENT_UP",
-        "ACCELERATION"
+        "PERSISTENT_UP"
       ]
     },
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
       "value": 6123.0,
-      "d1": 128.0,
-      "d12": -525.0,
-      "accel": 85.0,
+      "d1": 0.0,
+      "d12": -451.0,
+      "accel": -128.0,
       "tags": [
-        "REVERSAL",
         "CHANGE_POINT"
       ]
     },
@@ -108,10 +106,10 @@
       "label": "Nuclear generation",
       "value": 3508.0,
       "d1": 0.0,
-      "d12": -5.0,
-      "accel": -4.0,
+      "d12": -8.0,
+      "accel": 0.0,
       "tags": [
-        "ACCELERATION"
+        "CHANGE_POINT"
       ]
     },
     {
@@ -129,11 +127,10 @@
       "metric": "thermal_base",
       "label": "Thermal base",
       "value": 9631.0,
-      "d1": 128.0,
-      "d12": -530.0,
-      "accel": 81.0,
+      "d1": 0.0,
+      "d12": -459.0,
+      "accel": -128.0,
       "tags": [
-        "REVERSAL",
         "CHANGE_POINT"
       ]
     },
@@ -161,28 +158,37 @@
       "metric": "biomass_gen",
       "pattern": "CHANGE_POINT",
       "value": 2860.0,
-      "d1": -54.0,
-      "d12": -153.0,
-      "accel": 23.0,
-      "z_mad": -12.1408155
+      "d1": 0.0,
+      "d12": -150.0,
+      "accel": 54.0,
+      "z_mad": -11.42885409722222
     },
     {
       "metric": "biomass_gen",
       "pattern": "PERSISTENT_DOWN",
       "value": 2860.0,
-      "d1": -54.0,
-      "d12": -153.0,
-      "accel": 23.0,
-      "z_mad": -12.1408155
+      "d1": 0.0,
+      "d12": -150.0,
+      "accel": 54.0,
+      "z_mad": -11.42885409722222
+    },
+    {
+      "metric": "biomass_gen",
+      "pattern": "ACCELERATION",
+      "value": 2860.0,
+      "d1": 0.0,
+      "d12": -150.0,
+      "accel": 54.0,
+      "z_mad": -11.42885409722222
     },
     {
       "metric": "biomass_gen",
       "pattern": "ROBUST_OUTLIER",
       "value": 2860.0,
-      "d1": -54.0,
-      "d12": -153.0,
-      "accel": 23.0,
-      "z_mad": -12.1408155
+      "d1": 0.0,
+      "d12": -150.0,
+      "accel": 54.0,
+      "z_mad": -11.42885409722222
     },
     {
       "metric": "ps_gen",
@@ -203,22 +209,13 @@
       "z_mad": 5.481762150000001
     },
     {
-      "metric": "ccgt_gen",
+      "metric": "nuclear_gen",
       "pattern": "CHANGE_POINT",
-      "value": 6123.0,
-      "d1": 128.0,
-      "d12": -525.0,
-      "accel": 85.0,
-      "z_mad": -0.9243806532663317
-    },
-    {
-      "metric": "margin",
-      "pattern": "CHANGE_POINT",
-      "value": 36271.0,
+      "value": 3508.0,
       "d1": 0.0,
-      "d12": -402.0,
+      "d12": -8.0,
       "accel": 0.0,
-      "z_mad": -0.9042609835164835
+      "z_mad": 1.21408155
     }
   ],
   "analogues": [
@@ -277,8 +274,8 @@
     "alien": "OK",
     "mid": {
       "status": "OK",
-      "detail": "2 rows",
-      "ts": "2026-09-21T12:42:12.075590Z"
+      "detail": "1 rows",
+      "ts": "2026-09-21T13:06:23.169138Z"
     },
     "last_error": {
       "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
