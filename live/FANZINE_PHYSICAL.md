@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-22T00:17:56.747689Z  
-Source heartbeat: 2026-09-22T00:17:55.700780Z  
+Generated UTC: 2026-09-22T00:22:08.485607Z  
+Source heartbeat: 2026-09-22T00:22:06.955841Z  
 
 ## Regime: **BALANCED**
 Reason: No regime explanation available.
@@ -12,28 +12,28 @@ Reason: No regime explanation available.
 |---|---:|---:|---:|---:|---|
 | Demand forecast | 20959.0 | 0.0 | 0.0 | 0.0 |  |
 | TS demand forecast | 21459.0 | 0.0 | 0.0 | 0.0 |  |
-| Wind forecast | 9503.0 | 0.0 | 882.0 | 0.0 |  |
-| Wind generation | 3778.0 | 39.0 | 257.0 | -20.0 | PERSISTENT_UP |
-| Residual-load proxy | 11456.0 | 0.0 | -882.0 | 0.0 |  |
-| Indicated margin | 36218.0 | 0.0 | 51.0 | 0.0 | CHANGE_POINT |
-| Indicated imbalance | -2010.0 | 0.0 | 6.0 | 0.0 | CHANGE_POINT |
-| Interconnector net | 3684.0 | 4.0 | 537.0 | -45.0 | PERSISTENT_UP |
-| CCGT generation | 11242.0 | -9.0 | 80.0 | -23.0 | REVERSAL |
-| Nuclear generation | 3652.0 | 2.0 | 2.0 | 4.0 | PERSISTENT_UP, ACCELERATION |
-| Pumped-storage generation | -284.0 | -1.0 | -2.0 | -2.0 | ACCELERATION, CHANGE_POINT |
-| Thermal base | 14894.0 | -7.0 | 82.0 | -19.0 | REVERSAL |
+| Wind forecast | 9503.0 | 0.0 | 0.0 | 0.0 |  |
+| Wind generation | 3793.0 | 15.0 | 263.0 | -24.0 | PERSISTENT_UP |
+| Residual-load proxy | 11456.0 | 0.0 | 0.0 | 0.0 |  |
+| Indicated margin | 36214.0 | -4.0 | 47.0 | -4.0 | REVERSAL, CHANGE_POINT |
+| Indicated imbalance | -1960.0 | 50.0 | 56.0 | 50.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER, CHANGE_POINT |
+| Interconnector net | 3685.0 | 1.0 | 363.0 | -3.0 | PERSISTENT_UP |
+| CCGT generation | 11204.0 | -38.0 | -57.0 | -29.0 | PERSISTENT_DOWN, ACCELERATION |
+| Nuclear generation | 3652.0 | 0.0 | -1.0 | -2.0 | ACCELERATION |
+| Pumped-storage generation | -285.0 | -1.0 | 0.0 | 0.0 | PERSISTENT_DOWN, CHANGE_POINT |
+| Thermal base | 14856.0 | -38.0 | -58.0 | -31.0 | PERSISTENT_DOWN, ACCELERATION |
 | Frequency | 50.089 | 0.0 | -0.015999999999998238 | 0.0 |  |
 
 ## Active live patterns
 
 - **ind_demand / CHANGE_POINT** — value=-12382.0, Δ1=0.0, Δ12=-1.0, accel=0.0
 - **ind_demand / ROBUST_OUTLIER** — value=-12382.0, Δ1=0.0, Δ12=-1.0, accel=0.0
-- **imbalance / CHANGE_POINT** — value=-2010.0, Δ1=0.0, Δ12=6.0, accel=0.0
-- **ind_generation / CHANGE_POINT** — value=19449.0, Δ1=0.0, Δ12=6.0, accel=0.0
-- **ps_gen / CHANGE_POINT** — value=-284.0, Δ1=-1.0, Δ12=-2.0, accel=-2.0
-- **margin / CHANGE_POINT** — value=36218.0, Δ1=0.0, Δ12=51.0, accel=0.0
-- **biomass_gen / CHANGE_POINT** — value=3004.0, Δ1=4.0, Δ12=-1.0, accel=8.0
-- **thermal_base / REVERSAL** — value=14894.0, Δ1=-7.0, Δ12=82.0, accel=-19.0
+- **imbalance / CHANGE_POINT** — value=-1960.0, Δ1=50.0, Δ12=56.0, accel=50.0
+- **ind_generation / CHANGE_POINT** — value=19499.0, Δ1=50.0, Δ12=56.0, accel=50.0
+- **ps_gen / CHANGE_POINT** — value=-285.0, Δ1=-1.0, Δ12=0.0, accel=0.0
+- **imbalance / PERSISTENT_UP** — value=-1960.0, Δ1=50.0, Δ12=56.0, accel=50.0
+- **imbalance / ACCELERATION** — value=-1960.0, Δ1=50.0, Δ12=56.0, accel=50.0
+- **imbalance / ROBUST_OUTLIER** — value=-1960.0, Δ1=50.0, Δ12=56.0, accel=50.0
 
 ## Health
 
