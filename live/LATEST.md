@@ -1,8 +1,8 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-22T02:16:31.636171Z`  
-Current process started UTC: `2026-09-22T02:12:31.895810Z`  
+Last heartbeat UTC: `2026-09-22T02:20:47.394260Z`  
+Current process started UTC: `2026-09-22T02:16:47.219129Z`  
 1-second metadata polls in this process: **237**  
 HTTP/data errors in this process: **0**  
 
@@ -16,6 +16,7 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest statistically unusual observations
 
+- **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3654, delta=2, z=4.01 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3652, delta=2, z=4.00 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3650, delta=5, z=3.99 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3645, delta=-8, z=3.94 -> generation-mix component moved
@@ -30,40 +31,39 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3653, delta=-1, z=4.17 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3654, delta=-1, z=4.21 -> generation-mix component moved
 - **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3655, delta=1, z=4.24 -> generation-mix component moved
-- **FUELINST** `fuelType=NUCLEAR` `generation` — instantaneous generation mix [fuelType=NUCLEAR] generation: value=3654, delta=1, z=4.25 -> generation-mix component moved
 
 ## Latest market values
 
-- `FUELINST|fuelType=OIL|generation` = **0** (n=2002, 2026-09-22T02:15:28.095019Z)
-- `FUELINST|fuelType=OTHER|generation` = **131** (n=2002, 2026-09-22T02:15:28.095019Z)
-- `FUELINST|fuelType=PS|generation` = **-164** (n=2002, 2026-09-22T02:15:28.095019Z)
-- `FUELINST|fuelType=WIND|generation` = **3962** (n=2002, 2026-09-22T02:15:28.095019Z)
-- `IMBALNGC|TOTAL|imbalance` = **-2707** (n=329, 2026-09-22T01:51:01.471021Z)
-- `INDDEM|TOTAL|demand` = **-12417** (n=329, 2026-09-22T01:51:01.471021Z)
-- `INDGEN|TOTAL|generation` = **18752** (n=329, 2026-09-22T01:51:01.471021Z)
-- `MELNGC|TOTAL|margin` = **36168** (n=329, 2026-09-22T01:49:09.493545Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=2003, 2026-09-22T02:20:29.341334Z)
+- `FUELINST|fuelType=OTHER|generation` = **129** (n=2003, 2026-09-22T02:20:29.341334Z)
+- `FUELINST|fuelType=PS|generation` = **-164** (n=2003, 2026-09-22T02:20:29.341334Z)
+- `FUELINST|fuelType=WIND|generation` = **4062** (n=2003, 2026-09-22T02:20:29.341334Z)
+- `IMBALNGC|TOTAL|imbalance` = **-2655** (n=330, 2026-09-22T02:20:29.341334Z)
+- `INDDEM|TOTAL|demand` = **-12497** (n=330, 2026-09-22T02:20:29.341334Z)
+- `INDGEN|TOTAL|generation` = **18804** (n=330, 2026-09-22T02:20:29.341334Z)
+- `MELNGC|TOTAL|margin` = **37822** (n=330, 2026-09-22T02:19:26.245104Z)
 - `MID|dataProvider=APXMIDP|price` = **140.43** (n=70, 2026-09-22T02:12:31.895816Z)
 - `MID|dataProvider=APXMIDP|volume` = **2075.8** (n=70, 2026-09-22T02:12:31.895816Z)
 - `MID|dataProvider=N2EXMIDP|price` = **0** (n=138, 2026-09-22T02:12:31.895816Z)
 - `MID|dataProvider=N2EXMIDP|volume` = **0** (n=138, 2026-09-22T02:12:31.895816Z)
-- `NDF|TOTAL|demand` = **20959** (n=336, 2026-09-22T01:47:33.864588Z)
-- `TSDF|TOTAL|demand` = **21459** (n=336, 2026-09-22T01:47:33.864588Z)
+- `NDF|TOTAL|demand` = **20959** (n=337, 2026-09-22T02:17:19.223859Z)
+- `TSDF|TOTAL|demand` = **21459** (n=337, 2026-09-22T02:17:19.223859Z)
 - `WINDFOR|TOTAL|generation` = **9503** (n=56, 2026-09-21T23:30:37.821418Z)
 
 ## Latest publication events
 
+- `2026-09-22T02:20:29.341334Z` — **INDGEN**: 918 rows; marker `2026-09-22T02:16:00Z`
+- `2026-09-22T02:20:29.341334Z` — **INDDEM**: 918 rows; marker `2026-09-22T02:16:00Z`
+- `2026-09-22T02:20:29.341334Z` — **IMBALNGC**: 918 rows; marker `2026-09-22T02:16:00Z`
+- `2026-09-22T02:20:29.341334Z` — **FUELINST**: 80 rows; marker `2026-09-22T02:20:00Z`
+- `2026-09-22T02:20:13.859110Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:19:45Z`
+- `2026-09-22T02:19:26.245104Z` — **MELNGC**: 918 rows; marker `2026-09-22T02:16:00Z`
+- `2026-09-22T02:18:22.789993Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:17:45Z`
+- `2026-09-22T02:17:19.223859Z` — **TSDF**: 918 rows; marker `2026-09-22T02:16:00Z`
+- `2026-09-22T02:17:19.223859Z` — **NDF**: 51 rows; marker `2026-09-22T02:16:00Z`
 - `2026-09-22T02:16:16.379715Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:15:45Z`
 - `2026-09-22T02:15:28.095019Z` — **FUELINST**: 80 rows; marker `2026-09-22T02:15:00Z`
 - `2026-09-22T02:14:24.391884Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:13:45Z`
 - `2026-09-22T02:12:31.895816Z` — **MID**: 2 rows; marker `2026-09-22T02:12:04Z`
 - `2026-09-22T02:12:31.895816Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:11:45Z`
 - `2026-09-22T02:10:25.532309Z` — **FUELINST**: 80 rows; marker `2026-09-22T02:10:00Z`
-- `2026-09-22T02:10:25.532309Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:09:45Z`
-- `2026-09-22T02:08:16.815050Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:07:45Z`
-- `2026-09-22T02:06:27.499024Z` — **MID**: 1 rows; marker `2026-09-22T02:05:00Z`
-- `2026-09-22T02:06:11.490082Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:05:45Z`
-- `2026-09-22T02:05:23.948169Z` — **FUELINST**: 80 rows; marker `2026-09-22T02:05:00Z`
-- `2026-09-22T02:04:19.711699Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:03:45Z`
-- `2026-09-22T02:02:27.525599Z` — **FREQ**: 5761 rows; marker `2026-09-22T02:01:45Z`
-- `2026-09-22T02:00:51.402865Z` — **FUELHH**: 20 rows; marker `2026-09-22T02:00:00Z`
-- `2026-09-22T02:00:35.888989Z` — **FUELINST**: 80 rows; marker `2026-09-22T02:00:00Z`
