@@ -1,7 +1,7 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-22T12:33:23.497533Z`  
+Heartbeat: `2026-09-22T12:37:39.628217Z`  
 Memory snapshots: **2500**  
 Current physical regime: **BALANCED**
 
@@ -9,21 +9,21 @@ Regime read: wind rising.
 
 ## Active patterns
 
-- **CHANGE_POINT** `nuclear_gen` value=3737 d1=4.0 d12=71.0 z=19.335372833333334
-- **PERSISTENT_UP** `nuclear_gen` value=3737 d1=4.0 d12=71.0 z=19.335372833333334
-- **ROBUST_OUTLIER** `nuclear_gen` value=3737 d1=4.0 d12=71.0 z=19.335372833333334
+- **CHANGE_POINT** `nuclear_gen` value=3737 d1=0.0 d12=59.0 z=19.335372833333334
+- **PERSISTENT_UP** `nuclear_gen` value=3737 d1=0.0 d12=59.0 z=19.335372833333334
+- **ROBUST_OUTLIER** `nuclear_gen` value=3737 d1=0.0 d12=59.0 z=19.335372833333334
 - **CHANGE_POINT** `ps_gen` value=-126 d1=0.0 d12=-119.0 z=9.667686416666667
 - **PERSISTENT_DOWN** `ps_gen` value=-126 d1=0.0 d12=-119.0 z=9.667686416666667
 - **ROBUST_OUTLIER** `ps_gen` value=-126 d1=0.0 d12=-119.0 z=9.667686416666667
-- **PERSISTENT_UP** `wind_forecast` value=1.308e+04 d1=75.0 d12=75.0 z=8.76836675
-- **ACCELERATION** `wind_forecast` value=1.308e+04 d1=75.0 d12=75.0 z=8.76836675
-- **ROBUST_OUTLIER** `wind_forecast` value=1.308e+04 d1=75.0 d12=75.0 z=8.76836675
-- **CHANGE_POINT** `wind_gen` value=2706 d1=-44.0 d12=-929.0 z=-6.180378904891304
-- **PERSISTENT_DOWN** `wind_gen` value=2706 d1=-44.0 d12=-929.0 z=-6.180378904891304
-- **ROBUST_OUTLIER** `wind_gen` value=2706 d1=-44.0 d12=-929.0 z=-6.180378904891304
+- **PERSISTENT_UP** `wind_forecast` value=1.308e+04 d1=0.0 d12=75.0 z=8.76836675
+- **ACCELERATION** `wind_forecast` value=1.308e+04 d1=0.0 d12=75.0 z=8.76836675
+- **ROBUST_OUTLIER** `wind_forecast` value=1.308e+04 d1=0.0 d12=75.0 z=8.76836675
+- **CHANGE_POINT** `wind_gen` value=2643 d1=-63.0 d12=-908.0 z=-6.2998733350515455
+- **PERSISTENT_DOWN** `wind_gen` value=2643 d1=-63.0 d12=-908.0 z=-6.2998733350515455
+- **ROBUST_OUTLIER** `wind_gen` value=2643 d1=-63.0 d12=-908.0 z=-6.2998733350515455
 - **CHANGE_POINT** `ind_generation` value=1.408e+04 d1=0.0 d12=-851.0 z=-1.0482169272093877
 - **CHANGE_POINT** `imbalance` value=-7075 d1=0.0 d12=-851.0 z=-0.8606086790693904
-- **CHANGE_POINT** `residual_proxy` value=7576 d1=-75.0 d12=-75.0 z=-0.8577750081521739
+- **CHANGE_POINT** `interconnector_net` value=1.104e+04 d1=24.0 d12=99.0 z=0.7424182200829383
 
 ## Nearest historical live analogues
 
