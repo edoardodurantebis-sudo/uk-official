@@ -603,24 +603,6 @@
   ],
   "events": [
     {
-      "dataset": "FREQ",
-      "marker": "2026-09-22T18:57:45Z",
-      "rows": 5761,
-      "ts": "2026-09-22T18:58:23.702885Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-22T18:59:45Z",
-      "rows": 5761,
-      "ts": "2026-09-22T19:00:15.171386Z"
-    },
-    {
-      "dataset": "FUELINST",
-      "marker": "2026-09-22T19:00:00Z",
-      "rows": 80,
-      "ts": "2026-09-22T19:00:30.937738Z"
-    },
-    {
       "dataset": "FUELHH",
       "marker": "2026-09-22T19:00:00Z",
       "rows": 20,
@@ -961,18 +943,36 @@
       "marker": "2026-09-22T19:55:00Z",
       "rows": 80,
       "ts": "2026-09-22T19:55:25.656785Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-22T19:55:45Z",
+      "rows": 5761,
+      "ts": "2026-09-22T19:56:12.792032Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-22T19:57:45Z",
+      "rows": 5761,
+      "ts": "2026-09-22T19:58:20.525719Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-22T19:59:45Z",
+      "rows": 5761,
+      "ts": "2026-09-22T20:00:12.131661Z"
     }
   ],
   "last_error": {
     "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
     "ts": "2026-09-21T05:52:49.030495Z"
   },
-  "last_heartbeat": "2026-09-22T19:55:57.691078Z",
-  "last_successful_metadata_poll": "2026-09-22T19:55:57.691056Z",
+  "last_heartbeat": "2026-09-22T20:00:13.892022Z",
+  "last_successful_metadata_poll": "2026-09-22T20:00:13.891987Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 5514,
-      "ts": "2026-09-22T19:54:05.594558Z",
+      "n": 5517,
+      "ts": "2026-09-22T20:00:12.131661Z",
       "value": 50.089
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1232,7 +1232,7 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-22T19:53:45Z",
+    "FREQ": "2026-09-22T19:59:45Z",
     "FUELHH": "2026-09-22T19:30:00Z",
     "FUELINST": "2026-09-22T19:55:00Z",
     "IMBALNGC": "2026-09-22T19:47:00Z",
@@ -1248,9 +1248,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 50.089000000000034,
       "last": 50.089,
-      "m2": 23.731635886279115,
-      "mean": 50.03393525571275,
-      "n": 5514
+      "m2": 23.74072731809733,
+      "mean": 50.03396519847745,
+      "n": 5517
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 2880.89776078281,
