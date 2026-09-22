@@ -1,27 +1,27 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-22T15:27:50.041588Z`  
+Heartbeat: `2026-09-22T15:32:02.874409Z`  
 Memory snapshots: **2500**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `interconnector_net` value=9221 d1=-2.0 d12=-601.0 z=-4.664471337777778
-- **ROBUST_OUTLIER** `interconnector_net` value=9221 d1=-2.0 d12=-601.0 z=-4.664471337777778
+- **CHANGE_POINT** `interconnector_net` value=8602 d1=-619.0 d12=-1218.0 z=-6.520067583333333
+- **PERSISTENT_DOWN** `interconnector_net` value=8602 d1=-619.0 d12=-1218.0 z=-6.520067583333333
+- **ACCELERATION** `interconnector_net` value=8602 d1=-619.0 d12=-1218.0 z=-6.520067583333333
+- **ROBUST_OUTLIER** `interconnector_net` value=8602 d1=-619.0 d12=-1218.0 z=-6.520067583333333
 - **CHANGE_POINT** `ps_gen` value=-18 d1=0.0 d12=0.0 z=1.6037867388888891
 - **CHANGE_POINT** `imbalance` value=-7955 d1=0.0 d12=-5.0 z=-0.74071238
 - **CHANGE_POINT** `ind_generation` value=1.322e+04 d1=0.0 d12=10.0 z=-0.7086914708136792
-- **PERSISTENT_DOWN** `wind_gen` value=1459 d1=-1.0 d12=-325.0 z=-2.523189734729064
-- **PERSISTENT_UP** `thermal_base` value=1.758e+04 d1=139.0 d12=2186.0 z=2.4279272644230767
-- **PERSISTENT_UP** `ccgt_gen` value=1.384e+04 d1=135.0 d12=2185.0 z=2.397790298592788
-- **ACCELERATION** `ps_gen` value=-18 d1=0.0 d12=0.0 z=1.6037867388888891
-- **ACCELERATION** `biomass_gen` value=2923 d1=-2.0 d12=-5.0 z=-1.199092888888889
-- **ACCELERATION** `imbalance` value=-7955 d1=0.0 d12=-5.0 z=-0.74071238
+- **PERSISTENT_UP** `thermal_base` value=1.768e+04 d1=100.0 d12=2242.0 z=2.4868861586538458
+- **PERSISTENT_UP** `ccgt_gen` value=1.394e+04 d1=101.0 d12=2240.0 z=2.4577053951187335
+- **REVERSAL** `wind_gen` value=1463 d1=4.0 d12=-248.0 z=-2.325498526575729
+- **PERSISTENT_UP** `biomass_gen` value=2923 d1=0.0 d12=4.0 z=-1.199092888888889
+- **ACCELERATION** `biomass_gen` value=2923 d1=0.0 d12=4.0 z=-1.199092888888889
 - **PERSISTENT_UP** `ind_generation` value=1.322e+04 d1=0.0 d12=10.0 z=-0.7086914708136792
-- **ACCELERATION** `ind_generation` value=1.322e+04 d1=0.0 d12=10.0 z=-0.7086914708136792
-- **PERSISTENT_UP** `nuclear_gen` value=3733 d1=4.0 d12=1.0 z=0.6924761433333333
-- **ACCELERATION** `nuclear_gen` value=3733 d1=4.0 d12=1.0 z=0.6924761433333333
+- **REVERSAL** `nuclear_gen` value=3732 d1=-1.0 d12=2.0 z=0.587458814516129
+- **ACCELERATION** `nuclear_gen` value=3732 d1=-1.0 d12=2.0 z=0.587458814516129
 
 ## Nearest historical live analogues
 
