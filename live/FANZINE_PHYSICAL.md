@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-22T16:10:27.111671Z  
-Source heartbeat: 2026-09-22T16:10:25.900331Z  
+Generated UTC: 2026-09-22T16:14:45.053915Z  
+Source heartbeat: 2026-09-22T16:14:43.346557Z  
 
 ## Regime: **BALANCED**
 Reason: No regime explanation available.
@@ -13,32 +13,32 @@ Reason: No regime explanation available.
 | Demand forecast | 20673.0 | 0.0 | 0.0 | 0.0 |  |
 | TS demand forecast | 21173.0 | 0.0 | 0.0 | 0.0 |  |
 | Wind forecast | 13082.0 | 0.0 | 0.0 | 0.0 |  |
-| Wind generation | 1340.0 | 0.0 | -146.0 | 2.0 | PERSISTENT_DOWN |
+| Wind generation | 1336.0 | -4.0 | -124.0 | -4.0 | PERSISTENT_DOWN |
 | Residual-load proxy | 7591.0 | 0.0 | 0.0 | 0.0 |  |
-| Indicated margin | 37185.0 | 0.0 | 88.0 | 0.0 |  |
-| Indicated imbalance | -7942.0 | 0.0 | 19.0 | 0.0 | CHANGE_POINT |
-| Interconnector net | 7731.0 | 0.0 | -1453.0 | 568.0 | PERSISTENT_DOWN, ACCELERATION, ROBUST_OUTLIER, CHANGE_POINT |
-| CCGT generation | 14553.0 | 0.0 | 1015.0 | 46.0 |  |
-| Nuclear generation | 3729.0 | 0.0 | 7.0 | -4.0 | PERSISTENT_UP, ACCELERATION |
-| Pumped-storage generation | 906.0 | 0.0 | 922.0 | -448.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER, CHANGE_POINT |
-| Thermal base | 18282.0 | 0.0 | 1022.0 | 42.0 |  |
+| Indicated margin | 37185.0 | 0.0 | -22.0 | 0.0 |  |
+| Indicated imbalance | -7942.0 | 0.0 | 13.0 | 0.0 | CHANGE_POINT |
+| Interconnector net | 7595.0 | -136.0 | -1628.0 | -136.0 | PERSISTENT_DOWN, ROBUST_OUTLIER, CHANGE_POINT |
+| CCGT generation | 14443.0 | -110.0 | 735.0 | -110.0 | REVERSAL |
+| Nuclear generation | 3730.0 | 1.0 | 1.0 | 1.0 | PERSISTENT_UP, ACCELERATION |
+| Pumped-storage generation | 1245.0 | 339.0 | 1263.0 | 339.0 | PERSISTENT_UP, ROBUST_OUTLIER, CHANGE_POINT |
+| Thermal base | 18173.0 | -109.0 | 736.0 | -109.0 | REVERSAL |
 | Frequency | 50.089 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
 
-- **interconnector_net / CHANGE_POINT** — value=7731.0, Δ1=0.0, Δ12=-1453.0, accel=568.0
-- **interconnector_net / PERSISTENT_DOWN** — value=7731.0, Δ1=0.0, Δ12=-1453.0, accel=568.0
-- **interconnector_net / ACCELERATION** — value=7731.0, Δ1=0.0, Δ12=-1453.0, accel=568.0
-- **interconnector_net / ROBUST_OUTLIER** — value=7731.0, Δ1=0.0, Δ12=-1453.0, accel=568.0
-- **ps_gen / CHANGE_POINT** — value=906.0, Δ1=0.0, Δ12=922.0, accel=-448.0
-- **ps_gen / PERSISTENT_UP** — value=906.0, Δ1=0.0, Δ12=922.0, accel=-448.0
-- **ps_gen / ACCELERATION** — value=906.0, Δ1=0.0, Δ12=922.0, accel=-448.0
-- **ps_gen / ROBUST_OUTLIER** — value=906.0, Δ1=0.0, Δ12=922.0, accel=-448.0
+- **interconnector_net / CHANGE_POINT** — value=7595.0, Δ1=-136.0, Δ12=-1628.0, accel=-136.0
+- **ps_gen / CHANGE_POINT** — value=1245.0, Δ1=339.0, Δ12=1263.0, accel=339.0
+- **interconnector_net / PERSISTENT_DOWN** — value=7595.0, Δ1=-136.0, Δ12=-1628.0, accel=-136.0
+- **interconnector_net / ROBUST_OUTLIER** — value=7595.0, Δ1=-136.0, Δ12=-1628.0, accel=-136.0
+- **ps_gen / PERSISTENT_UP** — value=1245.0, Δ1=339.0, Δ12=1263.0, accel=339.0
+- **ps_gen / ROBUST_OUTLIER** — value=1245.0, Δ1=339.0, Δ12=1263.0, accel=339.0
+- **imbalance / CHANGE_POINT** — value=-7942.0, Δ1=0.0, Δ12=13.0, accel=0.0
+- **ind_generation / CHANGE_POINT** — value=13231.0, Δ1=0.0, Δ12=13.0, accel=0.0
 
 ## Health
 
 - Alien: **OK**
-- MID: **OK** — 1 rows
+- MID: **OK** — 2 rows
 
 ## Trading layer
 
