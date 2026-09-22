@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-22T17:14:31.196329Z",
-  "source_heartbeat": "2026-09-22T17:14:30.483959Z",
-  "brain_generated_at": "2026-09-22T17:14:31.154716Z",
+  "generated_at_utc": "2026-09-22T17:18:43.373329Z",
+  "source_heartbeat": "2026-09-22T17:18:42.076917Z",
+  "brain_generated_at": "2026-09-22T17:18:43.344797Z",
   "regime": "LOOSE",
   "regime_reasons": [
     "residual low"
@@ -39,12 +39,11 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 1342.0,
-      "d1": -13.0,
-      "d12": 26.0,
-      "accel": -13.0,
+      "value": 1345.0,
+      "d1": 3.0,
+      "d12": 40.0,
+      "accel": 16.0,
       "tags": [
-        "REVERSAL",
         "ACCELERATION"
       ]
     },
@@ -82,10 +81,10 @@
     {
       "metric": "interconnector_net",
       "label": "Interconnector net",
-      "value": 6610.0,
-      "d1": -302.0,
-      "d12": -1062.0,
-      "accel": -302.0,
+      "value": 6584.0,
+      "d1": -26.0,
+      "d12": -1114.0,
+      "accel": 276.0,
       "tags": [
         "PERSISTENT_DOWN"
       ]
@@ -93,10 +92,10 @@
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 15393.0,
-      "d1": 121.0,
-      "d12": 913.0,
-      "accel": 121.0,
+      "value": 15400.0,
+      "d1": 7.0,
+      "d12": 775.0,
+      "accel": -114.0,
       "tags": [
         "PERSISTENT_UP",
         "CHANGE_POINT"
@@ -105,12 +104,11 @@
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3731.0,
-      "d1": 3.0,
-      "d12": 3.0,
-      "accel": 3.0,
+      "value": 3730.0,
+      "d1": -1.0,
+      "d12": 0.0,
+      "accel": -4.0,
       "tags": [
-        "PERSISTENT_UP",
         "ACCELERATION"
       ]
     },
@@ -119,7 +117,7 @@
       "label": "Pumped-storage generation",
       "value": 1508.0,
       "d1": 0.0,
-      "d12": 152.0,
+      "d12": 151.0,
       "accel": 0.0,
       "tags": [
         "ROBUST_OUTLIER"
@@ -128,10 +126,10 @@
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 19124.0,
-      "d1": 124.0,
-      "d12": 916.0,
-      "accel": 124.0,
+      "value": 19130.0,
+      "d1": 6.0,
+      "d12": 775.0,
+      "accel": -118.0,
       "tags": [
         "PERSISTENT_UP",
         "CHANGE_POINT"
@@ -162,36 +160,36 @@
       "pattern": "ROBUST_OUTLIER",
       "value": 1508.0,
       "d1": 0.0,
-      "d12": 152.0,
+      "d12": 151.0,
       "accel": 0.0,
       "z_mad": 9.619358490654205
     },
     {
-      "metric": "thermal_base",
-      "pattern": "CHANGE_POINT",
-      "value": 19124.0,
-      "d1": 124.0,
-      "d12": 916.0,
-      "accel": 124.0,
-      "z_mad": 2.568685577841291
-    },
-    {
       "metric": "ccgt_gen",
       "pattern": "CHANGE_POINT",
-      "value": 15393.0,
-      "d1": 121.0,
-      "d12": 913.0,
-      "accel": 121.0,
-      "z_mad": 2.4971754618377484
+      "value": 15400.0,
+      "d1": 7.0,
+      "d12": 775.0,
+      "accel": -114.0,
+      "z_mad": 2.4132031803291785
+    },
+    {
+      "metric": "thermal_base",
+      "pattern": "CHANGE_POINT",
+      "value": 19130.0,
+      "d1": 6.0,
+      "d12": 775.0,
+      "accel": -118.0,
+      "z_mad": 2.3726119304558226
     },
     {
       "metric": "interconnector_net",
       "pattern": "PERSISTENT_DOWN",
-      "value": 6610.0,
-      "d1": -302.0,
-      "d12": -1062.0,
-      "accel": -302.0,
-      "z_mad": -2.9109339977007966
+      "value": 6584.0,
+      "d1": -26.0,
+      "d12": -1114.0,
+      "accel": 276.0,
+      "z_mad": -2.8891529448818893
     },
     {
       "metric": "ind_generation",
@@ -200,7 +198,7 @@
       "d1": 0.0,
       "d12": -11.0,
       "accel": 0.0,
-      "z_mad": -0.6834611977025393
+      "z_mad": -0.6834720590193705
     },
     {
       "metric": "imbalance",
@@ -209,21 +207,31 @@
       "d1": 0.0,
       "d12": -11.0,
       "accel": 0.0,
-      "z_mad": -0.6833013738123516
+      "z_mad": -0.6833118513674197
     },
     {
-      "metric": "thermal_base",
+      "metric": "ccgt_gen",
       "pattern": "PERSISTENT_UP",
-      "value": 19124.0,
-      "d1": 124.0,
-      "d12": 916.0,
-      "accel": 124.0,
-      "z_mad": 2.568685577841291
+      "value": 15400.0,
+      "d1": 7.0,
+      "d12": 775.0,
+      "accel": -114.0,
+      "z_mad": 2.4132031803291785
     }
   ],
   "analogues": [
     {
-      "distance": 0.04588415610740741,
+      "distance": 0.045825652624129264,
+      "outcome": {
+        "next30m_imbalance_delta": 0.0,
+        "next30m_margin_delta": 0.0,
+        "next30m_mid_price_delta": 0.0,
+        "next30m_residual_proxy_delta": -453.0
+      },
+      "ts": "2026-09-22T16:23:11.219801Z"
+    },
+    {
+      "distance": 0.046193337688156914,
       "outcome": {
         "next30m_imbalance_delta": 0.0,
         "next30m_margin_delta": 0.0,
@@ -233,7 +241,7 @@
       "ts": "2026-09-22T14:23:37.089780Z"
     },
     {
-      "distance": 0.04588415610740741,
+      "distance": 0.046193337688156914,
       "outcome": {
         "next30m_imbalance_delta": -11.0,
         "next30m_margin_delta": -37.0,
@@ -243,7 +251,7 @@
       "ts": "2026-09-22T14:27:59.397853Z"
     },
     {
-      "distance": 0.04588415610740741,
+      "distance": 0.046193337688156914,
       "outcome": {
         "next30m_imbalance_delta": -11.0,
         "next30m_margin_delta": -37.0,
@@ -253,7 +261,7 @@
       "ts": "2026-09-22T14:32:13.058260Z"
     },
     {
-      "distance": 0.04588415610740741,
+      "distance": 0.046193337688156914,
       "outcome": {
         "next30m_imbalance_delta": -11.0,
         "next30m_margin_delta": -37.0,
@@ -261,16 +269,6 @@
         "next30m_residual_proxy_delta": 15.0
       },
       "ts": "2026-09-22T14:36:27.552774Z"
-    },
-    {
-      "distance": 0.04588415610740741,
-      "outcome": {
-        "next30m_imbalance_delta": -11.0,
-        "next30m_margin_delta": -37.0,
-        "next30m_mid_price_delta": 0.0,
-        "next30m_residual_proxy_delta": 15.0
-      },
-      "ts": "2026-09-22T14:40:45.276407Z"
     }
   ],
   "health": {
