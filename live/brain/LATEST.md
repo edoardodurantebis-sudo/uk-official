@@ -1,7 +1,7 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-22T23:35:16.889434Z`  
+Heartbeat: `2026-09-22T23:39:29.907531Z`  
 Memory snapshots: **2500**  
 Current physical regime: **BALANCED**
 
@@ -9,21 +9,19 @@ Regime read: wind rising.
 
 ## Active patterns
 
-- **PERSISTENT_DOWN** `thermal_base` value=1.351e+04 d1=0.0 d12=-514.0 z=-10.0487540720339
-- **ROBUST_OUTLIER** `thermal_base` value=1.351e+04 d1=0.0 d12=-514.0 z=-10.0487540720339
-- **PERSISTENT_DOWN** `ccgt_gen` value=9767 d1=0.0 d12=-514.0 z=-10.019635357946555
-- **ROBUST_OUTLIER** `ccgt_gen` value=9767 d1=0.0 d12=-514.0 z=-10.019635357946555
+- **REVERSAL** `ccgt_gen` value=9795 d1=28.0 d12=-438.0 z=-9.896912449022347
+- **ROBUST_OUTLIER** `ccgt_gen` value=9795 d1=28.0 d12=-438.0 z=-9.896912449022347
+- **REVERSAL** `thermal_base` value=1.354e+04 d1=29.0 d12=-439.0 z=-9.8818400523743
+- **ROBUST_OUTLIER** `thermal_base` value=1.354e+04 d1=29.0 d12=-439.0 z=-9.8818400523743
 - **ROBUST_OUTLIER** `ind_demand` value=-1.248e+04 d1=0.0 d12=-6.0 z=-4.72142825
-- **CHANGE_POINT** `wind_gen` value=3178 d1=0.0 d12=451.0 z=2.035287593554443
-- **PERSISTENT_UP** `wind_gen` value=3178 d1=0.0 d12=451.0 z=2.035287593554443
-- **PERSISTENT_DOWN** `interconnector_net` value=4134 d1=0.0 d12=-1227.0 z=-1.8800461507434942
-- **ACCELERATION** `interconnector_net` value=4134 d1=0.0 d12=-1227.0 z=-1.8800461507434942
-- **ACCELERATION** `nuclear_gen` value=3739 d1=0.0 d12=0.0 z=1.2526238214285714
-- **ACCELERATION** `biomass_gen` value=2915 d1=0.0 d12=0.0 z=0.5395918
+- **CHANGE_POINT** `wind_gen` value=3182 d1=4.0 d12=384.0 z=2.0293784217772215
+- **PERSISTENT_UP** `wind_gen` value=3182 d1=4.0 d12=384.0 z=2.0293784217772215
+- **REVERSAL** `interconnector_net` value=4172 d1=38.0 d12=-1162.0 z=-1.7705355937499998
+- **REVERSAL** `nuclear_gen` value=3740 d1=1.0 d12=-1.0 z=1.1803570625
+- **ACCELERATION** `nuclear_gen` value=3740 d1=1.0 d12=-1.0 z=1.1803570625
+- **PERSISTENT_UP** `biomass_gen` value=2917 d1=2.0 d12=6.0 z=0.67448975
 - **PERSISTENT_DOWN** `residual_proxy` value=6903 d1=0.0 d12=-158.0 z=None
-- **ACCELERATION** `residual_proxy` value=6903 d1=0.0 d12=-158.0 z=None
 - **PERSISTENT_UP** `wind_forecast` value=1.377e+04 d1=0.0 d12=158.0 z=None
-- **ACCELERATION** `wind_forecast` value=1.377e+04 d1=0.0 d12=158.0 z=None
 
 ## Nearest historical live analogues
 
