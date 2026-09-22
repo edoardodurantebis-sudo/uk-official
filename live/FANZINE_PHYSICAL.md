@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-22T11:33:27.852847Z  
-Source heartbeat: 2026-09-22T11:33:26.711703Z  
+Generated UTC: 2026-09-22T11:37:41.064468Z  
+Source heartbeat: 2026-09-22T11:37:39.590020Z  
 
 ## Regime: **TIGHT**
 Reason: margin low
@@ -10,26 +10,26 @@ Reason: margin low
 
 | Metric | Value | Δ1 | Δ12 | Accel | Tags |
 |---|---:|---:|---:|---:|---|
-| Demand forecast | 20658.0 | 0.0 | 458.0 | 0.0 | CHANGE_POINT |
+| Demand forecast | 20658.0 | 0.0 | 458.0 | 0.0 |  |
 | TS demand forecast | 21158.0 | 0.0 | 210.0 | 0.0 |  |
 | Wind forecast | 13007.0 | 0.0 | 0.0 | 0.0 | ROBUST_OUTLIER |
-| Wind generation | 3825.0 | -62.0 | 400.0 | -57.0 | REVERSAL, CHANGE_POINT |
+| Wind generation | 3729.0 | -96.0 | 280.0 | -34.0 | REVERSAL |
 | Residual-load proxy | 7651.0 | 0.0 | 458.0 | 0.0 |  |
 | Indicated margin | 37032.0 | 0.0 | -3354.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
 | Indicated imbalance | -6224.0 | 0.0 | -11391.0 | 0.0 | ROBUST_OUTLIER, CHANGE_POINT |
-| Interconnector net | 10945.0 | 10.0 | 31.0 | 11.0 | PERSISTENT_UP, ACCELERATION |
-| CCGT generation | 8146.0 | -122.0 | -1126.0 | 85.0 | PERSISTENT_DOWN, ROBUST_OUTLIER, CHANGE_POINT |
-| Nuclear generation | 3655.0 | 3.0 | 1.0 | -2.0 | PERSISTENT_UP, ACCELERATION |
-| Pumped-storage generation | -19.0 | 145.0 | 148.0 | 145.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER, CHANGE_POINT |
-| Thermal base | 11801.0 | -119.0 | -1125.0 | 83.0 | PERSISTENT_DOWN, ROBUST_OUTLIER, CHANGE_POINT |
+| Interconnector net | 10946.0 | 1.0 | 10.0 | -9.0 | PERSISTENT_UP, ACCELERATION |
+| CCGT generation | 7905.0 | -241.0 | -1040.0 | -119.0 | PERSISTENT_DOWN, CHANGE_POINT |
+| Nuclear generation | 3658.0 | 3.0 | 9.0 | 0.0 | PERSISTENT_UP |
+| Pumped-storage generation | -7.0 | 12.0 | 160.0 | -133.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER, CHANGE_POINT |
+| Thermal base | 11563.0 | -238.0 | -1031.0 | -119.0 | PERSISTENT_DOWN, CHANGE_POINT |
 | Frequency | 50.089 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
 
-- **ps_gen / CHANGE_POINT** — value=-19.0, Δ1=145.0, Δ12=148.0, accel=145.0
-- **ps_gen / PERSISTENT_UP** — value=-19.0, Δ1=145.0, Δ12=148.0, accel=145.0
-- **ps_gen / ACCELERATION** — value=-19.0, Δ1=145.0, Δ12=148.0, accel=145.0
-- **ps_gen / ROBUST_OUTLIER** — value=-19.0, Δ1=145.0, Δ12=148.0, accel=145.0
+- **ps_gen / CHANGE_POINT** — value=-7.0, Δ1=12.0, Δ12=160.0, accel=-133.0
+- **ps_gen / PERSISTENT_UP** — value=-7.0, Δ1=12.0, Δ12=160.0, accel=-133.0
+- **ps_gen / ACCELERATION** — value=-7.0, Δ1=12.0, Δ12=160.0, accel=-133.0
+- **ps_gen / ROBUST_OUTLIER** — value=-7.0, Δ1=12.0, Δ12=160.0, accel=-133.0
 - **margin / CHANGE_POINT** — value=37032.0, Δ1=0.0, Δ12=-3354.0, accel=0.0
 - **margin / ROBUST_OUTLIER** — value=37032.0, Δ1=0.0, Δ12=-3354.0, accel=0.0
 - **wind_forecast / ROBUST_OUTLIER** — value=13007.0, Δ1=0.0, Δ12=0.0, accel=0.0
@@ -38,7 +38,7 @@ Reason: margin low
 ## Health
 
 - Alien: **OK**
-- MID: **OK** — 2 rows
+- MID: **OK** — 1 rows
 
 ## Trading layer
 
