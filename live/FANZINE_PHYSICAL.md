@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-22T13:07:16.962747Z  
-Source heartbeat: 2026-09-22T13:07:15.564258Z  
+Generated UTC: 2026-09-22T13:11:35.806441Z  
+Source heartbeat: 2026-09-22T13:11:34.402595Z  
 
 ## Regime: **BALANCED**
 Reason: No regime explanation available.
@@ -13,32 +13,32 @@ Reason: No regime explanation available.
 | Demand forecast | 20658.0 | 0.0 | 0.0 | 0.0 |  |
 | TS demand forecast | 21158.0 | 0.0 | 0.0 | 0.0 |  |
 | Wind forecast | 13082.0 | 0.0 | 75.0 | 0.0 | ROBUST_OUTLIER |
-| Wind generation | 2490.0 | 18.0 | -382.0 | 17.0 | REVERSAL, ROBUST_OUTLIER |
+| Wind generation | 2469.0 | -21.0 | -347.0 | -39.0 | PERSISTENT_DOWN, ROBUST_OUTLIER |
 | Residual-load proxy | 7576.0 | 0.0 | -75.0 | 0.0 |  |
-| Indicated margin | 37206.0 | 0.0 | 174.0 | 0.0 |  |
-| Indicated imbalance | -7090.0 | 0.0 | -41.0 | 0.0 |  |
-| Interconnector net | 10764.0 | -399.0 | -169.0 | -455.0 | PERSISTENT_DOWN, ACCELERATION, CHANGE_POINT |
-| CCGT generation | 8965.0 | 145.0 | 495.0 | -114.0 | PERSISTENT_UP |
-| Nuclear generation | 3721.0 | -5.0 | 1.0 | 1.0 | REVERSAL, ACCELERATION, ROBUST_OUTLIER |
-| Pumped-storage generation | -21.0 | 103.0 | 104.0 | 102.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER |
-| Thermal base | 12686.0 | 140.0 | 496.0 | -113.0 | PERSISTENT_UP |
+| Indicated margin | 37206.0 | 0.0 | 141.0 | 0.0 |  |
+| Indicated imbalance | -7090.0 | 0.0 | -41.0 | 0.0 | CHANGE_POINT |
+| Interconnector net | 10665.0 | -99.0 | -293.0 | 300.0 | PERSISTENT_DOWN, ACCELERATION |
+| CCGT generation | 9084.0 | 119.0 | 575.0 | -26.0 | PERSISTENT_UP |
+| Nuclear generation | 3732.0 | 11.0 | 2.0 | 16.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER |
+| Pumped-storage generation | -6.0 | 15.0 | 119.0 | -88.0 | PERSISTENT_UP, ACCELERATION, ROBUST_OUTLIER |
+| Thermal base | 12816.0 | 130.0 | 577.0 | -10.0 | PERSISTENT_UP |
 | Frequency | 50.089 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
 
-- **ps_gen / PERSISTENT_UP** — value=-21.0, Δ1=103.0, Δ12=104.0, accel=102.0
-- **ps_gen / ACCELERATION** — value=-21.0, Δ1=103.0, Δ12=104.0, accel=102.0
-- **ps_gen / ROBUST_OUTLIER** — value=-21.0, Δ1=103.0, Δ12=104.0, accel=102.0
-- **nuclear_gen / REVERSAL** — value=3721.0, Δ1=-5.0, Δ12=1.0, accel=1.0
-- **nuclear_gen / ACCELERATION** — value=3721.0, Δ1=-5.0, Δ12=1.0, accel=1.0
-- **nuclear_gen / ROBUST_OUTLIER** — value=3721.0, Δ1=-5.0, Δ12=1.0, accel=1.0
+- **ps_gen / PERSISTENT_UP** — value=-6.0, Δ1=15.0, Δ12=119.0, accel=-88.0
+- **ps_gen / ACCELERATION** — value=-6.0, Δ1=15.0, Δ12=119.0, accel=-88.0
+- **ps_gen / ROBUST_OUTLIER** — value=-6.0, Δ1=15.0, Δ12=119.0, accel=-88.0
+- **nuclear_gen / PERSISTENT_UP** — value=3732.0, Δ1=11.0, Δ12=2.0, accel=16.0
+- **nuclear_gen / ACCELERATION** — value=3732.0, Δ1=11.0, Δ12=2.0, accel=16.0
+- **nuclear_gen / ROBUST_OUTLIER** — value=3732.0, Δ1=11.0, Δ12=2.0, accel=16.0
 - **wind_forecast / ROBUST_OUTLIER** — value=13082.0, Δ1=0.0, Δ12=75.0, accel=0.0
-- **wind_gen / REVERSAL** — value=2490.0, Δ1=18.0, Δ12=-382.0, accel=17.0
+- **wind_gen / PERSISTENT_DOWN** — value=2469.0, Δ1=-21.0, Δ12=-347.0, accel=-39.0
 
 ## Health
 
 - Alien: **OK**
-- MID: **OK** — 2 rows
+- MID: **OK** — 1 rows
 
 ## Trading layer
 
