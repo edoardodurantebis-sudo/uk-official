@@ -604,24 +604,6 @@
   "events": [
     {
       "dataset": "FREQ",
-      "marker": "2026-09-22T22:05:45Z",
-      "rows": 5761,
-      "ts": "2026-09-22T22:06:22.696839Z"
-    },
-    {
-      "dataset": "MID",
-      "marker": "2026-09-22T22:05:00Z",
-      "rows": 1,
-      "ts": "2026-09-22T22:06:38.221673Z"
-    },
-    {
-      "dataset": "FREQ",
-      "marker": "2026-09-22T22:07:45Z",
-      "rows": 5761,
-      "ts": "2026-09-22T22:08:09.308062Z"
-    },
-    {
-      "dataset": "FREQ",
       "marker": "2026-09-22T22:09:45Z",
       "rows": 5761,
       "ts": "2026-09-22T22:10:17.081095Z"
@@ -961,18 +943,36 @@
       "marker": "2026-09-22T23:05:00Z",
       "rows": 80,
       "ts": "2026-09-22T23:05:25.452083Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-22T23:05:45Z",
+      "rows": 5761,
+      "ts": "2026-09-22T23:06:22.971364Z"
+    },
+    {
+      "dataset": "MID",
+      "marker": "2026-09-22T23:05:00Z",
+      "rows": 1,
+      "ts": "2026-09-22T23:06:38.763533Z"
+    },
+    {
+      "dataset": "FREQ",
+      "marker": "2026-09-22T23:07:45Z",
+      "rows": 5761,
+      "ts": "2026-09-22T23:08:14.774042Z"
     }
   ],
   "last_error": {
     "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
     "ts": "2026-09-21T05:52:49.030495Z"
   },
-  "last_heartbeat": "2026-09-22T23:05:56.234014Z",
-  "last_successful_metadata_poll": "2026-09-22T23:05:56.233996Z",
+  "last_heartbeat": "2026-09-22T23:10:06.870136Z",
+  "last_successful_metadata_poll": "2026-09-22T23:10:06.870118Z",
   "latest_values": {
     "FREQ|TOTAL|frequency": {
-      "n": 5609,
-      "ts": "2026-09-22T23:04:21.446045Z",
+      "n": 5611,
+      "ts": "2026-09-22T23:08:14.774042Z",
       "value": 50.089
     },
     "FUELHH|fuelType=BIOMASS|generation": {
@@ -1206,13 +1206,13 @@
       "value": 2075.15
     },
     "MID|dataProvider=N2EXMIDP|price": {
-      "n": 218,
-      "ts": "2026-09-22T22:12:20.902810Z",
+      "n": 219,
+      "ts": "2026-09-22T23:06:38.763533Z",
       "value": 0.0
     },
     "MID|dataProvider=N2EXMIDP|volume": {
-      "n": 218,
-      "ts": "2026-09-22T22:12:20.902810Z",
+      "n": 219,
+      "ts": "2026-09-22T23:06:38.763533Z",
       "value": 0.0
     },
     "NDF|TOTAL|demand": {
@@ -1232,14 +1232,14 @@
     }
   },
   "metadata": {
-    "FREQ": "2026-09-22T23:03:45Z",
+    "FREQ": "2026-09-22T23:07:45Z",
     "FUELHH": "2026-09-22T23:00:00Z",
     "FUELINST": "2026-09-22T23:05:00Z",
     "IMBALNGC": "2026-09-22T22:47:00Z",
     "INDDEM": "2026-09-22T22:47:00Z",
     "INDGEN": "2026-09-22T22:47:00Z",
     "MELNGC": "2026-09-22T22:47:00Z",
-    "MID": "2026-09-22T22:56:00Z",
+    "MID": "2026-09-22T23:05:00Z",
     "NDF": "2026-09-22T22:47:00Z",
     "TSDF": "2026-09-22T22:47:00Z",
     "WINDFOR": "2026-09-22T19:30:00Z"
@@ -1248,9 +1248,9 @@
     "FREQ|TOTAL|frequency": {
       "ewma": 50.089000000000034,
       "last": 50.089,
-      "m2": 24.014809107138646,
-      "mean": 50.03486789088966,
-      "n": 5609
+      "m2": 24.02066758865454,
+      "mean": 50.034887185884884,
+      "n": 5611
     },
     "FUELHH|fuelType=BIOMASS|generation": {
       "ewma": 2897.5481844821197,
@@ -1579,14 +1579,14 @@
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 218
+      "n": 219
     },
     "MID|dataProvider=N2EXMIDP|volume": {
       "ewma": 0.0,
       "last": 0.0,
       "m2": 0.0,
       "mean": 0.0,
-      "n": 218
+      "n": 219
     },
     "NDF|TOTAL|demand": {
       "ewma": 20672.056573247035,

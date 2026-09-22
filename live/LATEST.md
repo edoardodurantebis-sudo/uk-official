@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-22T23:05:56.235268Z`  
-Current process started UTC: `2026-09-22T23:01:56.462922Z`  
-1-second metadata polls in this process: **237**  
+Last heartbeat UTC: `2026-09-22T23:10:06.871524Z`  
+Current process started UTC: `2026-09-22T23:06:06.969363Z`  
+1-second metadata polls in this process: **239**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -44,14 +44,17 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `MELNGC|TOTAL|margin` = **37229** (n=370, 2026-09-22T22:49:14.019892Z)
 - `MID|dataProvider=APXMIDP|price` = **149.06** (n=111, 2026-09-22T22:42:09.286704Z)
 - `MID|dataProvider=APXMIDP|volume` = **2075.2** (n=111, 2026-09-22T22:42:09.286704Z)
-- `MID|dataProvider=N2EXMIDP|price` = **0** (n=218, 2026-09-22T22:12:20.902810Z)
-- `MID|dataProvider=N2EXMIDP|volume` = **0** (n=218, 2026-09-22T22:12:20.902810Z)
+- `MID|dataProvider=N2EXMIDP|price` = **0** (n=219, 2026-09-22T23:06:38.763533Z)
+- `MID|dataProvider=N2EXMIDP|volume` = **0** (n=219, 2026-09-22T23:06:38.763533Z)
 - `NDF|TOTAL|demand` = **20673** (n=378, 2026-09-22T22:47:24.442258Z)
 - `TSDF|TOTAL|demand` = **21173** (n=378, 2026-09-22T22:47:24.442258Z)
 - `WINDFOR|TOTAL|generation` = **13612** (n=63, 2026-09-22T19:30:53.095849Z)
 
 ## Latest publication events
 
+- `2026-09-22T23:08:14.774042Z` — **FREQ**: 5761 rows; marker `2026-09-22T23:07:45Z`
+- `2026-09-22T23:06:38.763533Z` — **MID**: 1 rows; marker `2026-09-22T23:05:00Z`
+- `2026-09-22T23:06:22.971364Z` — **FREQ**: 5761 rows; marker `2026-09-22T23:05:45Z`
 - `2026-09-22T23:05:25.452083Z` — **FUELINST**: 80 rows; marker `2026-09-22T23:05:00Z`
 - `2026-09-22T23:04:21.446045Z` — **FREQ**: 5761 rows; marker `2026-09-22T23:03:45Z`
 - `2026-09-22T23:02:13.265212Z` — **FREQ**: 5761 rows; marker `2026-09-22T23:01:45Z`
@@ -64,6 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-22T22:55:34.312942Z` — **FUELINST**: 80 rows; marker `2026-09-22T22:55:00Z`
 - `2026-09-22T22:54:14.309702Z` — **FREQ**: 5761 rows; marker `2026-09-22T22:53:45Z`
 - `2026-09-22T22:52:10.148126Z` — **FREQ**: 5761 rows; marker `2026-09-22T22:51:45Z`
-- `2026-09-22T22:51:06.313942Z` — **INDGEN**: 1044 rows; marker `2026-09-22T22:47:00Z`
-- `2026-09-22T22:51:06.313942Z` — **INDDEM**: 1044 rows; marker `2026-09-22T22:47:00Z`
-- `2026-09-22T22:51:06.313942Z` — **IMBALNGC**: 1044 rows; marker `2026-09-22T22:47:00Z`
