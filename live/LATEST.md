@@ -1,8 +1,8 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-22T11:29:14.533970Z`  
-Current process started UTC: `2026-09-22T11:25:14.405786Z`  
+Last heartbeat UTC: `2026-09-22T11:33:26.713298Z`  
+Current process started UTC: `2026-09-22T11:29:26.581710Z`  
 1-second metadata polls in this process: **238**  
 HTTP/data errors in this process: **0**  
 
@@ -34,10 +34,10 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest market values
 
-- `FUELINST|fuelType=OIL|generation` = **0** (n=2112, 2026-09-22T11:25:31.544870Z)
-- `FUELINST|fuelType=OTHER|generation` = **684** (n=2112, 2026-09-22T11:25:31.544870Z)
-- `FUELINST|fuelType=PS|generation` = **-164** (n=2112, 2026-09-22T11:25:31.544870Z)
-- `FUELINST|fuelType=WIND|generation` = **3887** (n=2112, 2026-09-22T11:25:31.544870Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=2113, 2026-09-22T11:30:46.071801Z)
+- `FUELINST|fuelType=OTHER|generation` = **591** (n=2113, 2026-09-22T11:30:46.071801Z)
+- `FUELINST|fuelType=PS|generation` = **-19** (n=2113, 2026-09-22T11:30:46.071801Z)
+- `FUELINST|fuelType=WIND|generation` = **3825** (n=2113, 2026-09-22T11:30:46.071801Z)
 - `IMBALNGC|TOTAL|imbalance` = **-6224** (n=347, 2026-09-22T11:23:24.230167Z)
 - `INDDEM|TOTAL|demand` = **-12511** (n=347, 2026-09-22T11:23:24.230167Z)
 - `INDGEN|TOTAL|generation` = **14934** (n=347, 2026-09-22T11:23:07.676153Z)
@@ -52,6 +52,10 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest publication events
 
+- `2026-09-22T11:32:06.078860Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:31:45Z`
+- `2026-09-22T11:30:46.071801Z` — **FUELHH**: 20 rows; marker `2026-09-22T11:30:00Z`
+- `2026-09-22T11:30:46.071801Z` — **FUELINST**: 80 rows; marker `2026-09-22T11:30:00Z`
+- `2026-09-22T11:30:14.597726Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:29:45Z`
 - `2026-09-22T11:28:28.309804Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:27:45Z`
 - `2026-09-22T11:26:19.922033Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:25:45Z`
 - `2026-09-22T11:25:31.544870Z` — **FUELINST**: 80 rows; marker `2026-09-22T11:25:00Z`
@@ -63,7 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-22T11:20:43.853741Z` — **MELNGC**: 1458 rows; marker `2026-09-22T11:17:00Z`
 - `2026-09-22T11:20:43.853741Z` — **FUELINST**: 80 rows; marker `2026-09-22T11:20:00Z`
 - `2026-09-22T11:20:28.102801Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:19:45Z`
-- `2026-09-22T11:18:19.938485Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:17:45Z`
-- `2026-09-22T11:18:03.969802Z` — **TSDF**: 1458 rows; marker `2026-09-22T11:17:00Z`
-- `2026-09-22T11:18:03.969802Z` — **NDF**: 81 rows; marker `2026-09-22T11:17:00Z`
-- `2026-09-22T11:16:44.223861Z` — **FREQ**: 5761 rows; marker `2026-09-22T11:15:45Z`
