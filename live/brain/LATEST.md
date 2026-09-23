@@ -1,7 +1,7 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-23T09:31:37.665837Z`  
+Heartbeat: `2026-09-23T09:35:50.685558Z`  
 Memory snapshots: **2500**  
 Current physical regime: **LOOSE**
 
@@ -9,21 +9,21 @@ Regime read: margin high.
 
 ## Active patterns
 
-- **CHANGE_POINT** `nuclear_gen` value=3210 d1=8.0 d12=-594.0 z=-88.80781708333333
-- **REVERSAL** `nuclear_gen` value=3210 d1=8.0 d12=-594.0 z=-88.80781708333333
-- **ACCELERATION** `nuclear_gen` value=3210 d1=8.0 d12=-594.0 z=-88.80781708333333
-- **ROBUST_OUTLIER** `nuclear_gen` value=3210 d1=8.0 d12=-594.0 z=-88.80781708333333
+- **CHANGE_POINT** `nuclear_gen` value=3449 d1=239.0 d12=-355.0 z=-52.984917027777776
+- **REVERSAL** `nuclear_gen` value=3449 d1=239.0 d12=-355.0 z=-52.984917027777776
+- **ACCELERATION** `nuclear_gen` value=3449 d1=239.0 d12=-355.0 z=-52.984917027777776
+- **ROBUST_OUTLIER** `nuclear_gen` value=3449 d1=239.0 d12=-355.0 z=-52.984917027777776
+- **CHANGE_POINT** `imbalance` value=-5115 d1=0.0 d12=2156.0 z=16.922466049107143
+- **CHANGE_POINT** `ind_demand` value=-1.268e+04 d1=0.0 d12=-28.0 z=-16.12643675
+- **CHANGE_POINT** `ind_generation` value=1.591e+04 d1=0.0 d12=2156.0 z=16.049242712053573
 - **PERSISTENT_UP** `imbalance` value=-5115 d1=0.0 d12=2156.0 z=16.922466049107143
-- **ACCELERATION** `imbalance` value=-5115 d1=0.0 d12=2156.0 z=16.922466049107143
 - **ROBUST_OUTLIER** `imbalance` value=-5115 d1=0.0 d12=2156.0 z=16.922466049107143
-- **PERSISTENT_DOWN** `ind_demand` value=-1.268e+04 d1=0.0 d12=-28.0 z=-16.12643675
 - **ROBUST_OUTLIER** `ind_demand` value=-1.268e+04 d1=0.0 d12=-28.0 z=-16.12643675
-- **PERSISTENT_UP** `ind_generation` value=1.591e+04 d1=0.0 d12=2156.0 z=16.049242712053573
 - **ROBUST_OUTLIER** `ind_generation` value=1.591e+04 d1=0.0 d12=2156.0 z=16.049242712053573
 - **CHANGE_POINT** `margin` value=4.072e+04 d1=0.0 d12=1425.0 z=12.402104322072073
-- **PERSISTENT_UP** `margin` value=4.072e+04 d1=0.0 d12=1425.0 z=12.402104322072073
 - **ROBUST_OUTLIER** `margin` value=4.072e+04 d1=0.0 d12=1425.0 z=12.402104322072073
-- **CHANGE_POINT** `thermal_base` value=5567 d1=249.0 d12=-3130.0 z=-5.850216314623786
+- **PERSISTENT_UP** `interconnector_net` value=1.131e+04 d1=37.0 d12=1448.0 z=5.4314174605263155
+- **ROBUST_OUTLIER** `interconnector_net` value=1.131e+04 d1=37.0 d12=1448.0 z=5.4314174605263155
 
 ## Nearest historical live analogues
 
