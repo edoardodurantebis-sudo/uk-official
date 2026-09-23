@@ -1,9 +1,9 @@
 # GB Alien — live control room
 
 Engine: `GB_ALIEN_CONTINUOUS_V1.1.0`  
-Last heartbeat UTC: `2026-09-23T10:47:46.207547Z`  
-Current process started UTC: `2026-09-23T10:43:46.049674Z`  
-1-second metadata polls in this process: **236**  
+Last heartbeat UTC: `2026-09-23T10:51:57.810318Z`  
+Current process started UTC: `2026-09-23T10:47:57.744430Z`  
+1-second metadata polls in this process: **237**  
 HTTP/data errors in this process: **0**  
 
 The one-second loop is event-driven: a statistical observation is added only when
@@ -34,24 +34,30 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 
 ## Latest market values
 
-- `FUELINST|fuelType=OIL|generation` = **0** (n=2392, 2026-09-23T10:45:38.523605Z)
-- `FUELINST|fuelType=OTHER|generation` = **903** (n=2392, 2026-09-23T10:45:38.523605Z)
-- `FUELINST|fuelType=PS|generation` = **-862** (n=2392, 2026-09-23T10:45:38.523605Z)
-- `FUELINST|fuelType=WIND|generation` = **9561** (n=2392, 2026-09-23T10:45:38.523605Z)
+- `FUELINST|fuelType=OIL|generation` = **0** (n=2393, 2026-09-23T10:50:36.303746Z)
+- `FUELINST|fuelType=OTHER|generation` = **929** (n=2393, 2026-09-23T10:50:36.303746Z)
+- `FUELINST|fuelType=PS|generation` = **-860** (n=2393, 2026-09-23T10:50:36.303746Z)
+- `FUELINST|fuelType=WIND|generation` = **9573** (n=2393, 2026-09-23T10:50:36.303746Z)
 - `IMBALNGC|TOTAL|imbalance` = **-2300** (n=392, 2026-09-23T10:19:00.590799Z)
 - `INDDEM|TOTAL|demand` = **-13737** (n=392, 2026-09-23T10:19:00.590799Z)
 - `INDGEN|TOTAL|generation` = **18728** (n=392, 2026-09-23T10:19:00.590799Z)
-- `MELNGC|TOTAL|margin` = **40780** (n=392, 2026-09-23T10:18:44.331652Z)
+- `MELNGC|TOTAL|margin` = **38936** (n=393, 2026-09-23T10:50:36.303746Z)
 - `MID|dataProvider=APXMIDP|price` = **114.86** (n=135, 2026-09-23T10:42:15.276456Z)
 - `MID|dataProvider=APXMIDP|volume` = **4109** (n=135, 2026-09-23T10:42:15.276456Z)
 - `MID|dataProvider=N2EXMIDP|price` = **0** (n=266, 2026-09-23T10:42:15.276456Z)
 - `MID|dataProvider=N2EXMIDP|volume` = **0** (n=266, 2026-09-23T10:42:15.276456Z)
-- `NDF|TOTAL|demand` = **20282** (n=401, 2026-09-23T10:16:52.679866Z)
-- `TSDF|TOTAL|demand` = **21028** (n=401, 2026-09-23T10:16:52.679866Z)
+- `NDF|TOTAL|demand` = **19553** (n=402, 2026-09-23T10:48:13.307241Z)
+- `TSDF|TOTAL|demand` = **20053** (n=402, 2026-09-23T10:48:13.307241Z)
 - `WINDFOR|TOTAL|generation` = **7178** (n=68, 2026-09-23T10:30:38.458402Z)
 
 ## Latest publication events
 
+- `2026-09-23T10:50:36.303746Z` — **MELNGC**: 1476 rows; marker `2026-09-23T10:47:00Z`
+- `2026-09-23T10:50:36.303746Z` — **FUELINST**: 80 rows; marker `2026-09-23T10:50:00Z`
+- `2026-09-23T10:50:04.748298Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:49:45Z`
+- `2026-09-23T10:48:29.268645Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:47:45Z`
+- `2026-09-23T10:48:13.307241Z` — **TSDF**: 1476 rows; marker `2026-09-23T10:47:00Z`
+- `2026-09-23T10:48:13.307241Z` — **NDF**: 82 rows; marker `2026-09-23T10:47:00Z`
 - `2026-09-23T10:46:26.050379Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:45:45Z`
 - `2026-09-23T10:45:38.523605Z` — **FUELINST**: 80 rows; marker `2026-09-23T10:45:00Z`
 - `2026-09-23T10:44:18.945263Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:43:45Z`
@@ -61,9 +67,3 @@ identifiers such as settlementPeriod are excluded from signal statistics.
 - `2026-09-23T10:40:23.434020Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:39:45Z`
 - `2026-09-23T10:38:15.430543Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:37:45Z`
 - `2026-09-23T10:36:23.440055Z` — **MID**: 1 rows; marker `2026-09-23T10:35:00Z`
-- `2026-09-23T10:36:23.440055Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:35:45Z`
-- `2026-09-23T10:35:35.598195Z` — **FUELINST**: 80 rows; marker `2026-09-23T10:35:00Z`
-- `2026-09-23T10:34:17.426330Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:33:45Z`
-- `2026-09-23T10:32:25.550783Z` — **FREQ**: 5761 rows; marker `2026-09-23T10:31:45Z`
-- `2026-09-23T10:30:38.458402Z` — **WINDFOR**: 73 rows; marker `2026-09-23T10:30:00Z`
-- `2026-09-23T10:30:38.458402Z` — **FUELHH**: 20 rows; marker `2026-09-23T10:30:00Z`
