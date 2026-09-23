@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-23T11:13:04.264774Z",
-  "source_heartbeat": "2026-09-23T11:13:02.742323Z",
-  "brain_generated_at": "2026-09-23T11:13:04.220575Z",
+  "generated_at_utc": "2026-09-23T11:17:17.878778Z",
+  "source_heartbeat": "2026-09-23T11:17:16.634926Z",
+  "brain_generated_at": "2026-09-23T11:17:17.849858Z",
   "regime": "LOOSE",
   "regime_reasons": [
     "residual low"
@@ -16,9 +16,7 @@
       "d1": 0.0,
       "d12": -729.0,
       "accel": 0.0,
-      "tags": [
-        "ROBUST_OUTLIER"
-      ]
+      "tags": []
     },
     {
       "metric": "ts_demand_forecast",
@@ -43,13 +41,12 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 9627.0,
-      "d1": 101.0,
-      "d12": -18.0,
-      "accel": 71.0,
+      "value": 9704.0,
+      "d1": 77.0,
+      "d12": 100.0,
+      "accel": -24.0,
       "tags": [
-        "REVERSAL",
-        "ACCELERATION"
+        "PERSISTENT_UP"
       ]
     },
     {
@@ -89,10 +86,10 @@
     {
       "metric": "interconnector_net",
       "label": "Interconnector net",
-      "value": 11259.0,
-      "d1": -13.0,
-      "d12": -287.0,
-      "accel": 16.0,
+      "value": 11234.0,
+      "d1": -25.0,
+      "d12": -286.0,
+      "accel": -12.0,
       "tags": [
         "PERSISTENT_DOWN"
       ]
@@ -100,10 +97,10 @@
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 2158.0,
-      "d1": 23.0,
-      "d12": 43.0,
-      "accel": 23.0,
+      "value": 2274.0,
+      "d1": 116.0,
+      "d12": 161.0,
+      "accel": 93.0,
       "tags": [
         "PERSISTENT_UP",
         "ACCELERATION",
@@ -113,10 +110,10 @@
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3801.0,
-      "d1": -3.0,
-      "d12": -10.0,
-      "accel": -3.0,
+      "value": 3800.0,
+      "d1": -1.0,
+      "d12": -15.0,
+      "accel": 2.0,
       "tags": [
         "PERSISTENT_DOWN",
         "CHANGE_POINT"
@@ -125,22 +122,22 @@
     {
       "metric": "ps_gen",
       "label": "Pumped-storage generation",
-      "value": -740.0,
-      "d1": 1.0,
+      "value": -742.0,
+      "d1": -2.0,
       "d12": 132.0,
-      "accel": -1.0,
+      "accel": -3.0,
       "tags": [
-        "PERSISTENT_UP",
+        "REVERSAL",
         "ROBUST_OUTLIER"
       ]
     },
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 5959.0,
-      "d1": 20.0,
-      "d12": 33.0,
-      "accel": 20.0,
+      "value": 6074.0,
+      "d1": 115.0,
+      "d12": 146.0,
+      "accel": 95.0,
       "tags": [
         "PERSISTENT_UP",
         "ACCELERATION"
@@ -176,22 +173,13 @@
       "z_mad": 10.93074365552017
     },
     {
-      "metric": "ts_demand_forecast",
-      "pattern": "ROBUST_OUTLIER",
-      "value": 20053.0,
-      "d1": 0.0,
-      "d12": -975.0,
-      "accel": 0.0,
-      "z_mad": -9.745213974137931
-    },
-    {
       "metric": "ind_generation",
       "pattern": "ROBUST_OUTLIER",
       "value": 20232.0,
       "d1": 0.0,
       "d12": 1504.0,
       "accel": 0.0,
-      "z_mad": 9.633248573851203
+      "z_mad": 9.078380672360248
     },
     {
       "metric": "residual_proxy",
@@ -203,13 +191,31 @@
       "z_mad": -7.493416612804879
     },
     {
+      "metric": "ts_demand_forecast",
+      "pattern": "ROBUST_OUTLIER",
+      "value": 20053.0,
+      "d1": 0.0,
+      "d12": -975.0,
+      "accel": 0.0,
+      "z_mad": -4.535362112068966
+    },
+    {
+      "metric": "biomass_gen",
+      "pattern": "CHANGE_POINT",
+      "value": 2768.0,
+      "d1": 38.0,
+      "d12": 97.0,
+      "accel": 27.0,
+      "z_mad": 1.5063604416666667
+    },
+    {
       "metric": "ccgt_gen",
       "pattern": "CHANGE_POINT",
-      "value": 2158.0,
-      "d1": 23.0,
-      "d12": 43.0,
-      "accel": 23.0,
-      "z_mad": -1.6441251485176103
+      "value": 2274.0,
+      "d1": 116.0,
+      "d12": 161.0,
+      "accel": 93.0,
+      "z_mad": -1.5009973511247876
     },
     {
       "metric": "ind_demand",
@@ -219,15 +225,6 @@
       "d12": 1512.0,
       "accel": 0.0,
       "z_mad": 1.2409443452380953
-    },
-    {
-      "metric": "biomass_gen",
-      "pattern": "CHANGE_POINT",
-      "value": 2730.0,
-      "d1": 11.0,
-      "d12": 58.0,
-      "accel": -18.0,
-      "z_mad": 1.2215758805555554
     }
   ],
   "analogues": [
