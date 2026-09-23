@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-23T07:49:30.155793Z",
-  "source_heartbeat": "2026-09-23T07:49:28.631681Z",
-  "brain_generated_at": "2026-09-23T07:49:30.126576Z",
+  "generated_at_utc": "2026-09-23T07:53:45.748786Z",
+  "source_heartbeat": "2026-09-23T07:53:44.344645Z",
+  "brain_generated_at": "2026-09-23T07:53:45.720849Z",
   "regime": "LOOSE",
   "regime_reasons": [
     "residual low",
@@ -14,9 +14,9 @@
       "metric": "demand_forecast",
       "label": "Demand forecast",
       "value": 19504.0,
-      "d1": -1169.0,
+      "d1": 0.0,
       "d12": -1169.0,
-      "accel": -1169.0,
+      "accel": 1169.0,
       "tags": [
         "PERSISTENT_DOWN",
         "ACCELERATION"
@@ -26,9 +26,9 @@
       "metric": "ts_demand_forecast",
       "label": "TS demand forecast",
       "value": 20004.0,
-      "d1": -1415.0,
+      "d1": 0.0,
       "d12": -1169.0,
-      "accel": -1415.0,
+      "accel": 1415.0,
       "tags": [
         "PERSISTENT_DOWN",
         "ACCELERATION"
@@ -46,21 +46,21 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 10231.0,
-      "d1": -16.0,
-      "d12": 637.0,
-      "accel": -16.0,
+      "value": 10262.0,
+      "d1": 31.0,
+      "d12": 544.0,
+      "accel": 47.0,
       "tags": [
-        "REVERSAL"
+        "PERSISTENT_UP"
       ]
     },
     {
       "metric": "residual_proxy",
       "label": "Residual-load proxy",
       "value": 12199.0,
-      "d1": -1169.0,
+      "d1": 0.0,
       "d12": -1169.0,
-      "accel": -1169.0,
+      "accel": 1169.0,
       "tags": [
         "PERSISTENT_DOWN",
         "ACCELERATION",
@@ -92,9 +92,9 @@
       "metric": "interconnector_net",
       "label": "Interconnector net",
       "value": 3799.0,
-      "d1": 1.0,
-      "d12": 7377.0,
-      "accel": 1.0,
+      "d1": 0.0,
+      "d12": 6425.0,
+      "accel": -1.0,
       "tags": [
         "PERSISTENT_UP",
         "CHANGE_POINT"
@@ -103,10 +103,10 @@
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 7690.0,
-      "d1": -377.0,
-      "d12": -2537.0,
-      "accel": -377.0,
+      "value": 7445.0,
+      "d1": -245.0,
+      "d12": -2693.0,
+      "accel": 132.0,
       "tags": [
         "PERSISTENT_DOWN",
         "ROBUST_OUTLIER",
@@ -116,33 +116,34 @@
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3810.0,
-      "d1": 1.0,
+      "value": 3805.0,
+      "d1": -5.0,
       "d12": 1.0,
-      "accel": 1.0,
+      "accel": -6.0,
       "tags": [
-        "PERSISTENT_UP",
+        "REVERSAL",
         "ACCELERATION"
       ]
     },
     {
       "metric": "ps_gen",
       "label": "Pumped-storage generation",
-      "value": -18.0,
-      "d1": 0.0,
-      "d12": -270.0,
-      "accel": 0.0,
+      "value": -20.0,
+      "d1": -2.0,
+      "d12": -273.0,
+      "accel": -2.0,
       "tags": [
+        "PERSISTENT_DOWN",
         "ROBUST_OUTLIER"
       ]
     },
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 11500.0,
-      "d1": -376.0,
-      "d12": -2536.0,
-      "accel": -376.0,
+      "value": 11250.0,
+      "d1": -250.0,
+      "d12": -2692.0,
+      "accel": 126.0,
       "tags": [
         "PERSISTENT_DOWN",
         "ROBUST_OUTLIER",
@@ -180,12 +181,21 @@
     },
     {
       "metric": "ps_gen",
+      "pattern": "PERSISTENT_DOWN",
+      "value": -20.0,
+      "d1": -2.0,
+      "d12": -273.0,
+      "accel": -2.0,
+      "z_mad": -36.872106333333335
+    },
+    {
+      "metric": "ps_gen",
       "pattern": "ROBUST_OUTLIER",
-      "value": -18.0,
-      "d1": 0.0,
-      "d12": -270.0,
-      "accel": 0.0,
-      "z_mad": -36.4224465
+      "value": -20.0,
+      "d1": -2.0,
+      "d12": -273.0,
+      "accel": -2.0,
+      "z_mad": -36.872106333333335
     },
     {
       "metric": "ind_generation",
@@ -222,15 +232,6 @@
       "d12": 14.0,
       "accel": 0.0,
       "z_mad": 8.25073508139535
-    },
-    {
-      "metric": "biomass_gen",
-      "pattern": "REVERSAL",
-      "value": 2555.0,
-      "d1": 1.0,
-      "d12": -6.0,
-      "accel": 1.0,
-      "z_mad": -6.43926933203125
     }
   ],
   "analogues": [
