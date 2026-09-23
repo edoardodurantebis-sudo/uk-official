@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-23T01:08:17.053518Z",
-  "source_heartbeat": "2026-09-23T01:08:15.509687Z",
-  "brain_generated_at": "2026-09-23T01:08:17.012613Z",
+  "generated_at_utc": "2026-09-23T01:12:30.474614Z",
+  "source_heartbeat": "2026-09-23T01:12:28.887931Z",
+  "brain_generated_at": "2026-09-23T01:12:30.429208Z",
   "regime": "BALANCED",
   "regime_reasons": [],
   "physical": [
@@ -37,10 +37,10 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 4489.0,
-      "d1": 43.0,
-      "d12": 473.0,
-      "accel": -11.0,
+      "value": 4599.0,
+      "d1": 110.0,
+      "d12": 529.0,
+      "accel": 67.0,
       "tags": [
         "PERSISTENT_UP"
       ]
@@ -59,7 +59,7 @@
       "label": "Indicated margin",
       "value": 37235.0,
       "d1": 0.0,
-      "d12": 16.0,
+      "d12": 5.0,
       "accel": 0.0,
       "tags": [
         "CHANGE_POINT"
@@ -70,29 +70,28 @@
       "label": "Indicated imbalance",
       "value": -7998.0,
       "d1": 0.0,
-      "d12": 0.0,
+      "d12": 9.0,
       "accel": 0.0,
       "tags": []
     },
     {
       "metric": "interconnector_net",
       "label": "Interconnector net",
-      "value": 1960.0,
-      "d1": -265.0,
-      "d12": -1241.0,
-      "accel": -211.0,
+      "value": 1910.0,
+      "d1": -50.0,
+      "d12": -1292.0,
+      "accel": 215.0,
       "tags": [
-        "PERSISTENT_DOWN",
-        "CHANGE_POINT"
+        "PERSISTENT_DOWN"
       ]
     },
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 9717.0,
-      "d1": 35.0,
-      "d12": -300.0,
-      "accel": 49.0,
+      "value": 9729.0,
+      "d1": 12.0,
+      "d12": -298.0,
+      "accel": -23.0,
       "tags": [
         "REVERSAL",
         "CHANGE_POINT"
@@ -101,10 +100,10 @@
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3733.0,
-      "d1": -1.0,
-      "d12": -2.0,
-      "accel": -9.0,
+      "value": 3727.0,
+      "d1": -6.0,
+      "d12": -8.0,
+      "accel": -5.0,
       "tags": [
         "ACCELERATION"
       ]
@@ -121,10 +120,10 @@
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 13450.0,
-      "d1": 34.0,
-      "d12": -302.0,
-      "accel": 40.0,
+      "value": 13456.0,
+      "d1": 6.0,
+      "d12": -306.0,
+      "accel": -28.0,
       "tags": [
         "REVERSAL",
         "CHANGE_POINT"
@@ -146,72 +145,72 @@
       "pattern": "ROBUST_OUTLIER",
       "value": -12436.0,
       "d1": 0.0,
-      "d12": 50.0,
+      "d12": 48.0,
       "accel": 0.0,
       "z_mad": 28.3285695
     },
     {
-      "metric": "interconnector_net",
-      "pattern": "CHANGE_POINT",
-      "value": 1960.0,
-      "d1": -265.0,
-      "d12": -1241.0,
-      "accel": -211.0,
-      "z_mad": -2.620694247808299
-    },
-    {
       "metric": "thermal_base",
       "pattern": "CHANGE_POINT",
-      "value": 13450.0,
-      "d1": 34.0,
-      "d12": -302.0,
-      "accel": 40.0,
-      "z_mad": -1.088102215906473
+      "value": 13456.0,
+      "d1": 6.0,
+      "d12": -306.0,
+      "accel": -28.0,
+      "z_mad": -1.0255364615213522
     },
     {
       "metric": "ccgt_gen",
       "pattern": "CHANGE_POINT",
-      "value": 9717.0,
-      "d1": 35.0,
-      "d12": -300.0,
-      "accel": 49.0,
-      "z_mad": -1.0804512635228054
+      "value": 9729.0,
+      "d1": 12.0,
+      "d12": -298.0,
+      "accel": -23.0,
+      "z_mad": -1.0166611769588314
     },
     {
       "metric": "margin",
       "pattern": "CHANGE_POINT",
       "value": 37235.0,
       "d1": 0.0,
-      "d12": 16.0,
+      "d12": 5.0,
       "accel": 0.0,
       "z_mad": 0.8874865131578948
     },
     {
       "metric": "interconnector_net",
       "pattern": "PERSISTENT_DOWN",
-      "value": 1960.0,
-      "d1": -265.0,
-      "d12": -1241.0,
-      "accel": -211.0,
-      "z_mad": -2.620694247808299
+      "value": 1910.0,
+      "d1": -50.0,
+      "d12": -1292.0,
+      "accel": 215.0,
+      "z_mad": -2.4858599692138537
     },
     {
       "metric": "wind_gen",
       "pattern": "PERSISTENT_UP",
-      "value": 4489.0,
-      "d1": 43.0,
-      "d12": 473.0,
-      "accel": -11.0,
-      "z_mad": 2.2773094784946237
+      "value": 4599.0,
+      "d1": 110.0,
+      "d12": 529.0,
+      "accel": 67.0,
+      "z_mad": 2.380748474009901
     },
     {
-      "metric": "thermal_base",
-      "pattern": "REVERSAL",
-      "value": 13450.0,
-      "d1": 34.0,
-      "d12": -302.0,
-      "accel": 40.0,
-      "z_mad": -1.088102215906473
+      "metric": "nuclear_gen",
+      "pattern": "ACCELERATION",
+      "value": 3727.0,
+      "d1": -6.0,
+      "d12": -8.0,
+      "accel": -5.0,
+      "z_mad": -1.3489795
+    },
+    {
+      "metric": "biomass_gen",
+      "pattern": "PERSISTENT_UP",
+      "value": 2920.0,
+      "d1": 3.0,
+      "d12": 14.0,
+      "accel": -4.0,
+      "z_mad": 1.0599124642857143
     }
   ],
   "analogues": [
@@ -246,6 +245,16 @@
       "ts": "2026-09-23T00:13:08.250701Z"
     },
     {
+      "distance": 0.057762594626658906,
+      "outcome": {
+        "next30m_imbalance_delta": -9.0,
+        "next30m_margin_delta": 11.0,
+        "next30m_mid_price_delta": 0.0,
+        "next30m_residual_proxy_delta": 0.0
+      },
+      "ts": "2026-09-23T00:17:19.207901Z"
+    },
+    {
       "distance": 0.28744253589110674,
       "outcome": {
         "next30m_imbalance_delta": -9.0,
@@ -254,24 +263,14 @@
         "next30m_residual_proxy_delta": 0.0
       },
       "ts": "2026-09-23T00:00:29.286244Z"
-    },
-    {
-      "distance": 0.4668044735859371,
-      "outcome": {
-        "next30m_imbalance_delta": 0.0,
-        "next30m_margin_delta": 0.0,
-        "next30m_mid_price_delta": 0.0,
-        "next30m_residual_proxy_delta": 0.0
-      },
-      "ts": "2026-09-22T20:55:13.117327Z"
     }
   ],
   "health": {
     "alien": "OK",
     "mid": {
       "status": "OK",
-      "detail": "1 rows",
-      "ts": "2026-09-23T01:06:25.265330Z"
+      "detail": "2 rows",
+      "ts": "2026-09-23T01:12:11.851877Z"
     },
     "last_error": {
       "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
