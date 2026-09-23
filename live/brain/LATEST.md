@@ -1,7 +1,7 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-23T07:57:56.243020Z`  
+Heartbeat: `2026-09-23T08:02:12.092833Z`  
 Memory snapshots: **2500**  
 Current physical regime: **LOOSE**
 
@@ -11,19 +11,19 @@ Regime read: residual low, margin high.
 
 - **CHANGE_POINT** `ind_demand` value=-1.265e+04 d1=0.0 d12=-243.0 z=-38.9517830625
 - **ROBUST_OUTLIER** `ind_demand` value=-1.265e+04 d1=0.0 d12=-243.0 z=-38.9517830625
-- **ROBUST_OUTLIER** `ps_gen` value=-19 d1=1.0 d12=114.0 z=-36.647276416666664
-- **CHANGE_POINT** `ind_generation` value=1.396e+04 d1=0.0 d12=260.0 z=12.10944388372093
+- **ROBUST_OUTLIER** `ps_gen` value=-19 d1=0.0 d12=270.0 z=-31.411951214285715
 - **ROBUST_OUTLIER** `ind_generation` value=1.396e+04 d1=0.0 d12=260.0 z=12.10944388372093
 - **CHANGE_POINT** `imbalance` value=-7454 d1=0.0 d12=14.0 z=8.25073508139535
+- **CHANGE_POINT** `biomass_gen` value=2477 d1=-87.0 d12=-80.0 z=-8.051721390625
 - **ROBUST_OUTLIER** `imbalance` value=-7454 d1=0.0 d12=14.0 z=8.25073508139535
-- **REVERSAL** `biomass_gen` value=2564 d1=-5.0 d12=5.0 z=-6.22849128515625
-- **ACCELERATION** `biomass_gen` value=2564 d1=-5.0 d12=5.0 z=-6.22849128515625
-- **ROBUST_OUTLIER** `biomass_gen` value=2564 d1=-5.0 d12=5.0 z=-6.22849128515625
-- **CHANGE_POINT** `ccgt_gen` value=7353 d1=-92.0 d12=-2541.0 z=-3.874348475735294
-- **CHANGE_POINT** `thermal_base` value=1.116e+04 d1=-93.0 d12=-2541.0 z=-3.3407494928198433
-- **CHANGE_POINT** `interconnector_net` value=3794 d1=-5.0 d12=4525.0 z=2.679294335187195
-- **PERSISTENT_DOWN** `residual_proxy` value=1.22e+04 d1=0.0 d12=-1169.0 z=-3.9096876787790698
+- **PERSISTENT_DOWN** `biomass_gen` value=2477 d1=-87.0 d12=-80.0 z=-8.051721390625
+- **ACCELERATION** `biomass_gen` value=2477 d1=-87.0 d12=-80.0 z=-8.051721390625
+- **ROBUST_OUTLIER** `biomass_gen` value=2477 d1=-87.0 d12=-80.0 z=-8.051721390625
+- **CHANGE_POINT** `ccgt_gen` value=7389 d1=36.0 d12=-2247.0 z=-3.3715518221409577
+- **CHANGE_POINT** `thermal_base` value=1.119e+04 d1=30.0 d12=-2255.0 z=-3.2398342288411457
+- **CHANGE_POINT** `interconnector_net` value=4554 d1=760.0 d12=4247.0 z=2.957434438279978
 - **ROBUST_OUTLIER** `residual_proxy` value=1.22e+04 d1=0.0 d12=-1169.0 z=-3.9096876787790698
+- **REVERSAL** `ccgt_gen` value=7389 d1=36.0 d12=-2247.0 z=-3.3715518221409577
 
 ## Nearest historical live analogues
 
