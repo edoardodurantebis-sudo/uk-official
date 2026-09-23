@@ -1,7 +1,7 @@
 # UNDER THE BID — Physical Fanzine
 
-Generated UTC: 2026-09-23T03:53:32.108449Z  
-Source heartbeat: 2026-09-23T03:53:29.874059Z  
+Generated UTC: 2026-09-23T03:57:45.170476Z  
+Source heartbeat: 2026-09-23T03:57:44.167981Z  
 
 ## Regime: **LOOSE**
 Reason: margin high
@@ -13,27 +13,27 @@ Reason: margin high
 | Demand forecast | 20673.0 | 0.0 | 0.0 | 0.0 |  |
 | TS demand forecast | 21173.0 | 0.0 | 0.0 | 0.0 |  |
 | Wind forecast | 7477.0 | 0.0 | -6293.0 | 0.0 |  |
-| Wind generation | 7174.0 | 208.0 | 1646.0 | -63.0 | PERSISTENT_UP, CHANGE_POINT |
+| Wind generation | 7293.0 | 119.0 | 1656.0 | -89.0 | PERSISTENT_UP, CHANGE_POINT |
 | Residual-load proxy | 13196.0 | 0.0 | 6293.0 | 0.0 |  |
-| Indicated margin | 38548.0 | -23.0 | -134.0 | -23.0 | PERSISTENT_DOWN, ROBUST_OUTLIER, CHANGE_POINT |
-| Indicated imbalance | -8081.0 | -89.0 | -101.0 | -89.0 | PERSISTENT_DOWN, ACCELERATION, ROBUST_OUTLIER |
-| Interconnector net | -3713.0 | 30.0 | -2877.0 | 3.0 | REVERSAL, CHANGE_POINT |
-| CCGT generation | 9097.0 | -43.0 | -133.0 | -47.0 | PERSISTENT_DOWN, ACCELERATION |
-| Nuclear generation | 3725.0 | 4.0 | -1.0 | 0.0 | REVERSAL |
-| Pumped-storage generation | 144.0 | 0.0 | 3.0 | 0.0 |  |
-| Thermal base | 12822.0 | -39.0 | -134.0 | -47.0 | PERSISTENT_DOWN, ACCELERATION |
+| Indicated margin | 38548.0 | 0.0 | -134.0 | 23.0 | PERSISTENT_DOWN, ROBUST_OUTLIER, CHANGE_POINT |
+| Indicated imbalance | -8081.0 | 0.0 | -101.0 | 89.0 | PERSISTENT_DOWN, ACCELERATION, ROBUST_OUTLIER |
+| Interconnector net | -3661.0 | 52.0 | -1793.0 | 22.0 | REVERSAL, CHANGE_POINT |
+| CCGT generation | 9024.0 | -73.0 | -188.0 | -30.0 | PERSISTENT_DOWN |
+| Nuclear generation | 3728.0 | 3.0 | 1.0 | -1.0 | PERSISTENT_UP, ACCELERATION |
+| Pumped-storage generation | 144.0 | 0.0 | 105.0 | 0.0 | CHANGE_POINT |
+| Thermal base | 12752.0 | -70.0 | -187.0 | -31.0 | PERSISTENT_DOWN |
 | Frequency | 50.117 | 0.0 | 0.0 | 0.0 |  |
 
 ## Active live patterns
 
-- **margin / CHANGE_POINT** — value=38548.0, Δ1=-23.0, Δ12=-134.0, accel=-23.0
-- **margin / PERSISTENT_DOWN** — value=38548.0, Δ1=-23.0, Δ12=-134.0, accel=-23.0
-- **margin / ROBUST_OUTLIER** — value=38548.0, Δ1=-23.0, Δ12=-134.0, accel=-23.0
-- **ind_demand / CHANGE_POINT** — value=-12404.0, Δ1=11.0, Δ12=15.0, accel=11.0
-- **interconnector_net / CHANGE_POINT** — value=-3713.0, Δ1=30.0, Δ12=-2877.0, accel=3.0
-- **biomass_gen / PERSISTENT_DOWN** — value=2869.0, Δ1=-7.0, Δ12=-5.0, accel=1.0
-- **biomass_gen / ROBUST_OUTLIER** — value=2869.0, Δ1=-7.0, Δ12=-5.0, accel=1.0
-- **wind_gen / CHANGE_POINT** — value=7174.0, Δ1=208.0, Δ12=1646.0, accel=-63.0
+- **margin / CHANGE_POINT** — value=38548.0, Δ1=0.0, Δ12=-134.0, accel=23.0
+- **margin / PERSISTENT_DOWN** — value=38548.0, Δ1=0.0, Δ12=-134.0, accel=23.0
+- **margin / ROBUST_OUTLIER** — value=38548.0, Δ1=0.0, Δ12=-134.0, accel=23.0
+- **ind_demand / CHANGE_POINT** — value=-12404.0, Δ1=0.0, Δ12=15.0, accel=-11.0
+- **interconnector_net / CHANGE_POINT** — value=-3661.0, Δ1=52.0, Δ12=-1793.0, accel=22.0
+- **biomass_gen / PERSISTENT_DOWN** — value=2867.0, Δ1=-2.0, Δ12=-11.0, accel=5.0
+- **biomass_gen / ACCELERATION** — value=2867.0, Δ1=-2.0, Δ12=-11.0, accel=5.0
+- **biomass_gen / ROBUST_OUTLIER** — value=2867.0, Δ1=-2.0, Δ12=-11.0, accel=5.0
 
 ## Health
 
