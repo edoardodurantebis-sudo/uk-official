@@ -1,9 +1,9 @@
 {
   "schema": "UNDER_THE_BID_PHYSICAL_FANZINE_V1",
   "version": "GB_PHYSICAL_FANZINE_V1.0.0",
-  "generated_at_utc": "2026-09-23T04:27:08.230399Z",
-  "source_heartbeat": "2026-09-23T04:27:06.581467Z",
-  "brain_generated_at": "2026-09-23T04:27:08.184453Z",
+  "generated_at_utc": "2026-09-23T04:31:19.030542Z",
+  "source_heartbeat": "2026-09-23T04:31:17.660919Z",
+  "brain_generated_at": "2026-09-23T04:31:19.004338Z",
   "regime": "LOOSE",
   "regime_reasons": [
     "margin high"
@@ -39,10 +39,10 @@
     {
       "metric": "wind_gen",
       "label": "Wind generation",
-      "value": 8949.0,
-      "d1": 332.0,
-      "d12": 2488.0,
-      "accel": -27.0,
+      "value": 9022.0,
+      "d1": 73.0,
+      "d12": 2327.0,
+      "accel": -259.0,
       "tags": [
         "PERSISTENT_UP",
         "CHANGE_POINT"
@@ -63,12 +63,10 @@
       "value": 38527.0,
       "d1": 0.0,
       "d12": -44.0,
-      "accel": 21.0,
+      "accel": 0.0,
       "tags": [
         "PERSISTENT_DOWN",
-        "ACCELERATION",
-        "ROBUST_OUTLIER",
-        "CHANGE_POINT"
+        "ROBUST_OUTLIER"
       ]
     },
     {
@@ -77,28 +75,30 @@
       "value": -8037.0,
       "d1": 0.0,
       "d12": -45.0,
-      "accel": -44.0,
+      "accel": 0.0,
       "tags": [
-        "ACCELERATION",
         "CHANGE_POINT"
       ]
     },
     {
       "metric": "interconnector_net",
       "label": "Interconnector net",
-      "value": -4655.0,
-      "d1": -28.0,
-      "d12": -864.0,
-      "accel": -33.0,
-      "tags": []
+      "value": -5554.0,
+      "d1": -899.0,
+      "d12": -1784.0,
+      "accel": -871.0,
+      "tags": [
+        "PERSISTENT_DOWN",
+        "ACCELERATION"
+      ]
     },
     {
       "metric": "ccgt_gen",
       "label": "CCGT generation",
-      "value": 8014.0,
-      "d1": -281.0,
-      "d12": -1149.0,
-      "accel": -9.0,
+      "value": 8010.0,
+      "d1": -4.0,
+      "d12": -1126.0,
+      "accel": 277.0,
       "tags": [
         "PERSISTENT_DOWN",
         "ROBUST_OUTLIER",
@@ -108,13 +108,13 @@
     {
       "metric": "nuclear_gen",
       "label": "Nuclear generation",
-      "value": 3757.0,
-      "d1": 1.0,
-      "d12": 36.0,
-      "accel": -13.0,
+      "value": 3766.0,
+      "d1": 9.0,
+      "d12": 49.0,
+      "accel": 8.0,
       "tags": [
         "PERSISTENT_UP",
-        "ACCELERATION",
+        "ROBUST_OUTLIER",
         "CHANGE_POINT"
       ]
     },
@@ -123,7 +123,7 @@
       "label": "Pumped-storage generation",
       "value": 144.0,
       "d1": 0.0,
-      "d12": 15.0,
+      "d12": 0.0,
       "accel": 0.0,
       "tags": [
         "CHANGE_POINT"
@@ -132,12 +132,12 @@
     {
       "metric": "thermal_base",
       "label": "Thermal base",
-      "value": 11771.0,
-      "d1": -280.0,
-      "d12": -1113.0,
-      "accel": -22.0,
+      "value": 11776.0,
+      "d1": 5.0,
+      "d12": -1077.0,
+      "accel": 285.0,
       "tags": [
-        "PERSISTENT_DOWN",
+        "REVERSAL",
         "ROBUST_OUTLIER",
         "CHANGE_POINT"
       ]
@@ -155,29 +155,11 @@
   "active_patterns": [
     {
       "metric": "margin",
-      "pattern": "CHANGE_POINT",
-      "value": 38527.0,
-      "d1": 0.0,
-      "d12": -44.0,
-      "accel": 21.0,
-      "z_mad": 79.52847324999999
-    },
-    {
-      "metric": "margin",
       "pattern": "PERSISTENT_DOWN",
       "value": 38527.0,
       "d1": 0.0,
       "d12": -44.0,
-      "accel": 21.0,
-      "z_mad": 79.52847324999999
-    },
-    {
-      "metric": "margin",
-      "pattern": "ACCELERATION",
-      "value": 38527.0,
-      "d1": 0.0,
-      "d12": -44.0,
-      "accel": 21.0,
+      "accel": 0.0,
       "z_mad": 79.52847324999999
     },
     {
@@ -186,44 +168,62 @@
       "value": 38527.0,
       "d1": 0.0,
       "d12": -44.0,
-      "accel": 21.0,
+      "accel": 0.0,
       "z_mad": 79.52847324999999
-    },
-    {
-      "metric": "ccgt_gen",
-      "pattern": "CHANGE_POINT",
-      "value": 8014.0,
-      "d1": -281.0,
-      "d12": -1149.0,
-      "accel": -9.0,
-      "z_mad": -3.3124510964849354
-    },
-    {
-      "metric": "thermal_base",
-      "pattern": "CHANGE_POINT",
-      "value": 11771.0,
-      "d1": -280.0,
-      "d12": -1113.0,
-      "accel": -22.0,
-      "z_mad": -3.162022978412256
     },
     {
       "metric": "nuclear_gen",
       "pattern": "CHANGE_POINT",
-      "value": 3757.0,
-      "d1": 1.0,
-      "d12": 36.0,
-      "accel": -13.0,
-      "z_mad": 2.6979589999999996
+      "value": 3766.0,
+      "d1": 9.0,
+      "d12": 49.0,
+      "accel": 8.0,
+      "z_mad": 3.709693625
+    },
+    {
+      "metric": "ccgt_gen",
+      "pattern": "CHANGE_POINT",
+      "value": 8010.0,
+      "d1": -4.0,
+      "d12": -1126.0,
+      "accel": 277.0,
+      "z_mad": -3.3665408105839414
+    },
+    {
+      "metric": "thermal_base",
+      "pattern": "CHANGE_POINT",
+      "value": 11776.0,
+      "d1": 5.0,
+      "d12": -1077.0,
+      "accel": 285.0,
+      "z_mad": -3.1665121036414567
     },
     {
       "metric": "wind_gen",
       "pattern": "CHANGE_POINT",
-      "value": 8949.0,
-      "d1": 332.0,
-      "d12": 2488.0,
-      "accel": -27.0,
-      "z_mad": 2.512696190378289
+      "value": 9022.0,
+      "d1": 73.0,
+      "d12": 2327.0,
+      "accel": -259.0,
+      "z_mad": 2.5231733604722795
+    },
+    {
+      "metric": "nuclear_gen",
+      "pattern": "PERSISTENT_UP",
+      "value": 3766.0,
+      "d1": 9.0,
+      "d12": 49.0,
+      "accel": 8.0,
+      "z_mad": 3.709693625
+    },
+    {
+      "metric": "nuclear_gen",
+      "pattern": "ROBUST_OUTLIER",
+      "value": 3766.0,
+      "d1": 9.0,
+      "d12": 49.0,
+      "accel": 8.0,
+      "z_mad": 3.709693625
     }
   ],
   "analogues": [
@@ -236,6 +236,16 @@
         "next30m_residual_proxy_delta": 0.0
       },
       "ts": "2026-09-23T03:32:33.216215Z"
+    },
+    {
+      "distance": 0.02380290104669792,
+      "outcome": {
+        "next30m_imbalance_delta": -89.0,
+        "next30m_margin_delta": -23.0,
+        "next30m_mid_price_delta": 0.0,
+        "next30m_residual_proxy_delta": 0.0
+      },
+      "ts": "2026-09-23T03:36:43.352003Z"
     },
     {
       "distance": 0.3779091000833375,
@@ -266,16 +276,6 @@
         "next30m_residual_proxy_delta": 0.0
       },
       "ts": "2026-09-21T06:58:09.070698Z"
-    },
-    {
-      "distance": 0.4016138168799401,
-      "outcome": {
-        "next30m_imbalance_delta": 1061.0,
-        "next30m_margin_delta": 101.0,
-        "next30m_mid_price_delta": 0.0,
-        "next30m_residual_proxy_delta": 0.0
-      },
-      "ts": "2026-09-21T07:02:21.725847Z"
     }
   ],
   "health": {
