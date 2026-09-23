@@ -1,25 +1,24 @@
 # GB Alien Brain — live market memory
 
 Engine: `GB_ALIEN_BRAIN_ORCHESTRATOR_1.0.0`  
-Heartbeat: `2026-09-23T00:42:27.190881Z`  
+Heartbeat: `2026-09-23T00:46:39.463338Z`  
 Memory snapshots: **2500**  
 Current physical regime: **BALANCED**
 
 ## Active patterns
 
-- **CHANGE_POINT** `interconnector_net` value=2247 d1=25.0 d12=-1955.0 z=-2.749163719240838
-- **CHANGE_POINT** `wind_gen` value=4243 d1=30.0 d12=593.0 z=2.327413464093357
+- **CHANGE_POINT** `interconnector_net` value=2271 d1=24.0 d12=-1929.0 z=-2.710735095852384
+- **CHANGE_POINT** `wind_gen` value=4265 d1=22.0 d12=534.0 z=2.348626495071685
 - **ROBUST_OUTLIER** `ind_demand` value=-1.248e+04 d1=0.0 d12=2.0 z=-4.0469384999999996
 - **CHANGE_POINT** `imbalance` value=-8007 d1=0.0 d12=-9.0 z=1.1506001617647057
 - **CHANGE_POINT** `ind_generation` value=1.317e+04 d1=0.0 d12=-9.0 z=1.1506001617647057
-- **REVERSAL** `interconnector_net` value=2247 d1=25.0 d12=-1955.0 z=-2.749163719240838
-- **PERSISTENT_UP** `wind_gen` value=4243 d1=30.0 d12=593.0 z=2.327413464093357
-- **PERSISTENT_DOWN** `thermal_base` value=1.356e+04 d1=-64.0 d12=-155.0 z=-2.1915744407592026
-- **PERSISTENT_DOWN** `ccgt_gen` value=9818 d1=-71.0 d12=-165.0 z=-2.187325430672269
-- **PERSISTENT_UP** `nuclear_gen` value=3739 d1=7.0 d12=10.0 z=0.67448975
-- **ACCELERATION** `nuclear_gen` value=3739 d1=7.0 d12=10.0 z=0.67448975
-- **PERSISTENT_UP** `biomass_gen` value=2910 d1=6.0 d12=1.0 z=0.17749730263157895
-- **ACCELERATION** `biomass_gen` value=2910 d1=6.0 d12=1.0 z=0.17749730263157895
+- **REVERSAL** `interconnector_net` value=2271 d1=24.0 d12=-1929.0 z=-2.710735095852384
+- **PERSISTENT_UP** `wind_gen` value=4265 d1=22.0 d12=534.0 z=2.348626495071685
+- **PERSISTENT_DOWN** `thermal_base` value=1.349e+04 d1=-69.0 d12=-246.0 z=-2.0157964195698543
+- **PERSISTENT_DOWN** `ccgt_gen` value=9755 d1=-63.0 d12=-247.0 z=-2.008661047273371
+- **PERSISTENT_UP** `biomass_gen` value=2917 d1=7.0 d12=9.0 z=0.67448975
+- **REVERSAL** `nuclear_gen` value=3733 d1=-6.0 d12=1.0 z=-0.337244875
+- **ACCELERATION** `nuclear_gen` value=3733 d1=-6.0 d12=1.0 z=-0.337244875
 
 ## Nearest historical live analogues
 
